@@ -13,500 +13,499 @@ var __export = (target, all) => {
       set: __exportSetter.bind(all, name)
     });
 };
-var __require = import.meta.require;
 
 // node_modules/zod/v4/classic/external.js
 var exports_external = {};
 __export(exports_external, {
-  xid: () => xid2,
-  void: () => _void2,
-  uuidv7: () => uuidv7,
-  uuidv6: () => uuidv6,
-  uuidv4: () => uuidv4,
-  uuid: () => uuid2,
-  util: () => exports_util,
-  url: () => url,
-  uppercase: () => _uppercase,
-  unknown: () => unknown,
-  union: () => union,
-  undefined: () => _undefined3,
-  ulid: () => ulid2,
-  uint64: () => uint64,
-  uint32: () => uint32,
-  tuple: () => tuple,
-  trim: () => _trim,
-  treeifyError: () => treeifyError,
-  transform: () => transform,
-  toUpperCase: () => _toUpperCase,
-  toLowerCase: () => _toLowerCase,
-  toJSONSchema: () => toJSONSchema,
-  templateLiteral: () => templateLiteral,
-  symbol: () => symbol,
-  superRefine: () => superRefine,
-  success: () => success,
-  stringbool: () => stringbool,
-  stringFormat: () => stringFormat,
-  string: () => string2,
-  strictObject: () => strictObject,
-  startsWith: () => _startsWith,
-  size: () => _size,
-  setErrorMap: () => setErrorMap,
-  set: () => set,
-  safeParseAsync: () => safeParseAsync2,
-  safeParse: () => safeParse2,
-  safeEncodeAsync: () => safeEncodeAsync2,
-  safeEncode: () => safeEncode2,
-  safeDecodeAsync: () => safeDecodeAsync2,
-  safeDecode: () => safeDecode2,
-  registry: () => registry,
-  regexes: () => exports_regexes,
-  regex: () => _regex,
-  refine: () => refine,
-  record: () => record,
-  readonly: () => readonly,
-  property: () => _property,
-  promise: () => promise,
-  prettifyError: () => prettifyError,
-  preprocess: () => preprocess,
-  prefault: () => prefault,
-  positive: () => _positive,
-  pipe: () => pipe,
-  partialRecord: () => partialRecord,
-  parseAsync: () => parseAsync2,
-  parse: () => parse3,
-  overwrite: () => _overwrite,
-  optional: () => optional,
-  object: () => object,
-  number: () => number2,
-  nullish: () => nullish2,
-  nullable: () => nullable,
-  null: () => _null3,
-  normalize: () => _normalize,
-  nonpositive: () => _nonpositive,
-  nonoptional: () => nonoptional,
-  nonnegative: () => _nonnegative,
-  never: () => never,
-  negative: () => _negative,
-  nativeEnum: () => nativeEnum,
-  nanoid: () => nanoid2,
-  nan: () => nan,
-  multipleOf: () => _multipleOf,
-  minSize: () => _minSize,
-  minLength: () => _minLength,
-  mime: () => _mime,
-  maxSize: () => _maxSize,
-  maxLength: () => _maxLength,
-  map: () => map,
-  lte: () => _lte,
-  lt: () => _lt,
-  lowercase: () => _lowercase,
-  looseObject: () => looseObject,
-  locales: () => exports_locales,
-  literal: () => literal,
-  length: () => _length,
-  lazy: () => lazy,
-  ksuid: () => ksuid2,
-  keyof: () => keyof,
-  jwt: () => jwt,
-  json: () => json,
-  iso: () => exports_iso,
-  ipv6: () => ipv62,
-  ipv4: () => ipv42,
-  intersection: () => intersection,
-  int64: () => int64,
-  int32: () => int32,
-  int: () => int,
-  instanceof: () => _instanceof,
-  includes: () => _includes,
-  httpUrl: () => httpUrl,
-  hostname: () => hostname2,
-  hex: () => hex2,
-  hash: () => hash,
-  guid: () => guid2,
-  gte: () => _gte,
-  gt: () => _gt,
-  globalRegistry: () => globalRegistry,
-  getErrorMap: () => getErrorMap,
-  function: () => _function,
-  formatError: () => formatError,
-  float64: () => float64,
-  float32: () => float32,
-  flattenError: () => flattenError,
-  file: () => file,
-  enum: () => _enum2,
-  endsWith: () => _endsWith,
-  encodeAsync: () => encodeAsync2,
-  encode: () => encode2,
-  emoji: () => emoji2,
-  email: () => email2,
-  e164: () => e1642,
-  discriminatedUnion: () => discriminatedUnion,
-  decodeAsync: () => decodeAsync2,
-  decode: () => decode2,
-  date: () => date3,
-  custom: () => custom,
-  cuid2: () => cuid22,
-  cuid: () => cuid3,
-  core: () => exports_core2,
-  config: () => config,
-  coerce: () => exports_coerce,
-  codec: () => codec,
-  clone: () => clone,
-  cidrv6: () => cidrv62,
-  cidrv4: () => cidrv42,
-  check: () => check,
-  catch: () => _catch2,
-  boolean: () => boolean2,
-  bigint: () => bigint2,
-  base64url: () => base64url2,
-  base64: () => base642,
-  array: () => array,
-  any: () => any,
-  _function: () => _function,
-  _default: () => _default2,
-  _ZodString: () => _ZodString,
-  ZodXID: () => ZodXID,
-  ZodVoid: () => ZodVoid,
-  ZodUnknown: () => ZodUnknown,
-  ZodUnion: () => ZodUnion,
-  ZodUndefined: () => ZodUndefined,
-  ZodUUID: () => ZodUUID,
-  ZodURL: () => ZodURL,
-  ZodULID: () => ZodULID,
-  ZodType: () => ZodType,
-  ZodTuple: () => ZodTuple,
-  ZodTransform: () => ZodTransform,
-  ZodTemplateLiteral: () => ZodTemplateLiteral,
-  ZodSymbol: () => ZodSymbol,
-  ZodSuccess: () => ZodSuccess,
-  ZodStringFormat: () => ZodStringFormat,
-  ZodString: () => ZodString,
-  ZodSet: () => ZodSet,
-  ZodRecord: () => ZodRecord,
-  ZodRealError: () => ZodRealError,
-  ZodReadonly: () => ZodReadonly,
-  ZodPromise: () => ZodPromise,
-  ZodPrefault: () => ZodPrefault,
-  ZodPipe: () => ZodPipe,
-  ZodOptional: () => ZodOptional,
-  ZodObject: () => ZodObject,
-  ZodNumberFormat: () => ZodNumberFormat,
-  ZodNumber: () => ZodNumber,
-  ZodNullable: () => ZodNullable,
-  ZodNull: () => ZodNull,
-  ZodNonOptional: () => ZodNonOptional,
-  ZodNever: () => ZodNever,
-  ZodNanoID: () => ZodNanoID,
-  ZodNaN: () => ZodNaN,
-  ZodMap: () => ZodMap,
-  ZodLiteral: () => ZodLiteral,
-  ZodLazy: () => ZodLazy,
-  ZodKSUID: () => ZodKSUID,
-  ZodJWT: () => ZodJWT,
-  ZodIssueCode: () => ZodIssueCode,
-  ZodIntersection: () => ZodIntersection,
-  ZodISOTime: () => ZodISOTime,
-  ZodISODuration: () => ZodISODuration,
-  ZodISODateTime: () => ZodISODateTime,
-  ZodISODate: () => ZodISODate,
-  ZodIPv6: () => ZodIPv6,
-  ZodIPv4: () => ZodIPv4,
-  ZodGUID: () => ZodGUID,
-  ZodFunction: () => ZodFunction,
-  ZodFirstPartyTypeKind: () => ZodFirstPartyTypeKind,
-  ZodFile: () => ZodFile,
-  ZodError: () => ZodError,
-  ZodEnum: () => ZodEnum,
-  ZodEmoji: () => ZodEmoji,
-  ZodEmail: () => ZodEmail,
-  ZodE164: () => ZodE164,
-  ZodDiscriminatedUnion: () => ZodDiscriminatedUnion,
-  ZodDefault: () => ZodDefault,
-  ZodDate: () => ZodDate,
-  ZodCustomStringFormat: () => ZodCustomStringFormat,
-  ZodCustom: () => ZodCustom,
-  ZodCodec: () => ZodCodec,
-  ZodCatch: () => ZodCatch,
-  ZodCUID2: () => ZodCUID2,
-  ZodCUID: () => ZodCUID,
-  ZodCIDRv6: () => ZodCIDRv6,
-  ZodCIDRv4: () => ZodCIDRv4,
-  ZodBoolean: () => ZodBoolean,
-  ZodBigIntFormat: () => ZodBigIntFormat,
-  ZodBigInt: () => ZodBigInt,
-  ZodBase64URL: () => ZodBase64URL,
-  ZodBase64: () => ZodBase64,
-  ZodArray: () => ZodArray,
-  ZodAny: () => ZodAny,
-  TimePrecision: () => TimePrecision,
-  NEVER: () => NEVER,
-  $output: () => $output,
+  $brand: () => $brand,
   $input: () => $input,
-  $brand: () => $brand
+  $output: () => $output,
+  NEVER: () => NEVER,
+  TimePrecision: () => TimePrecision,
+  ZodAny: () => ZodAny,
+  ZodArray: () => ZodArray,
+  ZodBase64: () => ZodBase64,
+  ZodBase64URL: () => ZodBase64URL,
+  ZodBigInt: () => ZodBigInt,
+  ZodBigIntFormat: () => ZodBigIntFormat,
+  ZodBoolean: () => ZodBoolean,
+  ZodCIDRv4: () => ZodCIDRv4,
+  ZodCIDRv6: () => ZodCIDRv6,
+  ZodCUID: () => ZodCUID,
+  ZodCUID2: () => ZodCUID2,
+  ZodCatch: () => ZodCatch,
+  ZodCodec: () => ZodCodec,
+  ZodCustom: () => ZodCustom,
+  ZodCustomStringFormat: () => ZodCustomStringFormat,
+  ZodDate: () => ZodDate,
+  ZodDefault: () => ZodDefault,
+  ZodDiscriminatedUnion: () => ZodDiscriminatedUnion,
+  ZodE164: () => ZodE164,
+  ZodEmail: () => ZodEmail,
+  ZodEmoji: () => ZodEmoji,
+  ZodEnum: () => ZodEnum,
+  ZodError: () => ZodError,
+  ZodFile: () => ZodFile,
+  ZodFirstPartyTypeKind: () => ZodFirstPartyTypeKind,
+  ZodFunction: () => ZodFunction,
+  ZodGUID: () => ZodGUID,
+  ZodIPv4: () => ZodIPv4,
+  ZodIPv6: () => ZodIPv6,
+  ZodISODate: () => ZodISODate,
+  ZodISODateTime: () => ZodISODateTime,
+  ZodISODuration: () => ZodISODuration,
+  ZodISOTime: () => ZodISOTime,
+  ZodIntersection: () => ZodIntersection,
+  ZodIssueCode: () => ZodIssueCode,
+  ZodJWT: () => ZodJWT,
+  ZodKSUID: () => ZodKSUID,
+  ZodLazy: () => ZodLazy,
+  ZodLiteral: () => ZodLiteral,
+  ZodMap: () => ZodMap,
+  ZodNaN: () => ZodNaN,
+  ZodNanoID: () => ZodNanoID,
+  ZodNever: () => ZodNever,
+  ZodNonOptional: () => ZodNonOptional,
+  ZodNull: () => ZodNull,
+  ZodNullable: () => ZodNullable,
+  ZodNumber: () => ZodNumber,
+  ZodNumberFormat: () => ZodNumberFormat,
+  ZodObject: () => ZodObject,
+  ZodOptional: () => ZodOptional,
+  ZodPipe: () => ZodPipe,
+  ZodPrefault: () => ZodPrefault,
+  ZodPromise: () => ZodPromise,
+  ZodReadonly: () => ZodReadonly,
+  ZodRealError: () => ZodRealError,
+  ZodRecord: () => ZodRecord,
+  ZodSet: () => ZodSet,
+  ZodString: () => ZodString,
+  ZodStringFormat: () => ZodStringFormat,
+  ZodSuccess: () => ZodSuccess,
+  ZodSymbol: () => ZodSymbol,
+  ZodTemplateLiteral: () => ZodTemplateLiteral,
+  ZodTransform: () => ZodTransform,
+  ZodTuple: () => ZodTuple,
+  ZodType: () => ZodType,
+  ZodULID: () => ZodULID,
+  ZodURL: () => ZodURL,
+  ZodUUID: () => ZodUUID,
+  ZodUndefined: () => ZodUndefined,
+  ZodUnion: () => ZodUnion,
+  ZodUnknown: () => ZodUnknown,
+  ZodVoid: () => ZodVoid,
+  ZodXID: () => ZodXID,
+  _ZodString: () => _ZodString,
+  _default: () => _default2,
+  _function: () => _function,
+  any: () => any,
+  array: () => array,
+  base64: () => base642,
+  base64url: () => base64url2,
+  bigint: () => bigint2,
+  boolean: () => boolean2,
+  catch: () => _catch2,
+  check: () => check,
+  cidrv4: () => cidrv42,
+  cidrv6: () => cidrv62,
+  clone: () => clone,
+  codec: () => codec,
+  coerce: () => exports_coerce,
+  config: () => config,
+  core: () => exports_core2,
+  cuid: () => cuid3,
+  cuid2: () => cuid22,
+  custom: () => custom,
+  date: () => date3,
+  decode: () => decode2,
+  decodeAsync: () => decodeAsync2,
+  discriminatedUnion: () => discriminatedUnion,
+  e164: () => e1642,
+  email: () => email2,
+  emoji: () => emoji2,
+  encode: () => encode2,
+  encodeAsync: () => encodeAsync2,
+  endsWith: () => _endsWith,
+  enum: () => _enum2,
+  file: () => file,
+  flattenError: () => flattenError,
+  float32: () => float32,
+  float64: () => float64,
+  formatError: () => formatError,
+  function: () => _function,
+  getErrorMap: () => getErrorMap,
+  globalRegistry: () => globalRegistry,
+  gt: () => _gt,
+  gte: () => _gte,
+  guid: () => guid2,
+  hash: () => hash,
+  hex: () => hex2,
+  hostname: () => hostname2,
+  httpUrl: () => httpUrl,
+  includes: () => _includes,
+  instanceof: () => _instanceof,
+  int: () => int,
+  int32: () => int32,
+  int64: () => int64,
+  intersection: () => intersection,
+  ipv4: () => ipv42,
+  ipv6: () => ipv62,
+  iso: () => exports_iso,
+  json: () => json,
+  jwt: () => jwt,
+  keyof: () => keyof,
+  ksuid: () => ksuid2,
+  lazy: () => lazy,
+  length: () => _length,
+  literal: () => literal,
+  locales: () => exports_locales,
+  looseObject: () => looseObject,
+  lowercase: () => _lowercase,
+  lt: () => _lt,
+  lte: () => _lte,
+  map: () => map,
+  maxLength: () => _maxLength,
+  maxSize: () => _maxSize,
+  mime: () => _mime,
+  minLength: () => _minLength,
+  minSize: () => _minSize,
+  multipleOf: () => _multipleOf,
+  nan: () => nan,
+  nanoid: () => nanoid2,
+  nativeEnum: () => nativeEnum,
+  negative: () => _negative,
+  never: () => never,
+  nonnegative: () => _nonnegative,
+  nonoptional: () => nonoptional,
+  nonpositive: () => _nonpositive,
+  normalize: () => _normalize,
+  null: () => _null3,
+  nullable: () => nullable,
+  nullish: () => nullish2,
+  number: () => number2,
+  object: () => object,
+  optional: () => optional,
+  overwrite: () => _overwrite,
+  parse: () => parse3,
+  parseAsync: () => parseAsync2,
+  partialRecord: () => partialRecord,
+  pipe: () => pipe,
+  positive: () => _positive,
+  prefault: () => prefault,
+  preprocess: () => preprocess,
+  prettifyError: () => prettifyError,
+  promise: () => promise,
+  property: () => _property,
+  readonly: () => readonly,
+  record: () => record,
+  refine: () => refine,
+  regex: () => _regex,
+  regexes: () => exports_regexes,
+  registry: () => registry,
+  safeDecode: () => safeDecode2,
+  safeDecodeAsync: () => safeDecodeAsync2,
+  safeEncode: () => safeEncode2,
+  safeEncodeAsync: () => safeEncodeAsync2,
+  safeParse: () => safeParse2,
+  safeParseAsync: () => safeParseAsync2,
+  set: () => set,
+  setErrorMap: () => setErrorMap,
+  size: () => _size,
+  startsWith: () => _startsWith,
+  strictObject: () => strictObject,
+  string: () => string2,
+  stringFormat: () => stringFormat,
+  stringbool: () => stringbool,
+  success: () => success,
+  superRefine: () => superRefine,
+  symbol: () => symbol,
+  templateLiteral: () => templateLiteral,
+  toJSONSchema: () => toJSONSchema,
+  toLowerCase: () => _toLowerCase,
+  toUpperCase: () => _toUpperCase,
+  transform: () => transform,
+  treeifyError: () => treeifyError,
+  trim: () => _trim,
+  tuple: () => tuple,
+  uint32: () => uint32,
+  uint64: () => uint64,
+  ulid: () => ulid2,
+  undefined: () => _undefined3,
+  union: () => union,
+  unknown: () => unknown,
+  uppercase: () => _uppercase,
+  url: () => url,
+  util: () => exports_util,
+  uuid: () => uuid2,
+  uuidv4: () => uuidv4,
+  uuidv6: () => uuidv6,
+  uuidv7: () => uuidv7,
+  void: () => _void2,
+  xid: () => xid2
 });
 
 // node_modules/zod/v4/core/index.js
 var exports_core2 = {};
 __export(exports_core2, {
-  version: () => version,
-  util: () => exports_util,
-  treeifyError: () => treeifyError,
-  toJSONSchema: () => toJSONSchema,
-  toDotPath: () => toDotPath,
-  safeParseAsync: () => safeParseAsync,
-  safeParse: () => safeParse,
-  safeEncodeAsync: () => safeEncodeAsync,
-  safeEncode: () => safeEncode,
-  safeDecodeAsync: () => safeDecodeAsync,
-  safeDecode: () => safeDecode,
-  registry: () => registry,
-  regexes: () => exports_regexes,
-  prettifyError: () => prettifyError,
-  parseAsync: () => parseAsync,
-  parse: () => parse,
-  locales: () => exports_locales,
-  isValidJWT: () => isValidJWT,
-  isValidBase64URL: () => isValidBase64URL,
-  isValidBase64: () => isValidBase64,
-  globalRegistry: () => globalRegistry,
-  globalConfig: () => globalConfig,
-  formatError: () => formatError,
-  flattenError: () => flattenError,
-  encodeAsync: () => encodeAsync,
-  encode: () => encode,
-  decodeAsync: () => decodeAsync,
-  decode: () => decode,
-  config: () => config,
-  clone: () => clone,
-  _xid: () => _xid,
-  _void: () => _void,
-  _uuidv7: () => _uuidv7,
-  _uuidv6: () => _uuidv6,
-  _uuidv4: () => _uuidv4,
-  _uuid: () => _uuid,
-  _url: () => _url,
-  _uppercase: () => _uppercase,
-  _unknown: () => _unknown,
-  _union: () => _union,
-  _undefined: () => _undefined2,
-  _ulid: () => _ulid,
-  _uint64: () => _uint64,
-  _uint32: () => _uint32,
-  _tuple: () => _tuple,
-  _trim: () => _trim,
-  _transform: () => _transform,
-  _toUpperCase: () => _toUpperCase,
-  _toLowerCase: () => _toLowerCase,
-  _templateLiteral: () => _templateLiteral,
-  _symbol: () => _symbol,
-  _superRefine: () => _superRefine,
-  _success: () => _success,
-  _stringbool: () => _stringbool,
-  _stringFormat: () => _stringFormat,
-  _string: () => _string,
-  _startsWith: () => _startsWith,
-  _size: () => _size,
-  _set: () => _set,
-  _safeParseAsync: () => _safeParseAsync,
-  _safeParse: () => _safeParse,
-  _safeEncodeAsync: () => _safeEncodeAsync,
-  _safeEncode: () => _safeEncode,
-  _safeDecodeAsync: () => _safeDecodeAsync,
-  _safeDecode: () => _safeDecode,
-  _regex: () => _regex,
-  _refine: () => _refine,
-  _record: () => _record,
-  _readonly: () => _readonly,
-  _property: () => _property,
-  _promise: () => _promise,
-  _positive: () => _positive,
-  _pipe: () => _pipe,
-  _parseAsync: () => _parseAsync,
-  _parse: () => _parse,
-  _overwrite: () => _overwrite,
-  _optional: () => _optional,
-  _number: () => _number,
-  _nullable: () => _nullable,
-  _null: () => _null2,
-  _normalize: () => _normalize,
-  _nonpositive: () => _nonpositive,
-  _nonoptional: () => _nonoptional,
-  _nonnegative: () => _nonnegative,
-  _never: () => _never,
-  _negative: () => _negative,
-  _nativeEnum: () => _nativeEnum,
-  _nanoid: () => _nanoid,
-  _nan: () => _nan,
-  _multipleOf: () => _multipleOf,
-  _minSize: () => _minSize,
-  _minLength: () => _minLength,
-  _min: () => _gte,
-  _mime: () => _mime,
-  _maxSize: () => _maxSize,
-  _maxLength: () => _maxLength,
-  _max: () => _lte,
-  _map: () => _map,
-  _lte: () => _lte,
-  _lt: () => _lt,
-  _lowercase: () => _lowercase,
-  _literal: () => _literal,
-  _length: () => _length,
-  _lazy: () => _lazy,
-  _ksuid: () => _ksuid,
-  _jwt: () => _jwt,
-  _isoTime: () => _isoTime,
-  _isoDuration: () => _isoDuration,
-  _isoDateTime: () => _isoDateTime,
-  _isoDate: () => _isoDate,
-  _ipv6: () => _ipv6,
-  _ipv4: () => _ipv4,
-  _intersection: () => _intersection,
-  _int64: () => _int64,
-  _int32: () => _int32,
-  _int: () => _int,
-  _includes: () => _includes,
-  _guid: () => _guid,
-  _gte: () => _gte,
-  _gt: () => _gt,
-  _float64: () => _float64,
-  _float32: () => _float32,
-  _file: () => _file,
-  _enum: () => _enum,
-  _endsWith: () => _endsWith,
-  _encodeAsync: () => _encodeAsync,
-  _encode: () => _encode,
-  _emoji: () => _emoji2,
-  _email: () => _email,
-  _e164: () => _e164,
-  _discriminatedUnion: () => _discriminatedUnion,
-  _default: () => _default,
-  _decodeAsync: () => _decodeAsync,
-  _decode: () => _decode,
-  _date: () => _date,
-  _custom: () => _custom,
-  _cuid2: () => _cuid2,
-  _cuid: () => _cuid,
-  _coercedString: () => _coercedString,
-  _coercedNumber: () => _coercedNumber,
-  _coercedDate: () => _coercedDate,
-  _coercedBoolean: () => _coercedBoolean,
-  _coercedBigint: () => _coercedBigint,
-  _cidrv6: () => _cidrv6,
-  _cidrv4: () => _cidrv4,
-  _check: () => _check,
-  _catch: () => _catch,
-  _boolean: () => _boolean,
-  _bigint: () => _bigint,
-  _base64url: () => _base64url,
-  _base64: () => _base64,
-  _array: () => _array,
-  _any: () => _any,
-  TimePrecision: () => TimePrecision,
-  NEVER: () => NEVER,
-  JSONSchemaGenerator: () => JSONSchemaGenerator,
-  JSONSchema: () => exports_json_schema,
-  Doc: () => Doc,
-  $output: () => $output,
-  $input: () => $input,
-  $constructor: () => $constructor,
-  $brand: () => $brand,
-  $ZodXID: () => $ZodXID,
-  $ZodVoid: () => $ZodVoid,
-  $ZodUnknown: () => $ZodUnknown,
-  $ZodUnion: () => $ZodUnion,
-  $ZodUndefined: () => $ZodUndefined,
-  $ZodUUID: () => $ZodUUID,
-  $ZodURL: () => $ZodURL,
-  $ZodULID: () => $ZodULID,
-  $ZodType: () => $ZodType,
-  $ZodTuple: () => $ZodTuple,
-  $ZodTransform: () => $ZodTransform,
-  $ZodTemplateLiteral: () => $ZodTemplateLiteral,
-  $ZodSymbol: () => $ZodSymbol,
-  $ZodSuccess: () => $ZodSuccess,
-  $ZodStringFormat: () => $ZodStringFormat,
-  $ZodString: () => $ZodString,
-  $ZodSet: () => $ZodSet,
-  $ZodRegistry: () => $ZodRegistry,
-  $ZodRecord: () => $ZodRecord,
-  $ZodRealError: () => $ZodRealError,
-  $ZodReadonly: () => $ZodReadonly,
-  $ZodPromise: () => $ZodPromise,
-  $ZodPrefault: () => $ZodPrefault,
-  $ZodPipe: () => $ZodPipe,
-  $ZodOptional: () => $ZodOptional,
-  $ZodObjectJIT: () => $ZodObjectJIT,
-  $ZodObject: () => $ZodObject,
-  $ZodNumberFormat: () => $ZodNumberFormat,
-  $ZodNumber: () => $ZodNumber,
-  $ZodNullable: () => $ZodNullable,
-  $ZodNull: () => $ZodNull,
-  $ZodNonOptional: () => $ZodNonOptional,
-  $ZodNever: () => $ZodNever,
-  $ZodNanoID: () => $ZodNanoID,
-  $ZodNaN: () => $ZodNaN,
-  $ZodMap: () => $ZodMap,
-  $ZodLiteral: () => $ZodLiteral,
-  $ZodLazy: () => $ZodLazy,
-  $ZodKSUID: () => $ZodKSUID,
-  $ZodJWT: () => $ZodJWT,
-  $ZodIntersection: () => $ZodIntersection,
-  $ZodISOTime: () => $ZodISOTime,
-  $ZodISODuration: () => $ZodISODuration,
-  $ZodISODateTime: () => $ZodISODateTime,
-  $ZodISODate: () => $ZodISODate,
-  $ZodIPv6: () => $ZodIPv6,
-  $ZodIPv4: () => $ZodIPv4,
-  $ZodGUID: () => $ZodGUID,
-  $ZodFunction: () => $ZodFunction,
-  $ZodFile: () => $ZodFile,
-  $ZodError: () => $ZodError,
-  $ZodEnum: () => $ZodEnum,
-  $ZodEncodeError: () => $ZodEncodeError,
-  $ZodEmoji: () => $ZodEmoji,
-  $ZodEmail: () => $ZodEmail,
-  $ZodE164: () => $ZodE164,
-  $ZodDiscriminatedUnion: () => $ZodDiscriminatedUnion,
-  $ZodDefault: () => $ZodDefault,
-  $ZodDate: () => $ZodDate,
-  $ZodCustomStringFormat: () => $ZodCustomStringFormat,
-  $ZodCustom: () => $ZodCustom,
-  $ZodCodec: () => $ZodCodec,
-  $ZodCheckUpperCase: () => $ZodCheckUpperCase,
-  $ZodCheckStringFormat: () => $ZodCheckStringFormat,
-  $ZodCheckStartsWith: () => $ZodCheckStartsWith,
-  $ZodCheckSizeEquals: () => $ZodCheckSizeEquals,
-  $ZodCheckRegex: () => $ZodCheckRegex,
-  $ZodCheckProperty: () => $ZodCheckProperty,
-  $ZodCheckOverwrite: () => $ZodCheckOverwrite,
-  $ZodCheckNumberFormat: () => $ZodCheckNumberFormat,
-  $ZodCheckMultipleOf: () => $ZodCheckMultipleOf,
-  $ZodCheckMinSize: () => $ZodCheckMinSize,
-  $ZodCheckMinLength: () => $ZodCheckMinLength,
-  $ZodCheckMimeType: () => $ZodCheckMimeType,
-  $ZodCheckMaxSize: () => $ZodCheckMaxSize,
-  $ZodCheckMaxLength: () => $ZodCheckMaxLength,
-  $ZodCheckLowerCase: () => $ZodCheckLowerCase,
-  $ZodCheckLessThan: () => $ZodCheckLessThan,
-  $ZodCheckLengthEquals: () => $ZodCheckLengthEquals,
-  $ZodCheckIncludes: () => $ZodCheckIncludes,
-  $ZodCheckGreaterThan: () => $ZodCheckGreaterThan,
-  $ZodCheckEndsWith: () => $ZodCheckEndsWith,
-  $ZodCheckBigIntFormat: () => $ZodCheckBigIntFormat,
-  $ZodCheck: () => $ZodCheck,
-  $ZodCatch: () => $ZodCatch,
-  $ZodCUID2: () => $ZodCUID2,
-  $ZodCUID: () => $ZodCUID,
-  $ZodCIDRv6: () => $ZodCIDRv6,
-  $ZodCIDRv4: () => $ZodCIDRv4,
-  $ZodBoolean: () => $ZodBoolean,
-  $ZodBigIntFormat: () => $ZodBigIntFormat,
-  $ZodBigInt: () => $ZodBigInt,
-  $ZodBase64URL: () => $ZodBase64URL,
-  $ZodBase64: () => $ZodBase64,
-  $ZodAsyncError: () => $ZodAsyncError,
+  $ZodAny: () => $ZodAny,
   $ZodArray: () => $ZodArray,
-  $ZodAny: () => $ZodAny
+  $ZodAsyncError: () => $ZodAsyncError,
+  $ZodBase64: () => $ZodBase64,
+  $ZodBase64URL: () => $ZodBase64URL,
+  $ZodBigInt: () => $ZodBigInt,
+  $ZodBigIntFormat: () => $ZodBigIntFormat,
+  $ZodBoolean: () => $ZodBoolean,
+  $ZodCIDRv4: () => $ZodCIDRv4,
+  $ZodCIDRv6: () => $ZodCIDRv6,
+  $ZodCUID: () => $ZodCUID,
+  $ZodCUID2: () => $ZodCUID2,
+  $ZodCatch: () => $ZodCatch,
+  $ZodCheck: () => $ZodCheck,
+  $ZodCheckBigIntFormat: () => $ZodCheckBigIntFormat,
+  $ZodCheckEndsWith: () => $ZodCheckEndsWith,
+  $ZodCheckGreaterThan: () => $ZodCheckGreaterThan,
+  $ZodCheckIncludes: () => $ZodCheckIncludes,
+  $ZodCheckLengthEquals: () => $ZodCheckLengthEquals,
+  $ZodCheckLessThan: () => $ZodCheckLessThan,
+  $ZodCheckLowerCase: () => $ZodCheckLowerCase,
+  $ZodCheckMaxLength: () => $ZodCheckMaxLength,
+  $ZodCheckMaxSize: () => $ZodCheckMaxSize,
+  $ZodCheckMimeType: () => $ZodCheckMimeType,
+  $ZodCheckMinLength: () => $ZodCheckMinLength,
+  $ZodCheckMinSize: () => $ZodCheckMinSize,
+  $ZodCheckMultipleOf: () => $ZodCheckMultipleOf,
+  $ZodCheckNumberFormat: () => $ZodCheckNumberFormat,
+  $ZodCheckOverwrite: () => $ZodCheckOverwrite,
+  $ZodCheckProperty: () => $ZodCheckProperty,
+  $ZodCheckRegex: () => $ZodCheckRegex,
+  $ZodCheckSizeEquals: () => $ZodCheckSizeEquals,
+  $ZodCheckStartsWith: () => $ZodCheckStartsWith,
+  $ZodCheckStringFormat: () => $ZodCheckStringFormat,
+  $ZodCheckUpperCase: () => $ZodCheckUpperCase,
+  $ZodCodec: () => $ZodCodec,
+  $ZodCustom: () => $ZodCustom,
+  $ZodCustomStringFormat: () => $ZodCustomStringFormat,
+  $ZodDate: () => $ZodDate,
+  $ZodDefault: () => $ZodDefault,
+  $ZodDiscriminatedUnion: () => $ZodDiscriminatedUnion,
+  $ZodE164: () => $ZodE164,
+  $ZodEmail: () => $ZodEmail,
+  $ZodEmoji: () => $ZodEmoji,
+  $ZodEncodeError: () => $ZodEncodeError,
+  $ZodEnum: () => $ZodEnum,
+  $ZodError: () => $ZodError,
+  $ZodFile: () => $ZodFile,
+  $ZodFunction: () => $ZodFunction,
+  $ZodGUID: () => $ZodGUID,
+  $ZodIPv4: () => $ZodIPv4,
+  $ZodIPv6: () => $ZodIPv6,
+  $ZodISODate: () => $ZodISODate,
+  $ZodISODateTime: () => $ZodISODateTime,
+  $ZodISODuration: () => $ZodISODuration,
+  $ZodISOTime: () => $ZodISOTime,
+  $ZodIntersection: () => $ZodIntersection,
+  $ZodJWT: () => $ZodJWT,
+  $ZodKSUID: () => $ZodKSUID,
+  $ZodLazy: () => $ZodLazy,
+  $ZodLiteral: () => $ZodLiteral,
+  $ZodMap: () => $ZodMap,
+  $ZodNaN: () => $ZodNaN,
+  $ZodNanoID: () => $ZodNanoID,
+  $ZodNever: () => $ZodNever,
+  $ZodNonOptional: () => $ZodNonOptional,
+  $ZodNull: () => $ZodNull,
+  $ZodNullable: () => $ZodNullable,
+  $ZodNumber: () => $ZodNumber,
+  $ZodNumberFormat: () => $ZodNumberFormat,
+  $ZodObject: () => $ZodObject,
+  $ZodObjectJIT: () => $ZodObjectJIT,
+  $ZodOptional: () => $ZodOptional,
+  $ZodPipe: () => $ZodPipe,
+  $ZodPrefault: () => $ZodPrefault,
+  $ZodPromise: () => $ZodPromise,
+  $ZodReadonly: () => $ZodReadonly,
+  $ZodRealError: () => $ZodRealError,
+  $ZodRecord: () => $ZodRecord,
+  $ZodRegistry: () => $ZodRegistry,
+  $ZodSet: () => $ZodSet,
+  $ZodString: () => $ZodString,
+  $ZodStringFormat: () => $ZodStringFormat,
+  $ZodSuccess: () => $ZodSuccess,
+  $ZodSymbol: () => $ZodSymbol,
+  $ZodTemplateLiteral: () => $ZodTemplateLiteral,
+  $ZodTransform: () => $ZodTransform,
+  $ZodTuple: () => $ZodTuple,
+  $ZodType: () => $ZodType,
+  $ZodULID: () => $ZodULID,
+  $ZodURL: () => $ZodURL,
+  $ZodUUID: () => $ZodUUID,
+  $ZodUndefined: () => $ZodUndefined,
+  $ZodUnion: () => $ZodUnion,
+  $ZodUnknown: () => $ZodUnknown,
+  $ZodVoid: () => $ZodVoid,
+  $ZodXID: () => $ZodXID,
+  $brand: () => $brand,
+  $constructor: () => $constructor,
+  $input: () => $input,
+  $output: () => $output,
+  Doc: () => Doc,
+  JSONSchema: () => exports_json_schema,
+  JSONSchemaGenerator: () => JSONSchemaGenerator,
+  NEVER: () => NEVER,
+  TimePrecision: () => TimePrecision,
+  _any: () => _any,
+  _array: () => _array,
+  _base64: () => _base64,
+  _base64url: () => _base64url,
+  _bigint: () => _bigint,
+  _boolean: () => _boolean,
+  _catch: () => _catch,
+  _check: () => _check,
+  _cidrv4: () => _cidrv4,
+  _cidrv6: () => _cidrv6,
+  _coercedBigint: () => _coercedBigint,
+  _coercedBoolean: () => _coercedBoolean,
+  _coercedDate: () => _coercedDate,
+  _coercedNumber: () => _coercedNumber,
+  _coercedString: () => _coercedString,
+  _cuid: () => _cuid,
+  _cuid2: () => _cuid2,
+  _custom: () => _custom,
+  _date: () => _date,
+  _decode: () => _decode,
+  _decodeAsync: () => _decodeAsync,
+  _default: () => _default,
+  _discriminatedUnion: () => _discriminatedUnion,
+  _e164: () => _e164,
+  _email: () => _email,
+  _emoji: () => _emoji2,
+  _encode: () => _encode,
+  _encodeAsync: () => _encodeAsync,
+  _endsWith: () => _endsWith,
+  _enum: () => _enum,
+  _file: () => _file,
+  _float32: () => _float32,
+  _float64: () => _float64,
+  _gt: () => _gt,
+  _gte: () => _gte,
+  _guid: () => _guid,
+  _includes: () => _includes,
+  _int: () => _int,
+  _int32: () => _int32,
+  _int64: () => _int64,
+  _intersection: () => _intersection,
+  _ipv4: () => _ipv4,
+  _ipv6: () => _ipv6,
+  _isoDate: () => _isoDate,
+  _isoDateTime: () => _isoDateTime,
+  _isoDuration: () => _isoDuration,
+  _isoTime: () => _isoTime,
+  _jwt: () => _jwt,
+  _ksuid: () => _ksuid,
+  _lazy: () => _lazy,
+  _length: () => _length,
+  _literal: () => _literal,
+  _lowercase: () => _lowercase,
+  _lt: () => _lt,
+  _lte: () => _lte,
+  _map: () => _map,
+  _max: () => _lte,
+  _maxLength: () => _maxLength,
+  _maxSize: () => _maxSize,
+  _mime: () => _mime,
+  _min: () => _gte,
+  _minLength: () => _minLength,
+  _minSize: () => _minSize,
+  _multipleOf: () => _multipleOf,
+  _nan: () => _nan,
+  _nanoid: () => _nanoid,
+  _nativeEnum: () => _nativeEnum,
+  _negative: () => _negative,
+  _never: () => _never,
+  _nonnegative: () => _nonnegative,
+  _nonoptional: () => _nonoptional,
+  _nonpositive: () => _nonpositive,
+  _normalize: () => _normalize,
+  _null: () => _null2,
+  _nullable: () => _nullable,
+  _number: () => _number,
+  _optional: () => _optional,
+  _overwrite: () => _overwrite,
+  _parse: () => _parse,
+  _parseAsync: () => _parseAsync,
+  _pipe: () => _pipe,
+  _positive: () => _positive,
+  _promise: () => _promise,
+  _property: () => _property,
+  _readonly: () => _readonly,
+  _record: () => _record,
+  _refine: () => _refine,
+  _regex: () => _regex,
+  _safeDecode: () => _safeDecode,
+  _safeDecodeAsync: () => _safeDecodeAsync,
+  _safeEncode: () => _safeEncode,
+  _safeEncodeAsync: () => _safeEncodeAsync,
+  _safeParse: () => _safeParse,
+  _safeParseAsync: () => _safeParseAsync,
+  _set: () => _set,
+  _size: () => _size,
+  _startsWith: () => _startsWith,
+  _string: () => _string,
+  _stringFormat: () => _stringFormat,
+  _stringbool: () => _stringbool,
+  _success: () => _success,
+  _superRefine: () => _superRefine,
+  _symbol: () => _symbol,
+  _templateLiteral: () => _templateLiteral,
+  _toLowerCase: () => _toLowerCase,
+  _toUpperCase: () => _toUpperCase,
+  _transform: () => _transform,
+  _trim: () => _trim,
+  _tuple: () => _tuple,
+  _uint32: () => _uint32,
+  _uint64: () => _uint64,
+  _ulid: () => _ulid,
+  _undefined: () => _undefined2,
+  _union: () => _union,
+  _unknown: () => _unknown,
+  _uppercase: () => _uppercase,
+  _url: () => _url,
+  _uuid: () => _uuid,
+  _uuidv4: () => _uuidv4,
+  _uuidv6: () => _uuidv6,
+  _uuidv7: () => _uuidv7,
+  _void: () => _void,
+  _xid: () => _xid,
+  clone: () => clone,
+  config: () => config,
+  decode: () => decode,
+  decodeAsync: () => decodeAsync,
+  encode: () => encode,
+  encodeAsync: () => encodeAsync,
+  flattenError: () => flattenError,
+  formatError: () => formatError,
+  globalConfig: () => globalConfig,
+  globalRegistry: () => globalRegistry,
+  isValidBase64: () => isValidBase64,
+  isValidBase64URL: () => isValidBase64URL,
+  isValidJWT: () => isValidJWT,
+  locales: () => exports_locales,
+  parse: () => parse,
+  parseAsync: () => parseAsync,
+  prettifyError: () => prettifyError,
+  regexes: () => exports_regexes,
+  registry: () => registry,
+  safeDecode: () => safeDecode,
+  safeDecodeAsync: () => safeDecodeAsync,
+  safeEncode: () => safeEncode,
+  safeEncodeAsync: () => safeEncodeAsync,
+  safeParse: () => safeParse,
+  safeParseAsync: () => safeParseAsync,
+  toDotPath: () => toDotPath,
+  toJSONSchema: () => toJSONSchema,
+  treeifyError: () => treeifyError,
+  util: () => exports_util,
+  version: () => version
 });
 
 // node_modules/zod/v4/core/core.js
@@ -579,66 +578,66 @@ function config(newConfig) {
 // node_modules/zod/v4/core/util.js
 var exports_util = {};
 __export(exports_util, {
-  unwrapMessage: () => unwrapMessage,
-  uint8ArrayToHex: () => uint8ArrayToHex,
-  uint8ArrayToBase64url: () => uint8ArrayToBase64url,
-  uint8ArrayToBase64: () => uint8ArrayToBase64,
-  stringifyPrimitive: () => stringifyPrimitive,
-  shallowClone: () => shallowClone,
-  safeExtend: () => safeExtend,
-  required: () => required,
-  randomString: () => randomString,
-  propertyKeyTypes: () => propertyKeyTypes,
-  promiseAllObject: () => promiseAllObject,
-  primitiveTypes: () => primitiveTypes,
-  prefixIssues: () => prefixIssues,
-  pick: () => pick,
-  partial: () => partial,
-  optionalKeys: () => optionalKeys,
-  omit: () => omit,
-  objectClone: () => objectClone,
-  numKeys: () => numKeys,
-  nullish: () => nullish,
-  normalizeParams: () => normalizeParams,
-  mergeDefs: () => mergeDefs,
-  merge: () => merge,
-  jsonStringifyReplacer: () => jsonStringifyReplacer,
-  joinValues: () => joinValues,
-  issue: () => issue,
-  isPlainObject: () => isPlainObject,
-  isObject: () => isObject,
-  hexToUint8Array: () => hexToUint8Array,
-  getSizableOrigin: () => getSizableOrigin,
-  getParsedType: () => getParsedType,
-  getLengthableOrigin: () => getLengthableOrigin,
-  getEnumValues: () => getEnumValues,
-  getElementAtPath: () => getElementAtPath,
-  floatSafeRemainder: () => floatSafeRemainder,
-  finalizeIssue: () => finalizeIssue,
-  extend: () => extend,
-  escapeRegex: () => escapeRegex,
-  esc: () => esc,
-  defineLazy: () => defineLazy,
-  createTransparentProxy: () => createTransparentProxy,
-  cloneDef: () => cloneDef,
-  clone: () => clone,
-  cleanRegex: () => cleanRegex,
-  cleanEnum: () => cleanEnum,
-  captureStackTrace: () => captureStackTrace,
-  cached: () => cached,
-  base64urlToUint8Array: () => base64urlToUint8Array,
-  base64ToUint8Array: () => base64ToUint8Array,
-  assignProp: () => assignProp,
-  assertNotEqual: () => assertNotEqual,
-  assertNever: () => assertNever,
-  assertIs: () => assertIs,
-  assertEqual: () => assertEqual,
-  assert: () => assert,
-  allowsEval: () => allowsEval,
-  aborted: () => aborted,
-  NUMBER_FORMAT_RANGES: () => NUMBER_FORMAT_RANGES,
+  BIGINT_FORMAT_RANGES: () => BIGINT_FORMAT_RANGES,
   Class: () => Class,
-  BIGINT_FORMAT_RANGES: () => BIGINT_FORMAT_RANGES
+  NUMBER_FORMAT_RANGES: () => NUMBER_FORMAT_RANGES,
+  aborted: () => aborted,
+  allowsEval: () => allowsEval,
+  assert: () => assert,
+  assertEqual: () => assertEqual,
+  assertIs: () => assertIs,
+  assertNever: () => assertNever,
+  assertNotEqual: () => assertNotEqual,
+  assignProp: () => assignProp,
+  base64ToUint8Array: () => base64ToUint8Array,
+  base64urlToUint8Array: () => base64urlToUint8Array,
+  cached: () => cached,
+  captureStackTrace: () => captureStackTrace,
+  cleanEnum: () => cleanEnum,
+  cleanRegex: () => cleanRegex,
+  clone: () => clone,
+  cloneDef: () => cloneDef,
+  createTransparentProxy: () => createTransparentProxy,
+  defineLazy: () => defineLazy,
+  esc: () => esc,
+  escapeRegex: () => escapeRegex,
+  extend: () => extend,
+  finalizeIssue: () => finalizeIssue,
+  floatSafeRemainder: () => floatSafeRemainder,
+  getElementAtPath: () => getElementAtPath,
+  getEnumValues: () => getEnumValues,
+  getLengthableOrigin: () => getLengthableOrigin,
+  getParsedType: () => getParsedType,
+  getSizableOrigin: () => getSizableOrigin,
+  hexToUint8Array: () => hexToUint8Array,
+  isObject: () => isObject,
+  isPlainObject: () => isPlainObject,
+  issue: () => issue,
+  joinValues: () => joinValues,
+  jsonStringifyReplacer: () => jsonStringifyReplacer,
+  merge: () => merge,
+  mergeDefs: () => mergeDefs,
+  normalizeParams: () => normalizeParams,
+  nullish: () => nullish,
+  numKeys: () => numKeys,
+  objectClone: () => objectClone,
+  omit: () => omit,
+  optionalKeys: () => optionalKeys,
+  partial: () => partial,
+  pick: () => pick,
+  prefixIssues: () => prefixIssues,
+  primitiveTypes: () => primitiveTypes,
+  promiseAllObject: () => promiseAllObject,
+  propertyKeyTypes: () => propertyKeyTypes,
+  randomString: () => randomString,
+  required: () => required,
+  safeExtend: () => safeExtend,
+  shallowClone: () => shallowClone,
+  stringifyPrimitive: () => stringifyPrimitive,
+  uint8ArrayToBase64: () => uint8ArrayToBase64,
+  uint8ArrayToBase64url: () => uint8ArrayToBase64url,
+  uint8ArrayToHex: () => uint8ArrayToHex,
+  unwrapMessage: () => unwrapMessage
 });
 function assertEqual(val) {
   return val;
@@ -1032,7 +1031,7 @@ function merge(a, b) {
   });
   return clone(a, def);
 }
-function partial(Class, schema, mask) {
+function partial(Class2, schema, mask) {
   const def = mergeDefs(schema._zod.def, {
     get shape() {
       const oldShape = schema._zod.def.shape;
@@ -1044,14 +1043,14 @@ function partial(Class, schema, mask) {
           }
           if (!mask[key])
             continue;
-          shape[key] = Class ? new Class({
+          shape[key] = Class2 ? new Class2({
             type: "optional",
             innerType: oldShape[key]
           }) : oldShape[key];
         }
       } else {
         for (const key in oldShape) {
-          shape[key] = Class ? new Class({
+          shape[key] = Class2 ? new Class2({
             type: "optional",
             innerType: oldShape[key]
           }) : oldShape[key];
@@ -1064,7 +1063,7 @@ function partial(Class, schema, mask) {
   });
   return clone(schema, def);
 }
-function required(Class, schema, mask) {
+function required(Class2, schema, mask) {
   const def = mergeDefs(schema._zod.def, {
     get shape() {
       const oldShape = schema._zod.def.shape;
@@ -1076,14 +1075,14 @@ function required(Class, schema, mask) {
           }
           if (!mask[key])
             continue;
-          shape[key] = new Class({
+          shape[key] = new Class2({
             type: "nonoptional",
             innerType: oldShape[key]
           });
         }
       } else {
         for (const key in oldShape) {
-          shape[key] = new Class({
+          shape[key] = new Class2({
             type: "nonoptional",
             innerType: oldShape[key]
           });
@@ -1117,10 +1116,10 @@ function prefixIssues(path, issues) {
 function unwrapMessage(message) {
   return typeof message === "string" ? message : message?.message;
 }
-function finalizeIssue(iss, ctx, config2) {
+function finalizeIssue(iss, ctx, config) {
   const full = { ...iss, path: iss.path ?? [] };
   if (!iss.message) {
-    const message = unwrapMessage(iss.inst?._zod.def?.error?.(iss)) ?? unwrapMessage(ctx?.error?.(iss)) ?? unwrapMessage(config2.customError?.(iss)) ?? unwrapMessage(config2.localeError?.(iss)) ?? "Invalid input";
+    const message = unwrapMessage(iss.inst?._zod.def?.error?.(iss)) ?? unwrapMessage(ctx?.error?.(iss)) ?? unwrapMessage(config.customError?.(iss)) ?? unwrapMessage(config.localeError?.(iss)) ?? "Invalid input";
     full.message = message;
   }
   delete full.inst;
@@ -1224,7 +1223,7 @@ var initializer = (inst, def) => {
 };
 var $ZodError = $constructor("$ZodError", initializer);
 var $ZodRealError = $constructor("$ZodError", initializer, { Parent: Error });
-function flattenError(error, mapper = (issue2) => issue2.message) {
+function flattenError(error, mapper = (issue) => issue.message) {
   const fieldErrors = {};
   const formErrors = [];
   for (const sub of error.issues) {
@@ -1238,31 +1237,31 @@ function flattenError(error, mapper = (issue2) => issue2.message) {
   return { formErrors, fieldErrors };
 }
 function formatError(error, _mapper) {
-  const mapper = _mapper || function(issue2) {
-    return issue2.message;
+  const mapper = _mapper || function(issue) {
+    return issue.message;
   };
   const fieldErrors = { _errors: [] };
-  const processError = (error2) => {
-    for (const issue2 of error2.issues) {
-      if (issue2.code === "invalid_union" && issue2.errors.length) {
-        issue2.errors.map((issues) => processError({ issues }));
-      } else if (issue2.code === "invalid_key") {
-        processError({ issues: issue2.issues });
-      } else if (issue2.code === "invalid_element") {
-        processError({ issues: issue2.issues });
-      } else if (issue2.path.length === 0) {
-        fieldErrors._errors.push(mapper(issue2));
+  const processError = (error) => {
+    for (const issue of error.issues) {
+      if (issue.code === "invalid_union" && issue.errors.length) {
+        issue.errors.map((issues) => processError({ issues }));
+      } else if (issue.code === "invalid_key") {
+        processError({ issues: issue.issues });
+      } else if (issue.code === "invalid_element") {
+        processError({ issues: issue.issues });
+      } else if (issue.path.length === 0) {
+        fieldErrors._errors.push(mapper(issue));
       } else {
         let curr = fieldErrors;
         let i = 0;
-        while (i < issue2.path.length) {
-          const el = issue2.path[i];
-          const terminal = i === issue2.path.length - 1;
+        while (i < issue.path.length) {
+          const el = issue.path[i];
+          const terminal = i === issue.path.length - 1;
           if (!terminal) {
             curr[el] = curr[el] || { _errors: [] };
           } else {
             curr[el] = curr[el] || { _errors: [] };
-            curr[el]._errors.push(mapper(issue2));
+            curr[el]._errors.push(mapper(issue));
           }
           curr = curr[el];
           i++;
@@ -1274,23 +1273,23 @@ function formatError(error, _mapper) {
   return fieldErrors;
 }
 function treeifyError(error, _mapper) {
-  const mapper = _mapper || function(issue2) {
-    return issue2.message;
+  const mapper = _mapper || function(issue) {
+    return issue.message;
   };
   const result = { errors: [] };
-  const processError = (error2, path = []) => {
+  const processError = (error, path = []) => {
     var _a, _b;
-    for (const issue2 of error2.issues) {
-      if (issue2.code === "invalid_union" && issue2.errors.length) {
-        issue2.errors.map((issues) => processError({ issues }, issue2.path));
-      } else if (issue2.code === "invalid_key") {
-        processError({ issues: issue2.issues }, issue2.path);
-      } else if (issue2.code === "invalid_element") {
-        processError({ issues: issue2.issues }, issue2.path);
+    for (const issue of error.issues) {
+      if (issue.code === "invalid_union" && issue.errors.length) {
+        issue.errors.map((issues) => processError({ issues }, issue.path));
+      } else if (issue.code === "invalid_key") {
+        processError({ issues: issue.issues }, issue.path);
+      } else if (issue.code === "invalid_element") {
+        processError({ issues: issue.issues }, issue.path);
       } else {
-        const fullpath = [...path, ...issue2.path];
+        const fullpath = [...path, ...issue.path];
         if (fullpath.length === 0) {
-          result.errors.push(mapper(issue2));
+          result.errors.push(mapper(issue));
           continue;
         }
         let curr = result;
@@ -1308,7 +1307,7 @@ function treeifyError(error, _mapper) {
             curr = curr.items[el];
           }
           if (terminal) {
-            curr.errors.push(mapper(issue2));
+            curr.errors.push(mapper(issue));
           }
           i++;
         }
@@ -1339,10 +1338,10 @@ function toDotPath(_path) {
 function prettifyError(error) {
   const lines = [];
   const issues = [...error.issues].sort((a, b) => (a.path ?? []).length - (b.path ?? []).length);
-  for (const issue2 of issues) {
-    lines.push(`\u2716 ${issue2.message}`);
-    if (issue2.path?.length)
-      lines.push(`  \u2192 at ${toDotPath(issue2.path)}`);
+  for (const issue of issues) {
+    lines.push(`\u2716 ${issue.message}`);
+    if (issue.path?.length)
+      lines.push(`  \u2192 at ${toDotPath(issue.path)}`);
   }
   return lines.join(`
 `);
@@ -1438,63 +1437,63 @@ var safeDecodeAsync = /* @__PURE__ */ _safeDecodeAsync($ZodRealError);
 // node_modules/zod/v4/core/regexes.js
 var exports_regexes = {};
 __export(exports_regexes, {
-  xid: () => xid,
-  uuid7: () => uuid7,
-  uuid6: () => uuid6,
-  uuid4: () => uuid4,
-  uuid: () => uuid,
-  uppercase: () => uppercase,
-  unicodeEmail: () => unicodeEmail,
-  undefined: () => _undefined,
-  ulid: () => ulid,
-  time: () => time,
-  string: () => string,
-  sha512_hex: () => sha512_hex,
-  sha512_base64url: () => sha512_base64url,
-  sha512_base64: () => sha512_base64,
-  sha384_hex: () => sha384_hex,
-  sha384_base64url: () => sha384_base64url,
-  sha384_base64: () => sha384_base64,
-  sha256_hex: () => sha256_hex,
-  sha256_base64url: () => sha256_base64url,
-  sha256_base64: () => sha256_base64,
-  sha1_hex: () => sha1_hex,
-  sha1_base64url: () => sha1_base64url,
-  sha1_base64: () => sha1_base64,
-  rfc5322Email: () => rfc5322Email,
-  number: () => number,
-  null: () => _null,
-  nanoid: () => nanoid,
-  md5_hex: () => md5_hex,
-  md5_base64url: () => md5_base64url,
-  md5_base64: () => md5_base64,
-  lowercase: () => lowercase,
-  ksuid: () => ksuid,
-  ipv6: () => ipv6,
-  ipv4: () => ipv4,
-  integer: () => integer,
-  idnEmail: () => idnEmail,
-  html5Email: () => html5Email,
-  hostname: () => hostname,
-  hex: () => hex,
-  guid: () => guid,
-  extendedDuration: () => extendedDuration,
-  emoji: () => emoji,
-  email: () => email,
-  e164: () => e164,
-  duration: () => duration,
-  domain: () => domain,
-  datetime: () => datetime,
-  date: () => date,
-  cuid2: () => cuid2,
-  cuid: () => cuid,
-  cidrv6: () => cidrv6,
-  cidrv4: () => cidrv4,
-  browserEmail: () => browserEmail,
-  boolean: () => boolean,
-  bigint: () => bigint,
+  base64: () => base64,
   base64url: () => base64url,
-  base64: () => base64
+  bigint: () => bigint,
+  boolean: () => boolean,
+  browserEmail: () => browserEmail,
+  cidrv4: () => cidrv4,
+  cidrv6: () => cidrv6,
+  cuid: () => cuid,
+  cuid2: () => cuid2,
+  date: () => date,
+  datetime: () => datetime,
+  domain: () => domain,
+  duration: () => duration,
+  e164: () => e164,
+  email: () => email,
+  emoji: () => emoji,
+  extendedDuration: () => extendedDuration,
+  guid: () => guid,
+  hex: () => hex,
+  hostname: () => hostname,
+  html5Email: () => html5Email,
+  idnEmail: () => idnEmail,
+  integer: () => integer,
+  ipv4: () => ipv4,
+  ipv6: () => ipv6,
+  ksuid: () => ksuid,
+  lowercase: () => lowercase,
+  md5_base64: () => md5_base64,
+  md5_base64url: () => md5_base64url,
+  md5_hex: () => md5_hex,
+  nanoid: () => nanoid,
+  null: () => _null,
+  number: () => number,
+  rfc5322Email: () => rfc5322Email,
+  sha1_base64: () => sha1_base64,
+  sha1_base64url: () => sha1_base64url,
+  sha1_hex: () => sha1_hex,
+  sha256_base64: () => sha256_base64,
+  sha256_base64url: () => sha256_base64url,
+  sha256_hex: () => sha256_hex,
+  sha384_base64: () => sha384_base64,
+  sha384_base64url: () => sha384_base64url,
+  sha384_hex: () => sha384_hex,
+  sha512_base64: () => sha512_base64,
+  sha512_base64url: () => sha512_base64url,
+  sha512_hex: () => sha512_hex,
+  string: () => string,
+  time: () => time,
+  ulid: () => ulid,
+  undefined: () => _undefined,
+  unicodeEmail: () => unicodeEmail,
+  uppercase: () => uppercase,
+  uuid: () => uuid,
+  uuid4: () => uuid4,
+  uuid6: () => uuid6,
+  uuid7: () => uuid7,
+  xid: () => xid
 });
 var cuid = /^[cC][^\s-]{8,}$/;
 var cuid2 = /^[0-9a-z]+$/;
@@ -1602,8 +1601,8 @@ var numericOriginMap = {
 var $ZodCheckLessThan = /* @__PURE__ */ $constructor("$ZodCheckLessThan", (inst, def) => {
   $ZodCheck.init(inst, def);
   const origin = numericOriginMap[typeof def.value];
-  inst._zod.onattach.push((inst2) => {
-    const bag = inst2._zod.bag;
+  inst._zod.onattach.push((inst) => {
+    const bag = inst._zod.bag;
     const curr = (def.inclusive ? bag.maximum : bag.exclusiveMaximum) ?? Number.POSITIVE_INFINITY;
     if (def.value < curr) {
       if (def.inclusive)
@@ -1630,8 +1629,8 @@ var $ZodCheckLessThan = /* @__PURE__ */ $constructor("$ZodCheckLessThan", (inst,
 var $ZodCheckGreaterThan = /* @__PURE__ */ $constructor("$ZodCheckGreaterThan", (inst, def) => {
   $ZodCheck.init(inst, def);
   const origin = numericOriginMap[typeof def.value];
-  inst._zod.onattach.push((inst2) => {
-    const bag = inst2._zod.bag;
+  inst._zod.onattach.push((inst) => {
+    const bag = inst._zod.bag;
     const curr = (def.inclusive ? bag.minimum : bag.exclusiveMinimum) ?? Number.NEGATIVE_INFINITY;
     if (def.value > curr) {
       if (def.inclusive)
@@ -1657,9 +1656,9 @@ var $ZodCheckGreaterThan = /* @__PURE__ */ $constructor("$ZodCheckGreaterThan", 
 });
 var $ZodCheckMultipleOf = /* @__PURE__ */ $constructor("$ZodCheckMultipleOf", (inst, def) => {
   $ZodCheck.init(inst, def);
-  inst._zod.onattach.push((inst2) => {
+  inst._zod.onattach.push((inst) => {
     var _a;
-    (_a = inst2._zod.bag).multipleOf ?? (_a.multipleOf = def.value);
+    (_a = inst._zod.bag).multipleOf ?? (_a.multipleOf = def.value);
   });
   inst._zod.check = (payload) => {
     if (typeof payload.value !== typeof def.value)
@@ -1683,8 +1682,8 @@ var $ZodCheckNumberFormat = /* @__PURE__ */ $constructor("$ZodCheckNumberFormat"
   const isInt = def.format?.includes("int");
   const origin = isInt ? "int" : "number";
   const [minimum, maximum] = NUMBER_FORMAT_RANGES[def.format];
-  inst._zod.onattach.push((inst2) => {
-    const bag = inst2._zod.bag;
+  inst._zod.onattach.push((inst) => {
+    const bag = inst._zod.bag;
     bag.format = def.format;
     bag.minimum = minimum;
     bag.maximum = maximum;
@@ -1755,8 +1754,8 @@ var $ZodCheckNumberFormat = /* @__PURE__ */ $constructor("$ZodCheckNumberFormat"
 var $ZodCheckBigIntFormat = /* @__PURE__ */ $constructor("$ZodCheckBigIntFormat", (inst, def) => {
   $ZodCheck.init(inst, def);
   const [minimum, maximum] = BIGINT_FORMAT_RANGES[def.format];
-  inst._zod.onattach.push((inst2) => {
-    const bag = inst2._zod.bag;
+  inst._zod.onattach.push((inst) => {
+    const bag = inst._zod.bag;
     bag.format = def.format;
     bag.minimum = minimum;
     bag.maximum = maximum;
@@ -1792,10 +1791,10 @@ var $ZodCheckMaxSize = /* @__PURE__ */ $constructor("$ZodCheckMaxSize", (inst, d
     const val = payload.value;
     return !nullish(val) && val.size !== undefined;
   });
-  inst._zod.onattach.push((inst2) => {
-    const curr = inst2._zod.bag.maximum ?? Number.POSITIVE_INFINITY;
+  inst._zod.onattach.push((inst) => {
+    const curr = inst._zod.bag.maximum ?? Number.POSITIVE_INFINITY;
     if (def.maximum < curr)
-      inst2._zod.bag.maximum = def.maximum;
+      inst._zod.bag.maximum = def.maximum;
   });
   inst._zod.check = (payload) => {
     const input = payload.value;
@@ -1820,10 +1819,10 @@ var $ZodCheckMinSize = /* @__PURE__ */ $constructor("$ZodCheckMinSize", (inst, d
     const val = payload.value;
     return !nullish(val) && val.size !== undefined;
   });
-  inst._zod.onattach.push((inst2) => {
-    const curr = inst2._zod.bag.minimum ?? Number.NEGATIVE_INFINITY;
+  inst._zod.onattach.push((inst) => {
+    const curr = inst._zod.bag.minimum ?? Number.NEGATIVE_INFINITY;
     if (def.minimum > curr)
-      inst2._zod.bag.minimum = def.minimum;
+      inst._zod.bag.minimum = def.minimum;
   });
   inst._zod.check = (payload) => {
     const input = payload.value;
@@ -1848,8 +1847,8 @@ var $ZodCheckSizeEquals = /* @__PURE__ */ $constructor("$ZodCheckSizeEquals", (i
     const val = payload.value;
     return !nullish(val) && val.size !== undefined;
   });
-  inst._zod.onattach.push((inst2) => {
-    const bag = inst2._zod.bag;
+  inst._zod.onattach.push((inst) => {
+    const bag = inst._zod.bag;
     bag.minimum = def.size;
     bag.maximum = def.size;
     bag.size = def.size;
@@ -1878,10 +1877,10 @@ var $ZodCheckMaxLength = /* @__PURE__ */ $constructor("$ZodCheckMaxLength", (ins
     const val = payload.value;
     return !nullish(val) && val.length !== undefined;
   });
-  inst._zod.onattach.push((inst2) => {
-    const curr = inst2._zod.bag.maximum ?? Number.POSITIVE_INFINITY;
+  inst._zod.onattach.push((inst) => {
+    const curr = inst._zod.bag.maximum ?? Number.POSITIVE_INFINITY;
     if (def.maximum < curr)
-      inst2._zod.bag.maximum = def.maximum;
+      inst._zod.bag.maximum = def.maximum;
   });
   inst._zod.check = (payload) => {
     const input = payload.value;
@@ -1907,10 +1906,10 @@ var $ZodCheckMinLength = /* @__PURE__ */ $constructor("$ZodCheckMinLength", (ins
     const val = payload.value;
     return !nullish(val) && val.length !== undefined;
   });
-  inst._zod.onattach.push((inst2) => {
-    const curr = inst2._zod.bag.minimum ?? Number.NEGATIVE_INFINITY;
+  inst._zod.onattach.push((inst) => {
+    const curr = inst._zod.bag.minimum ?? Number.NEGATIVE_INFINITY;
     if (def.minimum > curr)
-      inst2._zod.bag.minimum = def.minimum;
+      inst._zod.bag.minimum = def.minimum;
   });
   inst._zod.check = (payload) => {
     const input = payload.value;
@@ -1936,8 +1935,8 @@ var $ZodCheckLengthEquals = /* @__PURE__ */ $constructor("$ZodCheckLengthEquals"
     const val = payload.value;
     return !nullish(val) && val.length !== undefined;
   });
-  inst._zod.onattach.push((inst2) => {
-    const bag = inst2._zod.bag;
+  inst._zod.onattach.push((inst) => {
+    const bag = inst._zod.bag;
     bag.minimum = def.length;
     bag.maximum = def.length;
     bag.length = def.length;
@@ -1963,8 +1962,8 @@ var $ZodCheckLengthEquals = /* @__PURE__ */ $constructor("$ZodCheckLengthEquals"
 var $ZodCheckStringFormat = /* @__PURE__ */ $constructor("$ZodCheckStringFormat", (inst, def) => {
   var _a, _b;
   $ZodCheck.init(inst, def);
-  inst._zod.onattach.push((inst2) => {
-    const bag = inst2._zod.bag;
+  inst._zod.onattach.push((inst) => {
+    const bag = inst._zod.bag;
     bag.format = def.format;
     if (def.pattern) {
       bag.patterns ?? (bag.patterns = new Set);
@@ -2019,8 +2018,8 @@ var $ZodCheckIncludes = /* @__PURE__ */ $constructor("$ZodCheckIncludes", (inst,
   const escapedRegex = escapeRegex(def.includes);
   const pattern = new RegExp(typeof def.position === "number" ? `^.{${def.position}}${escapedRegex}` : escapedRegex);
   def.pattern = pattern;
-  inst._zod.onattach.push((inst2) => {
-    const bag = inst2._zod.bag;
+  inst._zod.onattach.push((inst) => {
+    const bag = inst._zod.bag;
     bag.patterns ?? (bag.patterns = new Set);
     bag.patterns.add(pattern);
   });
@@ -2042,8 +2041,8 @@ var $ZodCheckStartsWith = /* @__PURE__ */ $constructor("$ZodCheckStartsWith", (i
   $ZodCheck.init(inst, def);
   const pattern = new RegExp(`^${escapeRegex(def.prefix)}.*`);
   def.pattern ?? (def.pattern = pattern);
-  inst._zod.onattach.push((inst2) => {
-    const bag = inst2._zod.bag;
+  inst._zod.onattach.push((inst) => {
+    const bag = inst._zod.bag;
     bag.patterns ?? (bag.patterns = new Set);
     bag.patterns.add(pattern);
   });
@@ -2065,8 +2064,8 @@ var $ZodCheckEndsWith = /* @__PURE__ */ $constructor("$ZodCheckEndsWith", (inst,
   $ZodCheck.init(inst, def);
   const pattern = new RegExp(`.*${escapeRegex(def.suffix)}$`);
   def.pattern ?? (def.pattern = pattern);
-  inst._zod.onattach.push((inst2) => {
-    const bag = inst2._zod.bag;
+  inst._zod.onattach.push((inst) => {
+    const bag = inst._zod.bag;
     bag.patterns ?? (bag.patterns = new Set);
     bag.patterns.add(pattern);
   });
@@ -2097,7 +2096,7 @@ var $ZodCheckProperty = /* @__PURE__ */ $constructor("$ZodCheckProperty", (inst,
       issues: []
     }, {});
     if (result instanceof Promise) {
-      return result.then((result2) => handleCheckPropertyResult(result2, payload, def.property));
+      return result.then((result) => handleCheckPropertyResult(result, payload, def.property));
     }
     handleCheckPropertyResult(result, payload, def.property);
     return;
@@ -2106,8 +2105,8 @@ var $ZodCheckProperty = /* @__PURE__ */ $constructor("$ZodCheckProperty", (inst,
 var $ZodCheckMimeType = /* @__PURE__ */ $constructor("$ZodCheckMimeType", (inst, def) => {
   $ZodCheck.init(inst, def);
   const mimeSet = new Set(def.mime);
-  inst._zod.onattach.push((inst2) => {
-    inst2._zod.bag.mime = def.mime;
+  inst._zod.onattach.push((inst) => {
+    inst._zod.bag.mime = def.mime;
   });
   inst._zod.check = (payload) => {
     if (mimeSet.has(payload.value.type))
@@ -2195,10 +2194,10 @@ var $ZodType = /* @__PURE__ */ $constructor("$ZodType", (inst, def) => {
       inst._zod.run = inst._zod.parse;
     });
   } else {
-    const runChecks = (payload, checks2, ctx) => {
+    const runChecks = (payload, checks, ctx) => {
       let isAborted = aborted(payload);
       let asyncResult;
-      for (const ch of checks2) {
+      for (const ch of checks) {
         if (ch._zod.def.when) {
           const shouldRun = ch._zod.def.when(payload);
           if (!shouldRun)
@@ -2244,7 +2243,7 @@ var $ZodType = /* @__PURE__ */ $constructor("$ZodType", (inst, def) => {
       if (checkResult instanceof Promise) {
         if (ctx.async === false)
           throw new $ZodAsyncError;
-        return checkResult.then((checkResult2) => inst._zod.parse(checkResult2, ctx));
+        return checkResult.then((checkResult) => inst._zod.parse(checkResult, ctx));
       }
       return inst._zod.parse(checkResult, ctx);
     };
@@ -2255,8 +2254,8 @@ var $ZodType = /* @__PURE__ */ $constructor("$ZodType", (inst, def) => {
       if (ctx.direction === "backward") {
         const canary = inst._zod.parse({ value: payload.value, issues: [] }, { ...ctx, skipChecks: true });
         if (canary instanceof Promise) {
-          return canary.then((canary2) => {
-            return handleCanaryResult(canary2, payload, ctx);
+          return canary.then((canary) => {
+            return handleCanaryResult(canary, payload, ctx);
           });
         }
         return handleCanaryResult(canary, payload, ctx);
@@ -2265,7 +2264,7 @@ var $ZodType = /* @__PURE__ */ $constructor("$ZodType", (inst, def) => {
       if (result instanceof Promise) {
         if (ctx.async === false)
           throw new $ZodAsyncError;
-        return result.then((result2) => runChecks(result2, checks, ctx));
+        return result.then((result) => runChecks(result, checks, ctx));
       }
       return runChecks(result, checks, ctx);
     };
@@ -2290,7 +2289,7 @@ var $ZodString = /* @__PURE__ */ $constructor("$ZodString", (inst, def) => {
     if (def.coerce)
       try {
         payload.value = String(payload.value);
-      } catch (_2) {}
+      } catch (_) {}
     if (typeof payload.value === "string")
       return payload;
     payload.issues.push({
@@ -2432,16 +2431,16 @@ var $ZodISODuration = /* @__PURE__ */ $constructor("$ZodISODuration", (inst, def
 var $ZodIPv4 = /* @__PURE__ */ $constructor("$ZodIPv4", (inst, def) => {
   def.pattern ?? (def.pattern = ipv4);
   $ZodStringFormat.init(inst, def);
-  inst._zod.onattach.push((inst2) => {
-    const bag = inst2._zod.bag;
+  inst._zod.onattach.push((inst) => {
+    const bag = inst._zod.bag;
     bag.format = `ipv4`;
   });
 });
 var $ZodIPv6 = /* @__PURE__ */ $constructor("$ZodIPv6", (inst, def) => {
   def.pattern ?? (def.pattern = ipv6);
   $ZodStringFormat.init(inst, def);
-  inst._zod.onattach.push((inst2) => {
-    const bag = inst2._zod.bag;
+  inst._zod.onattach.push((inst) => {
+    const bag = inst._zod.bag;
     bag.format = `ipv6`;
   });
   inst._zod.check = (payload) => {
@@ -2505,8 +2504,8 @@ function isValidBase64(data) {
 var $ZodBase64 = /* @__PURE__ */ $constructor("$ZodBase64", (inst, def) => {
   def.pattern ?? (def.pattern = base64);
   $ZodStringFormat.init(inst, def);
-  inst._zod.onattach.push((inst2) => {
-    inst2._zod.bag.contentEncoding = "base64";
+  inst._zod.onattach.push((inst) => {
+    inst._zod.bag.contentEncoding = "base64";
   });
   inst._zod.check = (payload) => {
     if (isValidBase64(payload.value))
@@ -2523,15 +2522,15 @@ var $ZodBase64 = /* @__PURE__ */ $constructor("$ZodBase64", (inst, def) => {
 function isValidBase64URL(data) {
   if (!base64url.test(data))
     return false;
-  const base642 = data.replace(/[-_]/g, (c) => c === "-" ? "+" : "/");
-  const padded = base642.padEnd(Math.ceil(base642.length / 4) * 4, "=");
+  const base64 = data.replace(/[-_]/g, (c) => c === "-" ? "+" : "/");
+  const padded = base64.padEnd(Math.ceil(base64.length / 4) * 4, "=");
   return isValidBase64(padded);
 }
 var $ZodBase64URL = /* @__PURE__ */ $constructor("$ZodBase64URL", (inst, def) => {
   def.pattern ?? (def.pattern = base64url);
   $ZodStringFormat.init(inst, def);
-  inst._zod.onattach.push((inst2) => {
-    inst2._zod.bag.contentEncoding = "base64url";
+  inst._zod.onattach.push((inst) => {
+    inst._zod.bag.contentEncoding = "base64url";
   });
   inst._zod.check = (payload) => {
     if (isValidBase64URL(payload.value))
@@ -2804,7 +2803,7 @@ var $ZodArray = /* @__PURE__ */ $constructor("$ZodArray", (inst, def) => {
         issues: []
       }, ctx);
       if (result instanceof Promise) {
-        proms.push(result.then((result2) => handleArrayResult(result2, payload, i)));
+        proms.push(result.then((result) => handleArrayResult(result, payload, i)));
       } else {
         handleArrayResult(result, payload, i);
       }
@@ -2857,7 +2856,7 @@ function handleCatchall(proms, input, payload, ctx, def, inst) {
     }
     const r = _catchall.run({ value: input[key], issues: [] }, ctx);
     if (r instanceof Promise) {
-      proms.push(r.then((r2) => handlePropertyResult(r2, payload, key, input)));
+      proms.push(r.then((r) => handlePropertyResult(r, payload, key, input)));
     } else {
       handlePropertyResult(r, payload, key, input);
     }
@@ -2914,7 +2913,7 @@ var $ZodObject = /* @__PURE__ */ $constructor("$ZodObject", (inst, def) => {
       const el = shape[key];
       const r = el._zod.run({ value: input[key], issues: [] }, ctx);
       if (r instanceof Promise) {
-        proms.push(r.then((r2) => handlePropertyResult(r2, payload, key, input)));
+        proms.push(r.then((r) => handlePropertyResult(r, payload, key, input)));
       } else {
         handlePropertyResult(r, payload, key, input);
       }
@@ -3062,8 +3061,8 @@ var $ZodUnion = /* @__PURE__ */ $constructor("$ZodUnion", (inst, def) => {
     }
     if (!async)
       return handleUnionResults(results, payload, inst, ctx);
-    return Promise.all(results).then((results2) => {
-      return handleUnionResults(results2, payload, inst, ctx);
+    return Promise.all(results).then((results) => {
+      return handleUnionResults(results, payload, inst, ctx);
     });
   };
 });
@@ -3140,8 +3139,8 @@ var $ZodIntersection = /* @__PURE__ */ $constructor("$ZodIntersection", (inst, d
     const right = def.right._zod.run({ value: input, issues: [] }, ctx);
     const async = left instanceof Promise || right instanceof Promise;
     if (async) {
-      return Promise.all([left, right]).then(([left2, right2]) => {
-        return handleIntersectionResults(payload, left2, right2);
+      return Promise.all([left, right]).then(([left, right]) => {
+        return handleIntersectionResults(payload, left, right);
       });
     }
     return handleIntersectionResults(payload, left, right);
@@ -3249,7 +3248,7 @@ var $ZodTuple = /* @__PURE__ */ $constructor("$ZodTuple", (inst, def) => {
         issues: []
       }, ctx);
       if (result instanceof Promise) {
-        proms.push(result.then((result2) => handleTupleResult(result2, payload, i)));
+        proms.push(result.then((result) => handleTupleResult(result, payload, i)));
       } else {
         handleTupleResult(result, payload, i);
       }
@@ -3263,7 +3262,7 @@ var $ZodTuple = /* @__PURE__ */ $constructor("$ZodTuple", (inst, def) => {
           issues: []
         }, ctx);
         if (result instanceof Promise) {
-          proms.push(result.then((result2) => handleTupleResult(result2, payload, i)));
+          proms.push(result.then((result) => handleTupleResult(result, payload, i)));
         } else {
           handleTupleResult(result, payload, i);
         }
@@ -3301,11 +3300,11 @@ var $ZodRecord = /* @__PURE__ */ $constructor("$ZodRecord", (inst, def) => {
         if (typeof key === "string" || typeof key === "number" || typeof key === "symbol") {
           const result = def.valueType._zod.run({ value: input[key], issues: [] }, ctx);
           if (result instanceof Promise) {
-            proms.push(result.then((result2) => {
-              if (result2.issues.length) {
-                payload.issues.push(...prefixIssues(key, result2.issues));
+            proms.push(result.then((result) => {
+              if (result.issues.length) {
+                payload.issues.push(...prefixIssues(key, result.issues));
               }
-              payload.value[key] = result2.value;
+              payload.value[key] = result.value;
             }));
           } else {
             if (result.issues.length) {
@@ -3353,11 +3352,11 @@ var $ZodRecord = /* @__PURE__ */ $constructor("$ZodRecord", (inst, def) => {
         }
         const result = def.valueType._zod.run({ value: input[key], issues: [] }, ctx);
         if (result instanceof Promise) {
-          proms.push(result.then((result2) => {
-            if (result2.issues.length) {
-              payload.issues.push(...prefixIssues(key, result2.issues));
+          proms.push(result.then((result) => {
+            if (result.issues.length) {
+              payload.issues.push(...prefixIssues(key, result.issues));
             }
-            payload.value[keyResult.value] = result2.value;
+            payload.value[keyResult.value] = result.value;
           }));
         } else {
           if (result.issues.length) {
@@ -3392,8 +3391,8 @@ var $ZodMap = /* @__PURE__ */ $constructor("$ZodMap", (inst, def) => {
       const keyResult = def.keyType._zod.run({ value: key, issues: [] }, ctx);
       const valueResult = def.valueType._zod.run({ value, issues: [] }, ctx);
       if (keyResult instanceof Promise || valueResult instanceof Promise) {
-        proms.push(Promise.all([keyResult, valueResult]).then(([keyResult2, valueResult2]) => {
-          handleMapResult(keyResult2, valueResult2, payload, key, input, inst, ctx);
+        proms.push(Promise.all([keyResult, valueResult]).then(([keyResult, valueResult]) => {
+          handleMapResult(keyResult, valueResult, payload, key, input, inst, ctx);
         }));
       } else {
         handleMapResult(keyResult, valueResult, payload, key, input, inst, ctx);
@@ -3452,7 +3451,7 @@ var $ZodSet = /* @__PURE__ */ $constructor("$ZodSet", (inst, def) => {
     for (const item of input) {
       const result = def.valueType._zod.run({ value: item, issues: [] }, ctx);
       if (result instanceof Promise) {
-        proms.push(result.then((result2) => handleSetResult(result2, payload)));
+        proms.push(result.then((result) => handleSetResult(result, payload)));
       } else
         handleSetResult(result, payload);
     }
@@ -3532,8 +3531,8 @@ var $ZodTransform = /* @__PURE__ */ $constructor("$ZodTransform", (inst, def) =>
     const _out = def.transform(payload.value, payload);
     if (ctx.async) {
       const output = _out instanceof Promise ? _out : Promise.resolve(_out);
-      return output.then((output2) => {
-        payload.value = output2;
+      return output.then((output) => {
+        payload.value = output;
         return payload;
       });
     }
@@ -3605,7 +3604,7 @@ var $ZodDefault = /* @__PURE__ */ $constructor("$ZodDefault", (inst, def) => {
     }
     const result = def.innerType._zod.run(payload, ctx);
     if (result instanceof Promise) {
-      return result.then((result2) => handleDefaultResult(result2, def));
+      return result.then((result) => handleDefaultResult(result, def));
     }
     return handleDefaultResult(result, def);
   };
@@ -3639,7 +3638,7 @@ var $ZodNonOptional = /* @__PURE__ */ $constructor("$ZodNonOptional", (inst, def
   inst._zod.parse = (payload, ctx) => {
     const result = def.innerType._zod.run(payload, ctx);
     if (result instanceof Promise) {
-      return result.then((result2) => handleNonOptionalResult(result2, inst));
+      return result.then((result) => handleNonOptionalResult(result, inst));
     }
     return handleNonOptionalResult(result, inst);
   };
@@ -3663,8 +3662,8 @@ var $ZodSuccess = /* @__PURE__ */ $constructor("$ZodSuccess", (inst, def) => {
     }
     const result = def.innerType._zod.run(payload, ctx);
     if (result instanceof Promise) {
-      return result.then((result2) => {
-        payload.value = result2.issues.length === 0;
+      return result.then((result) => {
+        payload.value = result.issues.length === 0;
         return payload;
       });
     }
@@ -3683,13 +3682,13 @@ var $ZodCatch = /* @__PURE__ */ $constructor("$ZodCatch", (inst, def) => {
     }
     const result = def.innerType._zod.run(payload, ctx);
     if (result instanceof Promise) {
-      return result.then((result2) => {
-        payload.value = result2.value;
-        if (result2.issues.length) {
+      return result.then((result) => {
+        payload.value = result.value;
+        if (result.issues.length) {
           payload.value = def.catchValue({
             ...payload,
             error: {
-              issues: result2.issues.map((iss) => finalizeIssue(iss, ctx, config()))
+              issues: result.issues.map((iss) => finalizeIssue(iss, ctx, config()))
             },
             input: payload.value
           });
@@ -3737,13 +3736,13 @@ var $ZodPipe = /* @__PURE__ */ $constructor("$ZodPipe", (inst, def) => {
     if (ctx.direction === "backward") {
       const right = def.out._zod.run(payload, ctx);
       if (right instanceof Promise) {
-        return right.then((right2) => handlePipeResult(right2, def.in, ctx));
+        return right.then((right) => handlePipeResult(right, def.in, ctx));
       }
       return handlePipeResult(right, def.in, ctx);
     }
     const left = def.in._zod.run(payload, ctx);
     if (left instanceof Promise) {
-      return left.then((left2) => handlePipeResult(left2, def.out, ctx));
+      return left.then((left) => handlePipeResult(left, def.out, ctx));
     }
     return handlePipeResult(left, def.out, ctx);
   };
@@ -3766,13 +3765,13 @@ var $ZodCodec = /* @__PURE__ */ $constructor("$ZodCodec", (inst, def) => {
     if (direction === "forward") {
       const left = def.in._zod.run(payload, ctx);
       if (left instanceof Promise) {
-        return left.then((left2) => handleCodecAResult(left2, def, ctx));
+        return left.then((left) => handleCodecAResult(left, def, ctx));
       }
       return handleCodecAResult(left, def, ctx);
     } else {
       const right = def.out._zod.run(payload, ctx);
       if (right instanceof Promise) {
-        return right.then((right2) => handleCodecAResult(right2, def, ctx));
+        return right.then((right) => handleCodecAResult(right, def, ctx));
       }
       return handleCodecAResult(right, def, ctx);
     }
@@ -3976,7 +3975,7 @@ var $ZodCustom = /* @__PURE__ */ $constructor("$ZodCustom", (inst, def) => {
     const input = payload.value;
     const r = def.fn(input);
     if (r instanceof Promise) {
-      return r.then((r2) => handleRefineResult(r2, payload, input, inst));
+      return r.then((r) => handleRefineResult(r, payload, input, inst));
     }
     handleRefineResult(r, payload, input, inst);
     return;
@@ -3999,52 +3998,52 @@ function handleRefineResult(result, payload, input, inst) {
 // node_modules/zod/v4/locales/index.js
 var exports_locales = {};
 __export(exports_locales, {
-  zhTW: () => zh_TW_default,
-  zhCN: () => zh_CN_default,
-  yo: () => yo_default,
-  vi: () => vi_default,
-  ur: () => ur_default,
-  uk: () => uk_default,
-  ua: () => ua_default,
-  tr: () => tr_default,
-  th: () => th_default,
-  ta: () => ta_default,
-  sv: () => sv_default,
-  sl: () => sl_default,
-  ru: () => ru_default,
-  pt: () => pt_default,
-  ps: () => ps_default,
-  pl: () => pl_default,
-  ota: () => ota_default,
-  no: () => no_default,
-  nl: () => nl_default,
-  ms: () => ms_default,
-  mk: () => mk_default,
-  lt: () => lt_default,
-  ko: () => ko_default,
-  km: () => km_default,
-  kh: () => kh_default,
-  ka: () => ka_default,
-  ja: () => ja_default,
-  it: () => it_default,
-  is: () => is_default,
-  id: () => id_default,
-  hu: () => hu_default,
-  he: () => he_default,
-  frCA: () => fr_CA_default,
-  fr: () => fr_default,
-  fi: () => fi_default,
-  fa: () => fa_default,
-  es: () => es_default,
-  eo: () => eo_default,
-  en: () => en_default,
-  de: () => de_default,
-  da: () => da_default,
-  cs: () => cs_default,
-  ca: () => ca_default,
-  be: () => be_default,
+  ar: () => ar_default,
   az: () => az_default,
-  ar: () => ar_default
+  be: () => be_default,
+  ca: () => ca_default,
+  cs: () => cs_default,
+  da: () => da_default,
+  de: () => de_default,
+  en: () => en_default,
+  eo: () => eo_default,
+  es: () => es_default,
+  fa: () => fa_default,
+  fi: () => fi_default,
+  fr: () => fr_default,
+  frCA: () => fr_CA_default,
+  he: () => he_default,
+  hu: () => hu_default,
+  id: () => id_default,
+  is: () => is_default,
+  it: () => it_default,
+  ja: () => ja_default,
+  ka: () => ka_default,
+  kh: () => kh_default,
+  km: () => km_default,
+  ko: () => ko_default,
+  lt: () => lt_default,
+  mk: () => mk_default,
+  ms: () => ms_default,
+  nl: () => nl_default,
+  no: () => no_default,
+  ota: () => ota_default,
+  pl: () => pl_default,
+  ps: () => ps_default,
+  pt: () => pt_default,
+  ru: () => ru_default,
+  sl: () => sl_default,
+  sv: () => sv_default,
+  ta: () => ta_default,
+  th: () => th_default,
+  tr: () => tr_default,
+  ua: () => ua_default,
+  uk: () => uk_default,
+  ur: () => ur_default,
+  vi: () => vi_default,
+  yo: () => yo_default,
+  zhCN: () => zh_CN_default,
+  zhTW: () => zh_TW_default
 });
 
 // node_modules/zod/v4/locales/ar.js
@@ -4108,51 +4107,51 @@ var error = () => {
     jwt: "JWT",
     template_literal: "\u0645\u062F\u062E\u0644"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `\u0645\u062F\u062E\u0644\u0627\u062A \u063A\u064A\u0631 \u0645\u0642\u0628\u0648\u0644\u0629: \u064A\u0641\u062A\u0631\u0636 \u0625\u062F\u062E\u0627\u0644 ${issue2.expected}\u060C \u0648\u0644\u0643\u0646 \u062A\u0645 \u0625\u062F\u062E\u0627\u0644 ${parsedType(issue2.input)}`;
+        return `\u0645\u062F\u062E\u0644\u0627\u062A \u063A\u064A\u0631 \u0645\u0642\u0628\u0648\u0644\u0629: \u064A\u0641\u062A\u0631\u0636 \u0625\u062F\u062E\u0627\u0644 ${issue.expected}\u060C \u0648\u0644\u0643\u0646 \u062A\u0645 \u0625\u062F\u062E\u0627\u0644 ${parsedType(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `\u0645\u062F\u062E\u0644\u0627\u062A \u063A\u064A\u0631 \u0645\u0642\u0628\u0648\u0644\u0629: \u064A\u0641\u062A\u0631\u0636 \u0625\u062F\u062E\u0627\u0644 ${stringifyPrimitive(issue2.values[0])}`;
-        return `\u0627\u062E\u062A\u064A\u0627\u0631 \u063A\u064A\u0631 \u0645\u0642\u0628\u0648\u0644: \u064A\u062A\u0648\u0642\u0639 \u0627\u0646\u062A\u0642\u0627\u0621 \u0623\u062D\u062F \u0647\u0630\u0647 \u0627\u0644\u062E\u064A\u0627\u0631\u0627\u062A: ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `\u0645\u062F\u062E\u0644\u0627\u062A \u063A\u064A\u0631 \u0645\u0642\u0628\u0648\u0644\u0629: \u064A\u0641\u062A\u0631\u0636 \u0625\u062F\u062E\u0627\u0644 ${stringifyPrimitive(issue.values[0])}`;
+        return `\u0627\u062E\u062A\u064A\u0627\u0631 \u063A\u064A\u0631 \u0645\u0642\u0628\u0648\u0644: \u064A\u062A\u0648\u0642\u0639 \u0627\u0646\u062A\u0642\u0627\u0621 \u0623\u062D\u062F \u0647\u0630\u0647 \u0627\u0644\u062E\u064A\u0627\u0631\u0627\u062A: ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return ` \u0623\u0643\u0628\u0631 \u0645\u0646 \u0627\u0644\u0644\u0627\u0632\u0645: \u064A\u0641\u062A\u0631\u0636 \u0623\u0646 \u062A\u0643\u0648\u0646 ${issue2.origin ?? "\u0627\u0644\u0642\u064A\u0645\u0629"} ${adj} ${issue2.maximum.toString()} ${sizing.unit ?? "\u0639\u0646\u0635\u0631"}`;
-        return `\u0623\u0643\u0628\u0631 \u0645\u0646 \u0627\u0644\u0644\u0627\u0632\u0645: \u064A\u0641\u062A\u0631\u0636 \u0623\u0646 \u062A\u0643\u0648\u0646 ${issue2.origin ?? "\u0627\u0644\u0642\u064A\u0645\u0629"} ${adj} ${issue2.maximum.toString()}`;
+          return ` \u0623\u0643\u0628\u0631 \u0645\u0646 \u0627\u0644\u0644\u0627\u0632\u0645: \u064A\u0641\u062A\u0631\u0636 \u0623\u0646 \u062A\u0643\u0648\u0646 ${issue.origin ?? "\u0627\u0644\u0642\u064A\u0645\u0629"} ${adj} ${issue.maximum.toString()} ${sizing.unit ?? "\u0639\u0646\u0635\u0631"}`;
+        return `\u0623\u0643\u0628\u0631 \u0645\u0646 \u0627\u0644\u0644\u0627\u0632\u0645: \u064A\u0641\u062A\u0631\u0636 \u0623\u0646 \u062A\u0643\u0648\u0646 ${issue.origin ?? "\u0627\u0644\u0642\u064A\u0645\u0629"} ${adj} ${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `\u0623\u0635\u063A\u0631 \u0645\u0646 \u0627\u0644\u0644\u0627\u0632\u0645: \u064A\u0641\u062A\u0631\u0636 \u0644\u0640 ${issue2.origin} \u0623\u0646 \u064A\u0643\u0648\u0646 ${adj} ${issue2.minimum.toString()} ${sizing.unit}`;
+          return `\u0623\u0635\u063A\u0631 \u0645\u0646 \u0627\u0644\u0644\u0627\u0632\u0645: \u064A\u0641\u062A\u0631\u0636 \u0644\u0640 ${issue.origin} \u0623\u0646 \u064A\u0643\u0648\u0646 ${adj} ${issue.minimum.toString()} ${sizing.unit}`;
         }
-        return `\u0623\u0635\u063A\u0631 \u0645\u0646 \u0627\u0644\u0644\u0627\u0632\u0645: \u064A\u0641\u062A\u0631\u0636 \u0644\u0640 ${issue2.origin} \u0623\u0646 \u064A\u0643\u0648\u0646 ${adj} ${issue2.minimum.toString()}`;
+        return `\u0623\u0635\u063A\u0631 \u0645\u0646 \u0627\u0644\u0644\u0627\u0632\u0645: \u064A\u0641\u062A\u0631\u0636 \u0644\u0640 ${issue.origin} \u0623\u0646 \u064A\u0643\u0648\u0646 ${adj} ${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with")
-          return `\u0646\u064E\u0635 \u063A\u064A\u0631 \u0645\u0642\u0628\u0648\u0644: \u064A\u062C\u0628 \u0623\u0646 \u064A\u0628\u062F\u0623 \u0628\u0640 "${issue2.prefix}"`;
+          return `\u0646\u064E\u0635 \u063A\u064A\u0631 \u0645\u0642\u0628\u0648\u0644: \u064A\u062C\u0628 \u0623\u0646 \u064A\u0628\u062F\u0623 \u0628\u0640 "${issue.prefix}"`;
         if (_issue.format === "ends_with")
           return `\u0646\u064E\u0635 \u063A\u064A\u0631 \u0645\u0642\u0628\u0648\u0644: \u064A\u062C\u0628 \u0623\u0646 \u064A\u0646\u062A\u0647\u064A \u0628\u0640 "${_issue.suffix}"`;
         if (_issue.format === "includes")
           return `\u0646\u064E\u0635 \u063A\u064A\u0631 \u0645\u0642\u0628\u0648\u0644: \u064A\u062C\u0628 \u0623\u0646 \u064A\u062A\u0636\u0645\u0651\u064E\u0646 "${_issue.includes}"`;
         if (_issue.format === "regex")
           return `\u0646\u064E\u0635 \u063A\u064A\u0631 \u0645\u0642\u0628\u0648\u0644: \u064A\u062C\u0628 \u0623\u0646 \u064A\u0637\u0627\u0628\u0642 \u0627\u0644\u0646\u0645\u0637 ${_issue.pattern}`;
-        return `${Nouns[_issue.format] ?? issue2.format} \u063A\u064A\u0631 \u0645\u0642\u0628\u0648\u0644`;
+        return `${Nouns[_issue.format] ?? issue.format} \u063A\u064A\u0631 \u0645\u0642\u0628\u0648\u0644`;
       }
       case "not_multiple_of":
-        return `\u0631\u0642\u0645 \u063A\u064A\u0631 \u0645\u0642\u0628\u0648\u0644: \u064A\u062C\u0628 \u0623\u0646 \u064A\u0643\u0648\u0646 \u0645\u0646 \u0645\u0636\u0627\u0639\u0641\u0627\u062A ${issue2.divisor}`;
+        return `\u0631\u0642\u0645 \u063A\u064A\u0631 \u0645\u0642\u0628\u0648\u0644: \u064A\u062C\u0628 \u0623\u0646 \u064A\u0643\u0648\u0646 \u0645\u0646 \u0645\u0636\u0627\u0639\u0641\u0627\u062A ${issue.divisor}`;
       case "unrecognized_keys":
-        return `\u0645\u0639\u0631\u0641${issue2.keys.length > 1 ? "\u0627\u062A" : ""} \u063A\u0631\u064A\u0628${issue2.keys.length > 1 ? "\u0629" : ""}: ${joinValues(issue2.keys, "\u060C ")}`;
+        return `\u0645\u0639\u0631\u0641${issue.keys.length > 1 ? "\u0627\u062A" : ""} \u063A\u0631\u064A\u0628${issue.keys.length > 1 ? "\u0629" : ""}: ${joinValues(issue.keys, "\u060C ")}`;
       case "invalid_key":
-        return `\u0645\u0639\u0631\u0641 \u063A\u064A\u0631 \u0645\u0642\u0628\u0648\u0644 \u0641\u064A ${issue2.origin}`;
+        return `\u0645\u0639\u0631\u0641 \u063A\u064A\u0631 \u0645\u0642\u0628\u0648\u0644 \u0641\u064A ${issue.origin}`;
       case "invalid_union":
         return "\u0645\u062F\u062E\u0644 \u063A\u064A\u0631 \u0645\u0642\u0628\u0648\u0644";
       case "invalid_element":
-        return `\u0645\u062F\u062E\u0644 \u063A\u064A\u0631 \u0645\u0642\u0628\u0648\u0644 \u0641\u064A ${issue2.origin}`;
+        return `\u0645\u062F\u062E\u0644 \u063A\u064A\u0631 \u0645\u0642\u0628\u0648\u0644 \u0641\u064A ${issue.origin}`;
       default:
         return "\u0645\u062F\u062E\u0644 \u063A\u064A\u0631 \u0645\u0642\u0628\u0648\u0644";
     }
@@ -4224,30 +4223,30 @@ var error2 = () => {
     jwt: "JWT",
     template_literal: "input"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `Yanl\u0131\u015F d\u0259y\u0259r: g\xF6zl\u0259nil\u0259n ${issue2.expected}, daxil olan ${parsedType(issue2.input)}`;
+        return `Yanl\u0131\u015F d\u0259y\u0259r: g\xF6zl\u0259nil\u0259n ${issue.expected}, daxil olan ${parsedType(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `Yanl\u0131\u015F d\u0259y\u0259r: g\xF6zl\u0259nil\u0259n ${stringifyPrimitive(issue2.values[0])}`;
-        return `Yanl\u0131\u015F se\xE7im: a\u015Fa\u011F\u0131dak\u0131lardan biri olmal\u0131d\u0131r: ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `Yanl\u0131\u015F d\u0259y\u0259r: g\xF6zl\u0259nil\u0259n ${stringifyPrimitive(issue.values[0])}`;
+        return `Yanl\u0131\u015F se\xE7im: a\u015Fa\u011F\u0131dak\u0131lardan biri olmal\u0131d\u0131r: ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `\xC7ox b\xF6y\xFCk: g\xF6zl\u0259nil\u0259n ${issue2.origin ?? "d\u0259y\u0259r"} ${adj}${issue2.maximum.toString()} ${sizing.unit ?? "element"}`;
-        return `\xC7ox b\xF6y\xFCk: g\xF6zl\u0259nil\u0259n ${issue2.origin ?? "d\u0259y\u0259r"} ${adj}${issue2.maximum.toString()}`;
+          return `\xC7ox b\xF6y\xFCk: g\xF6zl\u0259nil\u0259n ${issue.origin ?? "d\u0259y\u0259r"} ${adj}${issue.maximum.toString()} ${sizing.unit ?? "element"}`;
+        return `\xC7ox b\xF6y\xFCk: g\xF6zl\u0259nil\u0259n ${issue.origin ?? "d\u0259y\u0259r"} ${adj}${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `\xC7ox ki\xE7ik: g\xF6zl\u0259nil\u0259n ${issue2.origin} ${adj}${issue2.minimum.toString()} ${sizing.unit}`;
-        return `\xC7ox ki\xE7ik: g\xF6zl\u0259nil\u0259n ${issue2.origin} ${adj}${issue2.minimum.toString()}`;
+          return `\xC7ox ki\xE7ik: g\xF6zl\u0259nil\u0259n ${issue.origin} ${adj}${issue.minimum.toString()} ${sizing.unit}`;
+        return `\xC7ox ki\xE7ik: g\xF6zl\u0259nil\u0259n ${issue.origin} ${adj}${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with")
           return `Yanl\u0131\u015F m\u0259tn: "${_issue.prefix}" il\u0259 ba\u015Flamal\u0131d\u0131r`;
         if (_issue.format === "ends_with")
@@ -4256,18 +4255,18 @@ var error2 = () => {
           return `Yanl\u0131\u015F m\u0259tn: "${_issue.includes}" daxil olmal\u0131d\u0131r`;
         if (_issue.format === "regex")
           return `Yanl\u0131\u015F m\u0259tn: ${_issue.pattern} \u015Fablonuna uy\u011Fun olmal\u0131d\u0131r`;
-        return `Yanl\u0131\u015F ${Nouns[_issue.format] ?? issue2.format}`;
+        return `Yanl\u0131\u015F ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `Yanl\u0131\u015F \u0259d\u0259d: ${issue2.divisor} il\u0259 b\xF6l\xFCn\u0259 bil\u0259n olmal\u0131d\u0131r`;
+        return `Yanl\u0131\u015F \u0259d\u0259d: ${issue.divisor} il\u0259 b\xF6l\xFCn\u0259 bil\u0259n olmal\u0131d\u0131r`;
       case "unrecognized_keys":
-        return `Tan\u0131nmayan a\xE7ar${issue2.keys.length > 1 ? "lar" : ""}: ${joinValues(issue2.keys, ", ")}`;
+        return `Tan\u0131nmayan a\xE7ar${issue.keys.length > 1 ? "lar" : ""}: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `${issue2.origin} daxilind\u0259 yanl\u0131\u015F a\xE7ar`;
+        return `${issue.origin} daxilind\u0259 yanl\u0131\u015F a\xE7ar`;
       case "invalid_union":
         return "Yanl\u0131\u015F d\u0259y\u0259r";
       case "invalid_element":
-        return `${issue2.origin} daxilind\u0259 yanl\u0131\u015F d\u0259y\u0259r`;
+        return `${issue.origin} daxilind\u0259 yanl\u0131\u015F d\u0259y\u0259r`;
       default:
         return `Yanl\u0131\u015F d\u0259y\u0259r`;
     }
@@ -4382,36 +4381,36 @@ var error3 = () => {
     jwt: "JWT",
     template_literal: "\u0443\u0432\u043E\u0434"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `\u041D\u044F\u043F\u0440\u0430\u0432\u0456\u043B\u044C\u043D\u044B \u045E\u0432\u043E\u0434: \u0447\u0430\u043A\u0430\u045E\u0441\u044F ${issue2.expected}, \u0430\u0442\u0440\u044B\u043C\u0430\u043D\u0430 ${parsedType(issue2.input)}`;
+        return `\u041D\u044F\u043F\u0440\u0430\u0432\u0456\u043B\u044C\u043D\u044B \u045E\u0432\u043E\u0434: \u0447\u0430\u043A\u0430\u045E\u0441\u044F ${issue.expected}, \u0430\u0442\u0440\u044B\u043C\u0430\u043D\u0430 ${parsedType(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `\u041D\u044F\u043F\u0440\u0430\u0432\u0456\u043B\u044C\u043D\u044B \u045E\u0432\u043E\u0434: \u0447\u0430\u043A\u0430\u043B\u0430\u0441\u044F ${stringifyPrimitive(issue2.values[0])}`;
-        return `\u041D\u044F\u043F\u0440\u0430\u0432\u0456\u043B\u044C\u043D\u044B \u0432\u0430\u0440\u044B\u044F\u043D\u0442: \u0447\u0430\u043A\u0430\u045E\u0441\u044F \u0430\u0434\u0437\u0456\u043D \u0437 ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `\u041D\u044F\u043F\u0440\u0430\u0432\u0456\u043B\u044C\u043D\u044B \u045E\u0432\u043E\u0434: \u0447\u0430\u043A\u0430\u043B\u0430\u0441\u044F ${stringifyPrimitive(issue.values[0])}`;
+        return `\u041D\u044F\u043F\u0440\u0430\u0432\u0456\u043B\u044C\u043D\u044B \u0432\u0430\u0440\u044B\u044F\u043D\u0442: \u0447\u0430\u043A\u0430\u045E\u0441\u044F \u0430\u0434\u0437\u0456\u043D \u0437 ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          const maxValue = Number(issue2.maximum);
+          const maxValue = Number(issue.maximum);
           const unit = getBelarusianPlural(maxValue, sizing.unit.one, sizing.unit.few, sizing.unit.many);
-          return `\u0417\u0430\u043D\u0430\u0434\u0442\u0430 \u0432\u044F\u043B\u0456\u043A\u0456: \u0447\u0430\u043A\u0430\u043B\u0430\u0441\u044F, \u0448\u0442\u043E ${issue2.origin ?? "\u0437\u043D\u0430\u0447\u044D\u043D\u043D\u0435"} \u043F\u0430\u0432\u0456\u043D\u043D\u0430 ${sizing.verb} ${adj}${issue2.maximum.toString()} ${unit}`;
+          return `\u0417\u0430\u043D\u0430\u0434\u0442\u0430 \u0432\u044F\u043B\u0456\u043A\u0456: \u0447\u0430\u043A\u0430\u043B\u0430\u0441\u044F, \u0448\u0442\u043E ${issue.origin ?? "\u0437\u043D\u0430\u0447\u044D\u043D\u043D\u0435"} \u043F\u0430\u0432\u0456\u043D\u043D\u0430 ${sizing.verb} ${adj}${issue.maximum.toString()} ${unit}`;
         }
-        return `\u0417\u0430\u043D\u0430\u0434\u0442\u0430 \u0432\u044F\u043B\u0456\u043A\u0456: \u0447\u0430\u043A\u0430\u043B\u0430\u0441\u044F, \u0448\u0442\u043E ${issue2.origin ?? "\u0437\u043D\u0430\u0447\u044D\u043D\u043D\u0435"} \u043F\u0430\u0432\u0456\u043D\u043D\u0430 \u0431\u044B\u0446\u044C ${adj}${issue2.maximum.toString()}`;
+        return `\u0417\u0430\u043D\u0430\u0434\u0442\u0430 \u0432\u044F\u043B\u0456\u043A\u0456: \u0447\u0430\u043A\u0430\u043B\u0430\u0441\u044F, \u0448\u0442\u043E ${issue.origin ?? "\u0437\u043D\u0430\u0447\u044D\u043D\u043D\u0435"} \u043F\u0430\u0432\u0456\u043D\u043D\u0430 \u0431\u044B\u0446\u044C ${adj}${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          const minValue = Number(issue2.minimum);
+          const minValue = Number(issue.minimum);
           const unit = getBelarusianPlural(minValue, sizing.unit.one, sizing.unit.few, sizing.unit.many);
-          return `\u0417\u0430\u043D\u0430\u0434\u0442\u0430 \u043C\u0430\u043B\u044B: \u0447\u0430\u043A\u0430\u043B\u0430\u0441\u044F, \u0448\u0442\u043E ${issue2.origin} \u043F\u0430\u0432\u0456\u043D\u043D\u0430 ${sizing.verb} ${adj}${issue2.minimum.toString()} ${unit}`;
+          return `\u0417\u0430\u043D\u0430\u0434\u0442\u0430 \u043C\u0430\u043B\u044B: \u0447\u0430\u043A\u0430\u043B\u0430\u0441\u044F, \u0448\u0442\u043E ${issue.origin} \u043F\u0430\u0432\u0456\u043D\u043D\u0430 ${sizing.verb} ${adj}${issue.minimum.toString()} ${unit}`;
         }
-        return `\u0417\u0430\u043D\u0430\u0434\u0442\u0430 \u043C\u0430\u043B\u044B: \u0447\u0430\u043A\u0430\u043B\u0430\u0441\u044F, \u0448\u0442\u043E ${issue2.origin} \u043F\u0430\u0432\u0456\u043D\u043D\u0430 \u0431\u044B\u0446\u044C ${adj}${issue2.minimum.toString()}`;
+        return `\u0417\u0430\u043D\u0430\u0434\u0442\u0430 \u043C\u0430\u043B\u044B: \u0447\u0430\u043A\u0430\u043B\u0430\u0441\u044F, \u0448\u0442\u043E ${issue.origin} \u043F\u0430\u0432\u0456\u043D\u043D\u0430 \u0431\u044B\u0446\u044C ${adj}${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with")
           return `\u041D\u044F\u043F\u0440\u0430\u0432\u0456\u043B\u044C\u043D\u044B \u0440\u0430\u0434\u043E\u043A: \u043F\u0430\u0432\u0456\u043D\u0435\u043D \u043F\u0430\u0447\u044B\u043D\u0430\u0446\u0446\u0430 \u0437 "${_issue.prefix}"`;
         if (_issue.format === "ends_with")
@@ -4420,18 +4419,18 @@ var error3 = () => {
           return `\u041D\u044F\u043F\u0440\u0430\u0432\u0456\u043B\u044C\u043D\u044B \u0440\u0430\u0434\u043E\u043A: \u043F\u0430\u0432\u0456\u043D\u0435\u043D \u0437\u043C\u044F\u0448\u0447\u0430\u0446\u044C "${_issue.includes}"`;
         if (_issue.format === "regex")
           return `\u041D\u044F\u043F\u0440\u0430\u0432\u0456\u043B\u044C\u043D\u044B \u0440\u0430\u0434\u043E\u043A: \u043F\u0430\u0432\u0456\u043D\u0435\u043D \u0430\u0434\u043F\u0430\u0432\u044F\u0434\u0430\u0446\u044C \u0448\u0430\u0431\u043B\u043E\u043D\u0443 ${_issue.pattern}`;
-        return `\u041D\u044F\u043F\u0440\u0430\u0432\u0456\u043B\u044C\u043D\u044B ${Nouns[_issue.format] ?? issue2.format}`;
+        return `\u041D\u044F\u043F\u0440\u0430\u0432\u0456\u043B\u044C\u043D\u044B ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `\u041D\u044F\u043F\u0440\u0430\u0432\u0456\u043B\u044C\u043D\u044B \u043B\u0456\u043A: \u043F\u0430\u0432\u0456\u043D\u0435\u043D \u0431\u044B\u0446\u044C \u043A\u0440\u0430\u0442\u043D\u044B\u043C ${issue2.divisor}`;
+        return `\u041D\u044F\u043F\u0440\u0430\u0432\u0456\u043B\u044C\u043D\u044B \u043B\u0456\u043A: \u043F\u0430\u0432\u0456\u043D\u0435\u043D \u0431\u044B\u0446\u044C \u043A\u0440\u0430\u0442\u043D\u044B\u043C ${issue.divisor}`;
       case "unrecognized_keys":
-        return `\u041D\u0435\u0440\u0430\u0441\u043F\u0430\u0437\u043D\u0430\u043D\u044B ${issue2.keys.length > 1 ? "\u043A\u043B\u044E\u0447\u044B" : "\u043A\u043B\u044E\u0447"}: ${joinValues(issue2.keys, ", ")}`;
+        return `\u041D\u0435\u0440\u0430\u0441\u043F\u0430\u0437\u043D\u0430\u043D\u044B ${issue.keys.length > 1 ? "\u043A\u043B\u044E\u0447\u044B" : "\u043A\u043B\u044E\u0447"}: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `\u041D\u044F\u043F\u0440\u0430\u0432\u0456\u043B\u044C\u043D\u044B \u043A\u043B\u044E\u0447 \u0443 ${issue2.origin}`;
+        return `\u041D\u044F\u043F\u0440\u0430\u0432\u0456\u043B\u044C\u043D\u044B \u043A\u043B\u044E\u0447 \u0443 ${issue.origin}`;
       case "invalid_union":
         return "\u041D\u044F\u043F\u0440\u0430\u0432\u0456\u043B\u044C\u043D\u044B \u045E\u0432\u043E\u0434";
       case "invalid_element":
-        return `\u041D\u044F\u043F\u0440\u0430\u0432\u0456\u043B\u044C\u043D\u0430\u0435 \u0437\u043D\u0430\u0447\u044D\u043D\u043D\u0435 \u045E ${issue2.origin}`;
+        return `\u041D\u044F\u043F\u0440\u0430\u0432\u0456\u043B\u044C\u043D\u0430\u0435 \u0437\u043D\u0430\u0447\u044D\u043D\u043D\u0435 \u045E ${issue.origin}`;
       default:
         return `\u041D\u044F\u043F\u0440\u0430\u0432\u0456\u043B\u044C\u043D\u044B \u045E\u0432\u043E\u0434`;
     }
@@ -4503,31 +4502,31 @@ var error4 = () => {
     jwt: "JWT",
     template_literal: "entrada"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `Tipus inv\xE0lid: s'esperava ${issue2.expected}, s'ha rebut ${parsedType(issue2.input)}`;
+        return `Tipus inv\xE0lid: s'esperava ${issue.expected}, s'ha rebut ${parsedType(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `Valor inv\xE0lid: s'esperava ${stringifyPrimitive(issue2.values[0])}`;
-        return `Opci\xF3 inv\xE0lida: s'esperava una de ${joinValues(issue2.values, " o ")}`;
+        if (issue.values.length === 1)
+          return `Valor inv\xE0lid: s'esperava ${stringifyPrimitive(issue.values[0])}`;
+        return `Opci\xF3 inv\xE0lida: s'esperava una de ${joinValues(issue.values, " o ")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "com a m\xE0xim" : "menys de";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "com a m\xE0xim" : "menys de";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `Massa gran: s'esperava que ${issue2.origin ?? "el valor"} contingu\xE9s ${adj} ${issue2.maximum.toString()} ${sizing.unit ?? "elements"}`;
-        return `Massa gran: s'esperava que ${issue2.origin ?? "el valor"} fos ${adj} ${issue2.maximum.toString()}`;
+          return `Massa gran: s'esperava que ${issue.origin ?? "el valor"} contingu\xE9s ${adj} ${issue.maximum.toString()} ${sizing.unit ?? "elements"}`;
+        return `Massa gran: s'esperava que ${issue.origin ?? "el valor"} fos ${adj} ${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? "com a m\xEDnim" : "m\xE9s de";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "com a m\xEDnim" : "m\xE9s de";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `Massa petit: s'esperava que ${issue2.origin} contingu\xE9s ${adj} ${issue2.minimum.toString()} ${sizing.unit}`;
+          return `Massa petit: s'esperava que ${issue.origin} contingu\xE9s ${adj} ${issue.minimum.toString()} ${sizing.unit}`;
         }
-        return `Massa petit: s'esperava que ${issue2.origin} fos ${adj} ${issue2.minimum.toString()}`;
+        return `Massa petit: s'esperava que ${issue.origin} fos ${adj} ${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with") {
           return `Format inv\xE0lid: ha de comen\xE7ar amb "${_issue.prefix}"`;
         }
@@ -4537,18 +4536,18 @@ var error4 = () => {
           return `Format inv\xE0lid: ha d'incloure "${_issue.includes}"`;
         if (_issue.format === "regex")
           return `Format inv\xE0lid: ha de coincidir amb el patr\xF3 ${_issue.pattern}`;
-        return `Format inv\xE0lid per a ${Nouns[_issue.format] ?? issue2.format}`;
+        return `Format inv\xE0lid per a ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `N\xFAmero inv\xE0lid: ha de ser m\xFAltiple de ${issue2.divisor}`;
+        return `N\xFAmero inv\xE0lid: ha de ser m\xFAltiple de ${issue.divisor}`;
       case "unrecognized_keys":
-        return `Clau${issue2.keys.length > 1 ? "s" : ""} no reconeguda${issue2.keys.length > 1 ? "s" : ""}: ${joinValues(issue2.keys, ", ")}`;
+        return `Clau${issue.keys.length > 1 ? "s" : ""} no reconeguda${issue.keys.length > 1 ? "s" : ""}: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `Clau inv\xE0lida a ${issue2.origin}`;
+        return `Clau inv\xE0lida a ${issue.origin}`;
       case "invalid_union":
         return "Entrada inv\xE0lida";
       case "invalid_element":
-        return `Element inv\xE0lid a ${issue2.origin}`;
+        return `Element inv\xE0lid a ${issue.origin}`;
       default:
         return `Entrada inv\xE0lida`;
     }
@@ -4638,32 +4637,32 @@ var error5 = () => {
     jwt: "JWT",
     template_literal: "vstup"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `Neplatn\xFD vstup: o\u010Dek\xE1v\xE1no ${issue2.expected}, obdr\u017Eeno ${parsedType(issue2.input)}`;
+        return `Neplatn\xFD vstup: o\u010Dek\xE1v\xE1no ${issue.expected}, obdr\u017Eeno ${parsedType(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `Neplatn\xFD vstup: o\u010Dek\xE1v\xE1no ${stringifyPrimitive(issue2.values[0])}`;
-        return `Neplatn\xE1 mo\u017Enost: o\u010Dek\xE1v\xE1na jedna z hodnot ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `Neplatn\xFD vstup: o\u010Dek\xE1v\xE1no ${stringifyPrimitive(issue.values[0])}`;
+        return `Neplatn\xE1 mo\u017Enost: o\u010Dek\xE1v\xE1na jedna z hodnot ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `Hodnota je p\u0159\xEDli\u0161 velk\xE1: ${issue2.origin ?? "hodnota"} mus\xED m\xEDt ${adj}${issue2.maximum.toString()} ${sizing.unit ?? "prvk\u016F"}`;
+          return `Hodnota je p\u0159\xEDli\u0161 velk\xE1: ${issue.origin ?? "hodnota"} mus\xED m\xEDt ${adj}${issue.maximum.toString()} ${sizing.unit ?? "prvk\u016F"}`;
         }
-        return `Hodnota je p\u0159\xEDli\u0161 velk\xE1: ${issue2.origin ?? "hodnota"} mus\xED b\xFDt ${adj}${issue2.maximum.toString()}`;
+        return `Hodnota je p\u0159\xEDli\u0161 velk\xE1: ${issue.origin ?? "hodnota"} mus\xED b\xFDt ${adj}${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `Hodnota je p\u0159\xEDli\u0161 mal\xE1: ${issue2.origin ?? "hodnota"} mus\xED m\xEDt ${adj}${issue2.minimum.toString()} ${sizing.unit ?? "prvk\u016F"}`;
+          return `Hodnota je p\u0159\xEDli\u0161 mal\xE1: ${issue.origin ?? "hodnota"} mus\xED m\xEDt ${adj}${issue.minimum.toString()} ${sizing.unit ?? "prvk\u016F"}`;
         }
-        return `Hodnota je p\u0159\xEDli\u0161 mal\xE1: ${issue2.origin ?? "hodnota"} mus\xED b\xFDt ${adj}${issue2.minimum.toString()}`;
+        return `Hodnota je p\u0159\xEDli\u0161 mal\xE1: ${issue.origin ?? "hodnota"} mus\xED b\xFDt ${adj}${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with")
           return `Neplatn\xFD \u0159et\u011Bzec: mus\xED za\u010D\xEDnat na "${_issue.prefix}"`;
         if (_issue.format === "ends_with")
@@ -4672,18 +4671,18 @@ var error5 = () => {
           return `Neplatn\xFD \u0159et\u011Bzec: mus\xED obsahovat "${_issue.includes}"`;
         if (_issue.format === "regex")
           return `Neplatn\xFD \u0159et\u011Bzec: mus\xED odpov\xEDdat vzoru ${_issue.pattern}`;
-        return `Neplatn\xFD form\xE1t ${Nouns[_issue.format] ?? issue2.format}`;
+        return `Neplatn\xFD form\xE1t ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `Neplatn\xE9 \u010D\xEDslo: mus\xED b\xFDt n\xE1sobkem ${issue2.divisor}`;
+        return `Neplatn\xE9 \u010D\xEDslo: mus\xED b\xFDt n\xE1sobkem ${issue.divisor}`;
       case "unrecognized_keys":
-        return `Nezn\xE1m\xE9 kl\xED\u010De: ${joinValues(issue2.keys, ", ")}`;
+        return `Nezn\xE1m\xE9 kl\xED\u010De: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `Neplatn\xFD kl\xED\u010D v ${issue2.origin}`;
+        return `Neplatn\xFD kl\xED\u010D v ${issue.origin}`;
       case "invalid_union":
         return "Neplatn\xFD vstup";
       case "invalid_element":
-        return `Neplatn\xE1 hodnota v ${issue2.origin}`;
+        return `Neplatn\xE1 hodnota v ${issue.origin}`;
       default:
         return `Neplatn\xFD vstup`;
     }
@@ -4768,33 +4767,33 @@ var error6 = () => {
     jwt: "JWT",
     template_literal: "input"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `Ugyldigt input: forventede ${getTypeName(issue2.expected)}, fik ${getTypeName(parsedType(issue2.input))}`;
+        return `Ugyldigt input: forventede ${getTypeName(issue.expected)}, fik ${getTypeName(parsedType(issue.input))}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `Ugyldig v\xE6rdi: forventede ${stringifyPrimitive(issue2.values[0])}`;
-        return `Ugyldigt valg: forventede en af f\xF8lgende ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `Ugyldig v\xE6rdi: forventede ${stringifyPrimitive(issue.values[0])}`;
+        return `Ugyldigt valg: forventede en af f\xF8lgende ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
-        const origin = getTypeName(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
+        const origin = getTypeName(issue.origin);
         if (sizing)
-          return `For stor: forventede ${origin ?? "value"} ${sizing.verb} ${adj} ${issue2.maximum.toString()} ${sizing.unit ?? "elementer"}`;
-        return `For stor: forventede ${origin ?? "value"} havde ${adj} ${issue2.maximum.toString()}`;
+          return `For stor: forventede ${origin ?? "value"} ${sizing.verb} ${adj} ${issue.maximum.toString()} ${sizing.unit ?? "elementer"}`;
+        return `For stor: forventede ${origin ?? "value"} havde ${adj} ${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
-        const origin = getTypeName(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
+        const origin = getTypeName(issue.origin);
         if (sizing) {
-          return `For lille: forventede ${origin} ${sizing.verb} ${adj} ${issue2.minimum.toString()} ${sizing.unit}`;
+          return `For lille: forventede ${origin} ${sizing.verb} ${adj} ${issue.minimum.toString()} ${sizing.unit}`;
         }
-        return `For lille: forventede ${origin} havde ${adj} ${issue2.minimum.toString()}`;
+        return `For lille: forventede ${origin} havde ${adj} ${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with")
           return `Ugyldig streng: skal starte med "${_issue.prefix}"`;
         if (_issue.format === "ends_with")
@@ -4803,18 +4802,18 @@ var error6 = () => {
           return `Ugyldig streng: skal indeholde "${_issue.includes}"`;
         if (_issue.format === "regex")
           return `Ugyldig streng: skal matche m\xF8nsteret ${_issue.pattern}`;
-        return `Ugyldig ${Nouns[_issue.format] ?? issue2.format}`;
+        return `Ugyldig ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `Ugyldigt tal: skal v\xE6re deleligt med ${issue2.divisor}`;
+        return `Ugyldigt tal: skal v\xE6re deleligt med ${issue.divisor}`;
       case "unrecognized_keys":
-        return `${issue2.keys.length > 1 ? "Ukendte n\xF8gler" : "Ukendt n\xF8gle"}: ${joinValues(issue2.keys, ", ")}`;
+        return `${issue.keys.length > 1 ? "Ukendte n\xF8gler" : "Ukendt n\xF8gle"}: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `Ugyldig n\xF8gle i ${issue2.origin}`;
+        return `Ugyldig n\xF8gle i ${issue.origin}`;
       case "invalid_union":
         return "Ugyldigt input: matcher ingen af de tilladte typer";
       case "invalid_element":
-        return `Ugyldig v\xE6rdi i ${issue2.origin}`;
+        return `Ugyldig v\xE6rdi i ${issue.origin}`;
       default:
         return `Ugyldigt input`;
     }
@@ -4886,31 +4885,31 @@ var error7 = () => {
     jwt: "JWT",
     template_literal: "Eingabe"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `Ung\xFCltige Eingabe: erwartet ${issue2.expected}, erhalten ${parsedType(issue2.input)}`;
+        return `Ung\xFCltige Eingabe: erwartet ${issue.expected}, erhalten ${parsedType(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `Ung\xFCltige Eingabe: erwartet ${stringifyPrimitive(issue2.values[0])}`;
-        return `Ung\xFCltige Option: erwartet eine von ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `Ung\xFCltige Eingabe: erwartet ${stringifyPrimitive(issue.values[0])}`;
+        return `Ung\xFCltige Option: erwartet eine von ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `Zu gro\xDF: erwartet, dass ${issue2.origin ?? "Wert"} ${adj}${issue2.maximum.toString()} ${sizing.unit ?? "Elemente"} hat`;
-        return `Zu gro\xDF: erwartet, dass ${issue2.origin ?? "Wert"} ${adj}${issue2.maximum.toString()} ist`;
+          return `Zu gro\xDF: erwartet, dass ${issue.origin ?? "Wert"} ${adj}${issue.maximum.toString()} ${sizing.unit ?? "Elemente"} hat`;
+        return `Zu gro\xDF: erwartet, dass ${issue.origin ?? "Wert"} ${adj}${issue.maximum.toString()} ist`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `Zu klein: erwartet, dass ${issue2.origin} ${adj}${issue2.minimum.toString()} ${sizing.unit} hat`;
+          return `Zu klein: erwartet, dass ${issue.origin} ${adj}${issue.minimum.toString()} ${sizing.unit} hat`;
         }
-        return `Zu klein: erwartet, dass ${issue2.origin} ${adj}${issue2.minimum.toString()} ist`;
+        return `Zu klein: erwartet, dass ${issue.origin} ${adj}${issue.minimum.toString()} ist`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with")
           return `Ung\xFCltiger String: muss mit "${_issue.prefix}" beginnen`;
         if (_issue.format === "ends_with")
@@ -4919,18 +4918,18 @@ var error7 = () => {
           return `Ung\xFCltiger String: muss "${_issue.includes}" enthalten`;
         if (_issue.format === "regex")
           return `Ung\xFCltiger String: muss dem Muster ${_issue.pattern} entsprechen`;
-        return `Ung\xFCltig: ${Nouns[_issue.format] ?? issue2.format}`;
+        return `Ung\xFCltig: ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `Ung\xFCltige Zahl: muss ein Vielfaches von ${issue2.divisor} sein`;
+        return `Ung\xFCltige Zahl: muss ein Vielfaches von ${issue.divisor} sein`;
       case "unrecognized_keys":
-        return `${issue2.keys.length > 1 ? "Unbekannte Schl\xFCssel" : "Unbekannter Schl\xFCssel"}: ${joinValues(issue2.keys, ", ")}`;
+        return `${issue.keys.length > 1 ? "Unbekannte Schl\xFCssel" : "Unbekannter Schl\xFCssel"}: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `Ung\xFCltiger Schl\xFCssel in ${issue2.origin}`;
+        return `Ung\xFCltiger Schl\xFCssel in ${issue.origin}`;
       case "invalid_union":
         return "Ung\xFCltige Eingabe";
       case "invalid_element":
-        return `Ung\xFCltiger Wert in ${issue2.origin}`;
+        return `Ung\xFCltiger Wert in ${issue.origin}`;
       default:
         return `Ung\xFCltige Eingabe`;
     }
@@ -5002,31 +5001,31 @@ var error8 = () => {
     jwt: "JWT",
     template_literal: "input"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `Invalid input: expected ${issue2.expected}, received ${parsedType(issue2.input)}`;
+        return `Invalid input: expected ${issue.expected}, received ${parsedType(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `Invalid input: expected ${stringifyPrimitive(issue2.values[0])}`;
-        return `Invalid option: expected one of ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `Invalid input: expected ${stringifyPrimitive(issue.values[0])}`;
+        return `Invalid option: expected one of ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `Too big: expected ${issue2.origin ?? "value"} to have ${adj}${issue2.maximum.toString()} ${sizing.unit ?? "elements"}`;
-        return `Too big: expected ${issue2.origin ?? "value"} to be ${adj}${issue2.maximum.toString()}`;
+          return `Too big: expected ${issue.origin ?? "value"} to have ${adj}${issue.maximum.toString()} ${sizing.unit ?? "elements"}`;
+        return `Too big: expected ${issue.origin ?? "value"} to be ${adj}${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `Too small: expected ${issue2.origin} to have ${adj}${issue2.minimum.toString()} ${sizing.unit}`;
+          return `Too small: expected ${issue.origin} to have ${adj}${issue.minimum.toString()} ${sizing.unit}`;
         }
-        return `Too small: expected ${issue2.origin} to be ${adj}${issue2.minimum.toString()}`;
+        return `Too small: expected ${issue.origin} to be ${adj}${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with") {
           return `Invalid string: must start with "${_issue.prefix}"`;
         }
@@ -5036,18 +5035,18 @@ var error8 = () => {
           return `Invalid string: must include "${_issue.includes}"`;
         if (_issue.format === "regex")
           return `Invalid string: must match pattern ${_issue.pattern}`;
-        return `Invalid ${Nouns[_issue.format] ?? issue2.format}`;
+        return `Invalid ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `Invalid number: must be a multiple of ${issue2.divisor}`;
+        return `Invalid number: must be a multiple of ${issue.divisor}`;
       case "unrecognized_keys":
-        return `Unrecognized key${issue2.keys.length > 1 ? "s" : ""}: ${joinValues(issue2.keys, ", ")}`;
+        return `Unrecognized key${issue.keys.length > 1 ? "s" : ""}: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `Invalid key in ${issue2.origin}`;
+        return `Invalid key in ${issue.origin}`;
       case "invalid_union":
         return "Invalid input";
       case "invalid_element":
-        return `Invalid value in ${issue2.origin}`;
+        return `Invalid value in ${issue.origin}`;
       default:
         return `Invalid input`;
     }
@@ -5119,31 +5118,31 @@ var error9 = () => {
     jwt: "JWT",
     template_literal: "enigo"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `Nevalida enigo: atendi\u011Dis ${issue2.expected}, ricevi\u011Dis ${parsedType2(issue2.input)}`;
+        return `Nevalida enigo: atendi\u011Dis ${issue.expected}, ricevi\u011Dis ${parsedType2(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `Nevalida enigo: atendi\u011Dis ${stringifyPrimitive(issue2.values[0])}`;
-        return `Nevalida opcio: atendi\u011Dis unu el ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `Nevalida enigo: atendi\u011Dis ${stringifyPrimitive(issue.values[0])}`;
+        return `Nevalida opcio: atendi\u011Dis unu el ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `Tro granda: atendi\u011Dis ke ${issue2.origin ?? "valoro"} havu ${adj}${issue2.maximum.toString()} ${sizing.unit ?? "elementojn"}`;
-        return `Tro granda: atendi\u011Dis ke ${issue2.origin ?? "valoro"} havu ${adj}${issue2.maximum.toString()}`;
+          return `Tro granda: atendi\u011Dis ke ${issue.origin ?? "valoro"} havu ${adj}${issue.maximum.toString()} ${sizing.unit ?? "elementojn"}`;
+        return `Tro granda: atendi\u011Dis ke ${issue.origin ?? "valoro"} havu ${adj}${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `Tro malgranda: atendi\u011Dis ke ${issue2.origin} havu ${adj}${issue2.minimum.toString()} ${sizing.unit}`;
+          return `Tro malgranda: atendi\u011Dis ke ${issue.origin} havu ${adj}${issue.minimum.toString()} ${sizing.unit}`;
         }
-        return `Tro malgranda: atendi\u011Dis ke ${issue2.origin} estu ${adj}${issue2.minimum.toString()}`;
+        return `Tro malgranda: atendi\u011Dis ke ${issue.origin} estu ${adj}${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with")
           return `Nevalida karaktraro: devas komenci\u011Di per "${_issue.prefix}"`;
         if (_issue.format === "ends_with")
@@ -5152,18 +5151,18 @@ var error9 = () => {
           return `Nevalida karaktraro: devas inkluzivi "${_issue.includes}"`;
         if (_issue.format === "regex")
           return `Nevalida karaktraro: devas kongrui kun la modelo ${_issue.pattern}`;
-        return `Nevalida ${Nouns[_issue.format] ?? issue2.format}`;
+        return `Nevalida ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `Nevalida nombro: devas esti oblo de ${issue2.divisor}`;
+        return `Nevalida nombro: devas esti oblo de ${issue.divisor}`;
       case "unrecognized_keys":
-        return `Nekonata${issue2.keys.length > 1 ? "j" : ""} \u015Dlosilo${issue2.keys.length > 1 ? "j" : ""}: ${joinValues(issue2.keys, ", ")}`;
+        return `Nekonata${issue.keys.length > 1 ? "j" : ""} \u015Dlosilo${issue.keys.length > 1 ? "j" : ""}: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `Nevalida \u015Dlosilo en ${issue2.origin}`;
+        return `Nevalida \u015Dlosilo en ${issue.origin}`;
       case "invalid_union":
         return "Nevalida enigo";
       case "invalid_element":
-        return `Nevalida valoro en ${issue2.origin}`;
+        return `Nevalida valoro en ${issue.origin}`;
       default:
         return `Nevalida enigo`;
     }
@@ -5214,7 +5213,7 @@ var error10 = () => {
   function getTypeName(type) {
     return TypeNames[type] ?? type;
   }
-  const parsedType3 = (data) => {
+  const parsedType = (data) => {
     const t = typeof data;
     switch (t) {
       case "number": {
@@ -5265,33 +5264,33 @@ var error10 = () => {
     jwt: "JWT",
     template_literal: "entrada"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `Entrada inv\xE1lida: se esperaba ${getTypeName(issue2.expected)}, recibido ${getTypeName(parsedType3(issue2.input))}`;
+        return `Entrada inv\xE1lida: se esperaba ${getTypeName(issue.expected)}, recibido ${getTypeName(parsedType(issue.input))}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `Entrada inv\xE1lida: se esperaba ${stringifyPrimitive(issue2.values[0])}`;
-        return `Opci\xF3n inv\xE1lida: se esperaba una de ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `Entrada inv\xE1lida: se esperaba ${stringifyPrimitive(issue.values[0])}`;
+        return `Opci\xF3n inv\xE1lida: se esperaba una de ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
-        const origin = getTypeName(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
+        const origin = getTypeName(issue.origin);
         if (sizing)
-          return `Demasiado grande: se esperaba que ${origin ?? "valor"} tuviera ${adj}${issue2.maximum.toString()} ${sizing.unit ?? "elementos"}`;
-        return `Demasiado grande: se esperaba que ${origin ?? "valor"} fuera ${adj}${issue2.maximum.toString()}`;
+          return `Demasiado grande: se esperaba que ${origin ?? "valor"} tuviera ${adj}${issue.maximum.toString()} ${sizing.unit ?? "elementos"}`;
+        return `Demasiado grande: se esperaba que ${origin ?? "valor"} fuera ${adj}${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
-        const origin = getTypeName(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
+        const origin = getTypeName(issue.origin);
         if (sizing) {
-          return `Demasiado peque\xF1o: se esperaba que ${origin} tuviera ${adj}${issue2.minimum.toString()} ${sizing.unit}`;
+          return `Demasiado peque\xF1o: se esperaba que ${origin} tuviera ${adj}${issue.minimum.toString()} ${sizing.unit}`;
         }
-        return `Demasiado peque\xF1o: se esperaba que ${origin} fuera ${adj}${issue2.minimum.toString()}`;
+        return `Demasiado peque\xF1o: se esperaba que ${origin} fuera ${adj}${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with")
           return `Cadena inv\xE1lida: debe comenzar con "${_issue.prefix}"`;
         if (_issue.format === "ends_with")
@@ -5300,18 +5299,18 @@ var error10 = () => {
           return `Cadena inv\xE1lida: debe incluir "${_issue.includes}"`;
         if (_issue.format === "regex")
           return `Cadena inv\xE1lida: debe coincidir con el patr\xF3n ${_issue.pattern}`;
-        return `Inv\xE1lido ${Nouns[_issue.format] ?? issue2.format}`;
+        return `Inv\xE1lido ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `N\xFAmero inv\xE1lido: debe ser m\xFAltiplo de ${issue2.divisor}`;
+        return `N\xFAmero inv\xE1lido: debe ser m\xFAltiplo de ${issue.divisor}`;
       case "unrecognized_keys":
-        return `Llave${issue2.keys.length > 1 ? "s" : ""} desconocida${issue2.keys.length > 1 ? "s" : ""}: ${joinValues(issue2.keys, ", ")}`;
+        return `Llave${issue.keys.length > 1 ? "s" : ""} desconocida${issue.keys.length > 1 ? "s" : ""}: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `Llave inv\xE1lida en ${getTypeName(issue2.origin)}`;
+        return `Llave inv\xE1lida en ${getTypeName(issue.origin)}`;
       case "invalid_union":
         return "Entrada inv\xE1lida";
       case "invalid_element":
-        return `Valor inv\xE1lido en ${getTypeName(issue2.origin)}`;
+        return `Valor inv\xE1lido en ${getTypeName(issue.origin)}`;
       default:
         return `Entrada inv\xE1lida`;
     }
@@ -5333,7 +5332,7 @@ var error11 = () => {
   function getSizing(origin) {
     return Sizable[origin] ?? null;
   }
-  const parsedType3 = (data) => {
+  const parsedType = (data) => {
     const t = typeof data;
     switch (t) {
       case "number": {
@@ -5383,33 +5382,33 @@ var error11 = () => {
     jwt: "JWT",
     template_literal: "\u0648\u0631\u0648\u062F\u06CC"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `\u0648\u0631\u0648\u062F\u06CC \u0646\u0627\u0645\u0639\u062A\u0628\u0631: \u0645\u06CC\u200C\u0628\u0627\u06CC\u0633\u062A ${issue2.expected} \u0645\u06CC\u200C\u0628\u0648\u062F\u060C ${parsedType3(issue2.input)} \u062F\u0631\u06CC\u0627\u0641\u062A \u0634\u062F`;
+        return `\u0648\u0631\u0648\u062F\u06CC \u0646\u0627\u0645\u0639\u062A\u0628\u0631: \u0645\u06CC\u200C\u0628\u0627\u06CC\u0633\u062A ${issue.expected} \u0645\u06CC\u200C\u0628\u0648\u062F\u060C ${parsedType(issue.input)} \u062F\u0631\u06CC\u0627\u0641\u062A \u0634\u062F`;
       case "invalid_value":
-        if (issue2.values.length === 1) {
-          return `\u0648\u0631\u0648\u062F\u06CC \u0646\u0627\u0645\u0639\u062A\u0628\u0631: \u0645\u06CC\u200C\u0628\u0627\u06CC\u0633\u062A ${stringifyPrimitive(issue2.values[0])} \u0645\u06CC\u200C\u0628\u0648\u062F`;
+        if (issue.values.length === 1) {
+          return `\u0648\u0631\u0648\u062F\u06CC \u0646\u0627\u0645\u0639\u062A\u0628\u0631: \u0645\u06CC\u200C\u0628\u0627\u06CC\u0633\u062A ${stringifyPrimitive(issue.values[0])} \u0645\u06CC\u200C\u0628\u0648\u062F`;
         }
-        return `\u06AF\u0632\u06CC\u0646\u0647 \u0646\u0627\u0645\u0639\u062A\u0628\u0631: \u0645\u06CC\u200C\u0628\u0627\u06CC\u0633\u062A \u06CC\u06A9\u06CC \u0627\u0632 ${joinValues(issue2.values, "|")} \u0645\u06CC\u200C\u0628\u0648\u062F`;
+        return `\u06AF\u0632\u06CC\u0646\u0647 \u0646\u0627\u0645\u0639\u062A\u0628\u0631: \u0645\u06CC\u200C\u0628\u0627\u06CC\u0633\u062A \u06CC\u06A9\u06CC \u0627\u0632 ${joinValues(issue.values, "|")} \u0645\u06CC\u200C\u0628\u0648\u062F`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `\u062E\u06CC\u0644\u06CC \u0628\u0632\u0631\u06AF: ${issue2.origin ?? "\u0645\u0642\u062F\u0627\u0631"} \u0628\u0627\u06CC\u062F ${adj}${issue2.maximum.toString()} ${sizing.unit ?? "\u0639\u0646\u0635\u0631"} \u0628\u0627\u0634\u062F`;
+          return `\u062E\u06CC\u0644\u06CC \u0628\u0632\u0631\u06AF: ${issue.origin ?? "\u0645\u0642\u062F\u0627\u0631"} \u0628\u0627\u06CC\u062F ${adj}${issue.maximum.toString()} ${sizing.unit ?? "\u0639\u0646\u0635\u0631"} \u0628\u0627\u0634\u062F`;
         }
-        return `\u062E\u06CC\u0644\u06CC \u0628\u0632\u0631\u06AF: ${issue2.origin ?? "\u0645\u0642\u062F\u0627\u0631"} \u0628\u0627\u06CC\u062F ${adj}${issue2.maximum.toString()} \u0628\u0627\u0634\u062F`;
+        return `\u062E\u06CC\u0644\u06CC \u0628\u0632\u0631\u06AF: ${issue.origin ?? "\u0645\u0642\u062F\u0627\u0631"} \u0628\u0627\u06CC\u062F ${adj}${issue.maximum.toString()} \u0628\u0627\u0634\u062F`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `\u062E\u06CC\u0644\u06CC \u06A9\u0648\u0686\u06A9: ${issue2.origin} \u0628\u0627\u06CC\u062F ${adj}${issue2.minimum.toString()} ${sizing.unit} \u0628\u0627\u0634\u062F`;
+          return `\u062E\u06CC\u0644\u06CC \u06A9\u0648\u0686\u06A9: ${issue.origin} \u0628\u0627\u06CC\u062F ${adj}${issue.minimum.toString()} ${sizing.unit} \u0628\u0627\u0634\u062F`;
         }
-        return `\u062E\u06CC\u0644\u06CC \u06A9\u0648\u0686\u06A9: ${issue2.origin} \u0628\u0627\u06CC\u062F ${adj}${issue2.minimum.toString()} \u0628\u0627\u0634\u062F`;
+        return `\u062E\u06CC\u0644\u06CC \u06A9\u0648\u0686\u06A9: ${issue.origin} \u0628\u0627\u06CC\u062F ${adj}${issue.minimum.toString()} \u0628\u0627\u0634\u062F`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with") {
           return `\u0631\u0634\u062A\u0647 \u0646\u0627\u0645\u0639\u062A\u0628\u0631: \u0628\u0627\u06CC\u062F \u0628\u0627 "${_issue.prefix}" \u0634\u0631\u0648\u0639 \u0634\u0648\u062F`;
         }
@@ -5422,18 +5421,18 @@ var error11 = () => {
         if (_issue.format === "regex") {
           return `\u0631\u0634\u062A\u0647 \u0646\u0627\u0645\u0639\u062A\u0628\u0631: \u0628\u0627\u06CC\u062F \u0628\u0627 \u0627\u0644\u06AF\u0648\u06CC ${_issue.pattern} \u0645\u0637\u0627\u0628\u0642\u062A \u062F\u0627\u0634\u062A\u0647 \u0628\u0627\u0634\u062F`;
         }
-        return `${Nouns[_issue.format] ?? issue2.format} \u0646\u0627\u0645\u0639\u062A\u0628\u0631`;
+        return `${Nouns[_issue.format] ?? issue.format} \u0646\u0627\u0645\u0639\u062A\u0628\u0631`;
       }
       case "not_multiple_of":
-        return `\u0639\u062F\u062F \u0646\u0627\u0645\u0639\u062A\u0628\u0631: \u0628\u0627\u06CC\u062F \u0645\u0636\u0631\u0628 ${issue2.divisor} \u0628\u0627\u0634\u062F`;
+        return `\u0639\u062F\u062F \u0646\u0627\u0645\u0639\u062A\u0628\u0631: \u0628\u0627\u06CC\u062F \u0645\u0636\u0631\u0628 ${issue.divisor} \u0628\u0627\u0634\u062F`;
       case "unrecognized_keys":
-        return `\u06A9\u0644\u06CC\u062F${issue2.keys.length > 1 ? "\u0647\u0627\u06CC" : ""} \u0646\u0627\u0634\u0646\u0627\u0633: ${joinValues(issue2.keys, ", ")}`;
+        return `\u06A9\u0644\u06CC\u062F${issue.keys.length > 1 ? "\u0647\u0627\u06CC" : ""} \u0646\u0627\u0634\u0646\u0627\u0633: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `\u06A9\u0644\u06CC\u062F \u0646\u0627\u0634\u0646\u0627\u0633 \u062F\u0631 ${issue2.origin}`;
+        return `\u06A9\u0644\u06CC\u062F \u0646\u0627\u0634\u0646\u0627\u0633 \u062F\u0631 ${issue.origin}`;
       case "invalid_union":
         return `\u0648\u0631\u0648\u062F\u06CC \u0646\u0627\u0645\u0639\u062A\u0628\u0631`;
       case "invalid_element":
-        return `\u0645\u0642\u062F\u0627\u0631 \u0646\u0627\u0645\u0639\u062A\u0628\u0631 \u062F\u0631 ${issue2.origin}`;
+        return `\u0645\u0642\u062F\u0627\u0631 \u0646\u0627\u0645\u0639\u062A\u0628\u0631 \u062F\u0631 ${issue.origin}`;
       default:
         return `\u0648\u0631\u0648\u062F\u06CC \u0646\u0627\u0645\u0639\u062A\u0628\u0631`;
     }
@@ -5459,7 +5458,7 @@ var error12 = () => {
   function getSizing(origin) {
     return Sizable[origin] ?? null;
   }
-  const parsedType3 = (data) => {
+  const parsedType = (data) => {
     const t = typeof data;
     switch (t) {
       case "number": {
@@ -5509,32 +5508,32 @@ var error12 = () => {
     jwt: "JWT",
     template_literal: "templaattimerkkijono"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `Virheellinen tyyppi: odotettiin ${issue2.expected}, oli ${parsedType3(issue2.input)}`;
+        return `Virheellinen tyyppi: odotettiin ${issue.expected}, oli ${parsedType(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `Virheellinen sy\xF6te: t\xE4ytyy olla ${stringifyPrimitive(issue2.values[0])}`;
-        return `Virheellinen valinta: t\xE4ytyy olla yksi seuraavista: ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `Virheellinen sy\xF6te: t\xE4ytyy olla ${stringifyPrimitive(issue.values[0])}`;
+        return `Virheellinen valinta: t\xE4ytyy olla yksi seuraavista: ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `Liian suuri: ${sizing.subject} t\xE4ytyy olla ${adj}${issue2.maximum.toString()} ${sizing.unit}`.trim();
+          return `Liian suuri: ${sizing.subject} t\xE4ytyy olla ${adj}${issue.maximum.toString()} ${sizing.unit}`.trim();
         }
-        return `Liian suuri: arvon t\xE4ytyy olla ${adj}${issue2.maximum.toString()}`;
+        return `Liian suuri: arvon t\xE4ytyy olla ${adj}${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `Liian pieni: ${sizing.subject} t\xE4ytyy olla ${adj}${issue2.minimum.toString()} ${sizing.unit}`.trim();
+          return `Liian pieni: ${sizing.subject} t\xE4ytyy olla ${adj}${issue.minimum.toString()} ${sizing.unit}`.trim();
         }
-        return `Liian pieni: arvon t\xE4ytyy olla ${adj}${issue2.minimum.toString()}`;
+        return `Liian pieni: arvon t\xE4ytyy olla ${adj}${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with")
           return `Virheellinen sy\xF6te: t\xE4ytyy alkaa "${_issue.prefix}"`;
         if (_issue.format === "ends_with")
@@ -5544,12 +5543,12 @@ var error12 = () => {
         if (_issue.format === "regex") {
           return `Virheellinen sy\xF6te: t\xE4ytyy vastata s\xE4\xE4nn\xF6llist\xE4 lauseketta ${_issue.pattern}`;
         }
-        return `Virheellinen ${Nouns[_issue.format] ?? issue2.format}`;
+        return `Virheellinen ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `Virheellinen luku: t\xE4ytyy olla luvun ${issue2.divisor} monikerta`;
+        return `Virheellinen luku: t\xE4ytyy olla luvun ${issue.divisor} monikerta`;
       case "unrecognized_keys":
-        return `${issue2.keys.length > 1 ? "Tuntemattomat avaimet" : "Tuntematon avain"}: ${joinValues(issue2.keys, ", ")}`;
+        return `${issue.keys.length > 1 ? "Tuntemattomat avaimet" : "Tuntematon avain"}: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
         return "Virheellinen avain tietueessa";
       case "invalid_union":
@@ -5577,7 +5576,7 @@ var error13 = () => {
   function getSizing(origin) {
     return Sizable[origin] ?? null;
   }
-  const parsedType3 = (data) => {
+  const parsedType = (data) => {
     const t = typeof data;
     switch (t) {
       case "number": {
@@ -5627,31 +5626,31 @@ var error13 = () => {
     jwt: "JWT",
     template_literal: "entr\xE9e"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `Entr\xE9e invalide : ${issue2.expected} attendu, ${parsedType3(issue2.input)} re\xE7u`;
+        return `Entr\xE9e invalide : ${issue.expected} attendu, ${parsedType(issue.input)} re\xE7u`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `Entr\xE9e invalide : ${stringifyPrimitive(issue2.values[0])} attendu`;
-        return `Option invalide : une valeur parmi ${joinValues(issue2.values, "|")} attendue`;
+        if (issue.values.length === 1)
+          return `Entr\xE9e invalide : ${stringifyPrimitive(issue.values[0])} attendu`;
+        return `Option invalide : une valeur parmi ${joinValues(issue.values, "|")} attendue`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `Trop grand : ${issue2.origin ?? "valeur"} doit ${sizing.verb} ${adj}${issue2.maximum.toString()} ${sizing.unit ?? "\xE9l\xE9ment(s)"}`;
-        return `Trop grand : ${issue2.origin ?? "valeur"} doit \xEAtre ${adj}${issue2.maximum.toString()}`;
+          return `Trop grand : ${issue.origin ?? "valeur"} doit ${sizing.verb} ${adj}${issue.maximum.toString()} ${sizing.unit ?? "\xE9l\xE9ment(s)"}`;
+        return `Trop grand : ${issue.origin ?? "valeur"} doit \xEAtre ${adj}${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `Trop petit : ${issue2.origin} doit ${sizing.verb} ${adj}${issue2.minimum.toString()} ${sizing.unit}`;
+          return `Trop petit : ${issue.origin} doit ${sizing.verb} ${adj}${issue.minimum.toString()} ${sizing.unit}`;
         }
-        return `Trop petit : ${issue2.origin} doit \xEAtre ${adj}${issue2.minimum.toString()}`;
+        return `Trop petit : ${issue.origin} doit \xEAtre ${adj}${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with")
           return `Cha\xEEne invalide : doit commencer par "${_issue.prefix}"`;
         if (_issue.format === "ends_with")
@@ -5660,18 +5659,18 @@ var error13 = () => {
           return `Cha\xEEne invalide : doit inclure "${_issue.includes}"`;
         if (_issue.format === "regex")
           return `Cha\xEEne invalide : doit correspondre au mod\xE8le ${_issue.pattern}`;
-        return `${Nouns[_issue.format] ?? issue2.format} invalide`;
+        return `${Nouns[_issue.format] ?? issue.format} invalide`;
       }
       case "not_multiple_of":
-        return `Nombre invalide : doit \xEAtre un multiple de ${issue2.divisor}`;
+        return `Nombre invalide : doit \xEAtre un multiple de ${issue.divisor}`;
       case "unrecognized_keys":
-        return `Cl\xE9${issue2.keys.length > 1 ? "s" : ""} non reconnue${issue2.keys.length > 1 ? "s" : ""} : ${joinValues(issue2.keys, ", ")}`;
+        return `Cl\xE9${issue.keys.length > 1 ? "s" : ""} non reconnue${issue.keys.length > 1 ? "s" : ""} : ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `Cl\xE9 invalide dans ${issue2.origin}`;
+        return `Cl\xE9 invalide dans ${issue.origin}`;
       case "invalid_union":
         return "Entr\xE9e invalide";
       case "invalid_element":
-        return `Valeur invalide dans ${issue2.origin}`;
+        return `Valeur invalide dans ${issue.origin}`;
       default:
         return `Entr\xE9e invalide`;
     }
@@ -5693,7 +5692,7 @@ var error14 = () => {
   function getSizing(origin) {
     return Sizable[origin] ?? null;
   }
-  const parsedType3 = (data) => {
+  const parsedType = (data) => {
     const t = typeof data;
     switch (t) {
       case "number": {
@@ -5743,31 +5742,31 @@ var error14 = () => {
     jwt: "JWT",
     template_literal: "entr\xE9e"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `Entr\xE9e invalide : attendu ${issue2.expected}, re\xE7u ${parsedType3(issue2.input)}`;
+        return `Entr\xE9e invalide : attendu ${issue.expected}, re\xE7u ${parsedType(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `Entr\xE9e invalide : attendu ${stringifyPrimitive(issue2.values[0])}`;
-        return `Option invalide : attendu l'une des valeurs suivantes ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `Entr\xE9e invalide : attendu ${stringifyPrimitive(issue.values[0])}`;
+        return `Option invalide : attendu l'une des valeurs suivantes ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "\u2264" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "\u2264" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `Trop grand : attendu que ${issue2.origin ?? "la valeur"} ait ${adj}${issue2.maximum.toString()} ${sizing.unit}`;
-        return `Trop grand : attendu que ${issue2.origin ?? "la valeur"} soit ${adj}${issue2.maximum.toString()}`;
+          return `Trop grand : attendu que ${issue.origin ?? "la valeur"} ait ${adj}${issue.maximum.toString()} ${sizing.unit}`;
+        return `Trop grand : attendu que ${issue.origin ?? "la valeur"} soit ${adj}${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? "\u2265" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "\u2265" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `Trop petit : attendu que ${issue2.origin} ait ${adj}${issue2.minimum.toString()} ${sizing.unit}`;
+          return `Trop petit : attendu que ${issue.origin} ait ${adj}${issue.minimum.toString()} ${sizing.unit}`;
         }
-        return `Trop petit : attendu que ${issue2.origin} soit ${adj}${issue2.minimum.toString()}`;
+        return `Trop petit : attendu que ${issue.origin} soit ${adj}${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with") {
           return `Cha\xEEne invalide : doit commencer par "${_issue.prefix}"`;
         }
@@ -5777,18 +5776,18 @@ var error14 = () => {
           return `Cha\xEEne invalide : doit inclure "${_issue.includes}"`;
         if (_issue.format === "regex")
           return `Cha\xEEne invalide : doit correspondre au motif ${_issue.pattern}`;
-        return `${Nouns[_issue.format] ?? issue2.format} invalide`;
+        return `${Nouns[_issue.format] ?? issue.format} invalide`;
       }
       case "not_multiple_of":
-        return `Nombre invalide : doit \xEAtre un multiple de ${issue2.divisor}`;
+        return `Nombre invalide : doit \xEAtre un multiple de ${issue.divisor}`;
       case "unrecognized_keys":
-        return `Cl\xE9${issue2.keys.length > 1 ? "s" : ""} non reconnue${issue2.keys.length > 1 ? "s" : ""} : ${joinValues(issue2.keys, ", ")}`;
+        return `Cl\xE9${issue.keys.length > 1 ? "s" : ""} non reconnue${issue.keys.length > 1 ? "s" : ""} : ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `Cl\xE9 invalide dans ${issue2.origin}`;
+        return `Cl\xE9 invalide dans ${issue.origin}`;
       case "invalid_union":
         return "Entr\xE9e invalide";
       case "invalid_element":
-        return `Valeur invalide dans ${issue2.origin}`;
+        return `Valeur invalide dans ${issue.origin}`;
       default:
         return `Entr\xE9e invalide`;
     }
@@ -5810,7 +5809,7 @@ var error15 = () => {
   function getSizing(origin) {
     return Sizable[origin] ?? null;
   }
-  const parsedType3 = (data) => {
+  const parsedType = (data) => {
     const t = typeof data;
     switch (t) {
       case "number": {
@@ -5860,31 +5859,31 @@ var error15 = () => {
     jwt: "JWT",
     template_literal: "\u05E7\u05DC\u05D8"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `\u05E7\u05DC\u05D8 \u05DC\u05D0 \u05EA\u05E7\u05D9\u05DF: \u05E6\u05E8\u05D9\u05DA ${issue2.expected}, \u05D4\u05EA\u05E7\u05D1\u05DC ${parsedType3(issue2.input)}`;
+        return `\u05E7\u05DC\u05D8 \u05DC\u05D0 \u05EA\u05E7\u05D9\u05DF: \u05E6\u05E8\u05D9\u05DA ${issue.expected}, \u05D4\u05EA\u05E7\u05D1\u05DC ${parsedType(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `\u05E7\u05DC\u05D8 \u05DC\u05D0 \u05EA\u05E7\u05D9\u05DF: \u05E6\u05E8\u05D9\u05DA ${stringifyPrimitive(issue2.values[0])}`;
-        return `\u05E7\u05DC\u05D8 \u05DC\u05D0 \u05EA\u05E7\u05D9\u05DF: \u05E6\u05E8\u05D9\u05DA \u05D0\u05D7\u05EA \u05DE\u05D4\u05D0\u05E4\u05E9\u05E8\u05D5\u05D9\u05D5\u05EA  ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `\u05E7\u05DC\u05D8 \u05DC\u05D0 \u05EA\u05E7\u05D9\u05DF: \u05E6\u05E8\u05D9\u05DA ${stringifyPrimitive(issue.values[0])}`;
+        return `\u05E7\u05DC\u05D8 \u05DC\u05D0 \u05EA\u05E7\u05D9\u05DF: \u05E6\u05E8\u05D9\u05DA \u05D0\u05D7\u05EA \u05DE\u05D4\u05D0\u05E4\u05E9\u05E8\u05D5\u05D9\u05D5\u05EA  ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `\u05D2\u05D3\u05D5\u05DC \u05DE\u05D3\u05D9: ${issue2.origin ?? "value"} \u05E6\u05E8\u05D9\u05DA \u05DC\u05D4\u05D9\u05D5\u05EA ${adj}${issue2.maximum.toString()} ${sizing.unit ?? "elements"}`;
-        return `\u05D2\u05D3\u05D5\u05DC \u05DE\u05D3\u05D9: ${issue2.origin ?? "value"} \u05E6\u05E8\u05D9\u05DA \u05DC\u05D4\u05D9\u05D5\u05EA ${adj}${issue2.maximum.toString()}`;
+          return `\u05D2\u05D3\u05D5\u05DC \u05DE\u05D3\u05D9: ${issue.origin ?? "value"} \u05E6\u05E8\u05D9\u05DA \u05DC\u05D4\u05D9\u05D5\u05EA ${adj}${issue.maximum.toString()} ${sizing.unit ?? "elements"}`;
+        return `\u05D2\u05D3\u05D5\u05DC \u05DE\u05D3\u05D9: ${issue.origin ?? "value"} \u05E6\u05E8\u05D9\u05DA \u05DC\u05D4\u05D9\u05D5\u05EA ${adj}${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `\u05E7\u05D8\u05DF \u05DE\u05D3\u05D9: ${issue2.origin} \u05E6\u05E8\u05D9\u05DA \u05DC\u05D4\u05D9\u05D5\u05EA ${adj}${issue2.minimum.toString()} ${sizing.unit}`;
+          return `\u05E7\u05D8\u05DF \u05DE\u05D3\u05D9: ${issue.origin} \u05E6\u05E8\u05D9\u05DA \u05DC\u05D4\u05D9\u05D5\u05EA ${adj}${issue.minimum.toString()} ${sizing.unit}`;
         }
-        return `\u05E7\u05D8\u05DF \u05DE\u05D3\u05D9: ${issue2.origin} \u05E6\u05E8\u05D9\u05DA \u05DC\u05D4\u05D9\u05D5\u05EA ${adj}${issue2.minimum.toString()}`;
+        return `\u05E7\u05D8\u05DF \u05DE\u05D3\u05D9: ${issue.origin} \u05E6\u05E8\u05D9\u05DA \u05DC\u05D4\u05D9\u05D5\u05EA ${adj}${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with")
           return `\u05DE\u05D7\u05E8\u05D5\u05D6\u05EA \u05DC\u05D0 \u05EA\u05E7\u05D9\u05E0\u05D4: \u05D7\u05D9\u05D9\u05D1\u05EA \u05DC\u05D4\u05EA\u05D7\u05D9\u05DC \u05D1"${_issue.prefix}"`;
         if (_issue.format === "ends_with")
@@ -5893,18 +5892,18 @@ var error15 = () => {
           return `\u05DE\u05D7\u05E8\u05D5\u05D6\u05EA \u05DC\u05D0 \u05EA\u05E7\u05D9\u05E0\u05D4: \u05D7\u05D9\u05D9\u05D1\u05EA \u05DC\u05DB\u05DC\u05D5\u05DC "${_issue.includes}"`;
         if (_issue.format === "regex")
           return `\u05DE\u05D7\u05E8\u05D5\u05D6\u05EA \u05DC\u05D0 \u05EA\u05E7\u05D9\u05E0\u05D4: \u05D7\u05D9\u05D9\u05D1\u05EA \u05DC\u05D4\u05EA\u05D0\u05D9\u05DD \u05DC\u05EA\u05D1\u05E0\u05D9\u05EA ${_issue.pattern}`;
-        return `${Nouns[_issue.format] ?? issue2.format} \u05DC\u05D0 \u05EA\u05E7\u05D9\u05DF`;
+        return `${Nouns[_issue.format] ?? issue.format} \u05DC\u05D0 \u05EA\u05E7\u05D9\u05DF`;
       }
       case "not_multiple_of":
-        return `\u05DE\u05E1\u05E4\u05E8 \u05DC\u05D0 \u05EA\u05E7\u05D9\u05DF: \u05D7\u05D9\u05D9\u05D1 \u05DC\u05D4\u05D9\u05D5\u05EA \u05DE\u05DB\u05E4\u05DC\u05D4 \u05E9\u05DC ${issue2.divisor}`;
+        return `\u05DE\u05E1\u05E4\u05E8 \u05DC\u05D0 \u05EA\u05E7\u05D9\u05DF: \u05D7\u05D9\u05D9\u05D1 \u05DC\u05D4\u05D9\u05D5\u05EA \u05DE\u05DB\u05E4\u05DC\u05D4 \u05E9\u05DC ${issue.divisor}`;
       case "unrecognized_keys":
-        return `\u05DE\u05E4\u05EA\u05D7${issue2.keys.length > 1 ? "\u05D5\u05EA" : ""} \u05DC\u05D0 \u05DE\u05D6\u05D5\u05D4${issue2.keys.length > 1 ? "\u05D9\u05DD" : "\u05D4"}: ${joinValues(issue2.keys, ", ")}`;
+        return `\u05DE\u05E4\u05EA\u05D7${issue.keys.length > 1 ? "\u05D5\u05EA" : ""} \u05DC\u05D0 \u05DE\u05D6\u05D5\u05D4${issue.keys.length > 1 ? "\u05D9\u05DD" : "\u05D4"}: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `\u05DE\u05E4\u05EA\u05D7 \u05DC\u05D0 \u05EA\u05E7\u05D9\u05DF \u05D1${issue2.origin}`;
+        return `\u05DE\u05E4\u05EA\u05D7 \u05DC\u05D0 \u05EA\u05E7\u05D9\u05DF \u05D1${issue.origin}`;
       case "invalid_union":
         return "\u05E7\u05DC\u05D8 \u05DC\u05D0 \u05EA\u05E7\u05D9\u05DF";
       case "invalid_element":
-        return `\u05E2\u05E8\u05DA \u05DC\u05D0 \u05EA\u05E7\u05D9\u05DF \u05D1${issue2.origin}`;
+        return `\u05E2\u05E8\u05DA \u05DC\u05D0 \u05EA\u05E7\u05D9\u05DF \u05D1${issue.origin}`;
       default:
         return `\u05E7\u05DC\u05D8 \u05DC\u05D0 \u05EA\u05E7\u05D9\u05DF`;
     }
@@ -5926,7 +5925,7 @@ var error16 = () => {
   function getSizing(origin) {
     return Sizable[origin] ?? null;
   }
-  const parsedType3 = (data) => {
+  const parsedType = (data) => {
     const t = typeof data;
     switch (t) {
       case "number": {
@@ -5976,31 +5975,31 @@ var error16 = () => {
     jwt: "JWT",
     template_literal: "bemenet"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `\xC9rv\xE9nytelen bemenet: a v\xE1rt \xE9rt\xE9k ${issue2.expected}, a kapott \xE9rt\xE9k ${parsedType3(issue2.input)}`;
+        return `\xC9rv\xE9nytelen bemenet: a v\xE1rt \xE9rt\xE9k ${issue.expected}, a kapott \xE9rt\xE9k ${parsedType(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `\xC9rv\xE9nytelen bemenet: a v\xE1rt \xE9rt\xE9k ${stringifyPrimitive(issue2.values[0])}`;
-        return `\xC9rv\xE9nytelen opci\xF3: valamelyik \xE9rt\xE9k v\xE1rt ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `\xC9rv\xE9nytelen bemenet: a v\xE1rt \xE9rt\xE9k ${stringifyPrimitive(issue.values[0])}`;
+        return `\xC9rv\xE9nytelen opci\xF3: valamelyik \xE9rt\xE9k v\xE1rt ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `T\xFAl nagy: ${issue2.origin ?? "\xE9rt\xE9k"} m\xE9rete t\xFAl nagy ${adj}${issue2.maximum.toString()} ${sizing.unit ?? "elem"}`;
-        return `T\xFAl nagy: a bemeneti \xE9rt\xE9k ${issue2.origin ?? "\xE9rt\xE9k"} t\xFAl nagy: ${adj}${issue2.maximum.toString()}`;
+          return `T\xFAl nagy: ${issue.origin ?? "\xE9rt\xE9k"} m\xE9rete t\xFAl nagy ${adj}${issue.maximum.toString()} ${sizing.unit ?? "elem"}`;
+        return `T\xFAl nagy: a bemeneti \xE9rt\xE9k ${issue.origin ?? "\xE9rt\xE9k"} t\xFAl nagy: ${adj}${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `T\xFAl kicsi: a bemeneti \xE9rt\xE9k ${issue2.origin} m\xE9rete t\xFAl kicsi ${adj}${issue2.minimum.toString()} ${sizing.unit}`;
+          return `T\xFAl kicsi: a bemeneti \xE9rt\xE9k ${issue.origin} m\xE9rete t\xFAl kicsi ${adj}${issue.minimum.toString()} ${sizing.unit}`;
         }
-        return `T\xFAl kicsi: a bemeneti \xE9rt\xE9k ${issue2.origin} t\xFAl kicsi ${adj}${issue2.minimum.toString()}`;
+        return `T\xFAl kicsi: a bemeneti \xE9rt\xE9k ${issue.origin} t\xFAl kicsi ${adj}${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with")
           return `\xC9rv\xE9nytelen string: "${_issue.prefix}" \xE9rt\xE9kkel kell kezd\u0151dnie`;
         if (_issue.format === "ends_with")
@@ -6009,18 +6008,18 @@ var error16 = () => {
           return `\xC9rv\xE9nytelen string: "${_issue.includes}" \xE9rt\xE9ket kell tartalmaznia`;
         if (_issue.format === "regex")
           return `\xC9rv\xE9nytelen string: ${_issue.pattern} mint\xE1nak kell megfelelnie`;
-        return `\xC9rv\xE9nytelen ${Nouns[_issue.format] ?? issue2.format}`;
+        return `\xC9rv\xE9nytelen ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `\xC9rv\xE9nytelen sz\xE1m: ${issue2.divisor} t\xF6bbsz\xF6r\xF6s\xE9nek kell lennie`;
+        return `\xC9rv\xE9nytelen sz\xE1m: ${issue.divisor} t\xF6bbsz\xF6r\xF6s\xE9nek kell lennie`;
       case "unrecognized_keys":
-        return `Ismeretlen kulcs${issue2.keys.length > 1 ? "s" : ""}: ${joinValues(issue2.keys, ", ")}`;
+        return `Ismeretlen kulcs${issue.keys.length > 1 ? "s" : ""}: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `\xC9rv\xE9nytelen kulcs ${issue2.origin}`;
+        return `\xC9rv\xE9nytelen kulcs ${issue.origin}`;
       case "invalid_union":
         return "\xC9rv\xE9nytelen bemenet";
       case "invalid_element":
-        return `\xC9rv\xE9nytelen \xE9rt\xE9k: ${issue2.origin}`;
+        return `\xC9rv\xE9nytelen \xE9rt\xE9k: ${issue.origin}`;
       default:
         return `\xC9rv\xE9nytelen bemenet`;
     }
@@ -6042,7 +6041,7 @@ var error17 = () => {
   function getSizing(origin) {
     return Sizable[origin] ?? null;
   }
-  const parsedType3 = (data) => {
+  const parsedType = (data) => {
     const t = typeof data;
     switch (t) {
       case "number": {
@@ -6092,31 +6091,31 @@ var error17 = () => {
     jwt: "JWT",
     template_literal: "input"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `Input tidak valid: diharapkan ${issue2.expected}, diterima ${parsedType3(issue2.input)}`;
+        return `Input tidak valid: diharapkan ${issue.expected}, diterima ${parsedType(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `Input tidak valid: diharapkan ${stringifyPrimitive(issue2.values[0])}`;
-        return `Pilihan tidak valid: diharapkan salah satu dari ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `Input tidak valid: diharapkan ${stringifyPrimitive(issue.values[0])}`;
+        return `Pilihan tidak valid: diharapkan salah satu dari ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `Terlalu besar: diharapkan ${issue2.origin ?? "value"} memiliki ${adj}${issue2.maximum.toString()} ${sizing.unit ?? "elemen"}`;
-        return `Terlalu besar: diharapkan ${issue2.origin ?? "value"} menjadi ${adj}${issue2.maximum.toString()}`;
+          return `Terlalu besar: diharapkan ${issue.origin ?? "value"} memiliki ${adj}${issue.maximum.toString()} ${sizing.unit ?? "elemen"}`;
+        return `Terlalu besar: diharapkan ${issue.origin ?? "value"} menjadi ${adj}${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `Terlalu kecil: diharapkan ${issue2.origin} memiliki ${adj}${issue2.minimum.toString()} ${sizing.unit}`;
+          return `Terlalu kecil: diharapkan ${issue.origin} memiliki ${adj}${issue.minimum.toString()} ${sizing.unit}`;
         }
-        return `Terlalu kecil: diharapkan ${issue2.origin} menjadi ${adj}${issue2.minimum.toString()}`;
+        return `Terlalu kecil: diharapkan ${issue.origin} menjadi ${adj}${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with")
           return `String tidak valid: harus dimulai dengan "${_issue.prefix}"`;
         if (_issue.format === "ends_with")
@@ -6125,18 +6124,18 @@ var error17 = () => {
           return `String tidak valid: harus menyertakan "${_issue.includes}"`;
         if (_issue.format === "regex")
           return `String tidak valid: harus sesuai pola ${_issue.pattern}`;
-        return `${Nouns[_issue.format] ?? issue2.format} tidak valid`;
+        return `${Nouns[_issue.format] ?? issue.format} tidak valid`;
       }
       case "not_multiple_of":
-        return `Angka tidak valid: harus kelipatan dari ${issue2.divisor}`;
+        return `Angka tidak valid: harus kelipatan dari ${issue.divisor}`;
       case "unrecognized_keys":
-        return `Kunci tidak dikenali ${issue2.keys.length > 1 ? "s" : ""}: ${joinValues(issue2.keys, ", ")}`;
+        return `Kunci tidak dikenali ${issue.keys.length > 1 ? "s" : ""}: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `Kunci tidak valid di ${issue2.origin}`;
+        return `Kunci tidak valid di ${issue.origin}`;
       case "invalid_union":
         return "Input tidak valid";
       case "invalid_element":
-        return `Nilai tidak valid di ${issue2.origin}`;
+        return `Nilai tidak valid di ${issue.origin}`;
       default:
         return `Input tidak valid`;
     }
@@ -6208,31 +6207,31 @@ var error18 = () => {
     jwt: "JWT",
     template_literal: "gildi"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `Rangt gildi: \xDE\xFA sl\xF3st inn ${parsedType3(issue2.input)} \xFEar sem \xE1 a\xF0 vera ${issue2.expected}`;
+        return `Rangt gildi: \xDE\xFA sl\xF3st inn ${parsedType3(issue.input)} \xFEar sem \xE1 a\xF0 vera ${issue.expected}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `Rangt gildi: gert r\xE1\xF0 fyrir ${stringifyPrimitive(issue2.values[0])}`;
-        return `\xD3gilt val: m\xE1 vera eitt af eftirfarandi ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `Rangt gildi: gert r\xE1\xF0 fyrir ${stringifyPrimitive(issue.values[0])}`;
+        return `\xD3gilt val: m\xE1 vera eitt af eftirfarandi ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `Of st\xF3rt: gert er r\xE1\xF0 fyrir a\xF0 ${issue2.origin ?? "gildi"} hafi ${adj}${issue2.maximum.toString()} ${sizing.unit ?? "hluti"}`;
-        return `Of st\xF3rt: gert er r\xE1\xF0 fyrir a\xF0 ${issue2.origin ?? "gildi"} s\xE9 ${adj}${issue2.maximum.toString()}`;
+          return `Of st\xF3rt: gert er r\xE1\xF0 fyrir a\xF0 ${issue.origin ?? "gildi"} hafi ${adj}${issue.maximum.toString()} ${sizing.unit ?? "hluti"}`;
+        return `Of st\xF3rt: gert er r\xE1\xF0 fyrir a\xF0 ${issue.origin ?? "gildi"} s\xE9 ${adj}${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `Of l\xEDti\xF0: gert er r\xE1\xF0 fyrir a\xF0 ${issue2.origin} hafi ${adj}${issue2.minimum.toString()} ${sizing.unit}`;
+          return `Of l\xEDti\xF0: gert er r\xE1\xF0 fyrir a\xF0 ${issue.origin} hafi ${adj}${issue.minimum.toString()} ${sizing.unit}`;
         }
-        return `Of l\xEDti\xF0: gert er r\xE1\xF0 fyrir a\xF0 ${issue2.origin} s\xE9 ${adj}${issue2.minimum.toString()}`;
+        return `Of l\xEDti\xF0: gert er r\xE1\xF0 fyrir a\xF0 ${issue.origin} s\xE9 ${adj}${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with") {
           return `\xD3gildur strengur: ver\xF0ur a\xF0 byrja \xE1 "${_issue.prefix}"`;
         }
@@ -6242,18 +6241,18 @@ var error18 = () => {
           return `\xD3gildur strengur: ver\xF0ur a\xF0 innihalda "${_issue.includes}"`;
         if (_issue.format === "regex")
           return `\xD3gildur strengur: ver\xF0ur a\xF0 fylgja mynstri ${_issue.pattern}`;
-        return `Rangt ${Nouns[_issue.format] ?? issue2.format}`;
+        return `Rangt ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `R\xF6ng tala: ver\xF0ur a\xF0 vera margfeldi af ${issue2.divisor}`;
+        return `R\xF6ng tala: ver\xF0ur a\xF0 vera margfeldi af ${issue.divisor}`;
       case "unrecognized_keys":
-        return `\xD3\xFEekkt ${issue2.keys.length > 1 ? "ir lyklar" : "ur lykill"}: ${joinValues(issue2.keys, ", ")}`;
+        return `\xD3\xFEekkt ${issue.keys.length > 1 ? "ir lyklar" : "ur lykill"}: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `Rangur lykill \xED ${issue2.origin}`;
+        return `Rangur lykill \xED ${issue.origin}`;
       case "invalid_union":
         return "Rangt gildi";
       case "invalid_element":
-        return `Rangt gildi \xED ${issue2.origin}`;
+        return `Rangt gildi \xED ${issue.origin}`;
       default:
         return `Rangt gildi`;
     }
@@ -6275,7 +6274,7 @@ var error19 = () => {
   function getSizing(origin) {
     return Sizable[origin] ?? null;
   }
-  const parsedType4 = (data) => {
+  const parsedType = (data) => {
     const t = typeof data;
     switch (t) {
       case "number": {
@@ -6325,31 +6324,31 @@ var error19 = () => {
     jwt: "JWT",
     template_literal: "input"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `Input non valido: atteso ${issue2.expected}, ricevuto ${parsedType4(issue2.input)}`;
+        return `Input non valido: atteso ${issue.expected}, ricevuto ${parsedType(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `Input non valido: atteso ${stringifyPrimitive(issue2.values[0])}`;
-        return `Opzione non valida: atteso uno tra ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `Input non valido: atteso ${stringifyPrimitive(issue.values[0])}`;
+        return `Opzione non valida: atteso uno tra ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `Troppo grande: ${issue2.origin ?? "valore"} deve avere ${adj}${issue2.maximum.toString()} ${sizing.unit ?? "elementi"}`;
-        return `Troppo grande: ${issue2.origin ?? "valore"} deve essere ${adj}${issue2.maximum.toString()}`;
+          return `Troppo grande: ${issue.origin ?? "valore"} deve avere ${adj}${issue.maximum.toString()} ${sizing.unit ?? "elementi"}`;
+        return `Troppo grande: ${issue.origin ?? "valore"} deve essere ${adj}${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `Troppo piccolo: ${issue2.origin} deve avere ${adj}${issue2.minimum.toString()} ${sizing.unit}`;
+          return `Troppo piccolo: ${issue.origin} deve avere ${adj}${issue.minimum.toString()} ${sizing.unit}`;
         }
-        return `Troppo piccolo: ${issue2.origin} deve essere ${adj}${issue2.minimum.toString()}`;
+        return `Troppo piccolo: ${issue.origin} deve essere ${adj}${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with")
           return `Stringa non valida: deve iniziare con "${_issue.prefix}"`;
         if (_issue.format === "ends_with")
@@ -6358,18 +6357,18 @@ var error19 = () => {
           return `Stringa non valida: deve includere "${_issue.includes}"`;
         if (_issue.format === "regex")
           return `Stringa non valida: deve corrispondere al pattern ${_issue.pattern}`;
-        return `Invalid ${Nouns[_issue.format] ?? issue2.format}`;
+        return `Invalid ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `Numero non valido: deve essere un multiplo di ${issue2.divisor}`;
+        return `Numero non valido: deve essere un multiplo di ${issue.divisor}`;
       case "unrecognized_keys":
-        return `Chiav${issue2.keys.length > 1 ? "i" : "e"} non riconosciut${issue2.keys.length > 1 ? "e" : "a"}: ${joinValues(issue2.keys, ", ")}`;
+        return `Chiav${issue.keys.length > 1 ? "i" : "e"} non riconosciut${issue.keys.length > 1 ? "e" : "a"}: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `Chiave non valida in ${issue2.origin}`;
+        return `Chiave non valida in ${issue.origin}`;
       case "invalid_union":
         return "Input non valido";
       case "invalid_element":
-        return `Valore non valido in ${issue2.origin}`;
+        return `Valore non valido in ${issue.origin}`;
       default:
         return `Input non valido`;
     }
@@ -6391,7 +6390,7 @@ var error20 = () => {
   function getSizing(origin) {
     return Sizable[origin] ?? null;
   }
-  const parsedType4 = (data) => {
+  const parsedType = (data) => {
     const t = typeof data;
     switch (t) {
       case "number": {
@@ -6441,30 +6440,30 @@ var error20 = () => {
     jwt: "JWT",
     template_literal: "\u5165\u529B\u5024"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `\u7121\u52B9\u306A\u5165\u529B: ${issue2.expected}\u304C\u671F\u5F85\u3055\u308C\u307E\u3057\u305F\u304C\u3001${parsedType4(issue2.input)}\u304C\u5165\u529B\u3055\u308C\u307E\u3057\u305F`;
+        return `\u7121\u52B9\u306A\u5165\u529B: ${issue.expected}\u304C\u671F\u5F85\u3055\u308C\u307E\u3057\u305F\u304C\u3001${parsedType(issue.input)}\u304C\u5165\u529B\u3055\u308C\u307E\u3057\u305F`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `\u7121\u52B9\u306A\u5165\u529B: ${stringifyPrimitive(issue2.values[0])}\u304C\u671F\u5F85\u3055\u308C\u307E\u3057\u305F`;
-        return `\u7121\u52B9\u306A\u9078\u629E: ${joinValues(issue2.values, "\u3001")}\u306E\u3044\u305A\u308C\u304B\u3067\u3042\u308B\u5FC5\u8981\u304C\u3042\u308A\u307E\u3059`;
+        if (issue.values.length === 1)
+          return `\u7121\u52B9\u306A\u5165\u529B: ${stringifyPrimitive(issue.values[0])}\u304C\u671F\u5F85\u3055\u308C\u307E\u3057\u305F`;
+        return `\u7121\u52B9\u306A\u9078\u629E: ${joinValues(issue.values, "\u3001")}\u306E\u3044\u305A\u308C\u304B\u3067\u3042\u308B\u5FC5\u8981\u304C\u3042\u308A\u307E\u3059`;
       case "too_big": {
-        const adj = issue2.inclusive ? "\u4EE5\u4E0B\u3067\u3042\u308B" : "\u3088\u308A\u5C0F\u3055\u3044";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "\u4EE5\u4E0B\u3067\u3042\u308B" : "\u3088\u308A\u5C0F\u3055\u3044";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `\u5927\u304D\u3059\u304E\u308B\u5024: ${issue2.origin ?? "\u5024"}\u306F${issue2.maximum.toString()}${sizing.unit ?? "\u8981\u7D20"}${adj}\u5FC5\u8981\u304C\u3042\u308A\u307E\u3059`;
-        return `\u5927\u304D\u3059\u304E\u308B\u5024: ${issue2.origin ?? "\u5024"}\u306F${issue2.maximum.toString()}${adj}\u5FC5\u8981\u304C\u3042\u308A\u307E\u3059`;
+          return `\u5927\u304D\u3059\u304E\u308B\u5024: ${issue.origin ?? "\u5024"}\u306F${issue.maximum.toString()}${sizing.unit ?? "\u8981\u7D20"}${adj}\u5FC5\u8981\u304C\u3042\u308A\u307E\u3059`;
+        return `\u5927\u304D\u3059\u304E\u308B\u5024: ${issue.origin ?? "\u5024"}\u306F${issue.maximum.toString()}${adj}\u5FC5\u8981\u304C\u3042\u308A\u307E\u3059`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? "\u4EE5\u4E0A\u3067\u3042\u308B" : "\u3088\u308A\u5927\u304D\u3044";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "\u4EE5\u4E0A\u3067\u3042\u308B" : "\u3088\u308A\u5927\u304D\u3044";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `\u5C0F\u3055\u3059\u304E\u308B\u5024: ${issue2.origin}\u306F${issue2.minimum.toString()}${sizing.unit}${adj}\u5FC5\u8981\u304C\u3042\u308A\u307E\u3059`;
-        return `\u5C0F\u3055\u3059\u304E\u308B\u5024: ${issue2.origin}\u306F${issue2.minimum.toString()}${adj}\u5FC5\u8981\u304C\u3042\u308A\u307E\u3059`;
+          return `\u5C0F\u3055\u3059\u304E\u308B\u5024: ${issue.origin}\u306F${issue.minimum.toString()}${sizing.unit}${adj}\u5FC5\u8981\u304C\u3042\u308A\u307E\u3059`;
+        return `\u5C0F\u3055\u3059\u304E\u308B\u5024: ${issue.origin}\u306F${issue.minimum.toString()}${adj}\u5FC5\u8981\u304C\u3042\u308A\u307E\u3059`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with")
           return `\u7121\u52B9\u306A\u6587\u5B57\u5217: "${_issue.prefix}"\u3067\u59CB\u307E\u308B\u5FC5\u8981\u304C\u3042\u308A\u307E\u3059`;
         if (_issue.format === "ends_with")
@@ -6473,18 +6472,18 @@ var error20 = () => {
           return `\u7121\u52B9\u306A\u6587\u5B57\u5217: "${_issue.includes}"\u3092\u542B\u3080\u5FC5\u8981\u304C\u3042\u308A\u307E\u3059`;
         if (_issue.format === "regex")
           return `\u7121\u52B9\u306A\u6587\u5B57\u5217: \u30D1\u30BF\u30FC\u30F3${_issue.pattern}\u306B\u4E00\u81F4\u3059\u308B\u5FC5\u8981\u304C\u3042\u308A\u307E\u3059`;
-        return `\u7121\u52B9\u306A${Nouns[_issue.format] ?? issue2.format}`;
+        return `\u7121\u52B9\u306A${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `\u7121\u52B9\u306A\u6570\u5024: ${issue2.divisor}\u306E\u500D\u6570\u3067\u3042\u308B\u5FC5\u8981\u304C\u3042\u308A\u307E\u3059`;
+        return `\u7121\u52B9\u306A\u6570\u5024: ${issue.divisor}\u306E\u500D\u6570\u3067\u3042\u308B\u5FC5\u8981\u304C\u3042\u308A\u307E\u3059`;
       case "unrecognized_keys":
-        return `\u8A8D\u8B58\u3055\u308C\u3066\u3044\u306A\u3044\u30AD\u30FC${issue2.keys.length > 1 ? "\u7FA4" : ""}: ${joinValues(issue2.keys, "\u3001")}`;
+        return `\u8A8D\u8B58\u3055\u308C\u3066\u3044\u306A\u3044\u30AD\u30FC${issue.keys.length > 1 ? "\u7FA4" : ""}: ${joinValues(issue.keys, "\u3001")}`;
       case "invalid_key":
-        return `${issue2.origin}\u5185\u306E\u7121\u52B9\u306A\u30AD\u30FC`;
+        return `${issue.origin}\u5185\u306E\u7121\u52B9\u306A\u30AD\u30FC`;
       case "invalid_union":
         return "\u7121\u52B9\u306A\u5165\u529B";
       case "invalid_element":
-        return `${issue2.origin}\u5185\u306E\u7121\u52B9\u306A\u5024`;
+        return `${issue.origin}\u5185\u306E\u7121\u52B9\u306A\u5024`;
       default:
         return `\u7121\u52B9\u306A\u5165\u529B`;
     }
@@ -6564,31 +6563,31 @@ var error21 = () => {
     jwt: "JWT",
     template_literal: "\u10E8\u10D4\u10E7\u10D5\u10D0\u10DC\u10D0"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `\u10D0\u10E0\u10D0\u10E1\u10EC\u10DD\u10E0\u10D8 \u10E8\u10D4\u10E7\u10D5\u10D0\u10DC\u10D0: \u10DB\u10DD\u10E1\u10D0\u10DA\u10DD\u10D3\u10DC\u10D4\u10DA\u10D8 ${issue2.expected}, \u10DB\u10D8\u10E6\u10D4\u10D1\u10E3\u10DA\u10D8 ${parsedType4(issue2.input)}`;
+        return `\u10D0\u10E0\u10D0\u10E1\u10EC\u10DD\u10E0\u10D8 \u10E8\u10D4\u10E7\u10D5\u10D0\u10DC\u10D0: \u10DB\u10DD\u10E1\u10D0\u10DA\u10DD\u10D3\u10DC\u10D4\u10DA\u10D8 ${issue.expected}, \u10DB\u10D8\u10E6\u10D4\u10D1\u10E3\u10DA\u10D8 ${parsedType4(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `\u10D0\u10E0\u10D0\u10E1\u10EC\u10DD\u10E0\u10D8 \u10E8\u10D4\u10E7\u10D5\u10D0\u10DC\u10D0: \u10DB\u10DD\u10E1\u10D0\u10DA\u10DD\u10D3\u10DC\u10D4\u10DA\u10D8 ${stringifyPrimitive(issue2.values[0])}`;
-        return `\u10D0\u10E0\u10D0\u10E1\u10EC\u10DD\u10E0\u10D8 \u10D5\u10D0\u10E0\u10D8\u10D0\u10DC\u10E2\u10D8: \u10DB\u10DD\u10E1\u10D0\u10DA\u10DD\u10D3\u10DC\u10D4\u10DA\u10D8\u10D0 \u10D4\u10E0\u10D7-\u10D4\u10E0\u10D7\u10D8 ${joinValues(issue2.values, "|")}-\u10D3\u10D0\u10DC`;
+        if (issue.values.length === 1)
+          return `\u10D0\u10E0\u10D0\u10E1\u10EC\u10DD\u10E0\u10D8 \u10E8\u10D4\u10E7\u10D5\u10D0\u10DC\u10D0: \u10DB\u10DD\u10E1\u10D0\u10DA\u10DD\u10D3\u10DC\u10D4\u10DA\u10D8 ${stringifyPrimitive(issue.values[0])}`;
+        return `\u10D0\u10E0\u10D0\u10E1\u10EC\u10DD\u10E0\u10D8 \u10D5\u10D0\u10E0\u10D8\u10D0\u10DC\u10E2\u10D8: \u10DB\u10DD\u10E1\u10D0\u10DA\u10DD\u10D3\u10DC\u10D4\u10DA\u10D8\u10D0 \u10D4\u10E0\u10D7-\u10D4\u10E0\u10D7\u10D8 ${joinValues(issue.values, "|")}-\u10D3\u10D0\u10DC`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `\u10D6\u10D4\u10D3\u10DB\u10D4\u10E2\u10D0\u10D3 \u10D3\u10D8\u10D3\u10D8: \u10DB\u10DD\u10E1\u10D0\u10DA\u10DD\u10D3\u10DC\u10D4\u10DA\u10D8 ${issue2.origin ?? "\u10DB\u10DC\u10D8\u10E8\u10D5\u10DC\u10D4\u10DA\u10DD\u10D1\u10D0"} ${sizing.verb} ${adj}${issue2.maximum.toString()} ${sizing.unit}`;
-        return `\u10D6\u10D4\u10D3\u10DB\u10D4\u10E2\u10D0\u10D3 \u10D3\u10D8\u10D3\u10D8: \u10DB\u10DD\u10E1\u10D0\u10DA\u10DD\u10D3\u10DC\u10D4\u10DA\u10D8 ${issue2.origin ?? "\u10DB\u10DC\u10D8\u10E8\u10D5\u10DC\u10D4\u10DA\u10DD\u10D1\u10D0"} \u10D8\u10E7\u10DD\u10E1 ${adj}${issue2.maximum.toString()}`;
+          return `\u10D6\u10D4\u10D3\u10DB\u10D4\u10E2\u10D0\u10D3 \u10D3\u10D8\u10D3\u10D8: \u10DB\u10DD\u10E1\u10D0\u10DA\u10DD\u10D3\u10DC\u10D4\u10DA\u10D8 ${issue.origin ?? "\u10DB\u10DC\u10D8\u10E8\u10D5\u10DC\u10D4\u10DA\u10DD\u10D1\u10D0"} ${sizing.verb} ${adj}${issue.maximum.toString()} ${sizing.unit}`;
+        return `\u10D6\u10D4\u10D3\u10DB\u10D4\u10E2\u10D0\u10D3 \u10D3\u10D8\u10D3\u10D8: \u10DB\u10DD\u10E1\u10D0\u10DA\u10DD\u10D3\u10DC\u10D4\u10DA\u10D8 ${issue.origin ?? "\u10DB\u10DC\u10D8\u10E8\u10D5\u10DC\u10D4\u10DA\u10DD\u10D1\u10D0"} \u10D8\u10E7\u10DD\u10E1 ${adj}${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `\u10D6\u10D4\u10D3\u10DB\u10D4\u10E2\u10D0\u10D3 \u10DE\u10D0\u10E2\u10D0\u10E0\u10D0: \u10DB\u10DD\u10E1\u10D0\u10DA\u10DD\u10D3\u10DC\u10D4\u10DA\u10D8 ${issue2.origin} ${sizing.verb} ${adj}${issue2.minimum.toString()} ${sizing.unit}`;
+          return `\u10D6\u10D4\u10D3\u10DB\u10D4\u10E2\u10D0\u10D3 \u10DE\u10D0\u10E2\u10D0\u10E0\u10D0: \u10DB\u10DD\u10E1\u10D0\u10DA\u10DD\u10D3\u10DC\u10D4\u10DA\u10D8 ${issue.origin} ${sizing.verb} ${adj}${issue.minimum.toString()} ${sizing.unit}`;
         }
-        return `\u10D6\u10D4\u10D3\u10DB\u10D4\u10E2\u10D0\u10D3 \u10DE\u10D0\u10E2\u10D0\u10E0\u10D0: \u10DB\u10DD\u10E1\u10D0\u10DA\u10DD\u10D3\u10DC\u10D4\u10DA\u10D8 ${issue2.origin} \u10D8\u10E7\u10DD\u10E1 ${adj}${issue2.minimum.toString()}`;
+        return `\u10D6\u10D4\u10D3\u10DB\u10D4\u10E2\u10D0\u10D3 \u10DE\u10D0\u10E2\u10D0\u10E0\u10D0: \u10DB\u10DD\u10E1\u10D0\u10DA\u10DD\u10D3\u10DC\u10D4\u10DA\u10D8 ${issue.origin} \u10D8\u10E7\u10DD\u10E1 ${adj}${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with") {
           return `\u10D0\u10E0\u10D0\u10E1\u10EC\u10DD\u10E0\u10D8 \u10E1\u10E2\u10E0\u10D8\u10DC\u10D2\u10D8: \u10E3\u10DC\u10D3\u10D0 \u10D8\u10EC\u10E7\u10D4\u10D1\u10DD\u10D3\u10D4\u10E1 "${_issue.prefix}"-\u10D8\u10D7`;
         }
@@ -6598,18 +6597,18 @@ var error21 = () => {
           return `\u10D0\u10E0\u10D0\u10E1\u10EC\u10DD\u10E0\u10D8 \u10E1\u10E2\u10E0\u10D8\u10DC\u10D2\u10D8: \u10E3\u10DC\u10D3\u10D0 \u10E8\u10D4\u10D8\u10EA\u10D0\u10D5\u10D3\u10D4\u10E1 "${_issue.includes}"-\u10E1`;
         if (_issue.format === "regex")
           return `\u10D0\u10E0\u10D0\u10E1\u10EC\u10DD\u10E0\u10D8 \u10E1\u10E2\u10E0\u10D8\u10DC\u10D2\u10D8: \u10E3\u10DC\u10D3\u10D0 \u10E8\u10D4\u10D4\u10E1\u10D0\u10D1\u10D0\u10DB\u10D4\u10D1\u10DD\u10D3\u10D4\u10E1 \u10E8\u10D0\u10D1\u10DA\u10DD\u10DC\u10E1 ${_issue.pattern}`;
-        return `\u10D0\u10E0\u10D0\u10E1\u10EC\u10DD\u10E0\u10D8 ${Nouns[_issue.format] ?? issue2.format}`;
+        return `\u10D0\u10E0\u10D0\u10E1\u10EC\u10DD\u10E0\u10D8 ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `\u10D0\u10E0\u10D0\u10E1\u10EC\u10DD\u10E0\u10D8 \u10E0\u10D8\u10EA\u10EE\u10D5\u10D8: \u10E3\u10DC\u10D3\u10D0 \u10D8\u10E7\u10DD\u10E1 ${issue2.divisor}-\u10D8\u10E1 \u10EF\u10D4\u10E0\u10D0\u10D3\u10D8`;
+        return `\u10D0\u10E0\u10D0\u10E1\u10EC\u10DD\u10E0\u10D8 \u10E0\u10D8\u10EA\u10EE\u10D5\u10D8: \u10E3\u10DC\u10D3\u10D0 \u10D8\u10E7\u10DD\u10E1 ${issue.divisor}-\u10D8\u10E1 \u10EF\u10D4\u10E0\u10D0\u10D3\u10D8`;
       case "unrecognized_keys":
-        return `\u10E3\u10EA\u10DC\u10DD\u10D1\u10D8 \u10D2\u10D0\u10E1\u10D0\u10E6\u10D4\u10D1${issue2.keys.length > 1 ? "\u10D4\u10D1\u10D8" : "\u10D8"}: ${joinValues(issue2.keys, ", ")}`;
+        return `\u10E3\u10EA\u10DC\u10DD\u10D1\u10D8 \u10D2\u10D0\u10E1\u10D0\u10E6\u10D4\u10D1${issue.keys.length > 1 ? "\u10D4\u10D1\u10D8" : "\u10D8"}: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `\u10D0\u10E0\u10D0\u10E1\u10EC\u10DD\u10E0\u10D8 \u10D2\u10D0\u10E1\u10D0\u10E6\u10D4\u10D1\u10D8 ${issue2.origin}-\u10E8\u10D8`;
+        return `\u10D0\u10E0\u10D0\u10E1\u10EC\u10DD\u10E0\u10D8 \u10D2\u10D0\u10E1\u10D0\u10E6\u10D4\u10D1\u10D8 ${issue.origin}-\u10E8\u10D8`;
       case "invalid_union":
         return "\u10D0\u10E0\u10D0\u10E1\u10EC\u10DD\u10E0\u10D8 \u10E8\u10D4\u10E7\u10D5\u10D0\u10DC\u10D0";
       case "invalid_element":
-        return `\u10D0\u10E0\u10D0\u10E1\u10EC\u10DD\u10E0\u10D8 \u10DB\u10DC\u10D8\u10E8\u10D5\u10DC\u10D4\u10DA\u10DD\u10D1\u10D0 ${issue2.origin}-\u10E8\u10D8`;
+        return `\u10D0\u10E0\u10D0\u10E1\u10EC\u10DD\u10E0\u10D8 \u10DB\u10DC\u10D8\u10E8\u10D5\u10DC\u10D4\u10DA\u10DD\u10D1\u10D0 ${issue.origin}-\u10E8\u10D8`;
       default:
         return `\u10D0\u10E0\u10D0\u10E1\u10EC\u10DD\u10E0\u10D8 \u10E8\u10D4\u10E7\u10D5\u10D0\u10DC\u10D0`;
     }
@@ -6631,7 +6630,7 @@ var error22 = () => {
   function getSizing(origin) {
     return Sizable[origin] ?? null;
   }
-  const parsedType5 = (data) => {
+  const parsedType = (data) => {
     const t = typeof data;
     switch (t) {
       case "number": {
@@ -6681,31 +6680,31 @@ var error22 = () => {
     jwt: "JWT",
     template_literal: "\u1791\u17B7\u1793\u17D2\u1793\u1793\u17D0\u1799\u1794\u1789\u17D2\u1785\u17BC\u179B"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `\u1791\u17B7\u1793\u17D2\u1793\u1793\u17D0\u1799\u1794\u1789\u17D2\u1785\u17BC\u179B\u1798\u17B7\u1793\u178F\u17D2\u179A\u17B9\u1798\u178F\u17D2\u179A\u17BC\u179C\u17D6 \u178F\u17D2\u179A\u17BC\u179C\u1780\u17B6\u179A ${issue2.expected} \u1794\u17C9\u17BB\u1793\u17D2\u178F\u17C2\u1791\u1791\u17BD\u179B\u1794\u17B6\u1793 ${parsedType5(issue2.input)}`;
+        return `\u1791\u17B7\u1793\u17D2\u1793\u1793\u17D0\u1799\u1794\u1789\u17D2\u1785\u17BC\u179B\u1798\u17B7\u1793\u178F\u17D2\u179A\u17B9\u1798\u178F\u17D2\u179A\u17BC\u179C\u17D6 \u178F\u17D2\u179A\u17BC\u179C\u1780\u17B6\u179A ${issue.expected} \u1794\u17C9\u17BB\u1793\u17D2\u178F\u17C2\u1791\u1791\u17BD\u179B\u1794\u17B6\u1793 ${parsedType(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `\u1791\u17B7\u1793\u17D2\u1793\u1793\u17D0\u1799\u1794\u1789\u17D2\u1785\u17BC\u179B\u1798\u17B7\u1793\u178F\u17D2\u179A\u17B9\u1798\u178F\u17D2\u179A\u17BC\u179C\u17D6 \u178F\u17D2\u179A\u17BC\u179C\u1780\u17B6\u179A ${stringifyPrimitive(issue2.values[0])}`;
-        return `\u1787\u1798\u17D2\u179A\u17BE\u179F\u1798\u17B7\u1793\u178F\u17D2\u179A\u17B9\u1798\u178F\u17D2\u179A\u17BC\u179C\u17D6 \u178F\u17D2\u179A\u17BC\u179C\u1787\u17B6\u1798\u17BD\u1799\u1780\u17D2\u1793\u17BB\u1784\u1785\u17C6\u178E\u17C4\u1798 ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `\u1791\u17B7\u1793\u17D2\u1793\u1793\u17D0\u1799\u1794\u1789\u17D2\u1785\u17BC\u179B\u1798\u17B7\u1793\u178F\u17D2\u179A\u17B9\u1798\u178F\u17D2\u179A\u17BC\u179C\u17D6 \u178F\u17D2\u179A\u17BC\u179C\u1780\u17B6\u179A ${stringifyPrimitive(issue.values[0])}`;
+        return `\u1787\u1798\u17D2\u179A\u17BE\u179F\u1798\u17B7\u1793\u178F\u17D2\u179A\u17B9\u1798\u178F\u17D2\u179A\u17BC\u179C\u17D6 \u178F\u17D2\u179A\u17BC\u179C\u1787\u17B6\u1798\u17BD\u1799\u1780\u17D2\u1793\u17BB\u1784\u1785\u17C6\u178E\u17C4\u1798 ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `\u1792\u17C6\u1796\u17C1\u1780\u17D6 \u178F\u17D2\u179A\u17BC\u179C\u1780\u17B6\u179A ${issue2.origin ?? "\u178F\u1798\u17D2\u179B\u17C3"} ${adj} ${issue2.maximum.toString()} ${sizing.unit ?? "\u1792\u17B6\u178F\u17BB"}`;
-        return `\u1792\u17C6\u1796\u17C1\u1780\u17D6 \u178F\u17D2\u179A\u17BC\u179C\u1780\u17B6\u179A ${issue2.origin ?? "\u178F\u1798\u17D2\u179B\u17C3"} ${adj} ${issue2.maximum.toString()}`;
+          return `\u1792\u17C6\u1796\u17C1\u1780\u17D6 \u178F\u17D2\u179A\u17BC\u179C\u1780\u17B6\u179A ${issue.origin ?? "\u178F\u1798\u17D2\u179B\u17C3"} ${adj} ${issue.maximum.toString()} ${sizing.unit ?? "\u1792\u17B6\u178F\u17BB"}`;
+        return `\u1792\u17C6\u1796\u17C1\u1780\u17D6 \u178F\u17D2\u179A\u17BC\u179C\u1780\u17B6\u179A ${issue.origin ?? "\u178F\u1798\u17D2\u179B\u17C3"} ${adj} ${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `\u178F\u17BC\u1785\u1796\u17C1\u1780\u17D6 \u178F\u17D2\u179A\u17BC\u179C\u1780\u17B6\u179A ${issue2.origin} ${adj} ${issue2.minimum.toString()} ${sizing.unit}`;
+          return `\u178F\u17BC\u1785\u1796\u17C1\u1780\u17D6 \u178F\u17D2\u179A\u17BC\u179C\u1780\u17B6\u179A ${issue.origin} ${adj} ${issue.minimum.toString()} ${sizing.unit}`;
         }
-        return `\u178F\u17BC\u1785\u1796\u17C1\u1780\u17D6 \u178F\u17D2\u179A\u17BC\u179C\u1780\u17B6\u179A ${issue2.origin} ${adj} ${issue2.minimum.toString()}`;
+        return `\u178F\u17BC\u1785\u1796\u17C1\u1780\u17D6 \u178F\u17D2\u179A\u17BC\u179C\u1780\u17B6\u179A ${issue.origin} ${adj} ${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with") {
           return `\u1781\u17D2\u179F\u17C2\u17A2\u1780\u17D2\u179F\u179A\u1798\u17B7\u1793\u178F\u17D2\u179A\u17B9\u1798\u178F\u17D2\u179A\u17BC\u179C\u17D6 \u178F\u17D2\u179A\u17BC\u179C\u1785\u17B6\u1794\u17CB\u1795\u17D2\u178F\u17BE\u1798\u178A\u17C4\u1799 "${_issue.prefix}"`;
         }
@@ -6715,18 +6714,18 @@ var error22 = () => {
           return `\u1781\u17D2\u179F\u17C2\u17A2\u1780\u17D2\u179F\u179A\u1798\u17B7\u1793\u178F\u17D2\u179A\u17B9\u1798\u178F\u17D2\u179A\u17BC\u179C\u17D6 \u178F\u17D2\u179A\u17BC\u179C\u1798\u17B6\u1793 "${_issue.includes}"`;
         if (_issue.format === "regex")
           return `\u1781\u17D2\u179F\u17C2\u17A2\u1780\u17D2\u179F\u179A\u1798\u17B7\u1793\u178F\u17D2\u179A\u17B9\u1798\u178F\u17D2\u179A\u17BC\u179C\u17D6 \u178F\u17D2\u179A\u17BC\u179C\u178F\u17C2\u1795\u17D2\u1782\u17BC\u1795\u17D2\u1782\u1784\u1793\u17B9\u1784\u1791\u1798\u17D2\u179A\u1784\u17CB\u178A\u17C2\u179B\u1794\u17B6\u1793\u1780\u17C6\u178E\u178F\u17CB ${_issue.pattern}`;
-        return `\u1798\u17B7\u1793\u178F\u17D2\u179A\u17B9\u1798\u178F\u17D2\u179A\u17BC\u179C\u17D6 ${Nouns[_issue.format] ?? issue2.format}`;
+        return `\u1798\u17B7\u1793\u178F\u17D2\u179A\u17B9\u1798\u178F\u17D2\u179A\u17BC\u179C\u17D6 ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `\u179B\u17C1\u1781\u1798\u17B7\u1793\u178F\u17D2\u179A\u17B9\u1798\u178F\u17D2\u179A\u17BC\u179C\u17D6 \u178F\u17D2\u179A\u17BC\u179C\u178F\u17C2\u1787\u17B6\u1796\u17A0\u17BB\u1782\u17BB\u178E\u1793\u17C3 ${issue2.divisor}`;
+        return `\u179B\u17C1\u1781\u1798\u17B7\u1793\u178F\u17D2\u179A\u17B9\u1798\u178F\u17D2\u179A\u17BC\u179C\u17D6 \u178F\u17D2\u179A\u17BC\u179C\u178F\u17C2\u1787\u17B6\u1796\u17A0\u17BB\u1782\u17BB\u178E\u1793\u17C3 ${issue.divisor}`;
       case "unrecognized_keys":
-        return `\u179A\u1780\u1783\u17BE\u1789\u179F\u17C4\u1798\u17B7\u1793\u179F\u17D2\u1782\u17B6\u179B\u17CB\u17D6 ${joinValues(issue2.keys, ", ")}`;
+        return `\u179A\u1780\u1783\u17BE\u1789\u179F\u17C4\u1798\u17B7\u1793\u179F\u17D2\u1782\u17B6\u179B\u17CB\u17D6 ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `\u179F\u17C4\u1798\u17B7\u1793\u178F\u17D2\u179A\u17B9\u1798\u178F\u17D2\u179A\u17BC\u179C\u1793\u17C5\u1780\u17D2\u1793\u17BB\u1784 ${issue2.origin}`;
+        return `\u179F\u17C4\u1798\u17B7\u1793\u178F\u17D2\u179A\u17B9\u1798\u178F\u17D2\u179A\u17BC\u179C\u1793\u17C5\u1780\u17D2\u1793\u17BB\u1784 ${issue.origin}`;
       case "invalid_union":
         return `\u1791\u17B7\u1793\u17D2\u1793\u1793\u17D0\u1799\u1798\u17B7\u1793\u178F\u17D2\u179A\u17B9\u1798\u178F\u17D2\u179A\u17BC\u179C`;
       case "invalid_element":
-        return `\u1791\u17B7\u1793\u17D2\u1793\u1793\u17D0\u1799\u1798\u17B7\u1793\u178F\u17D2\u179A\u17B9\u1798\u178F\u17D2\u179A\u17BC\u179C\u1793\u17C5\u1780\u17D2\u1793\u17BB\u1784 ${issue2.origin}`;
+        return `\u1791\u17B7\u1793\u17D2\u1793\u1793\u17D0\u1799\u1798\u17B7\u1793\u178F\u17D2\u179A\u17B9\u1798\u178F\u17D2\u179A\u17BC\u179C\u1793\u17C5\u1780\u17D2\u1793\u17BB\u1784 ${issue.origin}`;
       default:
         return `\u1791\u17B7\u1793\u17D2\u1793\u1793\u17D0\u1799\u1798\u17B7\u1793\u178F\u17D2\u179A\u17B9\u1798\u178F\u17D2\u179A\u17BC\u179C`;
     }
@@ -6753,7 +6752,7 @@ var error23 = () => {
   function getSizing(origin) {
     return Sizable[origin] ?? null;
   }
-  const parsedType5 = (data) => {
+  const parsedType = (data) => {
     const t = typeof data;
     switch (t) {
       case "number": {
@@ -6803,35 +6802,35 @@ var error23 = () => {
     jwt: "JWT",
     template_literal: "\uC785\uB825"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `\uC798\uBABB\uB41C \uC785\uB825: \uC608\uC0C1 \uD0C0\uC785\uC740 ${issue2.expected}, \uBC1B\uC740 \uD0C0\uC785\uC740 ${parsedType5(issue2.input)}\uC785\uB2C8\uB2E4`;
+        return `\uC798\uBABB\uB41C \uC785\uB825: \uC608\uC0C1 \uD0C0\uC785\uC740 ${issue.expected}, \uBC1B\uC740 \uD0C0\uC785\uC740 ${parsedType(issue.input)}\uC785\uB2C8\uB2E4`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `\uC798\uBABB\uB41C \uC785\uB825: \uAC12\uC740 ${stringifyPrimitive(issue2.values[0])} \uC774\uC5B4\uC57C \uD569\uB2C8\uB2E4`;
-        return `\uC798\uBABB\uB41C \uC635\uC158: ${joinValues(issue2.values, "\uB610\uB294 ")} \uC911 \uD558\uB098\uC5EC\uC57C \uD569\uB2C8\uB2E4`;
+        if (issue.values.length === 1)
+          return `\uC798\uBABB\uB41C \uC785\uB825: \uAC12\uC740 ${stringifyPrimitive(issue.values[0])} \uC774\uC5B4\uC57C \uD569\uB2C8\uB2E4`;
+        return `\uC798\uBABB\uB41C \uC635\uC158: ${joinValues(issue.values, "\uB610\uB294 ")} \uC911 \uD558\uB098\uC5EC\uC57C \uD569\uB2C8\uB2E4`;
       case "too_big": {
-        const adj = issue2.inclusive ? "\uC774\uD558" : "\uBBF8\uB9CC";
+        const adj = issue.inclusive ? "\uC774\uD558" : "\uBBF8\uB9CC";
         const suffix = adj === "\uBBF8\uB9CC" ? "\uC774\uC5B4\uC57C \uD569\uB2C8\uB2E4" : "\uC5EC\uC57C \uD569\uB2C8\uB2E4";
-        const sizing = getSizing(issue2.origin);
+        const sizing = getSizing(issue.origin);
         const unit = sizing?.unit ?? "\uC694\uC18C";
         if (sizing)
-          return `${issue2.origin ?? "\uAC12"}\uC774 \uB108\uBB34 \uD07D\uB2C8\uB2E4: ${issue2.maximum.toString()}${unit} ${adj}${suffix}`;
-        return `${issue2.origin ?? "\uAC12"}\uC774 \uB108\uBB34 \uD07D\uB2C8\uB2E4: ${issue2.maximum.toString()} ${adj}${suffix}`;
+          return `${issue.origin ?? "\uAC12"}\uC774 \uB108\uBB34 \uD07D\uB2C8\uB2E4: ${issue.maximum.toString()}${unit} ${adj}${suffix}`;
+        return `${issue.origin ?? "\uAC12"}\uC774 \uB108\uBB34 \uD07D\uB2C8\uB2E4: ${issue.maximum.toString()} ${adj}${suffix}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? "\uC774\uC0C1" : "\uCD08\uACFC";
+        const adj = issue.inclusive ? "\uC774\uC0C1" : "\uCD08\uACFC";
         const suffix = adj === "\uC774\uC0C1" ? "\uC774\uC5B4\uC57C \uD569\uB2C8\uB2E4" : "\uC5EC\uC57C \uD569\uB2C8\uB2E4";
-        const sizing = getSizing(issue2.origin);
+        const sizing = getSizing(issue.origin);
         const unit = sizing?.unit ?? "\uC694\uC18C";
         if (sizing) {
-          return `${issue2.origin ?? "\uAC12"}\uC774 \uB108\uBB34 \uC791\uC2B5\uB2C8\uB2E4: ${issue2.minimum.toString()}${unit} ${adj}${suffix}`;
+          return `${issue.origin ?? "\uAC12"}\uC774 \uB108\uBB34 \uC791\uC2B5\uB2C8\uB2E4: ${issue.minimum.toString()}${unit} ${adj}${suffix}`;
         }
-        return `${issue2.origin ?? "\uAC12"}\uC774 \uB108\uBB34 \uC791\uC2B5\uB2C8\uB2E4: ${issue2.minimum.toString()} ${adj}${suffix}`;
+        return `${issue.origin ?? "\uAC12"}\uC774 \uB108\uBB34 \uC791\uC2B5\uB2C8\uB2E4: ${issue.minimum.toString()} ${adj}${suffix}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with") {
           return `\uC798\uBABB\uB41C \uBB38\uC790\uC5F4: "${_issue.prefix}"(\uC73C)\uB85C \uC2DC\uC791\uD574\uC57C \uD569\uB2C8\uB2E4`;
         }
@@ -6841,18 +6840,18 @@ var error23 = () => {
           return `\uC798\uBABB\uB41C \uBB38\uC790\uC5F4: "${_issue.includes}"\uC744(\uB97C) \uD3EC\uD568\uD574\uC57C \uD569\uB2C8\uB2E4`;
         if (_issue.format === "regex")
           return `\uC798\uBABB\uB41C \uBB38\uC790\uC5F4: \uC815\uADDC\uC2DD ${_issue.pattern} \uD328\uD134\uACFC \uC77C\uCE58\uD574\uC57C \uD569\uB2C8\uB2E4`;
-        return `\uC798\uBABB\uB41C ${Nouns[_issue.format] ?? issue2.format}`;
+        return `\uC798\uBABB\uB41C ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `\uC798\uBABB\uB41C \uC22B\uC790: ${issue2.divisor}\uC758 \uBC30\uC218\uC5EC\uC57C \uD569\uB2C8\uB2E4`;
+        return `\uC798\uBABB\uB41C \uC22B\uC790: ${issue.divisor}\uC758 \uBC30\uC218\uC5EC\uC57C \uD569\uB2C8\uB2E4`;
       case "unrecognized_keys":
-        return `\uC778\uC2DD\uD560 \uC218 \uC5C6\uB294 \uD0A4: ${joinValues(issue2.keys, ", ")}`;
+        return `\uC778\uC2DD\uD560 \uC218 \uC5C6\uB294 \uD0A4: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `\uC798\uBABB\uB41C \uD0A4: ${issue2.origin}`;
+        return `\uC798\uBABB\uB41C \uD0A4: ${issue.origin}`;
       case "invalid_union":
         return `\uC798\uBABB\uB41C \uC785\uB825`;
       case "invalid_element":
-        return `\uC798\uBABB\uB41C \uAC12: ${issue2.origin}`;
+        return `\uC798\uBABB\uB41C \uAC12: ${issue.origin}`;
       default:
         return `\uC798\uBABB\uB41C \uC785\uB825`;
     }
@@ -6913,8 +6912,8 @@ var parsedTypeFromType = (t, data = undefined) => {
 var capitalizeFirstCharacter = (text) => {
   return text.charAt(0).toUpperCase() + text.slice(1);
 };
-function getUnitTypeFromNumber(number2) {
-  const abs = Math.abs(number2);
+function getUnitTypeFromNumber(number) {
+  const abs = Math.abs(number);
   const last = abs % 10;
   const last2 = abs % 100;
   if (last2 >= 11 && last2 <= 19 || last === 0)
@@ -7033,32 +7032,32 @@ var error24 = () => {
     jwt: "JWT",
     template_literal: "\u012Fvestis"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `Gautas tipas ${parsedType5(issue2.input)}, o tik\u0117tasi - ${parsedTypeFromType(issue2.expected)}`;
+        return `Gautas tipas ${parsedType5(issue.input)}, o tik\u0117tasi - ${parsedTypeFromType(issue.expected)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `Privalo b\u016Bti ${stringifyPrimitive(issue2.values[0])}`;
-        return `Privalo b\u016Bti vienas i\u0161 ${joinValues(issue2.values, "|")} pasirinkim\u0173`;
+        if (issue.values.length === 1)
+          return `Privalo b\u016Bti ${stringifyPrimitive(issue.values[0])}`;
+        return `Privalo b\u016Bti vienas i\u0161 ${joinValues(issue.values, "|")} pasirinkim\u0173`;
       case "too_big": {
-        const origin = parsedTypeFromType(issue2.origin);
-        const sizing = getSizing(issue2.origin, getUnitTypeFromNumber(Number(issue2.maximum)), issue2.inclusive ?? false, "smaller");
+        const origin = parsedTypeFromType(issue.origin);
+        const sizing = getSizing(issue.origin, getUnitTypeFromNumber(Number(issue.maximum)), issue.inclusive ?? false, "smaller");
         if (sizing?.verb)
-          return `${capitalizeFirstCharacter(origin ?? issue2.origin ?? "reik\u0161m\u0117")} ${sizing.verb} ${issue2.maximum.toString()} ${sizing.unit ?? "element\u0173"}`;
-        const adj = issue2.inclusive ? "ne didesnis kaip" : "ma\u017Eesnis kaip";
-        return `${capitalizeFirstCharacter(origin ?? issue2.origin ?? "reik\u0161m\u0117")} turi b\u016Bti ${adj} ${issue2.maximum.toString()} ${sizing?.unit}`;
+          return `${capitalizeFirstCharacter(origin ?? issue.origin ?? "reik\u0161m\u0117")} ${sizing.verb} ${issue.maximum.toString()} ${sizing.unit ?? "element\u0173"}`;
+        const adj = issue.inclusive ? "ne didesnis kaip" : "ma\u017Eesnis kaip";
+        return `${capitalizeFirstCharacter(origin ?? issue.origin ?? "reik\u0161m\u0117")} turi b\u016Bti ${adj} ${issue.maximum.toString()} ${sizing?.unit}`;
       }
       case "too_small": {
-        const origin = parsedTypeFromType(issue2.origin);
-        const sizing = getSizing(issue2.origin, getUnitTypeFromNumber(Number(issue2.minimum)), issue2.inclusive ?? false, "bigger");
+        const origin = parsedTypeFromType(issue.origin);
+        const sizing = getSizing(issue.origin, getUnitTypeFromNumber(Number(issue.minimum)), issue.inclusive ?? false, "bigger");
         if (sizing?.verb)
-          return `${capitalizeFirstCharacter(origin ?? issue2.origin ?? "reik\u0161m\u0117")} ${sizing.verb} ${issue2.minimum.toString()} ${sizing.unit ?? "element\u0173"}`;
-        const adj = issue2.inclusive ? "ne ma\u017Eesnis kaip" : "didesnis kaip";
-        return `${capitalizeFirstCharacter(origin ?? issue2.origin ?? "reik\u0161m\u0117")} turi b\u016Bti ${adj} ${issue2.minimum.toString()} ${sizing?.unit}`;
+          return `${capitalizeFirstCharacter(origin ?? issue.origin ?? "reik\u0161m\u0117")} ${sizing.verb} ${issue.minimum.toString()} ${sizing.unit ?? "element\u0173"}`;
+        const adj = issue.inclusive ? "ne ma\u017Eesnis kaip" : "didesnis kaip";
+        return `${capitalizeFirstCharacter(origin ?? issue.origin ?? "reik\u0161m\u0117")} turi b\u016Bti ${adj} ${issue.minimum.toString()} ${sizing?.unit}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with") {
           return `Eilut\u0117 privalo prasid\u0117ti "${_issue.prefix}"`;
         }
@@ -7068,19 +7067,19 @@ var error24 = () => {
           return `Eilut\u0117 privalo \u012Ftraukti "${_issue.includes}"`;
         if (_issue.format === "regex")
           return `Eilut\u0117 privalo atitikti ${_issue.pattern}`;
-        return `Neteisingas ${Nouns[_issue.format] ?? issue2.format}`;
+        return `Neteisingas ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `Skai\u010Dius privalo b\u016Bti ${issue2.divisor} kartotinis.`;
+        return `Skai\u010Dius privalo b\u016Bti ${issue.divisor} kartotinis.`;
       case "unrecognized_keys":
-        return `Neatpa\u017Eint${issue2.keys.length > 1 ? "i" : "as"} rakt${issue2.keys.length > 1 ? "ai" : "as"}: ${joinValues(issue2.keys, ", ")}`;
+        return `Neatpa\u017Eint${issue.keys.length > 1 ? "i" : "as"} rakt${issue.keys.length > 1 ? "ai" : "as"}: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
         return "Rastas klaidingas raktas";
       case "invalid_union":
         return "Klaidinga \u012Fvestis";
       case "invalid_element": {
-        const origin = parsedTypeFromType(issue2.origin);
-        return `${capitalizeFirstCharacter(origin ?? issue2.origin ?? "reik\u0161m\u0117")} turi klaiding\u0105 \u012Fvest\u012F`;
+        const origin = parsedTypeFromType(issue.origin);
+        return `${capitalizeFirstCharacter(origin ?? issue.origin ?? "reik\u0161m\u0117")} turi klaiding\u0105 \u012Fvest\u012F`;
       }
       default:
         return "Klaidinga \u012Fvestis";
@@ -7103,7 +7102,7 @@ var error25 = () => {
   function getSizing(origin) {
     return Sizable[origin] ?? null;
   }
-  const parsedType6 = (data) => {
+  const parsedType = (data) => {
     const t = typeof data;
     switch (t) {
       case "number": {
@@ -7153,31 +7152,31 @@ var error25 = () => {
     jwt: "JWT",
     template_literal: "\u0432\u043D\u0435\u0441"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `\u0413\u0440\u0435\u0448\u0435\u043D \u0432\u043D\u0435\u0441: \u0441\u0435 \u043E\u0447\u0435\u043A\u0443\u0432\u0430 ${issue2.expected}, \u043F\u0440\u0438\u043C\u0435\u043D\u043E ${parsedType6(issue2.input)}`;
+        return `\u0413\u0440\u0435\u0448\u0435\u043D \u0432\u043D\u0435\u0441: \u0441\u0435 \u043E\u0447\u0435\u043A\u0443\u0432\u0430 ${issue.expected}, \u043F\u0440\u0438\u043C\u0435\u043D\u043E ${parsedType(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `Invalid input: expected ${stringifyPrimitive(issue2.values[0])}`;
-        return `\u0413\u0440\u0435\u0448\u0430\u043D\u0430 \u043E\u043F\u0446\u0438\u0458\u0430: \u0441\u0435 \u043E\u0447\u0435\u043A\u0443\u0432\u0430 \u0435\u0434\u043D\u0430 ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `Invalid input: expected ${stringifyPrimitive(issue.values[0])}`;
+        return `\u0413\u0440\u0435\u0448\u0430\u043D\u0430 \u043E\u043F\u0446\u0438\u0458\u0430: \u0441\u0435 \u043E\u0447\u0435\u043A\u0443\u0432\u0430 \u0435\u0434\u043D\u0430 ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `\u041F\u0440\u0435\u043C\u043D\u043E\u0433\u0443 \u0433\u043E\u043B\u0435\u043C: \u0441\u0435 \u043E\u0447\u0435\u043A\u0443\u0432\u0430 ${issue2.origin ?? "\u0432\u0440\u0435\u0434\u043D\u043E\u0441\u0442\u0430"} \u0434\u0430 \u0438\u043C\u0430 ${adj}${issue2.maximum.toString()} ${sizing.unit ?? "\u0435\u043B\u0435\u043C\u0435\u043D\u0442\u0438"}`;
-        return `\u041F\u0440\u0435\u043C\u043D\u043E\u0433\u0443 \u0433\u043E\u043B\u0435\u043C: \u0441\u0435 \u043E\u0447\u0435\u043A\u0443\u0432\u0430 ${issue2.origin ?? "\u0432\u0440\u0435\u0434\u043D\u043E\u0441\u0442\u0430"} \u0434\u0430 \u0431\u0438\u0434\u0435 ${adj}${issue2.maximum.toString()}`;
+          return `\u041F\u0440\u0435\u043C\u043D\u043E\u0433\u0443 \u0433\u043E\u043B\u0435\u043C: \u0441\u0435 \u043E\u0447\u0435\u043A\u0443\u0432\u0430 ${issue.origin ?? "\u0432\u0440\u0435\u0434\u043D\u043E\u0441\u0442\u0430"} \u0434\u0430 \u0438\u043C\u0430 ${adj}${issue.maximum.toString()} ${sizing.unit ?? "\u0435\u043B\u0435\u043C\u0435\u043D\u0442\u0438"}`;
+        return `\u041F\u0440\u0435\u043C\u043D\u043E\u0433\u0443 \u0433\u043E\u043B\u0435\u043C: \u0441\u0435 \u043E\u0447\u0435\u043A\u0443\u0432\u0430 ${issue.origin ?? "\u0432\u0440\u0435\u0434\u043D\u043E\u0441\u0442\u0430"} \u0434\u0430 \u0431\u0438\u0434\u0435 ${adj}${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `\u041F\u0440\u0435\u043C\u043D\u043E\u0433\u0443 \u043C\u0430\u043B: \u0441\u0435 \u043E\u0447\u0435\u043A\u0443\u0432\u0430 ${issue2.origin} \u0434\u0430 \u0438\u043C\u0430 ${adj}${issue2.minimum.toString()} ${sizing.unit}`;
+          return `\u041F\u0440\u0435\u043C\u043D\u043E\u0433\u0443 \u043C\u0430\u043B: \u0441\u0435 \u043E\u0447\u0435\u043A\u0443\u0432\u0430 ${issue.origin} \u0434\u0430 \u0438\u043C\u0430 ${adj}${issue.minimum.toString()} ${sizing.unit}`;
         }
-        return `\u041F\u0440\u0435\u043C\u043D\u043E\u0433\u0443 \u043C\u0430\u043B: \u0441\u0435 \u043E\u0447\u0435\u043A\u0443\u0432\u0430 ${issue2.origin} \u0434\u0430 \u0431\u0438\u0434\u0435 ${adj}${issue2.minimum.toString()}`;
+        return `\u041F\u0440\u0435\u043C\u043D\u043E\u0433\u0443 \u043C\u0430\u043B: \u0441\u0435 \u043E\u0447\u0435\u043A\u0443\u0432\u0430 ${issue.origin} \u0434\u0430 \u0431\u0438\u0434\u0435 ${adj}${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with") {
           return `\u041D\u0435\u0432\u0430\u0436\u0435\u0447\u043A\u0430 \u043D\u0438\u0437\u0430: \u043C\u043E\u0440\u0430 \u0434\u0430 \u0437\u0430\u043F\u043E\u0447\u043D\u0443\u0432\u0430 \u0441\u043E "${_issue.prefix}"`;
         }
@@ -7187,18 +7186,18 @@ var error25 = () => {
           return `\u041D\u0435\u0432\u0430\u0436\u0435\u0447\u043A\u0430 \u043D\u0438\u0437\u0430: \u043C\u043E\u0440\u0430 \u0434\u0430 \u0432\u043A\u043B\u0443\u0447\u0443\u0432\u0430 "${_issue.includes}"`;
         if (_issue.format === "regex")
           return `\u041D\u0435\u0432\u0430\u0436\u0435\u0447\u043A\u0430 \u043D\u0438\u0437\u0430: \u043C\u043E\u0440\u0430 \u0434\u0430 \u043E\u0434\u0433\u043E\u0430\u0440\u0430 \u043D\u0430 \u043F\u0430\u0442\u0435\u0440\u043D\u043E\u0442 ${_issue.pattern}`;
-        return `Invalid ${Nouns[_issue.format] ?? issue2.format}`;
+        return `Invalid ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `\u0413\u0440\u0435\u0448\u0435\u043D \u0431\u0440\u043E\u0458: \u043C\u043E\u0440\u0430 \u0434\u0430 \u0431\u0438\u0434\u0435 \u0434\u0435\u043B\u0438\u0432 \u0441\u043E ${issue2.divisor}`;
+        return `\u0413\u0440\u0435\u0448\u0435\u043D \u0431\u0440\u043E\u0458: \u043C\u043E\u0440\u0430 \u0434\u0430 \u0431\u0438\u0434\u0435 \u0434\u0435\u043B\u0438\u0432 \u0441\u043E ${issue.divisor}`;
       case "unrecognized_keys":
-        return `${issue2.keys.length > 1 ? "\u041D\u0435\u043F\u0440\u0435\u043F\u043E\u0437\u043D\u0430\u0435\u043D\u0438 \u043A\u043B\u0443\u0447\u0435\u0432\u0438" : "\u041D\u0435\u043F\u0440\u0435\u043F\u043E\u0437\u043D\u0430\u0435\u043D \u043A\u043B\u0443\u0447"}: ${joinValues(issue2.keys, ", ")}`;
+        return `${issue.keys.length > 1 ? "\u041D\u0435\u043F\u0440\u0435\u043F\u043E\u0437\u043D\u0430\u0435\u043D\u0438 \u043A\u043B\u0443\u0447\u0435\u0432\u0438" : "\u041D\u0435\u043F\u0440\u0435\u043F\u043E\u0437\u043D\u0430\u0435\u043D \u043A\u043B\u0443\u0447"}: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `\u0413\u0440\u0435\u0448\u0435\u043D \u043A\u043B\u0443\u0447 \u0432\u043E ${issue2.origin}`;
+        return `\u0413\u0440\u0435\u0448\u0435\u043D \u043A\u043B\u0443\u0447 \u0432\u043E ${issue.origin}`;
       case "invalid_union":
         return "\u0413\u0440\u0435\u0448\u0435\u043D \u0432\u043D\u0435\u0441";
       case "invalid_element":
-        return `\u0413\u0440\u0435\u0448\u043D\u0430 \u0432\u0440\u0435\u0434\u043D\u043E\u0441\u0442 \u0432\u043E ${issue2.origin}`;
+        return `\u0413\u0440\u0435\u0448\u043D\u0430 \u0432\u0440\u0435\u0434\u043D\u043E\u0441\u0442 \u0432\u043E ${issue.origin}`;
       default:
         return `\u0413\u0440\u0435\u0448\u0435\u043D \u0432\u043D\u0435\u0441`;
     }
@@ -7220,7 +7219,7 @@ var error26 = () => {
   function getSizing(origin) {
     return Sizable[origin] ?? null;
   }
-  const parsedType6 = (data) => {
+  const parsedType = (data) => {
     const t = typeof data;
     switch (t) {
       case "number": {
@@ -7270,31 +7269,31 @@ var error26 = () => {
     jwt: "JWT",
     template_literal: "input"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `Input tidak sah: dijangka ${issue2.expected}, diterima ${parsedType6(issue2.input)}`;
+        return `Input tidak sah: dijangka ${issue.expected}, diterima ${parsedType(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `Input tidak sah: dijangka ${stringifyPrimitive(issue2.values[0])}`;
-        return `Pilihan tidak sah: dijangka salah satu daripada ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `Input tidak sah: dijangka ${stringifyPrimitive(issue.values[0])}`;
+        return `Pilihan tidak sah: dijangka salah satu daripada ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `Terlalu besar: dijangka ${issue2.origin ?? "nilai"} ${sizing.verb} ${adj}${issue2.maximum.toString()} ${sizing.unit ?? "elemen"}`;
-        return `Terlalu besar: dijangka ${issue2.origin ?? "nilai"} adalah ${adj}${issue2.maximum.toString()}`;
+          return `Terlalu besar: dijangka ${issue.origin ?? "nilai"} ${sizing.verb} ${adj}${issue.maximum.toString()} ${sizing.unit ?? "elemen"}`;
+        return `Terlalu besar: dijangka ${issue.origin ?? "nilai"} adalah ${adj}${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `Terlalu kecil: dijangka ${issue2.origin} ${sizing.verb} ${adj}${issue2.minimum.toString()} ${sizing.unit}`;
+          return `Terlalu kecil: dijangka ${issue.origin} ${sizing.verb} ${adj}${issue.minimum.toString()} ${sizing.unit}`;
         }
-        return `Terlalu kecil: dijangka ${issue2.origin} adalah ${adj}${issue2.minimum.toString()}`;
+        return `Terlalu kecil: dijangka ${issue.origin} adalah ${adj}${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with")
           return `String tidak sah: mesti bermula dengan "${_issue.prefix}"`;
         if (_issue.format === "ends_with")
@@ -7303,18 +7302,18 @@ var error26 = () => {
           return `String tidak sah: mesti mengandungi "${_issue.includes}"`;
         if (_issue.format === "regex")
           return `String tidak sah: mesti sepadan dengan corak ${_issue.pattern}`;
-        return `${Nouns[_issue.format] ?? issue2.format} tidak sah`;
+        return `${Nouns[_issue.format] ?? issue.format} tidak sah`;
       }
       case "not_multiple_of":
-        return `Nombor tidak sah: perlu gandaan ${issue2.divisor}`;
+        return `Nombor tidak sah: perlu gandaan ${issue.divisor}`;
       case "unrecognized_keys":
-        return `Kunci tidak dikenali: ${joinValues(issue2.keys, ", ")}`;
+        return `Kunci tidak dikenali: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `Kunci tidak sah dalam ${issue2.origin}`;
+        return `Kunci tidak sah dalam ${issue.origin}`;
       case "invalid_union":
         return "Input tidak sah";
       case "invalid_element":
-        return `Nilai tidak sah dalam ${issue2.origin}`;
+        return `Nilai tidak sah dalam ${issue.origin}`;
       default:
         return `Input tidak sah`;
     }
@@ -7336,7 +7335,7 @@ var error27 = () => {
   function getSizing(origin) {
     return Sizable[origin] ?? null;
   }
-  const parsedType6 = (data) => {
+  const parsedType = (data) => {
     const t = typeof data;
     switch (t) {
       case "number": {
@@ -7386,31 +7385,31 @@ var error27 = () => {
     jwt: "JWT",
     template_literal: "invoer"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `Ongeldige invoer: verwacht ${issue2.expected}, ontving ${parsedType6(issue2.input)}`;
+        return `Ongeldige invoer: verwacht ${issue.expected}, ontving ${parsedType(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `Ongeldige invoer: verwacht ${stringifyPrimitive(issue2.values[0])}`;
-        return `Ongeldige optie: verwacht \xE9\xE9n van ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `Ongeldige invoer: verwacht ${stringifyPrimitive(issue.values[0])}`;
+        return `Ongeldige optie: verwacht \xE9\xE9n van ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `Te lang: verwacht dat ${issue2.origin ?? "waarde"} ${adj}${issue2.maximum.toString()} ${sizing.unit ?? "elementen"} bevat`;
-        return `Te lang: verwacht dat ${issue2.origin ?? "waarde"} ${adj}${issue2.maximum.toString()} is`;
+          return `Te lang: verwacht dat ${issue.origin ?? "waarde"} ${adj}${issue.maximum.toString()} ${sizing.unit ?? "elementen"} bevat`;
+        return `Te lang: verwacht dat ${issue.origin ?? "waarde"} ${adj}${issue.maximum.toString()} is`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `Te kort: verwacht dat ${issue2.origin} ${adj}${issue2.minimum.toString()} ${sizing.unit} bevat`;
+          return `Te kort: verwacht dat ${issue.origin} ${adj}${issue.minimum.toString()} ${sizing.unit} bevat`;
         }
-        return `Te kort: verwacht dat ${issue2.origin} ${adj}${issue2.minimum.toString()} is`;
+        return `Te kort: verwacht dat ${issue.origin} ${adj}${issue.minimum.toString()} is`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with") {
           return `Ongeldige tekst: moet met "${_issue.prefix}" beginnen`;
         }
@@ -7420,18 +7419,18 @@ var error27 = () => {
           return `Ongeldige tekst: moet "${_issue.includes}" bevatten`;
         if (_issue.format === "regex")
           return `Ongeldige tekst: moet overeenkomen met patroon ${_issue.pattern}`;
-        return `Ongeldig: ${Nouns[_issue.format] ?? issue2.format}`;
+        return `Ongeldig: ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `Ongeldig getal: moet een veelvoud van ${issue2.divisor} zijn`;
+        return `Ongeldig getal: moet een veelvoud van ${issue.divisor} zijn`;
       case "unrecognized_keys":
-        return `Onbekende key${issue2.keys.length > 1 ? "s" : ""}: ${joinValues(issue2.keys, ", ")}`;
+        return `Onbekende key${issue.keys.length > 1 ? "s" : ""}: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `Ongeldige key in ${issue2.origin}`;
+        return `Ongeldige key in ${issue.origin}`;
       case "invalid_union":
         return "Ongeldige invoer";
       case "invalid_element":
-        return `Ongeldige waarde in ${issue2.origin}`;
+        return `Ongeldige waarde in ${issue.origin}`;
       default:
         return `Ongeldige invoer`;
     }
@@ -7453,7 +7452,7 @@ var error28 = () => {
   function getSizing(origin) {
     return Sizable[origin] ?? null;
   }
-  const parsedType6 = (data) => {
+  const parsedType = (data) => {
     const t = typeof data;
     switch (t) {
       case "number": {
@@ -7503,31 +7502,31 @@ var error28 = () => {
     jwt: "JWT",
     template_literal: "input"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `Ugyldig input: forventet ${issue2.expected}, fikk ${parsedType6(issue2.input)}`;
+        return `Ugyldig input: forventet ${issue.expected}, fikk ${parsedType(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `Ugyldig verdi: forventet ${stringifyPrimitive(issue2.values[0])}`;
-        return `Ugyldig valg: forventet en av ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `Ugyldig verdi: forventet ${stringifyPrimitive(issue.values[0])}`;
+        return `Ugyldig valg: forventet en av ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `For stor(t): forventet ${issue2.origin ?? "value"} til \xE5 ha ${adj}${issue2.maximum.toString()} ${sizing.unit ?? "elementer"}`;
-        return `For stor(t): forventet ${issue2.origin ?? "value"} til \xE5 ha ${adj}${issue2.maximum.toString()}`;
+          return `For stor(t): forventet ${issue.origin ?? "value"} til \xE5 ha ${adj}${issue.maximum.toString()} ${sizing.unit ?? "elementer"}`;
+        return `For stor(t): forventet ${issue.origin ?? "value"} til \xE5 ha ${adj}${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `For lite(n): forventet ${issue2.origin} til \xE5 ha ${adj}${issue2.minimum.toString()} ${sizing.unit}`;
+          return `For lite(n): forventet ${issue.origin} til \xE5 ha ${adj}${issue.minimum.toString()} ${sizing.unit}`;
         }
-        return `For lite(n): forventet ${issue2.origin} til \xE5 ha ${adj}${issue2.minimum.toString()}`;
+        return `For lite(n): forventet ${issue.origin} til \xE5 ha ${adj}${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with")
           return `Ugyldig streng: m\xE5 starte med "${_issue.prefix}"`;
         if (_issue.format === "ends_with")
@@ -7536,18 +7535,18 @@ var error28 = () => {
           return `Ugyldig streng: m\xE5 inneholde "${_issue.includes}"`;
         if (_issue.format === "regex")
           return `Ugyldig streng: m\xE5 matche m\xF8nsteret ${_issue.pattern}`;
-        return `Ugyldig ${Nouns[_issue.format] ?? issue2.format}`;
+        return `Ugyldig ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `Ugyldig tall: m\xE5 v\xE6re et multiplum av ${issue2.divisor}`;
+        return `Ugyldig tall: m\xE5 v\xE6re et multiplum av ${issue.divisor}`;
       case "unrecognized_keys":
-        return `${issue2.keys.length > 1 ? "Ukjente n\xF8kler" : "Ukjent n\xF8kkel"}: ${joinValues(issue2.keys, ", ")}`;
+        return `${issue.keys.length > 1 ? "Ukjente n\xF8kler" : "Ukjent n\xF8kkel"}: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `Ugyldig n\xF8kkel i ${issue2.origin}`;
+        return `Ugyldig n\xF8kkel i ${issue.origin}`;
       case "invalid_union":
         return "Ugyldig input";
       case "invalid_element":
-        return `Ugyldig verdi i ${issue2.origin}`;
+        return `Ugyldig verdi i ${issue.origin}`;
       default:
         return `Ugyldig input`;
     }
@@ -7569,7 +7568,7 @@ var error29 = () => {
   function getSizing(origin) {
     return Sizable[origin] ?? null;
   }
-  const parsedType6 = (data) => {
+  const parsedType = (data) => {
     const t = typeof data;
     switch (t) {
       case "number": {
@@ -7619,31 +7618,31 @@ var error29 = () => {
     jwt: "JWT",
     template_literal: "giren"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `F\xE2sit giren: umulan ${issue2.expected}, al\u0131nan ${parsedType6(issue2.input)}`;
+        return `F\xE2sit giren: umulan ${issue.expected}, al\u0131nan ${parsedType(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `F\xE2sit giren: umulan ${stringifyPrimitive(issue2.values[0])}`;
-        return `F\xE2sit tercih: m\xFBteberler ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `F\xE2sit giren: umulan ${stringifyPrimitive(issue.values[0])}`;
+        return `F\xE2sit tercih: m\xFBteberler ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `Fazla b\xFCy\xFCk: ${issue2.origin ?? "value"}, ${adj}${issue2.maximum.toString()} ${sizing.unit ?? "elements"} sahip olmal\u0131yd\u0131.`;
-        return `Fazla b\xFCy\xFCk: ${issue2.origin ?? "value"}, ${adj}${issue2.maximum.toString()} olmal\u0131yd\u0131.`;
+          return `Fazla b\xFCy\xFCk: ${issue.origin ?? "value"}, ${adj}${issue.maximum.toString()} ${sizing.unit ?? "elements"} sahip olmal\u0131yd\u0131.`;
+        return `Fazla b\xFCy\xFCk: ${issue.origin ?? "value"}, ${adj}${issue.maximum.toString()} olmal\u0131yd\u0131.`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `Fazla k\xFC\xE7\xFCk: ${issue2.origin}, ${adj}${issue2.minimum.toString()} ${sizing.unit} sahip olmal\u0131yd\u0131.`;
+          return `Fazla k\xFC\xE7\xFCk: ${issue.origin}, ${adj}${issue.minimum.toString()} ${sizing.unit} sahip olmal\u0131yd\u0131.`;
         }
-        return `Fazla k\xFC\xE7\xFCk: ${issue2.origin}, ${adj}${issue2.minimum.toString()} olmal\u0131yd\u0131.`;
+        return `Fazla k\xFC\xE7\xFCk: ${issue.origin}, ${adj}${issue.minimum.toString()} olmal\u0131yd\u0131.`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with")
           return `F\xE2sit metin: "${_issue.prefix}" ile ba\u015Flamal\u0131.`;
         if (_issue.format === "ends_with")
@@ -7652,18 +7651,18 @@ var error29 = () => {
           return `F\xE2sit metin: "${_issue.includes}" ihtiv\xE2 etmeli.`;
         if (_issue.format === "regex")
           return `F\xE2sit metin: ${_issue.pattern} nak\u015F\u0131na uymal\u0131.`;
-        return `F\xE2sit ${Nouns[_issue.format] ?? issue2.format}`;
+        return `F\xE2sit ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `F\xE2sit say\u0131: ${issue2.divisor} kat\u0131 olmal\u0131yd\u0131.`;
+        return `F\xE2sit say\u0131: ${issue.divisor} kat\u0131 olmal\u0131yd\u0131.`;
       case "unrecognized_keys":
-        return `Tan\u0131nmayan anahtar ${issue2.keys.length > 1 ? "s" : ""}: ${joinValues(issue2.keys, ", ")}`;
+        return `Tan\u0131nmayan anahtar ${issue.keys.length > 1 ? "s" : ""}: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `${issue2.origin} i\xE7in tan\u0131nmayan anahtar var.`;
+        return `${issue.origin} i\xE7in tan\u0131nmayan anahtar var.`;
       case "invalid_union":
         return "Giren tan\u0131namad\u0131.";
       case "invalid_element":
-        return `${issue2.origin} i\xE7in tan\u0131nmayan k\u0131ymet var.`;
+        return `${issue.origin} i\xE7in tan\u0131nmayan k\u0131ymet var.`;
       default:
         return `K\u0131ymet tan\u0131namad\u0131.`;
     }
@@ -7685,7 +7684,7 @@ var error30 = () => {
   function getSizing(origin) {
     return Sizable[origin] ?? null;
   }
-  const parsedType6 = (data) => {
+  const parsedType = (data) => {
     const t = typeof data;
     switch (t) {
       case "number": {
@@ -7735,33 +7734,33 @@ var error30 = () => {
     jwt: "JWT",
     template_literal: "\u0648\u0631\u0648\u062F\u064A"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `\u0646\u0627\u0633\u0645 \u0648\u0631\u0648\u062F\u064A: \u0628\u0627\u06CC\u062F ${issue2.expected} \u0648\u0627\u06CC, \u0645\u06AB\u0631 ${parsedType6(issue2.input)} \u062A\u0631\u0644\u0627\u0633\u0647 \u0634\u0648`;
+        return `\u0646\u0627\u0633\u0645 \u0648\u0631\u0648\u062F\u064A: \u0628\u0627\u06CC\u062F ${issue.expected} \u0648\u0627\u06CC, \u0645\u06AB\u0631 ${parsedType(issue.input)} \u062A\u0631\u0644\u0627\u0633\u0647 \u0634\u0648`;
       case "invalid_value":
-        if (issue2.values.length === 1) {
-          return `\u0646\u0627\u0633\u0645 \u0648\u0631\u0648\u062F\u064A: \u0628\u0627\u06CC\u062F ${stringifyPrimitive(issue2.values[0])} \u0648\u0627\u06CC`;
+        if (issue.values.length === 1) {
+          return `\u0646\u0627\u0633\u0645 \u0648\u0631\u0648\u062F\u064A: \u0628\u0627\u06CC\u062F ${stringifyPrimitive(issue.values[0])} \u0648\u0627\u06CC`;
         }
-        return `\u0646\u0627\u0633\u0645 \u0627\u0646\u062A\u062E\u0627\u0628: \u0628\u0627\u06CC\u062F \u06CC\u0648 \u0644\u0647 ${joinValues(issue2.values, "|")} \u0685\u062E\u0647 \u0648\u0627\u06CC`;
+        return `\u0646\u0627\u0633\u0645 \u0627\u0646\u062A\u062E\u0627\u0628: \u0628\u0627\u06CC\u062F \u06CC\u0648 \u0644\u0647 ${joinValues(issue.values, "|")} \u0685\u062E\u0647 \u0648\u0627\u06CC`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `\u0689\u06CC\u0631 \u0644\u0648\u06CC: ${issue2.origin ?? "\u0627\u0631\u0632\u069A\u062A"} \u0628\u0627\u06CC\u062F ${adj}${issue2.maximum.toString()} ${sizing.unit ?? "\u0639\u0646\u0635\u0631\u0648\u0646\u0647"} \u0648\u0644\u0631\u064A`;
+          return `\u0689\u06CC\u0631 \u0644\u0648\u06CC: ${issue.origin ?? "\u0627\u0631\u0632\u069A\u062A"} \u0628\u0627\u06CC\u062F ${adj}${issue.maximum.toString()} ${sizing.unit ?? "\u0639\u0646\u0635\u0631\u0648\u0646\u0647"} \u0648\u0644\u0631\u064A`;
         }
-        return `\u0689\u06CC\u0631 \u0644\u0648\u06CC: ${issue2.origin ?? "\u0627\u0631\u0632\u069A\u062A"} \u0628\u0627\u06CC\u062F ${adj}${issue2.maximum.toString()} \u0648\u064A`;
+        return `\u0689\u06CC\u0631 \u0644\u0648\u06CC: ${issue.origin ?? "\u0627\u0631\u0632\u069A\u062A"} \u0628\u0627\u06CC\u062F ${adj}${issue.maximum.toString()} \u0648\u064A`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `\u0689\u06CC\u0631 \u06A9\u0648\u0686\u0646\u06CC: ${issue2.origin} \u0628\u0627\u06CC\u062F ${adj}${issue2.minimum.toString()} ${sizing.unit} \u0648\u0644\u0631\u064A`;
+          return `\u0689\u06CC\u0631 \u06A9\u0648\u0686\u0646\u06CC: ${issue.origin} \u0628\u0627\u06CC\u062F ${adj}${issue.minimum.toString()} ${sizing.unit} \u0648\u0644\u0631\u064A`;
         }
-        return `\u0689\u06CC\u0631 \u06A9\u0648\u0686\u0646\u06CC: ${issue2.origin} \u0628\u0627\u06CC\u062F ${adj}${issue2.minimum.toString()} \u0648\u064A`;
+        return `\u0689\u06CC\u0631 \u06A9\u0648\u0686\u0646\u06CC: ${issue.origin} \u0628\u0627\u06CC\u062F ${adj}${issue.minimum.toString()} \u0648\u064A`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with") {
           return `\u0646\u0627\u0633\u0645 \u0645\u062A\u0646: \u0628\u0627\u06CC\u062F \u062F "${_issue.prefix}" \u0633\u0631\u0647 \u067E\u06CC\u0644 \u0634\u064A`;
         }
@@ -7774,18 +7773,18 @@ var error30 = () => {
         if (_issue.format === "regex") {
           return `\u0646\u0627\u0633\u0645 \u0645\u062A\u0646: \u0628\u0627\u06CC\u062F \u062F ${_issue.pattern} \u0633\u0631\u0647 \u0645\u0637\u0627\u0628\u0642\u062A \u0648\u0644\u0631\u064A`;
         }
-        return `${Nouns[_issue.format] ?? issue2.format} \u0646\u0627\u0633\u0645 \u062F\u06CC`;
+        return `${Nouns[_issue.format] ?? issue.format} \u0646\u0627\u0633\u0645 \u062F\u06CC`;
       }
       case "not_multiple_of":
-        return `\u0646\u0627\u0633\u0645 \u0639\u062F\u062F: \u0628\u0627\u06CC\u062F \u062F ${issue2.divisor} \u0645\u0636\u0631\u0628 \u0648\u064A`;
+        return `\u0646\u0627\u0633\u0645 \u0639\u062F\u062F: \u0628\u0627\u06CC\u062F \u062F ${issue.divisor} \u0645\u0636\u0631\u0628 \u0648\u064A`;
       case "unrecognized_keys":
-        return `\u0646\u0627\u0633\u0645 ${issue2.keys.length > 1 ? "\u06A9\u0644\u06CC\u0689\u0648\u0646\u0647" : "\u06A9\u0644\u06CC\u0689"}: ${joinValues(issue2.keys, ", ")}`;
+        return `\u0646\u0627\u0633\u0645 ${issue.keys.length > 1 ? "\u06A9\u0644\u06CC\u0689\u0648\u0646\u0647" : "\u06A9\u0644\u06CC\u0689"}: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `\u0646\u0627\u0633\u0645 \u06A9\u0644\u06CC\u0689 \u067E\u0647 ${issue2.origin} \u06A9\u06D0`;
+        return `\u0646\u0627\u0633\u0645 \u06A9\u0644\u06CC\u0689 \u067E\u0647 ${issue.origin} \u06A9\u06D0`;
       case "invalid_union":
         return `\u0646\u0627\u0633\u0645\u0647 \u0648\u0631\u0648\u062F\u064A`;
       case "invalid_element":
-        return `\u0646\u0627\u0633\u0645 \u0639\u0646\u0635\u0631 \u067E\u0647 ${issue2.origin} \u06A9\u06D0`;
+        return `\u0646\u0627\u0633\u0645 \u0639\u0646\u0635\u0631 \u067E\u0647 ${issue.origin} \u06A9\u06D0`;
       default:
         return `\u0646\u0627\u0633\u0645\u0647 \u0648\u0631\u0648\u062F\u064A`;
     }
@@ -7807,7 +7806,7 @@ var error31 = () => {
   function getSizing(origin) {
     return Sizable[origin] ?? null;
   }
-  const parsedType6 = (data) => {
+  const parsedType = (data) => {
     const t = typeof data;
     switch (t) {
       case "number": {
@@ -7857,32 +7856,32 @@ var error31 = () => {
     jwt: "JWT",
     template_literal: "wej\u015Bcie"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `Nieprawid\u0142owe dane wej\u015Bciowe: oczekiwano ${issue2.expected}, otrzymano ${parsedType6(issue2.input)}`;
+        return `Nieprawid\u0142owe dane wej\u015Bciowe: oczekiwano ${issue.expected}, otrzymano ${parsedType(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `Nieprawid\u0142owe dane wej\u015Bciowe: oczekiwano ${stringifyPrimitive(issue2.values[0])}`;
-        return `Nieprawid\u0142owa opcja: oczekiwano jednej z warto\u015Bci ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `Nieprawid\u0142owe dane wej\u015Bciowe: oczekiwano ${stringifyPrimitive(issue.values[0])}`;
+        return `Nieprawid\u0142owa opcja: oczekiwano jednej z warto\u015Bci ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `Za du\u017Ca warto\u015B\u0107: oczekiwano, \u017Ce ${issue2.origin ?? "warto\u015B\u0107"} b\u0119dzie mie\u0107 ${adj}${issue2.maximum.toString()} ${sizing.unit ?? "element\xF3w"}`;
+          return `Za du\u017Ca warto\u015B\u0107: oczekiwano, \u017Ce ${issue.origin ?? "warto\u015B\u0107"} b\u0119dzie mie\u0107 ${adj}${issue.maximum.toString()} ${sizing.unit ?? "element\xF3w"}`;
         }
-        return `Zbyt du\u017C(y/a/e): oczekiwano, \u017Ce ${issue2.origin ?? "warto\u015B\u0107"} b\u0119dzie wynosi\u0107 ${adj}${issue2.maximum.toString()}`;
+        return `Zbyt du\u017C(y/a/e): oczekiwano, \u017Ce ${issue.origin ?? "warto\u015B\u0107"} b\u0119dzie wynosi\u0107 ${adj}${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `Za ma\u0142a warto\u015B\u0107: oczekiwano, \u017Ce ${issue2.origin ?? "warto\u015B\u0107"} b\u0119dzie mie\u0107 ${adj}${issue2.minimum.toString()} ${sizing.unit ?? "element\xF3w"}`;
+          return `Za ma\u0142a warto\u015B\u0107: oczekiwano, \u017Ce ${issue.origin ?? "warto\u015B\u0107"} b\u0119dzie mie\u0107 ${adj}${issue.minimum.toString()} ${sizing.unit ?? "element\xF3w"}`;
         }
-        return `Zbyt ma\u0142(y/a/e): oczekiwano, \u017Ce ${issue2.origin ?? "warto\u015B\u0107"} b\u0119dzie wynosi\u0107 ${adj}${issue2.minimum.toString()}`;
+        return `Zbyt ma\u0142(y/a/e): oczekiwano, \u017Ce ${issue.origin ?? "warto\u015B\u0107"} b\u0119dzie wynosi\u0107 ${adj}${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with")
           return `Nieprawid\u0142owy ci\u0105g znak\xF3w: musi zaczyna\u0107 si\u0119 od "${_issue.prefix}"`;
         if (_issue.format === "ends_with")
@@ -7891,18 +7890,18 @@ var error31 = () => {
           return `Nieprawid\u0142owy ci\u0105g znak\xF3w: musi zawiera\u0107 "${_issue.includes}"`;
         if (_issue.format === "regex")
           return `Nieprawid\u0142owy ci\u0105g znak\xF3w: musi odpowiada\u0107 wzorcowi ${_issue.pattern}`;
-        return `Nieprawid\u0142ow(y/a/e) ${Nouns[_issue.format] ?? issue2.format}`;
+        return `Nieprawid\u0142ow(y/a/e) ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `Nieprawid\u0142owa liczba: musi by\u0107 wielokrotno\u015Bci\u0105 ${issue2.divisor}`;
+        return `Nieprawid\u0142owa liczba: musi by\u0107 wielokrotno\u015Bci\u0105 ${issue.divisor}`;
       case "unrecognized_keys":
-        return `Nierozpoznane klucze${issue2.keys.length > 1 ? "s" : ""}: ${joinValues(issue2.keys, ", ")}`;
+        return `Nierozpoznane klucze${issue.keys.length > 1 ? "s" : ""}: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `Nieprawid\u0142owy klucz w ${issue2.origin}`;
+        return `Nieprawid\u0142owy klucz w ${issue.origin}`;
       case "invalid_union":
         return "Nieprawid\u0142owe dane wej\u015Bciowe";
       case "invalid_element":
-        return `Nieprawid\u0142owa warto\u015B\u0107 w ${issue2.origin}`;
+        return `Nieprawid\u0142owa warto\u015B\u0107 w ${issue.origin}`;
       default:
         return `Nieprawid\u0142owe dane wej\u015Bciowe`;
     }
@@ -7924,7 +7923,7 @@ var error32 = () => {
   function getSizing(origin) {
     return Sizable[origin] ?? null;
   }
-  const parsedType6 = (data) => {
+  const parsedType = (data) => {
     const t = typeof data;
     switch (t) {
       case "number": {
@@ -7974,31 +7973,31 @@ var error32 = () => {
     jwt: "JWT",
     template_literal: "entrada"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `Tipo inv\xE1lido: esperado ${issue2.expected}, recebido ${parsedType6(issue2.input)}`;
+        return `Tipo inv\xE1lido: esperado ${issue.expected}, recebido ${parsedType(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `Entrada inv\xE1lida: esperado ${stringifyPrimitive(issue2.values[0])}`;
-        return `Op\xE7\xE3o inv\xE1lida: esperada uma das ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `Entrada inv\xE1lida: esperado ${stringifyPrimitive(issue.values[0])}`;
+        return `Op\xE7\xE3o inv\xE1lida: esperada uma das ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `Muito grande: esperado que ${issue2.origin ?? "valor"} tivesse ${adj}${issue2.maximum.toString()} ${sizing.unit ?? "elementos"}`;
-        return `Muito grande: esperado que ${issue2.origin ?? "valor"} fosse ${adj}${issue2.maximum.toString()}`;
+          return `Muito grande: esperado que ${issue.origin ?? "valor"} tivesse ${adj}${issue.maximum.toString()} ${sizing.unit ?? "elementos"}`;
+        return `Muito grande: esperado que ${issue.origin ?? "valor"} fosse ${adj}${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `Muito pequeno: esperado que ${issue2.origin} tivesse ${adj}${issue2.minimum.toString()} ${sizing.unit}`;
+          return `Muito pequeno: esperado que ${issue.origin} tivesse ${adj}${issue.minimum.toString()} ${sizing.unit}`;
         }
-        return `Muito pequeno: esperado que ${issue2.origin} fosse ${adj}${issue2.minimum.toString()}`;
+        return `Muito pequeno: esperado que ${issue.origin} fosse ${adj}${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with")
           return `Texto inv\xE1lido: deve come\xE7ar com "${_issue.prefix}"`;
         if (_issue.format === "ends_with")
@@ -8007,18 +8006,18 @@ var error32 = () => {
           return `Texto inv\xE1lido: deve incluir "${_issue.includes}"`;
         if (_issue.format === "regex")
           return `Texto inv\xE1lido: deve corresponder ao padr\xE3o ${_issue.pattern}`;
-        return `${Nouns[_issue.format] ?? issue2.format} inv\xE1lido`;
+        return `${Nouns[_issue.format] ?? issue.format} inv\xE1lido`;
       }
       case "not_multiple_of":
-        return `N\xFAmero inv\xE1lido: deve ser m\xFAltiplo de ${issue2.divisor}`;
+        return `N\xFAmero inv\xE1lido: deve ser m\xFAltiplo de ${issue.divisor}`;
       case "unrecognized_keys":
-        return `Chave${issue2.keys.length > 1 ? "s" : ""} desconhecida${issue2.keys.length > 1 ? "s" : ""}: ${joinValues(issue2.keys, ", ")}`;
+        return `Chave${issue.keys.length > 1 ? "s" : ""} desconhecida${issue.keys.length > 1 ? "s" : ""}: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `Chave inv\xE1lida em ${issue2.origin}`;
+        return `Chave inv\xE1lida em ${issue.origin}`;
       case "invalid_union":
         return "Entrada inv\xE1lida";
       case "invalid_element":
-        return `Valor inv\xE1lido em ${issue2.origin}`;
+        return `Valor inv\xE1lido em ${issue.origin}`;
       default:
         return `Campo inv\xE1lido`;
     }
@@ -8083,7 +8082,7 @@ var error33 = () => {
   function getSizing(origin) {
     return Sizable[origin] ?? null;
   }
-  const parsedType6 = (data) => {
+  const parsedType = (data) => {
     const t = typeof data;
     switch (t) {
       case "number": {
@@ -8133,36 +8132,36 @@ var error33 = () => {
     jwt: "JWT",
     template_literal: "\u0432\u0432\u043E\u0434"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `\u041D\u0435\u0432\u0435\u0440\u043D\u044B\u0439 \u0432\u0432\u043E\u0434: \u043E\u0436\u0438\u0434\u0430\u043B\u043E\u0441\u044C ${issue2.expected}, \u043F\u043E\u043B\u0443\u0447\u0435\u043D\u043E ${parsedType6(issue2.input)}`;
+        return `\u041D\u0435\u0432\u0435\u0440\u043D\u044B\u0439 \u0432\u0432\u043E\u0434: \u043E\u0436\u0438\u0434\u0430\u043B\u043E\u0441\u044C ${issue.expected}, \u043F\u043E\u043B\u0443\u0447\u0435\u043D\u043E ${parsedType(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `\u041D\u0435\u0432\u0435\u0440\u043D\u044B\u0439 \u0432\u0432\u043E\u0434: \u043E\u0436\u0438\u0434\u0430\u043B\u043E\u0441\u044C ${stringifyPrimitive(issue2.values[0])}`;
-        return `\u041D\u0435\u0432\u0435\u0440\u043D\u044B\u0439 \u0432\u0430\u0440\u0438\u0430\u043D\u0442: \u043E\u0436\u0438\u0434\u0430\u043B\u043E\u0441\u044C \u043E\u0434\u043D\u043E \u0438\u0437 ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `\u041D\u0435\u0432\u0435\u0440\u043D\u044B\u0439 \u0432\u0432\u043E\u0434: \u043E\u0436\u0438\u0434\u0430\u043B\u043E\u0441\u044C ${stringifyPrimitive(issue.values[0])}`;
+        return `\u041D\u0435\u0432\u0435\u0440\u043D\u044B\u0439 \u0432\u0430\u0440\u0438\u0430\u043D\u0442: \u043E\u0436\u0438\u0434\u0430\u043B\u043E\u0441\u044C \u043E\u0434\u043D\u043E \u0438\u0437 ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          const maxValue = Number(issue2.maximum);
+          const maxValue = Number(issue.maximum);
           const unit = getRussianPlural(maxValue, sizing.unit.one, sizing.unit.few, sizing.unit.many);
-          return `\u0421\u043B\u0438\u0448\u043A\u043E\u043C \u0431\u043E\u043B\u044C\u0448\u043E\u0435 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435: \u043E\u0436\u0438\u0434\u0430\u043B\u043E\u0441\u044C, \u0447\u0442\u043E ${issue2.origin ?? "\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435"} \u0431\u0443\u0434\u0435\u0442 \u0438\u043C\u0435\u0442\u044C ${adj}${issue2.maximum.toString()} ${unit}`;
+          return `\u0421\u043B\u0438\u0448\u043A\u043E\u043C \u0431\u043E\u043B\u044C\u0448\u043E\u0435 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435: \u043E\u0436\u0438\u0434\u0430\u043B\u043E\u0441\u044C, \u0447\u0442\u043E ${issue.origin ?? "\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435"} \u0431\u0443\u0434\u0435\u0442 \u0438\u043C\u0435\u0442\u044C ${adj}${issue.maximum.toString()} ${unit}`;
         }
-        return `\u0421\u043B\u0438\u0448\u043A\u043E\u043C \u0431\u043E\u043B\u044C\u0448\u043E\u0435 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435: \u043E\u0436\u0438\u0434\u0430\u043B\u043E\u0441\u044C, \u0447\u0442\u043E ${issue2.origin ?? "\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435"} \u0431\u0443\u0434\u0435\u0442 ${adj}${issue2.maximum.toString()}`;
+        return `\u0421\u043B\u0438\u0448\u043A\u043E\u043C \u0431\u043E\u043B\u044C\u0448\u043E\u0435 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435: \u043E\u0436\u0438\u0434\u0430\u043B\u043E\u0441\u044C, \u0447\u0442\u043E ${issue.origin ?? "\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435"} \u0431\u0443\u0434\u0435\u0442 ${adj}${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          const minValue = Number(issue2.minimum);
+          const minValue = Number(issue.minimum);
           const unit = getRussianPlural(minValue, sizing.unit.one, sizing.unit.few, sizing.unit.many);
-          return `\u0421\u043B\u0438\u0448\u043A\u043E\u043C \u043C\u0430\u043B\u0435\u043D\u044C\u043A\u043E\u0435 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435: \u043E\u0436\u0438\u0434\u0430\u043B\u043E\u0441\u044C, \u0447\u0442\u043E ${issue2.origin} \u0431\u0443\u0434\u0435\u0442 \u0438\u043C\u0435\u0442\u044C ${adj}${issue2.minimum.toString()} ${unit}`;
+          return `\u0421\u043B\u0438\u0448\u043A\u043E\u043C \u043C\u0430\u043B\u0435\u043D\u044C\u043A\u043E\u0435 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435: \u043E\u0436\u0438\u0434\u0430\u043B\u043E\u0441\u044C, \u0447\u0442\u043E ${issue.origin} \u0431\u0443\u0434\u0435\u0442 \u0438\u043C\u0435\u0442\u044C ${adj}${issue.minimum.toString()} ${unit}`;
         }
-        return `\u0421\u043B\u0438\u0448\u043A\u043E\u043C \u043C\u0430\u043B\u0435\u043D\u044C\u043A\u043E\u0435 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435: \u043E\u0436\u0438\u0434\u0430\u043B\u043E\u0441\u044C, \u0447\u0442\u043E ${issue2.origin} \u0431\u0443\u0434\u0435\u0442 ${adj}${issue2.minimum.toString()}`;
+        return `\u0421\u043B\u0438\u0448\u043A\u043E\u043C \u043C\u0430\u043B\u0435\u043D\u044C\u043A\u043E\u0435 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435: \u043E\u0436\u0438\u0434\u0430\u043B\u043E\u0441\u044C, \u0447\u0442\u043E ${issue.origin} \u0431\u0443\u0434\u0435\u0442 ${adj}${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with")
           return `\u041D\u0435\u0432\u0435\u0440\u043D\u0430\u044F \u0441\u0442\u0440\u043E\u043A\u0430: \u0434\u043E\u043B\u0436\u043D\u0430 \u043D\u0430\u0447\u0438\u043D\u0430\u0442\u044C\u0441\u044F \u0441 "${_issue.prefix}"`;
         if (_issue.format === "ends_with")
@@ -8171,18 +8170,18 @@ var error33 = () => {
           return `\u041D\u0435\u0432\u0435\u0440\u043D\u0430\u044F \u0441\u0442\u0440\u043E\u043A\u0430: \u0434\u043E\u043B\u0436\u043D\u0430 \u0441\u043E\u0434\u0435\u0440\u0436\u0430\u0442\u044C "${_issue.includes}"`;
         if (_issue.format === "regex")
           return `\u041D\u0435\u0432\u0435\u0440\u043D\u0430\u044F \u0441\u0442\u0440\u043E\u043A\u0430: \u0434\u043E\u043B\u0436\u043D\u0430 \u0441\u043E\u043E\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u043E\u0432\u0430\u0442\u044C \u0448\u0430\u0431\u043B\u043E\u043D\u0443 ${_issue.pattern}`;
-        return `\u041D\u0435\u0432\u0435\u0440\u043D\u044B\u0439 ${Nouns[_issue.format] ?? issue2.format}`;
+        return `\u041D\u0435\u0432\u0435\u0440\u043D\u044B\u0439 ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `\u041D\u0435\u0432\u0435\u0440\u043D\u043E\u0435 \u0447\u0438\u0441\u043B\u043E: \u0434\u043E\u043B\u0436\u043D\u043E \u0431\u044B\u0442\u044C \u043A\u0440\u0430\u0442\u043D\u044B\u043C ${issue2.divisor}`;
+        return `\u041D\u0435\u0432\u0435\u0440\u043D\u043E\u0435 \u0447\u0438\u0441\u043B\u043E: \u0434\u043E\u043B\u0436\u043D\u043E \u0431\u044B\u0442\u044C \u043A\u0440\u0430\u0442\u043D\u044B\u043C ${issue.divisor}`;
       case "unrecognized_keys":
-        return `\u041D\u0435\u0440\u0430\u0441\u043F\u043E\u0437\u043D\u0430\u043D\u043D${issue2.keys.length > 1 ? "\u044B\u0435" : "\u044B\u0439"} \u043A\u043B\u044E\u0447${issue2.keys.length > 1 ? "\u0438" : ""}: ${joinValues(issue2.keys, ", ")}`;
+        return `\u041D\u0435\u0440\u0430\u0441\u043F\u043E\u0437\u043D\u0430\u043D\u043D${issue.keys.length > 1 ? "\u044B\u0435" : "\u044B\u0439"} \u043A\u043B\u044E\u0447${issue.keys.length > 1 ? "\u0438" : ""}: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `\u041D\u0435\u0432\u0435\u0440\u043D\u044B\u0439 \u043A\u043B\u044E\u0447 \u0432 ${issue2.origin}`;
+        return `\u041D\u0435\u0432\u0435\u0440\u043D\u044B\u0439 \u043A\u043B\u044E\u0447 \u0432 ${issue.origin}`;
       case "invalid_union":
         return "\u041D\u0435\u0432\u0435\u0440\u043D\u044B\u0435 \u0432\u0445\u043E\u0434\u043D\u044B\u0435 \u0434\u0430\u043D\u043D\u044B\u0435";
       case "invalid_element":
-        return `\u041D\u0435\u0432\u0435\u0440\u043D\u043E\u0435 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u0432 ${issue2.origin}`;
+        return `\u041D\u0435\u0432\u0435\u0440\u043D\u043E\u0435 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u0432 ${issue.origin}`;
       default:
         return `\u041D\u0435\u0432\u0435\u0440\u043D\u044B\u0435 \u0432\u0445\u043E\u0434\u043D\u044B\u0435 \u0434\u0430\u043D\u043D\u044B\u0435`;
     }
@@ -8204,7 +8203,7 @@ var error34 = () => {
   function getSizing(origin) {
     return Sizable[origin] ?? null;
   }
-  const parsedType6 = (data) => {
+  const parsedType = (data) => {
     const t = typeof data;
     switch (t) {
       case "number": {
@@ -8254,31 +8253,31 @@ var error34 = () => {
     jwt: "JWT",
     template_literal: "vnos"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `Neveljaven vnos: pri\u010Dakovano ${issue2.expected}, prejeto ${parsedType6(issue2.input)}`;
+        return `Neveljaven vnos: pri\u010Dakovano ${issue.expected}, prejeto ${parsedType(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `Neveljaven vnos: pri\u010Dakovano ${stringifyPrimitive(issue2.values[0])}`;
-        return `Neveljavna mo\u017Enost: pri\u010Dakovano eno izmed ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `Neveljaven vnos: pri\u010Dakovano ${stringifyPrimitive(issue.values[0])}`;
+        return `Neveljavna mo\u017Enost: pri\u010Dakovano eno izmed ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `Preveliko: pri\u010Dakovano, da bo ${issue2.origin ?? "vrednost"} imelo ${adj}${issue2.maximum.toString()} ${sizing.unit ?? "elementov"}`;
-        return `Preveliko: pri\u010Dakovano, da bo ${issue2.origin ?? "vrednost"} ${adj}${issue2.maximum.toString()}`;
+          return `Preveliko: pri\u010Dakovano, da bo ${issue.origin ?? "vrednost"} imelo ${adj}${issue.maximum.toString()} ${sizing.unit ?? "elementov"}`;
+        return `Preveliko: pri\u010Dakovano, da bo ${issue.origin ?? "vrednost"} ${adj}${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `Premajhno: pri\u010Dakovano, da bo ${issue2.origin} imelo ${adj}${issue2.minimum.toString()} ${sizing.unit}`;
+          return `Premajhno: pri\u010Dakovano, da bo ${issue.origin} imelo ${adj}${issue.minimum.toString()} ${sizing.unit}`;
         }
-        return `Premajhno: pri\u010Dakovano, da bo ${issue2.origin} ${adj}${issue2.minimum.toString()}`;
+        return `Premajhno: pri\u010Dakovano, da bo ${issue.origin} ${adj}${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with") {
           return `Neveljaven niz: mora se za\u010Deti z "${_issue.prefix}"`;
         }
@@ -8288,18 +8287,18 @@ var error34 = () => {
           return `Neveljaven niz: mora vsebovati "${_issue.includes}"`;
         if (_issue.format === "regex")
           return `Neveljaven niz: mora ustrezati vzorcu ${_issue.pattern}`;
-        return `Neveljaven ${Nouns[_issue.format] ?? issue2.format}`;
+        return `Neveljaven ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `Neveljavno \u0161tevilo: mora biti ve\u010Dkratnik ${issue2.divisor}`;
+        return `Neveljavno \u0161tevilo: mora biti ve\u010Dkratnik ${issue.divisor}`;
       case "unrecognized_keys":
-        return `Neprepoznan${issue2.keys.length > 1 ? "i klju\u010Di" : " klju\u010D"}: ${joinValues(issue2.keys, ", ")}`;
+        return `Neprepoznan${issue.keys.length > 1 ? "i klju\u010Di" : " klju\u010D"}: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `Neveljaven klju\u010D v ${issue2.origin}`;
+        return `Neveljaven klju\u010D v ${issue.origin}`;
       case "invalid_union":
         return "Neveljaven vnos";
       case "invalid_element":
-        return `Neveljavna vrednost v ${issue2.origin}`;
+        return `Neveljavna vrednost v ${issue.origin}`;
       default:
         return "Neveljaven vnos";
     }
@@ -8321,7 +8320,7 @@ var error35 = () => {
   function getSizing(origin) {
     return Sizable[origin] ?? null;
   }
-  const parsedType6 = (data) => {
+  const parsedType = (data) => {
     const t = typeof data;
     switch (t) {
       case "number": {
@@ -8371,32 +8370,32 @@ var error35 = () => {
     jwt: "JWT",
     template_literal: "mall-literal"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `Ogiltig inmatning: f\xF6rv\xE4ntat ${issue2.expected}, fick ${parsedType6(issue2.input)}`;
+        return `Ogiltig inmatning: f\xF6rv\xE4ntat ${issue.expected}, fick ${parsedType(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `Ogiltig inmatning: f\xF6rv\xE4ntat ${stringifyPrimitive(issue2.values[0])}`;
-        return `Ogiltigt val: f\xF6rv\xE4ntade en av ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `Ogiltig inmatning: f\xF6rv\xE4ntat ${stringifyPrimitive(issue.values[0])}`;
+        return `Ogiltigt val: f\xF6rv\xE4ntade en av ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `F\xF6r stor(t): f\xF6rv\xE4ntade ${issue2.origin ?? "v\xE4rdet"} att ha ${adj}${issue2.maximum.toString()} ${sizing.unit ?? "element"}`;
+          return `F\xF6r stor(t): f\xF6rv\xE4ntade ${issue.origin ?? "v\xE4rdet"} att ha ${adj}${issue.maximum.toString()} ${sizing.unit ?? "element"}`;
         }
-        return `F\xF6r stor(t): f\xF6rv\xE4ntat ${issue2.origin ?? "v\xE4rdet"} att ha ${adj}${issue2.maximum.toString()}`;
+        return `F\xF6r stor(t): f\xF6rv\xE4ntat ${issue.origin ?? "v\xE4rdet"} att ha ${adj}${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `F\xF6r lite(t): f\xF6rv\xE4ntade ${issue2.origin ?? "v\xE4rdet"} att ha ${adj}${issue2.minimum.toString()} ${sizing.unit}`;
+          return `F\xF6r lite(t): f\xF6rv\xE4ntade ${issue.origin ?? "v\xE4rdet"} att ha ${adj}${issue.minimum.toString()} ${sizing.unit}`;
         }
-        return `F\xF6r lite(t): f\xF6rv\xE4ntade ${issue2.origin ?? "v\xE4rdet"} att ha ${adj}${issue2.minimum.toString()}`;
+        return `F\xF6r lite(t): f\xF6rv\xE4ntade ${issue.origin ?? "v\xE4rdet"} att ha ${adj}${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with") {
           return `Ogiltig str\xE4ng: m\xE5ste b\xF6rja med "${_issue.prefix}"`;
         }
@@ -8406,18 +8405,18 @@ var error35 = () => {
           return `Ogiltig str\xE4ng: m\xE5ste inneh\xE5lla "${_issue.includes}"`;
         if (_issue.format === "regex")
           return `Ogiltig str\xE4ng: m\xE5ste matcha m\xF6nstret "${_issue.pattern}"`;
-        return `Ogiltig(t) ${Nouns[_issue.format] ?? issue2.format}`;
+        return `Ogiltig(t) ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `Ogiltigt tal: m\xE5ste vara en multipel av ${issue2.divisor}`;
+        return `Ogiltigt tal: m\xE5ste vara en multipel av ${issue.divisor}`;
       case "unrecognized_keys":
-        return `${issue2.keys.length > 1 ? "Ok\xE4nda nycklar" : "Ok\xE4nd nyckel"}: ${joinValues(issue2.keys, ", ")}`;
+        return `${issue.keys.length > 1 ? "Ok\xE4nda nycklar" : "Ok\xE4nd nyckel"}: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `Ogiltig nyckel i ${issue2.origin ?? "v\xE4rdet"}`;
+        return `Ogiltig nyckel i ${issue.origin ?? "v\xE4rdet"}`;
       case "invalid_union":
         return "Ogiltig input";
       case "invalid_element":
-        return `Ogiltigt v\xE4rde i ${issue2.origin ?? "v\xE4rdet"}`;
+        return `Ogiltigt v\xE4rde i ${issue.origin ?? "v\xE4rdet"}`;
       default:
         return `Ogiltig input`;
     }
@@ -8439,7 +8438,7 @@ var error36 = () => {
   function getSizing(origin) {
     return Sizable[origin] ?? null;
   }
-  const parsedType6 = (data) => {
+  const parsedType = (data) => {
     const t = typeof data;
     switch (t) {
       case "number": {
@@ -8489,32 +8488,32 @@ var error36 = () => {
     jwt: "JWT",
     template_literal: "input"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `\u0BA4\u0BB5\u0BB1\u0BBE\u0BA9 \u0B89\u0BB3\u0BCD\u0BB3\u0BC0\u0B9F\u0BC1: \u0B8E\u0BA4\u0BBF\u0BB0\u0BCD\u0BAA\u0BBE\u0BB0\u0BCD\u0B95\u0BCD\u0B95\u0BAA\u0BCD\u0BAA\u0B9F\u0BCD\u0B9F\u0BA4\u0BC1 ${issue2.expected}, \u0BAA\u0BC6\u0BB1\u0BAA\u0BCD\u0BAA\u0B9F\u0BCD\u0B9F\u0BA4\u0BC1 ${parsedType6(issue2.input)}`;
+        return `\u0BA4\u0BB5\u0BB1\u0BBE\u0BA9 \u0B89\u0BB3\u0BCD\u0BB3\u0BC0\u0B9F\u0BC1: \u0B8E\u0BA4\u0BBF\u0BB0\u0BCD\u0BAA\u0BBE\u0BB0\u0BCD\u0B95\u0BCD\u0B95\u0BAA\u0BCD\u0BAA\u0B9F\u0BCD\u0B9F\u0BA4\u0BC1 ${issue.expected}, \u0BAA\u0BC6\u0BB1\u0BAA\u0BCD\u0BAA\u0B9F\u0BCD\u0B9F\u0BA4\u0BC1 ${parsedType(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `\u0BA4\u0BB5\u0BB1\u0BBE\u0BA9 \u0B89\u0BB3\u0BCD\u0BB3\u0BC0\u0B9F\u0BC1: \u0B8E\u0BA4\u0BBF\u0BB0\u0BCD\u0BAA\u0BBE\u0BB0\u0BCD\u0B95\u0BCD\u0B95\u0BAA\u0BCD\u0BAA\u0B9F\u0BCD\u0B9F\u0BA4\u0BC1 ${stringifyPrimitive(issue2.values[0])}`;
-        return `\u0BA4\u0BB5\u0BB1\u0BBE\u0BA9 \u0BB5\u0BBF\u0BB0\u0BC1\u0BAA\u0BCD\u0BAA\u0BAE\u0BCD: \u0B8E\u0BA4\u0BBF\u0BB0\u0BCD\u0BAA\u0BBE\u0BB0\u0BCD\u0B95\u0BCD\u0B95\u0BAA\u0BCD\u0BAA\u0B9F\u0BCD\u0B9F\u0BA4\u0BC1 ${joinValues(issue2.values, "|")} \u0B87\u0BB2\u0BCD \u0B92\u0BA9\u0BCD\u0BB1\u0BC1`;
+        if (issue.values.length === 1)
+          return `\u0BA4\u0BB5\u0BB1\u0BBE\u0BA9 \u0B89\u0BB3\u0BCD\u0BB3\u0BC0\u0B9F\u0BC1: \u0B8E\u0BA4\u0BBF\u0BB0\u0BCD\u0BAA\u0BBE\u0BB0\u0BCD\u0B95\u0BCD\u0B95\u0BAA\u0BCD\u0BAA\u0B9F\u0BCD\u0B9F\u0BA4\u0BC1 ${stringifyPrimitive(issue.values[0])}`;
+        return `\u0BA4\u0BB5\u0BB1\u0BBE\u0BA9 \u0BB5\u0BBF\u0BB0\u0BC1\u0BAA\u0BCD\u0BAA\u0BAE\u0BCD: \u0B8E\u0BA4\u0BBF\u0BB0\u0BCD\u0BAA\u0BBE\u0BB0\u0BCD\u0B95\u0BCD\u0B95\u0BAA\u0BCD\u0BAA\u0B9F\u0BCD\u0B9F\u0BA4\u0BC1 ${joinValues(issue.values, "|")} \u0B87\u0BB2\u0BCD \u0B92\u0BA9\u0BCD\u0BB1\u0BC1`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `\u0BAE\u0BBF\u0B95 \u0BAA\u0BC6\u0BB0\u0BBF\u0BAF\u0BA4\u0BC1: \u0B8E\u0BA4\u0BBF\u0BB0\u0BCD\u0BAA\u0BBE\u0BB0\u0BCD\u0B95\u0BCD\u0B95\u0BAA\u0BCD\u0BAA\u0B9F\u0BCD\u0B9F\u0BA4\u0BC1 ${issue2.origin ?? "\u0BAE\u0BA4\u0BBF\u0BAA\u0BCD\u0BAA\u0BC1"} ${adj}${issue2.maximum.toString()} ${sizing.unit ?? "\u0B89\u0BB1\u0BC1\u0BAA\u0BCD\u0BAA\u0BC1\u0B95\u0BB3\u0BCD"} \u0B86\u0B95 \u0B87\u0BB0\u0BC1\u0B95\u0BCD\u0B95 \u0BB5\u0BC7\u0BA3\u0BCD\u0B9F\u0BC1\u0BAE\u0BCD`;
+          return `\u0BAE\u0BBF\u0B95 \u0BAA\u0BC6\u0BB0\u0BBF\u0BAF\u0BA4\u0BC1: \u0B8E\u0BA4\u0BBF\u0BB0\u0BCD\u0BAA\u0BBE\u0BB0\u0BCD\u0B95\u0BCD\u0B95\u0BAA\u0BCD\u0BAA\u0B9F\u0BCD\u0B9F\u0BA4\u0BC1 ${issue.origin ?? "\u0BAE\u0BA4\u0BBF\u0BAA\u0BCD\u0BAA\u0BC1"} ${adj}${issue.maximum.toString()} ${sizing.unit ?? "\u0B89\u0BB1\u0BC1\u0BAA\u0BCD\u0BAA\u0BC1\u0B95\u0BB3\u0BCD"} \u0B86\u0B95 \u0B87\u0BB0\u0BC1\u0B95\u0BCD\u0B95 \u0BB5\u0BC7\u0BA3\u0BCD\u0B9F\u0BC1\u0BAE\u0BCD`;
         }
-        return `\u0BAE\u0BBF\u0B95 \u0BAA\u0BC6\u0BB0\u0BBF\u0BAF\u0BA4\u0BC1: \u0B8E\u0BA4\u0BBF\u0BB0\u0BCD\u0BAA\u0BBE\u0BB0\u0BCD\u0B95\u0BCD\u0B95\u0BAA\u0BCD\u0BAA\u0B9F\u0BCD\u0B9F\u0BA4\u0BC1 ${issue2.origin ?? "\u0BAE\u0BA4\u0BBF\u0BAA\u0BCD\u0BAA\u0BC1"} ${adj}${issue2.maximum.toString()} \u0B86\u0B95 \u0B87\u0BB0\u0BC1\u0B95\u0BCD\u0B95 \u0BB5\u0BC7\u0BA3\u0BCD\u0B9F\u0BC1\u0BAE\u0BCD`;
+        return `\u0BAE\u0BBF\u0B95 \u0BAA\u0BC6\u0BB0\u0BBF\u0BAF\u0BA4\u0BC1: \u0B8E\u0BA4\u0BBF\u0BB0\u0BCD\u0BAA\u0BBE\u0BB0\u0BCD\u0B95\u0BCD\u0B95\u0BAA\u0BCD\u0BAA\u0B9F\u0BCD\u0B9F\u0BA4\u0BC1 ${issue.origin ?? "\u0BAE\u0BA4\u0BBF\u0BAA\u0BCD\u0BAA\u0BC1"} ${adj}${issue.maximum.toString()} \u0B86\u0B95 \u0B87\u0BB0\u0BC1\u0B95\u0BCD\u0B95 \u0BB5\u0BC7\u0BA3\u0BCD\u0B9F\u0BC1\u0BAE\u0BCD`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `\u0BAE\u0BBF\u0B95\u0B9A\u0BCD \u0B9A\u0BBF\u0BB1\u0BBF\u0BAF\u0BA4\u0BC1: \u0B8E\u0BA4\u0BBF\u0BB0\u0BCD\u0BAA\u0BBE\u0BB0\u0BCD\u0B95\u0BCD\u0B95\u0BAA\u0BCD\u0BAA\u0B9F\u0BCD\u0B9F\u0BA4\u0BC1 ${issue2.origin} ${adj}${issue2.minimum.toString()} ${sizing.unit} \u0B86\u0B95 \u0B87\u0BB0\u0BC1\u0B95\u0BCD\u0B95 \u0BB5\u0BC7\u0BA3\u0BCD\u0B9F\u0BC1\u0BAE\u0BCD`;
+          return `\u0BAE\u0BBF\u0B95\u0B9A\u0BCD \u0B9A\u0BBF\u0BB1\u0BBF\u0BAF\u0BA4\u0BC1: \u0B8E\u0BA4\u0BBF\u0BB0\u0BCD\u0BAA\u0BBE\u0BB0\u0BCD\u0B95\u0BCD\u0B95\u0BAA\u0BCD\u0BAA\u0B9F\u0BCD\u0B9F\u0BA4\u0BC1 ${issue.origin} ${adj}${issue.minimum.toString()} ${sizing.unit} \u0B86\u0B95 \u0B87\u0BB0\u0BC1\u0B95\u0BCD\u0B95 \u0BB5\u0BC7\u0BA3\u0BCD\u0B9F\u0BC1\u0BAE\u0BCD`;
         }
-        return `\u0BAE\u0BBF\u0B95\u0B9A\u0BCD \u0B9A\u0BBF\u0BB1\u0BBF\u0BAF\u0BA4\u0BC1: \u0B8E\u0BA4\u0BBF\u0BB0\u0BCD\u0BAA\u0BBE\u0BB0\u0BCD\u0B95\u0BCD\u0B95\u0BAA\u0BCD\u0BAA\u0B9F\u0BCD\u0B9F\u0BA4\u0BC1 ${issue2.origin} ${adj}${issue2.minimum.toString()} \u0B86\u0B95 \u0B87\u0BB0\u0BC1\u0B95\u0BCD\u0B95 \u0BB5\u0BC7\u0BA3\u0BCD\u0B9F\u0BC1\u0BAE\u0BCD`;
+        return `\u0BAE\u0BBF\u0B95\u0B9A\u0BCD \u0B9A\u0BBF\u0BB1\u0BBF\u0BAF\u0BA4\u0BC1: \u0B8E\u0BA4\u0BBF\u0BB0\u0BCD\u0BAA\u0BBE\u0BB0\u0BCD\u0B95\u0BCD\u0B95\u0BAA\u0BCD\u0BAA\u0B9F\u0BCD\u0B9F\u0BA4\u0BC1 ${issue.origin} ${adj}${issue.minimum.toString()} \u0B86\u0B95 \u0B87\u0BB0\u0BC1\u0B95\u0BCD\u0B95 \u0BB5\u0BC7\u0BA3\u0BCD\u0B9F\u0BC1\u0BAE\u0BCD`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with")
           return `\u0BA4\u0BB5\u0BB1\u0BBE\u0BA9 \u0B9A\u0BB0\u0BAE\u0BCD: "${_issue.prefix}" \u0B87\u0BB2\u0BCD \u0BA4\u0BCA\u0B9F\u0B99\u0BCD\u0B95 \u0BB5\u0BC7\u0BA3\u0BCD\u0B9F\u0BC1\u0BAE\u0BCD`;
         if (_issue.format === "ends_with")
@@ -8523,18 +8522,18 @@ var error36 = () => {
           return `\u0BA4\u0BB5\u0BB1\u0BBE\u0BA9 \u0B9A\u0BB0\u0BAE\u0BCD: "${_issue.includes}" \u0B90 \u0B89\u0BB3\u0BCD\u0BB3\u0B9F\u0B95\u0BCD\u0B95 \u0BB5\u0BC7\u0BA3\u0BCD\u0B9F\u0BC1\u0BAE\u0BCD`;
         if (_issue.format === "regex")
           return `\u0BA4\u0BB5\u0BB1\u0BBE\u0BA9 \u0B9A\u0BB0\u0BAE\u0BCD: ${_issue.pattern} \u0BAE\u0BC1\u0BB1\u0BC8\u0BAA\u0BBE\u0B9F\u0BCD\u0B9F\u0BC1\u0B9F\u0BA9\u0BCD \u0BAA\u0BCA\u0BB0\u0BC1\u0BA8\u0BCD\u0BA4 \u0BB5\u0BC7\u0BA3\u0BCD\u0B9F\u0BC1\u0BAE\u0BCD`;
-        return `\u0BA4\u0BB5\u0BB1\u0BBE\u0BA9 ${Nouns[_issue.format] ?? issue2.format}`;
+        return `\u0BA4\u0BB5\u0BB1\u0BBE\u0BA9 ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `\u0BA4\u0BB5\u0BB1\u0BBE\u0BA9 \u0B8E\u0BA3\u0BCD: ${issue2.divisor} \u0B87\u0BA9\u0BCD \u0BAA\u0BB2\u0BAE\u0BBE\u0B95 \u0B87\u0BB0\u0BC1\u0B95\u0BCD\u0B95 \u0BB5\u0BC7\u0BA3\u0BCD\u0B9F\u0BC1\u0BAE\u0BCD`;
+        return `\u0BA4\u0BB5\u0BB1\u0BBE\u0BA9 \u0B8E\u0BA3\u0BCD: ${issue.divisor} \u0B87\u0BA9\u0BCD \u0BAA\u0BB2\u0BAE\u0BBE\u0B95 \u0B87\u0BB0\u0BC1\u0B95\u0BCD\u0B95 \u0BB5\u0BC7\u0BA3\u0BCD\u0B9F\u0BC1\u0BAE\u0BCD`;
       case "unrecognized_keys":
-        return `\u0B85\u0B9F\u0BC8\u0BAF\u0BBE\u0BB3\u0BAE\u0BCD \u0BA4\u0BC6\u0BB0\u0BBF\u0BAF\u0BBE\u0BA4 \u0BB5\u0BBF\u0B9A\u0BC8${issue2.keys.length > 1 ? "\u0B95\u0BB3\u0BCD" : ""}: ${joinValues(issue2.keys, ", ")}`;
+        return `\u0B85\u0B9F\u0BC8\u0BAF\u0BBE\u0BB3\u0BAE\u0BCD \u0BA4\u0BC6\u0BB0\u0BBF\u0BAF\u0BBE\u0BA4 \u0BB5\u0BBF\u0B9A\u0BC8${issue.keys.length > 1 ? "\u0B95\u0BB3\u0BCD" : ""}: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `${issue2.origin} \u0B87\u0BB2\u0BCD \u0BA4\u0BB5\u0BB1\u0BBE\u0BA9 \u0BB5\u0BBF\u0B9A\u0BC8`;
+        return `${issue.origin} \u0B87\u0BB2\u0BCD \u0BA4\u0BB5\u0BB1\u0BBE\u0BA9 \u0BB5\u0BBF\u0B9A\u0BC8`;
       case "invalid_union":
         return "\u0BA4\u0BB5\u0BB1\u0BBE\u0BA9 \u0B89\u0BB3\u0BCD\u0BB3\u0BC0\u0B9F\u0BC1";
       case "invalid_element":
-        return `${issue2.origin} \u0B87\u0BB2\u0BCD \u0BA4\u0BB5\u0BB1\u0BBE\u0BA9 \u0BAE\u0BA4\u0BBF\u0BAA\u0BCD\u0BAA\u0BC1`;
+        return `${issue.origin} \u0B87\u0BB2\u0BCD \u0BA4\u0BB5\u0BB1\u0BBE\u0BA9 \u0BAE\u0BA4\u0BBF\u0BAA\u0BCD\u0BAA\u0BC1`;
       default:
         return `\u0BA4\u0BB5\u0BB1\u0BBE\u0BA9 \u0B89\u0BB3\u0BCD\u0BB3\u0BC0\u0B9F\u0BC1`;
     }
@@ -8556,7 +8555,7 @@ var error37 = () => {
   function getSizing(origin) {
     return Sizable[origin] ?? null;
   }
-  const parsedType6 = (data) => {
+  const parsedType = (data) => {
     const t = typeof data;
     switch (t) {
       case "number": {
@@ -8606,31 +8605,31 @@ var error37 = () => {
     jwt: "\u0E42\u0E17\u0E40\u0E04\u0E19 JWT",
     template_literal: "\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E17\u0E35\u0E48\u0E1B\u0E49\u0E2D\u0E19"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `\u0E1B\u0E23\u0E30\u0E40\u0E20\u0E17\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E44\u0E21\u0E48\u0E16\u0E39\u0E01\u0E15\u0E49\u0E2D\u0E07: \u0E04\u0E27\u0E23\u0E40\u0E1B\u0E47\u0E19 ${issue2.expected} \u0E41\u0E15\u0E48\u0E44\u0E14\u0E49\u0E23\u0E31\u0E1A ${parsedType6(issue2.input)}`;
+        return `\u0E1B\u0E23\u0E30\u0E40\u0E20\u0E17\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E44\u0E21\u0E48\u0E16\u0E39\u0E01\u0E15\u0E49\u0E2D\u0E07: \u0E04\u0E27\u0E23\u0E40\u0E1B\u0E47\u0E19 ${issue.expected} \u0E41\u0E15\u0E48\u0E44\u0E14\u0E49\u0E23\u0E31\u0E1A ${parsedType(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `\u0E04\u0E48\u0E32\u0E44\u0E21\u0E48\u0E16\u0E39\u0E01\u0E15\u0E49\u0E2D\u0E07: \u0E04\u0E27\u0E23\u0E40\u0E1B\u0E47\u0E19 ${stringifyPrimitive(issue2.values[0])}`;
-        return `\u0E15\u0E31\u0E27\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E44\u0E21\u0E48\u0E16\u0E39\u0E01\u0E15\u0E49\u0E2D\u0E07: \u0E04\u0E27\u0E23\u0E40\u0E1B\u0E47\u0E19\u0E2B\u0E19\u0E36\u0E48\u0E07\u0E43\u0E19 ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `\u0E04\u0E48\u0E32\u0E44\u0E21\u0E48\u0E16\u0E39\u0E01\u0E15\u0E49\u0E2D\u0E07: \u0E04\u0E27\u0E23\u0E40\u0E1B\u0E47\u0E19 ${stringifyPrimitive(issue.values[0])}`;
+        return `\u0E15\u0E31\u0E27\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E44\u0E21\u0E48\u0E16\u0E39\u0E01\u0E15\u0E49\u0E2D\u0E07: \u0E04\u0E27\u0E23\u0E40\u0E1B\u0E47\u0E19\u0E2B\u0E19\u0E36\u0E48\u0E07\u0E43\u0E19 ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "\u0E44\u0E21\u0E48\u0E40\u0E01\u0E34\u0E19" : "\u0E19\u0E49\u0E2D\u0E22\u0E01\u0E27\u0E48\u0E32";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "\u0E44\u0E21\u0E48\u0E40\u0E01\u0E34\u0E19" : "\u0E19\u0E49\u0E2D\u0E22\u0E01\u0E27\u0E48\u0E32";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `\u0E40\u0E01\u0E34\u0E19\u0E01\u0E33\u0E2B\u0E19\u0E14: ${issue2.origin ?? "\u0E04\u0E48\u0E32"} \u0E04\u0E27\u0E23\u0E21\u0E35${adj} ${issue2.maximum.toString()} ${sizing.unit ?? "\u0E23\u0E32\u0E22\u0E01\u0E32\u0E23"}`;
-        return `\u0E40\u0E01\u0E34\u0E19\u0E01\u0E33\u0E2B\u0E19\u0E14: ${issue2.origin ?? "\u0E04\u0E48\u0E32"} \u0E04\u0E27\u0E23\u0E21\u0E35${adj} ${issue2.maximum.toString()}`;
+          return `\u0E40\u0E01\u0E34\u0E19\u0E01\u0E33\u0E2B\u0E19\u0E14: ${issue.origin ?? "\u0E04\u0E48\u0E32"} \u0E04\u0E27\u0E23\u0E21\u0E35${adj} ${issue.maximum.toString()} ${sizing.unit ?? "\u0E23\u0E32\u0E22\u0E01\u0E32\u0E23"}`;
+        return `\u0E40\u0E01\u0E34\u0E19\u0E01\u0E33\u0E2B\u0E19\u0E14: ${issue.origin ?? "\u0E04\u0E48\u0E32"} \u0E04\u0E27\u0E23\u0E21\u0E35${adj} ${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? "\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E19\u0E49\u0E2D\u0E22" : "\u0E21\u0E32\u0E01\u0E01\u0E27\u0E48\u0E32";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E19\u0E49\u0E2D\u0E22" : "\u0E21\u0E32\u0E01\u0E01\u0E27\u0E48\u0E32";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `\u0E19\u0E49\u0E2D\u0E22\u0E01\u0E27\u0E48\u0E32\u0E01\u0E33\u0E2B\u0E19\u0E14: ${issue2.origin} \u0E04\u0E27\u0E23\u0E21\u0E35${adj} ${issue2.minimum.toString()} ${sizing.unit}`;
+          return `\u0E19\u0E49\u0E2D\u0E22\u0E01\u0E27\u0E48\u0E32\u0E01\u0E33\u0E2B\u0E19\u0E14: ${issue.origin} \u0E04\u0E27\u0E23\u0E21\u0E35${adj} ${issue.minimum.toString()} ${sizing.unit}`;
         }
-        return `\u0E19\u0E49\u0E2D\u0E22\u0E01\u0E27\u0E48\u0E32\u0E01\u0E33\u0E2B\u0E19\u0E14: ${issue2.origin} \u0E04\u0E27\u0E23\u0E21\u0E35${adj} ${issue2.minimum.toString()}`;
+        return `\u0E19\u0E49\u0E2D\u0E22\u0E01\u0E27\u0E48\u0E32\u0E01\u0E33\u0E2B\u0E19\u0E14: ${issue.origin} \u0E04\u0E27\u0E23\u0E21\u0E35${adj} ${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with") {
           return `\u0E23\u0E39\u0E1B\u0E41\u0E1A\u0E1A\u0E44\u0E21\u0E48\u0E16\u0E39\u0E01\u0E15\u0E49\u0E2D\u0E07: \u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E15\u0E49\u0E2D\u0E07\u0E02\u0E36\u0E49\u0E19\u0E15\u0E49\u0E19\u0E14\u0E49\u0E27\u0E22 "${_issue.prefix}"`;
         }
@@ -8640,18 +8639,18 @@ var error37 = () => {
           return `\u0E23\u0E39\u0E1B\u0E41\u0E1A\u0E1A\u0E44\u0E21\u0E48\u0E16\u0E39\u0E01\u0E15\u0E49\u0E2D\u0E07: \u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E15\u0E49\u0E2D\u0E07\u0E21\u0E35 "${_issue.includes}" \u0E2D\u0E22\u0E39\u0E48\u0E43\u0E19\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21`;
         if (_issue.format === "regex")
           return `\u0E23\u0E39\u0E1B\u0E41\u0E1A\u0E1A\u0E44\u0E21\u0E48\u0E16\u0E39\u0E01\u0E15\u0E49\u0E2D\u0E07: \u0E15\u0E49\u0E2D\u0E07\u0E15\u0E23\u0E07\u0E01\u0E31\u0E1A\u0E23\u0E39\u0E1B\u0E41\u0E1A\u0E1A\u0E17\u0E35\u0E48\u0E01\u0E33\u0E2B\u0E19\u0E14 ${_issue.pattern}`;
-        return `\u0E23\u0E39\u0E1B\u0E41\u0E1A\u0E1A\u0E44\u0E21\u0E48\u0E16\u0E39\u0E01\u0E15\u0E49\u0E2D\u0E07: ${Nouns[_issue.format] ?? issue2.format}`;
+        return `\u0E23\u0E39\u0E1B\u0E41\u0E1A\u0E1A\u0E44\u0E21\u0E48\u0E16\u0E39\u0E01\u0E15\u0E49\u0E2D\u0E07: ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `\u0E15\u0E31\u0E27\u0E40\u0E25\u0E02\u0E44\u0E21\u0E48\u0E16\u0E39\u0E01\u0E15\u0E49\u0E2D\u0E07: \u0E15\u0E49\u0E2D\u0E07\u0E40\u0E1B\u0E47\u0E19\u0E08\u0E33\u0E19\u0E27\u0E19\u0E17\u0E35\u0E48\u0E2B\u0E32\u0E23\u0E14\u0E49\u0E27\u0E22 ${issue2.divisor} \u0E44\u0E14\u0E49\u0E25\u0E07\u0E15\u0E31\u0E27`;
+        return `\u0E15\u0E31\u0E27\u0E40\u0E25\u0E02\u0E44\u0E21\u0E48\u0E16\u0E39\u0E01\u0E15\u0E49\u0E2D\u0E07: \u0E15\u0E49\u0E2D\u0E07\u0E40\u0E1B\u0E47\u0E19\u0E08\u0E33\u0E19\u0E27\u0E19\u0E17\u0E35\u0E48\u0E2B\u0E32\u0E23\u0E14\u0E49\u0E27\u0E22 ${issue.divisor} \u0E44\u0E14\u0E49\u0E25\u0E07\u0E15\u0E31\u0E27`;
       case "unrecognized_keys":
-        return `\u0E1E\u0E1A\u0E04\u0E35\u0E22\u0E4C\u0E17\u0E35\u0E48\u0E44\u0E21\u0E48\u0E23\u0E39\u0E49\u0E08\u0E31\u0E01: ${joinValues(issue2.keys, ", ")}`;
+        return `\u0E1E\u0E1A\u0E04\u0E35\u0E22\u0E4C\u0E17\u0E35\u0E48\u0E44\u0E21\u0E48\u0E23\u0E39\u0E49\u0E08\u0E31\u0E01: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `\u0E04\u0E35\u0E22\u0E4C\u0E44\u0E21\u0E48\u0E16\u0E39\u0E01\u0E15\u0E49\u0E2D\u0E07\u0E43\u0E19 ${issue2.origin}`;
+        return `\u0E04\u0E35\u0E22\u0E4C\u0E44\u0E21\u0E48\u0E16\u0E39\u0E01\u0E15\u0E49\u0E2D\u0E07\u0E43\u0E19 ${issue.origin}`;
       case "invalid_union":
         return "\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E44\u0E21\u0E48\u0E16\u0E39\u0E01\u0E15\u0E49\u0E2D\u0E07: \u0E44\u0E21\u0E48\u0E15\u0E23\u0E07\u0E01\u0E31\u0E1A\u0E23\u0E39\u0E1B\u0E41\u0E1A\u0E1A\u0E22\u0E39\u0E40\u0E19\u0E35\u0E22\u0E19\u0E17\u0E35\u0E48\u0E01\u0E33\u0E2B\u0E19\u0E14\u0E44\u0E27\u0E49";
       case "invalid_element":
-        return `\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E44\u0E21\u0E48\u0E16\u0E39\u0E01\u0E15\u0E49\u0E2D\u0E07\u0E43\u0E19 ${issue2.origin}`;
+        return `\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E44\u0E21\u0E48\u0E16\u0E39\u0E01\u0E15\u0E49\u0E2D\u0E07\u0E43\u0E19 ${issue.origin}`;
       default:
         return `\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E44\u0E21\u0E48\u0E16\u0E39\u0E01\u0E15\u0E49\u0E2D\u0E07`;
     }
@@ -8723,30 +8722,30 @@ var error38 = () => {
     jwt: "JWT",
     template_literal: "\u015Eablon dizesi"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `Ge\xE7ersiz de\u011Fer: beklenen ${issue2.expected}, al\u0131nan ${parsedType6(issue2.input)}`;
+        return `Ge\xE7ersiz de\u011Fer: beklenen ${issue.expected}, al\u0131nan ${parsedType6(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `Ge\xE7ersiz de\u011Fer: beklenen ${stringifyPrimitive(issue2.values[0])}`;
-        return `Ge\xE7ersiz se\xE7enek: a\u015Fa\u011F\u0131dakilerden biri olmal\u0131: ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `Ge\xE7ersiz de\u011Fer: beklenen ${stringifyPrimitive(issue.values[0])}`;
+        return `Ge\xE7ersiz se\xE7enek: a\u015Fa\u011F\u0131dakilerden biri olmal\u0131: ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `\xC7ok b\xFCy\xFCk: beklenen ${issue2.origin ?? "de\u011Fer"} ${adj}${issue2.maximum.toString()} ${sizing.unit ?? "\xF6\u011Fe"}`;
-        return `\xC7ok b\xFCy\xFCk: beklenen ${issue2.origin ?? "de\u011Fer"} ${adj}${issue2.maximum.toString()}`;
+          return `\xC7ok b\xFCy\xFCk: beklenen ${issue.origin ?? "de\u011Fer"} ${adj}${issue.maximum.toString()} ${sizing.unit ?? "\xF6\u011Fe"}`;
+        return `\xC7ok b\xFCy\xFCk: beklenen ${issue.origin ?? "de\u011Fer"} ${adj}${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `\xC7ok k\xFC\xE7\xFCk: beklenen ${issue2.origin} ${adj}${issue2.minimum.toString()} ${sizing.unit}`;
-        return `\xC7ok k\xFC\xE7\xFCk: beklenen ${issue2.origin} ${adj}${issue2.minimum.toString()}`;
+          return `\xC7ok k\xFC\xE7\xFCk: beklenen ${issue.origin} ${adj}${issue.minimum.toString()} ${sizing.unit}`;
+        return `\xC7ok k\xFC\xE7\xFCk: beklenen ${issue.origin} ${adj}${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with")
           return `Ge\xE7ersiz metin: "${_issue.prefix}" ile ba\u015Flamal\u0131`;
         if (_issue.format === "ends_with")
@@ -8755,18 +8754,18 @@ var error38 = () => {
           return `Ge\xE7ersiz metin: "${_issue.includes}" i\xE7ermeli`;
         if (_issue.format === "regex")
           return `Ge\xE7ersiz metin: ${_issue.pattern} desenine uymal\u0131`;
-        return `Ge\xE7ersiz ${Nouns[_issue.format] ?? issue2.format}`;
+        return `Ge\xE7ersiz ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `Ge\xE7ersiz say\u0131: ${issue2.divisor} ile tam b\xF6l\xFCnebilmeli`;
+        return `Ge\xE7ersiz say\u0131: ${issue.divisor} ile tam b\xF6l\xFCnebilmeli`;
       case "unrecognized_keys":
-        return `Tan\u0131nmayan anahtar${issue2.keys.length > 1 ? "lar" : ""}: ${joinValues(issue2.keys, ", ")}`;
+        return `Tan\u0131nmayan anahtar${issue.keys.length > 1 ? "lar" : ""}: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `${issue2.origin} i\xE7inde ge\xE7ersiz anahtar`;
+        return `${issue.origin} i\xE7inde ge\xE7ersiz anahtar`;
       case "invalid_union":
         return "Ge\xE7ersiz de\u011Fer";
       case "invalid_element":
-        return `${issue2.origin} i\xE7inde ge\xE7ersiz de\u011Fer`;
+        return `${issue.origin} i\xE7inde ge\xE7ersiz de\u011Fer`;
       default:
         return `Ge\xE7ersiz de\u011Fer`;
     }
@@ -8788,7 +8787,7 @@ var error39 = () => {
   function getSizing(origin) {
     return Sizable[origin] ?? null;
   }
-  const parsedType7 = (data) => {
+  const parsedType = (data) => {
     const t = typeof data;
     switch (t) {
       case "number": {
@@ -8838,31 +8837,31 @@ var error39 = () => {
     jwt: "JWT",
     template_literal: "\u0432\u0445\u0456\u0434\u043D\u0456 \u0434\u0430\u043D\u0456"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `\u041D\u0435\u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u0456 \u0432\u0445\u0456\u0434\u043D\u0456 \u0434\u0430\u043D\u0456: \u043E\u0447\u0456\u043A\u0443\u0454\u0442\u044C\u0441\u044F ${issue2.expected}, \u043E\u0442\u0440\u0438\u043C\u0430\u043D\u043E ${parsedType7(issue2.input)}`;
+        return `\u041D\u0435\u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u0456 \u0432\u0445\u0456\u0434\u043D\u0456 \u0434\u0430\u043D\u0456: \u043E\u0447\u0456\u043A\u0443\u0454\u0442\u044C\u0441\u044F ${issue.expected}, \u043E\u0442\u0440\u0438\u043C\u0430\u043D\u043E ${parsedType(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `\u041D\u0435\u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u0456 \u0432\u0445\u0456\u0434\u043D\u0456 \u0434\u0430\u043D\u0456: \u043E\u0447\u0456\u043A\u0443\u0454\u0442\u044C\u0441\u044F ${stringifyPrimitive(issue2.values[0])}`;
-        return `\u041D\u0435\u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u0430 \u043E\u043F\u0446\u0456\u044F: \u043E\u0447\u0456\u043A\u0443\u0454\u0442\u044C\u0441\u044F \u043E\u0434\u043D\u0435 \u0437 ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `\u041D\u0435\u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u0456 \u0432\u0445\u0456\u0434\u043D\u0456 \u0434\u0430\u043D\u0456: \u043E\u0447\u0456\u043A\u0443\u0454\u0442\u044C\u0441\u044F ${stringifyPrimitive(issue.values[0])}`;
+        return `\u041D\u0435\u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u0430 \u043E\u043F\u0446\u0456\u044F: \u043E\u0447\u0456\u043A\u0443\u0454\u0442\u044C\u0441\u044F \u043E\u0434\u043D\u0435 \u0437 ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `\u0417\u0430\u043D\u0430\u0434\u0442\u043E \u0432\u0435\u043B\u0438\u043A\u0435: \u043E\u0447\u0456\u043A\u0443\u0454\u0442\u044C\u0441\u044F, \u0449\u043E ${issue2.origin ?? "\u0437\u043D\u0430\u0447\u0435\u043D\u043D\u044F"} ${sizing.verb} ${adj}${issue2.maximum.toString()} ${sizing.unit ?? "\u0435\u043B\u0435\u043C\u0435\u043D\u0442\u0456\u0432"}`;
-        return `\u0417\u0430\u043D\u0430\u0434\u0442\u043E \u0432\u0435\u043B\u0438\u043A\u0435: \u043E\u0447\u0456\u043A\u0443\u0454\u0442\u044C\u0441\u044F, \u0449\u043E ${issue2.origin ?? "\u0437\u043D\u0430\u0447\u0435\u043D\u043D\u044F"} \u0431\u0443\u0434\u0435 ${adj}${issue2.maximum.toString()}`;
+          return `\u0417\u0430\u043D\u0430\u0434\u0442\u043E \u0432\u0435\u043B\u0438\u043A\u0435: \u043E\u0447\u0456\u043A\u0443\u0454\u0442\u044C\u0441\u044F, \u0449\u043E ${issue.origin ?? "\u0437\u043D\u0430\u0447\u0435\u043D\u043D\u044F"} ${sizing.verb} ${adj}${issue.maximum.toString()} ${sizing.unit ?? "\u0435\u043B\u0435\u043C\u0435\u043D\u0442\u0456\u0432"}`;
+        return `\u0417\u0430\u043D\u0430\u0434\u0442\u043E \u0432\u0435\u043B\u0438\u043A\u0435: \u043E\u0447\u0456\u043A\u0443\u0454\u0442\u044C\u0441\u044F, \u0449\u043E ${issue.origin ?? "\u0437\u043D\u0430\u0447\u0435\u043D\u043D\u044F"} \u0431\u0443\u0434\u0435 ${adj}${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `\u0417\u0430\u043D\u0430\u0434\u0442\u043E \u043C\u0430\u043B\u0435: \u043E\u0447\u0456\u043A\u0443\u0454\u0442\u044C\u0441\u044F, \u0449\u043E ${issue2.origin} ${sizing.verb} ${adj}${issue2.minimum.toString()} ${sizing.unit}`;
+          return `\u0417\u0430\u043D\u0430\u0434\u0442\u043E \u043C\u0430\u043B\u0435: \u043E\u0447\u0456\u043A\u0443\u0454\u0442\u044C\u0441\u044F, \u0449\u043E ${issue.origin} ${sizing.verb} ${adj}${issue.minimum.toString()} ${sizing.unit}`;
         }
-        return `\u0417\u0430\u043D\u0430\u0434\u0442\u043E \u043C\u0430\u043B\u0435: \u043E\u0447\u0456\u043A\u0443\u0454\u0442\u044C\u0441\u044F, \u0449\u043E ${issue2.origin} \u0431\u0443\u0434\u0435 ${adj}${issue2.minimum.toString()}`;
+        return `\u0417\u0430\u043D\u0430\u0434\u0442\u043E \u043C\u0430\u043B\u0435: \u043E\u0447\u0456\u043A\u0443\u0454\u0442\u044C\u0441\u044F, \u0449\u043E ${issue.origin} \u0431\u0443\u0434\u0435 ${adj}${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with")
           return `\u041D\u0435\u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u0438\u0439 \u0440\u044F\u0434\u043E\u043A: \u043F\u043E\u0432\u0438\u043D\u0435\u043D \u043F\u043E\u0447\u0438\u043D\u0430\u0442\u0438\u0441\u044F \u0437 "${_issue.prefix}"`;
         if (_issue.format === "ends_with")
@@ -8871,18 +8870,18 @@ var error39 = () => {
           return `\u041D\u0435\u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u0438\u0439 \u0440\u044F\u0434\u043E\u043A: \u043F\u043E\u0432\u0438\u043D\u0435\u043D \u043C\u0456\u0441\u0442\u0438\u0442\u0438 "${_issue.includes}"`;
         if (_issue.format === "regex")
           return `\u041D\u0435\u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u0438\u0439 \u0440\u044F\u0434\u043E\u043A: \u043F\u043E\u0432\u0438\u043D\u0435\u043D \u0432\u0456\u0434\u043F\u043E\u0432\u0456\u0434\u0430\u0442\u0438 \u0448\u0430\u0431\u043B\u043E\u043D\u0443 ${_issue.pattern}`;
-        return `\u041D\u0435\u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u0438\u0439 ${Nouns[_issue.format] ?? issue2.format}`;
+        return `\u041D\u0435\u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u0438\u0439 ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `\u041D\u0435\u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u0435 \u0447\u0438\u0441\u043B\u043E: \u043F\u043E\u0432\u0438\u043D\u043D\u043E \u0431\u0443\u0442\u0438 \u043A\u0440\u0430\u0442\u043D\u0438\u043C ${issue2.divisor}`;
+        return `\u041D\u0435\u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u0435 \u0447\u0438\u0441\u043B\u043E: \u043F\u043E\u0432\u0438\u043D\u043D\u043E \u0431\u0443\u0442\u0438 \u043A\u0440\u0430\u0442\u043D\u0438\u043C ${issue.divisor}`;
       case "unrecognized_keys":
-        return `\u041D\u0435\u0440\u043E\u0437\u043F\u0456\u0437\u043D\u0430\u043D\u0438\u0439 \u043A\u043B\u044E\u0447${issue2.keys.length > 1 ? "\u0456" : ""}: ${joinValues(issue2.keys, ", ")}`;
+        return `\u041D\u0435\u0440\u043E\u0437\u043F\u0456\u0437\u043D\u0430\u043D\u0438\u0439 \u043A\u043B\u044E\u0447${issue.keys.length > 1 ? "\u0456" : ""}: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `\u041D\u0435\u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u0438\u0439 \u043A\u043B\u044E\u0447 \u0443 ${issue2.origin}`;
+        return `\u041D\u0435\u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u0438\u0439 \u043A\u043B\u044E\u0447 \u0443 ${issue.origin}`;
       case "invalid_union":
         return "\u041D\u0435\u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u0456 \u0432\u0445\u0456\u0434\u043D\u0456 \u0434\u0430\u043D\u0456";
       case "invalid_element":
-        return `\u041D\u0435\u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u0435 \u0437\u043D\u0430\u0447\u0435\u043D\u043D\u044F \u0443 ${issue2.origin}`;
+        return `\u041D\u0435\u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u0435 \u0437\u043D\u0430\u0447\u0435\u043D\u043D\u044F \u0443 ${issue.origin}`;
       default:
         return `\u041D\u0435\u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u0456 \u0432\u0445\u0456\u0434\u043D\u0456 \u0434\u0430\u043D\u0456`;
     }
@@ -8909,7 +8908,7 @@ var error40 = () => {
   function getSizing(origin) {
     return Sizable[origin] ?? null;
   }
-  const parsedType7 = (data) => {
+  const parsedType = (data) => {
     const t = typeof data;
     switch (t) {
       case "number": {
@@ -8959,31 +8958,31 @@ var error40 = () => {
     jwt: "\u062C\u06D2 \u0688\u0628\u0644\u06CC\u0648 \u0679\u06CC",
     template_literal: "\u0627\u0646 \u067E\u0679"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `\u063A\u0644\u0637 \u0627\u0646 \u067E\u0679: ${issue2.expected} \u0645\u062A\u0648\u0642\u0639 \u062A\u06BE\u0627\u060C ${parsedType7(issue2.input)} \u0645\u0648\u0635\u0648\u0644 \u06C1\u0648\u0627`;
+        return `\u063A\u0644\u0637 \u0627\u0646 \u067E\u0679: ${issue.expected} \u0645\u062A\u0648\u0642\u0639 \u062A\u06BE\u0627\u060C ${parsedType(issue.input)} \u0645\u0648\u0635\u0648\u0644 \u06C1\u0648\u0627`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `\u063A\u0644\u0637 \u0627\u0646 \u067E\u0679: ${stringifyPrimitive(issue2.values[0])} \u0645\u062A\u0648\u0642\u0639 \u062A\u06BE\u0627`;
-        return `\u063A\u0644\u0637 \u0622\u067E\u0634\u0646: ${joinValues(issue2.values, "|")} \u0645\u06CC\u06BA \u0633\u06D2 \u0627\u06CC\u06A9 \u0645\u062A\u0648\u0642\u0639 \u062A\u06BE\u0627`;
+        if (issue.values.length === 1)
+          return `\u063A\u0644\u0637 \u0627\u0646 \u067E\u0679: ${stringifyPrimitive(issue.values[0])} \u0645\u062A\u0648\u0642\u0639 \u062A\u06BE\u0627`;
+        return `\u063A\u0644\u0637 \u0622\u067E\u0634\u0646: ${joinValues(issue.values, "|")} \u0645\u06CC\u06BA \u0633\u06D2 \u0627\u06CC\u06A9 \u0645\u062A\u0648\u0642\u0639 \u062A\u06BE\u0627`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `\u0628\u06C1\u062A \u0628\u0691\u0627: ${issue2.origin ?? "\u0648\u06CC\u0644\u06CC\u0648"} \u06A9\u06D2 ${adj}${issue2.maximum.toString()} ${sizing.unit ?? "\u0639\u0646\u0627\u0635\u0631"} \u06C1\u0648\u0646\u06D2 \u0645\u062A\u0648\u0642\u0639 \u062A\u06BE\u06D2`;
-        return `\u0628\u06C1\u062A \u0628\u0691\u0627: ${issue2.origin ?? "\u0648\u06CC\u0644\u06CC\u0648"} \u06A9\u0627 ${adj}${issue2.maximum.toString()} \u06C1\u0648\u0646\u0627 \u0645\u062A\u0648\u0642\u0639 \u062A\u06BE\u0627`;
+          return `\u0628\u06C1\u062A \u0628\u0691\u0627: ${issue.origin ?? "\u0648\u06CC\u0644\u06CC\u0648"} \u06A9\u06D2 ${adj}${issue.maximum.toString()} ${sizing.unit ?? "\u0639\u0646\u0627\u0635\u0631"} \u06C1\u0648\u0646\u06D2 \u0645\u062A\u0648\u0642\u0639 \u062A\u06BE\u06D2`;
+        return `\u0628\u06C1\u062A \u0628\u0691\u0627: ${issue.origin ?? "\u0648\u06CC\u0644\u06CC\u0648"} \u06A9\u0627 ${adj}${issue.maximum.toString()} \u06C1\u0648\u0646\u0627 \u0645\u062A\u0648\u0642\u0639 \u062A\u06BE\u0627`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `\u0628\u06C1\u062A \u0686\u06BE\u0648\u0679\u0627: ${issue2.origin} \u06A9\u06D2 ${adj}${issue2.minimum.toString()} ${sizing.unit} \u06C1\u0648\u0646\u06D2 \u0645\u062A\u0648\u0642\u0639 \u062A\u06BE\u06D2`;
+          return `\u0628\u06C1\u062A \u0686\u06BE\u0648\u0679\u0627: ${issue.origin} \u06A9\u06D2 ${adj}${issue.minimum.toString()} ${sizing.unit} \u06C1\u0648\u0646\u06D2 \u0645\u062A\u0648\u0642\u0639 \u062A\u06BE\u06D2`;
         }
-        return `\u0628\u06C1\u062A \u0686\u06BE\u0648\u0679\u0627: ${issue2.origin} \u06A9\u0627 ${adj}${issue2.minimum.toString()} \u06C1\u0648\u0646\u0627 \u0645\u062A\u0648\u0642\u0639 \u062A\u06BE\u0627`;
+        return `\u0628\u06C1\u062A \u0686\u06BE\u0648\u0679\u0627: ${issue.origin} \u06A9\u0627 ${adj}${issue.minimum.toString()} \u06C1\u0648\u0646\u0627 \u0645\u062A\u0648\u0642\u0639 \u062A\u06BE\u0627`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with") {
           return `\u063A\u0644\u0637 \u0633\u0679\u0631\u0646\u06AF: "${_issue.prefix}" \u0633\u06D2 \u0634\u0631\u0648\u0639 \u06C1\u0648\u0646\u0627 \u0686\u0627\u06C1\u06CC\u06D2`;
         }
@@ -8993,18 +8992,18 @@ var error40 = () => {
           return `\u063A\u0644\u0637 \u0633\u0679\u0631\u0646\u06AF: "${_issue.includes}" \u0634\u0627\u0645\u0644 \u06C1\u0648\u0646\u0627 \u0686\u0627\u06C1\u06CC\u06D2`;
         if (_issue.format === "regex")
           return `\u063A\u0644\u0637 \u0633\u0679\u0631\u0646\u06AF: \u067E\u06CC\u0679\u0631\u0646 ${_issue.pattern} \u0633\u06D2 \u0645\u06CC\u0686 \u06C1\u0648\u0646\u0627 \u0686\u0627\u06C1\u06CC\u06D2`;
-        return `\u063A\u0644\u0637 ${Nouns[_issue.format] ?? issue2.format}`;
+        return `\u063A\u0644\u0637 ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `\u063A\u0644\u0637 \u0646\u0645\u0628\u0631: ${issue2.divisor} \u06A9\u0627 \u0645\u0636\u0627\u0639\u0641 \u06C1\u0648\u0646\u0627 \u0686\u0627\u06C1\u06CC\u06D2`;
+        return `\u063A\u0644\u0637 \u0646\u0645\u0628\u0631: ${issue.divisor} \u06A9\u0627 \u0645\u0636\u0627\u0639\u0641 \u06C1\u0648\u0646\u0627 \u0686\u0627\u06C1\u06CC\u06D2`;
       case "unrecognized_keys":
-        return `\u063A\u06CC\u0631 \u062A\u0633\u0644\u06CC\u0645 \u0634\u062F\u06C1 \u06A9\u06CC${issue2.keys.length > 1 ? "\u0632" : ""}: ${joinValues(issue2.keys, "\u060C ")}`;
+        return `\u063A\u06CC\u0631 \u062A\u0633\u0644\u06CC\u0645 \u0634\u062F\u06C1 \u06A9\u06CC${issue.keys.length > 1 ? "\u0632" : ""}: ${joinValues(issue.keys, "\u060C ")}`;
       case "invalid_key":
-        return `${issue2.origin} \u0645\u06CC\u06BA \u063A\u0644\u0637 \u06A9\u06CC`;
+        return `${issue.origin} \u0645\u06CC\u06BA \u063A\u0644\u0637 \u06A9\u06CC`;
       case "invalid_union":
         return "\u063A\u0644\u0637 \u0627\u0646 \u067E\u0679";
       case "invalid_element":
-        return `${issue2.origin} \u0645\u06CC\u06BA \u063A\u0644\u0637 \u0648\u06CC\u0644\u06CC\u0648`;
+        return `${issue.origin} \u0645\u06CC\u06BA \u063A\u0644\u0637 \u0648\u06CC\u0644\u06CC\u0648`;
       default:
         return `\u063A\u0644\u0637 \u0627\u0646 \u067E\u0679`;
     }
@@ -9026,7 +9025,7 @@ var error41 = () => {
   function getSizing(origin) {
     return Sizable[origin] ?? null;
   }
-  const parsedType7 = (data) => {
+  const parsedType = (data) => {
     const t = typeof data;
     switch (t) {
       case "number": {
@@ -9076,31 +9075,31 @@ var error41 = () => {
     jwt: "JWT",
     template_literal: "\u0111\u1EA7u v\xE0o"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `\u0110\u1EA7u v\xE0o kh\xF4ng h\u1EE3p l\u1EC7: mong \u0111\u1EE3i ${issue2.expected}, nh\u1EADn \u0111\u01B0\u1EE3c ${parsedType7(issue2.input)}`;
+        return `\u0110\u1EA7u v\xE0o kh\xF4ng h\u1EE3p l\u1EC7: mong \u0111\u1EE3i ${issue.expected}, nh\u1EADn \u0111\u01B0\u1EE3c ${parsedType(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `\u0110\u1EA7u v\xE0o kh\xF4ng h\u1EE3p l\u1EC7: mong \u0111\u1EE3i ${stringifyPrimitive(issue2.values[0])}`;
-        return `T\xF9y ch\u1ECDn kh\xF4ng h\u1EE3p l\u1EC7: mong \u0111\u1EE3i m\u1ED9t trong c\xE1c gi\xE1 tr\u1ECB ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `\u0110\u1EA7u v\xE0o kh\xF4ng h\u1EE3p l\u1EC7: mong \u0111\u1EE3i ${stringifyPrimitive(issue.values[0])}`;
+        return `T\xF9y ch\u1ECDn kh\xF4ng h\u1EE3p l\u1EC7: mong \u0111\u1EE3i m\u1ED9t trong c\xE1c gi\xE1 tr\u1ECB ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `Qu\xE1 l\u1EDBn: mong \u0111\u1EE3i ${issue2.origin ?? "gi\xE1 tr\u1ECB"} ${sizing.verb} ${adj}${issue2.maximum.toString()} ${sizing.unit ?? "ph\u1EA7n t\u1EED"}`;
-        return `Qu\xE1 l\u1EDBn: mong \u0111\u1EE3i ${issue2.origin ?? "gi\xE1 tr\u1ECB"} ${adj}${issue2.maximum.toString()}`;
+          return `Qu\xE1 l\u1EDBn: mong \u0111\u1EE3i ${issue.origin ?? "gi\xE1 tr\u1ECB"} ${sizing.verb} ${adj}${issue.maximum.toString()} ${sizing.unit ?? "ph\u1EA7n t\u1EED"}`;
+        return `Qu\xE1 l\u1EDBn: mong \u0111\u1EE3i ${issue.origin ?? "gi\xE1 tr\u1ECB"} ${adj}${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `Qu\xE1 nh\u1ECF: mong \u0111\u1EE3i ${issue2.origin} ${sizing.verb} ${adj}${issue2.minimum.toString()} ${sizing.unit}`;
+          return `Qu\xE1 nh\u1ECF: mong \u0111\u1EE3i ${issue.origin} ${sizing.verb} ${adj}${issue.minimum.toString()} ${sizing.unit}`;
         }
-        return `Qu\xE1 nh\u1ECF: mong \u0111\u1EE3i ${issue2.origin} ${adj}${issue2.minimum.toString()}`;
+        return `Qu\xE1 nh\u1ECF: mong \u0111\u1EE3i ${issue.origin} ${adj}${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with")
           return `Chu\u1ED7i kh\xF4ng h\u1EE3p l\u1EC7: ph\u1EA3i b\u1EAFt \u0111\u1EA7u b\u1EB1ng "${_issue.prefix}"`;
         if (_issue.format === "ends_with")
@@ -9109,18 +9108,18 @@ var error41 = () => {
           return `Chu\u1ED7i kh\xF4ng h\u1EE3p l\u1EC7: ph\u1EA3i bao g\u1ED3m "${_issue.includes}"`;
         if (_issue.format === "regex")
           return `Chu\u1ED7i kh\xF4ng h\u1EE3p l\u1EC7: ph\u1EA3i kh\u1EDBp v\u1EDBi m\u1EABu ${_issue.pattern}`;
-        return `${Nouns[_issue.format] ?? issue2.format} kh\xF4ng h\u1EE3p l\u1EC7`;
+        return `${Nouns[_issue.format] ?? issue.format} kh\xF4ng h\u1EE3p l\u1EC7`;
       }
       case "not_multiple_of":
-        return `S\u1ED1 kh\xF4ng h\u1EE3p l\u1EC7: ph\u1EA3i l\xE0 b\u1ED9i s\u1ED1 c\u1EE7a ${issue2.divisor}`;
+        return `S\u1ED1 kh\xF4ng h\u1EE3p l\u1EC7: ph\u1EA3i l\xE0 b\u1ED9i s\u1ED1 c\u1EE7a ${issue.divisor}`;
       case "unrecognized_keys":
-        return `Kh\xF3a kh\xF4ng \u0111\u01B0\u1EE3c nh\u1EADn d\u1EA1ng: ${joinValues(issue2.keys, ", ")}`;
+        return `Kh\xF3a kh\xF4ng \u0111\u01B0\u1EE3c nh\u1EADn d\u1EA1ng: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `Kh\xF3a kh\xF4ng h\u1EE3p l\u1EC7 trong ${issue2.origin}`;
+        return `Kh\xF3a kh\xF4ng h\u1EE3p l\u1EC7 trong ${issue.origin}`;
       case "invalid_union":
         return "\u0110\u1EA7u v\xE0o kh\xF4ng h\u1EE3p l\u1EC7";
       case "invalid_element":
-        return `Gi\xE1 tr\u1ECB kh\xF4ng h\u1EE3p l\u1EC7 trong ${issue2.origin}`;
+        return `Gi\xE1 tr\u1ECB kh\xF4ng h\u1EE3p l\u1EC7 trong ${issue.origin}`;
       default:
         return `\u0110\u1EA7u v\xE0o kh\xF4ng h\u1EE3p l\u1EC7`;
     }
@@ -9142,7 +9141,7 @@ var error42 = () => {
   function getSizing(origin) {
     return Sizable[origin] ?? null;
   }
-  const parsedType7 = (data) => {
+  const parsedType = (data) => {
     const t = typeof data;
     switch (t) {
       case "number": {
@@ -9192,31 +9191,31 @@ var error42 = () => {
     jwt: "JWT",
     template_literal: "\u8F93\u5165"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `\u65E0\u6548\u8F93\u5165\uFF1A\u671F\u671B ${issue2.expected}\uFF0C\u5B9E\u9645\u63A5\u6536 ${parsedType7(issue2.input)}`;
+        return `\u65E0\u6548\u8F93\u5165\uFF1A\u671F\u671B ${issue.expected}\uFF0C\u5B9E\u9645\u63A5\u6536 ${parsedType(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `\u65E0\u6548\u8F93\u5165\uFF1A\u671F\u671B ${stringifyPrimitive(issue2.values[0])}`;
-        return `\u65E0\u6548\u9009\u9879\uFF1A\u671F\u671B\u4EE5\u4E0B\u4E4B\u4E00 ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `\u65E0\u6548\u8F93\u5165\uFF1A\u671F\u671B ${stringifyPrimitive(issue.values[0])}`;
+        return `\u65E0\u6548\u9009\u9879\uFF1A\u671F\u671B\u4EE5\u4E0B\u4E4B\u4E00 ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `\u6570\u503C\u8FC7\u5927\uFF1A\u671F\u671B ${issue2.origin ?? "\u503C"} ${adj}${issue2.maximum.toString()} ${sizing.unit ?? "\u4E2A\u5143\u7D20"}`;
-        return `\u6570\u503C\u8FC7\u5927\uFF1A\u671F\u671B ${issue2.origin ?? "\u503C"} ${adj}${issue2.maximum.toString()}`;
+          return `\u6570\u503C\u8FC7\u5927\uFF1A\u671F\u671B ${issue.origin ?? "\u503C"} ${adj}${issue.maximum.toString()} ${sizing.unit ?? "\u4E2A\u5143\u7D20"}`;
+        return `\u6570\u503C\u8FC7\u5927\uFF1A\u671F\u671B ${issue.origin ?? "\u503C"} ${adj}${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `\u6570\u503C\u8FC7\u5C0F\uFF1A\u671F\u671B ${issue2.origin} ${adj}${issue2.minimum.toString()} ${sizing.unit}`;
+          return `\u6570\u503C\u8FC7\u5C0F\uFF1A\u671F\u671B ${issue.origin} ${adj}${issue.minimum.toString()} ${sizing.unit}`;
         }
-        return `\u6570\u503C\u8FC7\u5C0F\uFF1A\u671F\u671B ${issue2.origin} ${adj}${issue2.minimum.toString()}`;
+        return `\u6570\u503C\u8FC7\u5C0F\uFF1A\u671F\u671B ${issue.origin} ${adj}${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with")
           return `\u65E0\u6548\u5B57\u7B26\u4E32\uFF1A\u5FC5\u987B\u4EE5 "${_issue.prefix}" \u5F00\u5934`;
         if (_issue.format === "ends_with")
@@ -9225,18 +9224,18 @@ var error42 = () => {
           return `\u65E0\u6548\u5B57\u7B26\u4E32\uFF1A\u5FC5\u987B\u5305\u542B "${_issue.includes}"`;
         if (_issue.format === "regex")
           return `\u65E0\u6548\u5B57\u7B26\u4E32\uFF1A\u5FC5\u987B\u6EE1\u8DB3\u6B63\u5219\u8868\u8FBE\u5F0F ${_issue.pattern}`;
-        return `\u65E0\u6548${Nouns[_issue.format] ?? issue2.format}`;
+        return `\u65E0\u6548${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `\u65E0\u6548\u6570\u5B57\uFF1A\u5FC5\u987B\u662F ${issue2.divisor} \u7684\u500D\u6570`;
+        return `\u65E0\u6548\u6570\u5B57\uFF1A\u5FC5\u987B\u662F ${issue.divisor} \u7684\u500D\u6570`;
       case "unrecognized_keys":
-        return `\u51FA\u73B0\u672A\u77E5\u7684\u952E(key): ${joinValues(issue2.keys, ", ")}`;
+        return `\u51FA\u73B0\u672A\u77E5\u7684\u952E(key): ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `${issue2.origin} \u4E2D\u7684\u952E(key)\u65E0\u6548`;
+        return `${issue.origin} \u4E2D\u7684\u952E(key)\u65E0\u6548`;
       case "invalid_union":
         return "\u65E0\u6548\u8F93\u5165";
       case "invalid_element":
-        return `${issue2.origin} \u4E2D\u5305\u542B\u65E0\u6548\u503C(value)`;
+        return `${issue.origin} \u4E2D\u5305\u542B\u65E0\u6548\u503C(value)`;
       default:
         return `\u65E0\u6548\u8F93\u5165`;
     }
@@ -9258,7 +9257,7 @@ var error43 = () => {
   function getSizing(origin) {
     return Sizable[origin] ?? null;
   }
-  const parsedType7 = (data) => {
+  const parsedType = (data) => {
     const t = typeof data;
     switch (t) {
       case "number": {
@@ -9308,31 +9307,31 @@ var error43 = () => {
     jwt: "JWT",
     template_literal: "\u8F38\u5165"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `\u7121\u6548\u7684\u8F38\u5165\u503C\uFF1A\u9810\u671F\u70BA ${issue2.expected}\uFF0C\u4F46\u6536\u5230 ${parsedType7(issue2.input)}`;
+        return `\u7121\u6548\u7684\u8F38\u5165\u503C\uFF1A\u9810\u671F\u70BA ${issue.expected}\uFF0C\u4F46\u6536\u5230 ${parsedType(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `\u7121\u6548\u7684\u8F38\u5165\u503C\uFF1A\u9810\u671F\u70BA ${stringifyPrimitive(issue2.values[0])}`;
-        return `\u7121\u6548\u7684\u9078\u9805\uFF1A\u9810\u671F\u70BA\u4EE5\u4E0B\u5176\u4E2D\u4E4B\u4E00 ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `\u7121\u6548\u7684\u8F38\u5165\u503C\uFF1A\u9810\u671F\u70BA ${stringifyPrimitive(issue.values[0])}`;
+        return `\u7121\u6548\u7684\u9078\u9805\uFF1A\u9810\u671F\u70BA\u4EE5\u4E0B\u5176\u4E2D\u4E4B\u4E00 ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `\u6578\u503C\u904E\u5927\uFF1A\u9810\u671F ${issue2.origin ?? "\u503C"} \u61C9\u70BA ${adj}${issue2.maximum.toString()} ${sizing.unit ?? "\u500B\u5143\u7D20"}`;
-        return `\u6578\u503C\u904E\u5927\uFF1A\u9810\u671F ${issue2.origin ?? "\u503C"} \u61C9\u70BA ${adj}${issue2.maximum.toString()}`;
+          return `\u6578\u503C\u904E\u5927\uFF1A\u9810\u671F ${issue.origin ?? "\u503C"} \u61C9\u70BA ${adj}${issue.maximum.toString()} ${sizing.unit ?? "\u500B\u5143\u7D20"}`;
+        return `\u6578\u503C\u904E\u5927\uFF1A\u9810\u671F ${issue.origin ?? "\u503C"} \u61C9\u70BA ${adj}${issue.maximum.toString()}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing) {
-          return `\u6578\u503C\u904E\u5C0F\uFF1A\u9810\u671F ${issue2.origin} \u61C9\u70BA ${adj}${issue2.minimum.toString()} ${sizing.unit}`;
+          return `\u6578\u503C\u904E\u5C0F\uFF1A\u9810\u671F ${issue.origin} \u61C9\u70BA ${adj}${issue.minimum.toString()} ${sizing.unit}`;
         }
-        return `\u6578\u503C\u904E\u5C0F\uFF1A\u9810\u671F ${issue2.origin} \u61C9\u70BA ${adj}${issue2.minimum.toString()}`;
+        return `\u6578\u503C\u904E\u5C0F\uFF1A\u9810\u671F ${issue.origin} \u61C9\u70BA ${adj}${issue.minimum.toString()}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with") {
           return `\u7121\u6548\u7684\u5B57\u4E32\uFF1A\u5FC5\u9808\u4EE5 "${_issue.prefix}" \u958B\u982D`;
         }
@@ -9342,18 +9341,18 @@ var error43 = () => {
           return `\u7121\u6548\u7684\u5B57\u4E32\uFF1A\u5FC5\u9808\u5305\u542B "${_issue.includes}"`;
         if (_issue.format === "regex")
           return `\u7121\u6548\u7684\u5B57\u4E32\uFF1A\u5FC5\u9808\u7B26\u5408\u683C\u5F0F ${_issue.pattern}`;
-        return `\u7121\u6548\u7684 ${Nouns[_issue.format] ?? issue2.format}`;
+        return `\u7121\u6548\u7684 ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `\u7121\u6548\u7684\u6578\u5B57\uFF1A\u5FC5\u9808\u70BA ${issue2.divisor} \u7684\u500D\u6578`;
+        return `\u7121\u6548\u7684\u6578\u5B57\uFF1A\u5FC5\u9808\u70BA ${issue.divisor} \u7684\u500D\u6578`;
       case "unrecognized_keys":
-        return `\u7121\u6CD5\u8B58\u5225\u7684\u9375\u503C${issue2.keys.length > 1 ? "\u5011" : ""}\uFF1A${joinValues(issue2.keys, "\u3001")}`;
+        return `\u7121\u6CD5\u8B58\u5225\u7684\u9375\u503C${issue.keys.length > 1 ? "\u5011" : ""}\uFF1A${joinValues(issue.keys, "\u3001")}`;
       case "invalid_key":
-        return `${issue2.origin} \u4E2D\u6709\u7121\u6548\u7684\u9375\u503C`;
+        return `${issue.origin} \u4E2D\u6709\u7121\u6548\u7684\u9375\u503C`;
       case "invalid_union":
         return "\u7121\u6548\u7684\u8F38\u5165\u503C";
       case "invalid_element":
-        return `${issue2.origin} \u4E2D\u6709\u7121\u6548\u7684\u503C`;
+        return `${issue.origin} \u4E2D\u6709\u7121\u6548\u7684\u503C`;
       default:
         return `\u7121\u6548\u7684\u8F38\u5165\u503C`;
     }
@@ -9375,7 +9374,7 @@ var error44 = () => {
   function getSizing(origin) {
     return Sizable[origin] ?? null;
   }
-  const parsedType7 = (data) => {
+  const parsedType = (data) => {
     const t = typeof data;
     switch (t) {
       case "number": {
@@ -9425,30 +9424,30 @@ var error44 = () => {
     jwt: "JWT",
     template_literal: "\u1EB9\u0300r\u1ECD \xECb\xE1w\u1ECDl\xE9"
   };
-  return (issue2) => {
-    switch (issue2.code) {
+  return (issue) => {
+    switch (issue.code) {
       case "invalid_type":
-        return `\xCCb\xE1w\u1ECDl\xE9 a\u1E63\xEC\u1E63e: a n\xED l\xE1ti fi ${issue2.expected}, \xE0m\u1ECD\u0300 a r\xED ${parsedType7(issue2.input)}`;
+        return `\xCCb\xE1w\u1ECDl\xE9 a\u1E63\xEC\u1E63e: a n\xED l\xE1ti fi ${issue.expected}, \xE0m\u1ECD\u0300 a r\xED ${parsedType(issue.input)}`;
       case "invalid_value":
-        if (issue2.values.length === 1)
-          return `\xCCb\xE1w\u1ECDl\xE9 a\u1E63\xEC\u1E63e: a n\xED l\xE1ti fi ${stringifyPrimitive(issue2.values[0])}`;
-        return `\xC0\u1E63\xE0y\xE0n a\u1E63\xEC\u1E63e: yan \u1ECD\u0300kan l\xE1ra ${joinValues(issue2.values, "|")}`;
+        if (issue.values.length === 1)
+          return `\xCCb\xE1w\u1ECDl\xE9 a\u1E63\xEC\u1E63e: a n\xED l\xE1ti fi ${stringifyPrimitive(issue.values[0])}`;
+        return `\xC0\u1E63\xE0y\xE0n a\u1E63\xEC\u1E63e: yan \u1ECD\u0300kan l\xE1ra ${joinValues(issue.values, "|")}`;
       case "too_big": {
-        const adj = issue2.inclusive ? "<=" : "<";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? "<=" : "<";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `T\xF3 p\u1ECD\u0300 j\xF9: a n\xED l\xE1ti j\u1EB9\u0301 p\xE9 ${issue2.origin ?? "iye"} ${sizing.verb} ${adj}${issue2.maximum} ${sizing.unit}`;
-        return `T\xF3 p\u1ECD\u0300 j\xF9: a n\xED l\xE1ti j\u1EB9\u0301 ${adj}${issue2.maximum}`;
+          return `T\xF3 p\u1ECD\u0300 j\xF9: a n\xED l\xE1ti j\u1EB9\u0301 p\xE9 ${issue.origin ?? "iye"} ${sizing.verb} ${adj}${issue.maximum} ${sizing.unit}`;
+        return `T\xF3 p\u1ECD\u0300 j\xF9: a n\xED l\xE1ti j\u1EB9\u0301 ${adj}${issue.maximum}`;
       }
       case "too_small": {
-        const adj = issue2.inclusive ? ">=" : ">";
-        const sizing = getSizing(issue2.origin);
+        const adj = issue.inclusive ? ">=" : ">";
+        const sizing = getSizing(issue.origin);
         if (sizing)
-          return `K\xE9r\xE9 ju: a n\xED l\xE1ti j\u1EB9\u0301 p\xE9 ${issue2.origin} ${sizing.verb} ${adj}${issue2.minimum} ${sizing.unit}`;
-        return `K\xE9r\xE9 ju: a n\xED l\xE1ti j\u1EB9\u0301 ${adj}${issue2.minimum}`;
+          return `K\xE9r\xE9 ju: a n\xED l\xE1ti j\u1EB9\u0301 p\xE9 ${issue.origin} ${sizing.verb} ${adj}${issue.minimum} ${sizing.unit}`;
+        return `K\xE9r\xE9 ju: a n\xED l\xE1ti j\u1EB9\u0301 ${adj}${issue.minimum}`;
       }
       case "invalid_format": {
-        const _issue = issue2;
+        const _issue = issue;
         if (_issue.format === "starts_with")
           return `\u1ECC\u0300r\u1ECD\u0300 a\u1E63\xEC\u1E63e: gb\u1ECD\u0301d\u1ECD\u0300 b\u1EB9\u0300r\u1EB9\u0300 p\u1EB9\u0300l\xFA "${_issue.prefix}"`;
         if (_issue.format === "ends_with")
@@ -9457,18 +9456,18 @@ var error44 = () => {
           return `\u1ECC\u0300r\u1ECD\u0300 a\u1E63\xEC\u1E63e: gb\u1ECD\u0301d\u1ECD\u0300 n\xED "${_issue.includes}"`;
         if (_issue.format === "regex")
           return `\u1ECC\u0300r\u1ECD\u0300 a\u1E63\xEC\u1E63e: gb\u1ECD\u0301d\u1ECD\u0300 b\xE1 \xE0p\u1EB9\u1EB9r\u1EB9 mu ${_issue.pattern}`;
-        return `A\u1E63\xEC\u1E63e: ${Nouns[_issue.format] ?? issue2.format}`;
+        return `A\u1E63\xEC\u1E63e: ${Nouns[_issue.format] ?? issue.format}`;
       }
       case "not_multiple_of":
-        return `N\u1ECD\u0301mb\xE0 a\u1E63\xEC\u1E63e: gb\u1ECD\u0301d\u1ECD\u0300 j\u1EB9\u0301 \xE8y\xE0 p\xEDp\xEDn ti ${issue2.divisor}`;
+        return `N\u1ECD\u0301mb\xE0 a\u1E63\xEC\u1E63e: gb\u1ECD\u0301d\u1ECD\u0300 j\u1EB9\u0301 \xE8y\xE0 p\xEDp\xEDn ti ${issue.divisor}`;
       case "unrecognized_keys":
-        return `B\u1ECDt\xECn\xEC \xE0\xECm\u1ECD\u0300: ${joinValues(issue2.keys, ", ")}`;
+        return `B\u1ECDt\xECn\xEC \xE0\xECm\u1ECD\u0300: ${joinValues(issue.keys, ", ")}`;
       case "invalid_key":
-        return `B\u1ECDt\xECn\xEC a\u1E63\xEC\u1E63e n\xEDn\xFA ${issue2.origin}`;
+        return `B\u1ECDt\xECn\xEC a\u1E63\xEC\u1E63e n\xEDn\xFA ${issue.origin}`;
       case "invalid_union":
         return "\xCCb\xE1w\u1ECDl\xE9 a\u1E63\xEC\u1E63e";
       case "invalid_element":
-        return `Iye a\u1E63\xEC\u1E63e n\xEDn\xFA ${issue2.origin}`;
+        return `Iye a\u1E63\xEC\u1E63e n\xEDn\xFA ${issue.origin}`;
       default:
         return "\xCCb\xE1w\u1ECDl\xE9 a\u1E63\xEC\u1E63e";
     }
@@ -9531,21 +9530,21 @@ function registry() {
 }
 var globalRegistry = /* @__PURE__ */ registry();
 // node_modules/zod/v4/core/api.js
-function _string(Class2, params) {
-  return new Class2({
+function _string(Class, params) {
+  return new Class({
     type: "string",
     ...normalizeParams(params)
   });
 }
-function _coercedString(Class2, params) {
-  return new Class2({
+function _coercedString(Class, params) {
+  return new Class({
     type: "string",
     coerce: true,
     ...normalizeParams(params)
   });
 }
-function _email(Class2, params) {
-  return new Class2({
+function _email(Class, params) {
+  return new Class({
     type: "string",
     format: "email",
     check: "string_format",
@@ -9553,8 +9552,8 @@ function _email(Class2, params) {
     ...normalizeParams(params)
   });
 }
-function _guid(Class2, params) {
-  return new Class2({
+function _guid(Class, params) {
+  return new Class({
     type: "string",
     format: "guid",
     check: "string_format",
@@ -9562,8 +9561,8 @@ function _guid(Class2, params) {
     ...normalizeParams(params)
   });
 }
-function _uuid(Class2, params) {
-  return new Class2({
+function _uuid(Class, params) {
+  return new Class({
     type: "string",
     format: "uuid",
     check: "string_format",
@@ -9571,8 +9570,8 @@ function _uuid(Class2, params) {
     ...normalizeParams(params)
   });
 }
-function _uuidv4(Class2, params) {
-  return new Class2({
+function _uuidv4(Class, params) {
+  return new Class({
     type: "string",
     format: "uuid",
     check: "string_format",
@@ -9581,8 +9580,8 @@ function _uuidv4(Class2, params) {
     ...normalizeParams(params)
   });
 }
-function _uuidv6(Class2, params) {
-  return new Class2({
+function _uuidv6(Class, params) {
+  return new Class({
     type: "string",
     format: "uuid",
     check: "string_format",
@@ -9591,8 +9590,8 @@ function _uuidv6(Class2, params) {
     ...normalizeParams(params)
   });
 }
-function _uuidv7(Class2, params) {
-  return new Class2({
+function _uuidv7(Class, params) {
+  return new Class({
     type: "string",
     format: "uuid",
     check: "string_format",
@@ -9601,8 +9600,8 @@ function _uuidv7(Class2, params) {
     ...normalizeParams(params)
   });
 }
-function _url(Class2, params) {
-  return new Class2({
+function _url(Class, params) {
+  return new Class({
     type: "string",
     format: "url",
     check: "string_format",
@@ -9610,8 +9609,8 @@ function _url(Class2, params) {
     ...normalizeParams(params)
   });
 }
-function _emoji2(Class2, params) {
-  return new Class2({
+function _emoji2(Class, params) {
+  return new Class({
     type: "string",
     format: "emoji",
     check: "string_format",
@@ -9619,8 +9618,8 @@ function _emoji2(Class2, params) {
     ...normalizeParams(params)
   });
 }
-function _nanoid(Class2, params) {
-  return new Class2({
+function _nanoid(Class, params) {
+  return new Class({
     type: "string",
     format: "nanoid",
     check: "string_format",
@@ -9628,8 +9627,8 @@ function _nanoid(Class2, params) {
     ...normalizeParams(params)
   });
 }
-function _cuid(Class2, params) {
-  return new Class2({
+function _cuid(Class, params) {
+  return new Class({
     type: "string",
     format: "cuid",
     check: "string_format",
@@ -9637,8 +9636,8 @@ function _cuid(Class2, params) {
     ...normalizeParams(params)
   });
 }
-function _cuid2(Class2, params) {
-  return new Class2({
+function _cuid2(Class, params) {
+  return new Class({
     type: "string",
     format: "cuid2",
     check: "string_format",
@@ -9646,8 +9645,8 @@ function _cuid2(Class2, params) {
     ...normalizeParams(params)
   });
 }
-function _ulid(Class2, params) {
-  return new Class2({
+function _ulid(Class, params) {
+  return new Class({
     type: "string",
     format: "ulid",
     check: "string_format",
@@ -9655,8 +9654,8 @@ function _ulid(Class2, params) {
     ...normalizeParams(params)
   });
 }
-function _xid(Class2, params) {
-  return new Class2({
+function _xid(Class, params) {
+  return new Class({
     type: "string",
     format: "xid",
     check: "string_format",
@@ -9664,8 +9663,8 @@ function _xid(Class2, params) {
     ...normalizeParams(params)
   });
 }
-function _ksuid(Class2, params) {
-  return new Class2({
+function _ksuid(Class, params) {
+  return new Class({
     type: "string",
     format: "ksuid",
     check: "string_format",
@@ -9673,8 +9672,8 @@ function _ksuid(Class2, params) {
     ...normalizeParams(params)
   });
 }
-function _ipv4(Class2, params) {
-  return new Class2({
+function _ipv4(Class, params) {
+  return new Class({
     type: "string",
     format: "ipv4",
     check: "string_format",
@@ -9682,8 +9681,8 @@ function _ipv4(Class2, params) {
     ...normalizeParams(params)
   });
 }
-function _ipv6(Class2, params) {
-  return new Class2({
+function _ipv6(Class, params) {
+  return new Class({
     type: "string",
     format: "ipv6",
     check: "string_format",
@@ -9691,8 +9690,8 @@ function _ipv6(Class2, params) {
     ...normalizeParams(params)
   });
 }
-function _cidrv4(Class2, params) {
-  return new Class2({
+function _cidrv4(Class, params) {
+  return new Class({
     type: "string",
     format: "cidrv4",
     check: "string_format",
@@ -9700,8 +9699,8 @@ function _cidrv4(Class2, params) {
     ...normalizeParams(params)
   });
 }
-function _cidrv6(Class2, params) {
-  return new Class2({
+function _cidrv6(Class, params) {
+  return new Class({
     type: "string",
     format: "cidrv6",
     check: "string_format",
@@ -9709,8 +9708,8 @@ function _cidrv6(Class2, params) {
     ...normalizeParams(params)
   });
 }
-function _base64(Class2, params) {
-  return new Class2({
+function _base64(Class, params) {
+  return new Class({
     type: "string",
     format: "base64",
     check: "string_format",
@@ -9718,8 +9717,8 @@ function _base64(Class2, params) {
     ...normalizeParams(params)
   });
 }
-function _base64url(Class2, params) {
-  return new Class2({
+function _base64url(Class, params) {
+  return new Class({
     type: "string",
     format: "base64url",
     check: "string_format",
@@ -9727,8 +9726,8 @@ function _base64url(Class2, params) {
     ...normalizeParams(params)
   });
 }
-function _e164(Class2, params) {
-  return new Class2({
+function _e164(Class, params) {
+  return new Class({
     type: "string",
     format: "e164",
     check: "string_format",
@@ -9736,8 +9735,8 @@ function _e164(Class2, params) {
     ...normalizeParams(params)
   });
 }
-function _jwt(Class2, params) {
-  return new Class2({
+function _jwt(Class, params) {
+  return new Class({
     type: "string",
     format: "jwt",
     check: "string_format",
@@ -9752,8 +9751,8 @@ var TimePrecision = {
   Millisecond: 3,
   Microsecond: 6
 };
-function _isoDateTime(Class2, params) {
-  return new Class2({
+function _isoDateTime(Class, params) {
+  return new Class({
     type: "string",
     format: "datetime",
     check: "string_format",
@@ -9763,16 +9762,16 @@ function _isoDateTime(Class2, params) {
     ...normalizeParams(params)
   });
 }
-function _isoDate(Class2, params) {
-  return new Class2({
+function _isoDate(Class, params) {
+  return new Class({
     type: "string",
     format: "date",
     check: "string_format",
     ...normalizeParams(params)
   });
 }
-function _isoTime(Class2, params) {
-  return new Class2({
+function _isoTime(Class, params) {
+  return new Class({
     type: "string",
     format: "time",
     check: "string_format",
@@ -9780,31 +9779,31 @@ function _isoTime(Class2, params) {
     ...normalizeParams(params)
   });
 }
-function _isoDuration(Class2, params) {
-  return new Class2({
+function _isoDuration(Class, params) {
+  return new Class({
     type: "string",
     format: "duration",
     check: "string_format",
     ...normalizeParams(params)
   });
 }
-function _number(Class2, params) {
-  return new Class2({
+function _number(Class, params) {
+  return new Class({
     type: "number",
     checks: [],
     ...normalizeParams(params)
   });
 }
-function _coercedNumber(Class2, params) {
-  return new Class2({
+function _coercedNumber(Class, params) {
+  return new Class({
     type: "number",
     coerce: true,
     checks: [],
     ...normalizeParams(params)
   });
 }
-function _int(Class2, params) {
-  return new Class2({
+function _int(Class, params) {
+  return new Class({
     type: "number",
     check: "number_format",
     abort: false,
@@ -9812,8 +9811,8 @@ function _int(Class2, params) {
     ...normalizeParams(params)
   });
 }
-function _float32(Class2, params) {
-  return new Class2({
+function _float32(Class, params) {
+  return new Class({
     type: "number",
     check: "number_format",
     abort: false,
@@ -9821,8 +9820,8 @@ function _float32(Class2, params) {
     ...normalizeParams(params)
   });
 }
-function _float64(Class2, params) {
-  return new Class2({
+function _float64(Class, params) {
+  return new Class({
     type: "number",
     check: "number_format",
     abort: false,
@@ -9830,8 +9829,8 @@ function _float64(Class2, params) {
     ...normalizeParams(params)
   });
 }
-function _int32(Class2, params) {
-  return new Class2({
+function _int32(Class, params) {
+  return new Class({
     type: "number",
     check: "number_format",
     abort: false,
@@ -9839,8 +9838,8 @@ function _int32(Class2, params) {
     ...normalizeParams(params)
   });
 }
-function _uint32(Class2, params) {
-  return new Class2({
+function _uint32(Class, params) {
+  return new Class({
     type: "number",
     check: "number_format",
     abort: false,
@@ -9848,34 +9847,34 @@ function _uint32(Class2, params) {
     ...normalizeParams(params)
   });
 }
-function _boolean(Class2, params) {
-  return new Class2({
+function _boolean(Class, params) {
+  return new Class({
     type: "boolean",
     ...normalizeParams(params)
   });
 }
-function _coercedBoolean(Class2, params) {
-  return new Class2({
+function _coercedBoolean(Class, params) {
+  return new Class({
     type: "boolean",
     coerce: true,
     ...normalizeParams(params)
   });
 }
-function _bigint(Class2, params) {
-  return new Class2({
+function _bigint(Class, params) {
+  return new Class({
     type: "bigint",
     ...normalizeParams(params)
   });
 }
-function _coercedBigint(Class2, params) {
-  return new Class2({
+function _coercedBigint(Class, params) {
+  return new Class({
     type: "bigint",
     coerce: true,
     ...normalizeParams(params)
   });
 }
-function _int64(Class2, params) {
-  return new Class2({
+function _int64(Class, params) {
+  return new Class({
     type: "bigint",
     check: "bigint_format",
     abort: false,
@@ -9883,8 +9882,8 @@ function _int64(Class2, params) {
     ...normalizeParams(params)
   });
 }
-function _uint64(Class2, params) {
-  return new Class2({
+function _uint64(Class, params) {
+  return new Class({
     type: "bigint",
     check: "bigint_format",
     abort: false,
@@ -9892,61 +9891,61 @@ function _uint64(Class2, params) {
     ...normalizeParams(params)
   });
 }
-function _symbol(Class2, params) {
-  return new Class2({
+function _symbol(Class, params) {
+  return new Class({
     type: "symbol",
     ...normalizeParams(params)
   });
 }
-function _undefined2(Class2, params) {
-  return new Class2({
+function _undefined2(Class, params) {
+  return new Class({
     type: "undefined",
     ...normalizeParams(params)
   });
 }
-function _null2(Class2, params) {
-  return new Class2({
+function _null2(Class, params) {
+  return new Class({
     type: "null",
     ...normalizeParams(params)
   });
 }
-function _any(Class2) {
-  return new Class2({
+function _any(Class) {
+  return new Class({
     type: "any"
   });
 }
-function _unknown(Class2) {
-  return new Class2({
+function _unknown(Class) {
+  return new Class({
     type: "unknown"
   });
 }
-function _never(Class2, params) {
-  return new Class2({
+function _never(Class, params) {
+  return new Class({
     type: "never",
     ...normalizeParams(params)
   });
 }
-function _void(Class2, params) {
-  return new Class2({
+function _void(Class, params) {
+  return new Class({
     type: "void",
     ...normalizeParams(params)
   });
 }
-function _date(Class2, params) {
-  return new Class2({
+function _date(Class, params) {
+  return new Class({
     type: "date",
     ...normalizeParams(params)
   });
 }
-function _coercedDate(Class2, params) {
-  return new Class2({
+function _coercedDate(Class, params) {
+  return new Class({
     type: "date",
     coerce: true,
     ...normalizeParams(params)
   });
 }
-function _nan(Class2, params) {
-  return new Class2({
+function _nan(Class, params) {
+  return new Class({
     type: "nan",
     ...normalizeParams(params)
   });
@@ -10124,117 +10123,117 @@ function _toLowerCase() {
 function _toUpperCase() {
   return _overwrite((input) => input.toUpperCase());
 }
-function _array(Class2, element, params) {
-  return new Class2({
+function _array(Class, element, params) {
+  return new Class({
     type: "array",
     element,
     ...normalizeParams(params)
   });
 }
-function _union(Class2, options, params) {
-  return new Class2({
+function _union(Class, options, params) {
+  return new Class({
     type: "union",
     options,
     ...normalizeParams(params)
   });
 }
-function _discriminatedUnion(Class2, discriminator, options, params) {
-  return new Class2({
+function _discriminatedUnion(Class, discriminator, options, params) {
+  return new Class({
     type: "union",
     options,
     discriminator,
     ...normalizeParams(params)
   });
 }
-function _intersection(Class2, left, right) {
-  return new Class2({
+function _intersection(Class, left, right) {
+  return new Class({
     type: "intersection",
     left,
     right
   });
 }
-function _tuple(Class2, items, _paramsOrRest, _params) {
+function _tuple(Class, items, _paramsOrRest, _params) {
   const hasRest = _paramsOrRest instanceof $ZodType;
   const params = hasRest ? _params : _paramsOrRest;
   const rest = hasRest ? _paramsOrRest : null;
-  return new Class2({
+  return new Class({
     type: "tuple",
     items,
     rest,
     ...normalizeParams(params)
   });
 }
-function _record(Class2, keyType, valueType, params) {
-  return new Class2({
+function _record(Class, keyType, valueType, params) {
+  return new Class({
     type: "record",
     keyType,
     valueType,
     ...normalizeParams(params)
   });
 }
-function _map(Class2, keyType, valueType, params) {
-  return new Class2({
+function _map(Class, keyType, valueType, params) {
+  return new Class({
     type: "map",
     keyType,
     valueType,
     ...normalizeParams(params)
   });
 }
-function _set(Class2, valueType, params) {
-  return new Class2({
+function _set(Class, valueType, params) {
+  return new Class({
     type: "set",
     valueType,
     ...normalizeParams(params)
   });
 }
-function _enum(Class2, values, params) {
+function _enum(Class, values, params) {
   const entries = Array.isArray(values) ? Object.fromEntries(values.map((v) => [v, v])) : values;
-  return new Class2({
+  return new Class({
     type: "enum",
     entries,
     ...normalizeParams(params)
   });
 }
-function _nativeEnum(Class2, entries, params) {
-  return new Class2({
+function _nativeEnum(Class, entries, params) {
+  return new Class({
     type: "enum",
     entries,
     ...normalizeParams(params)
   });
 }
-function _literal(Class2, value, params) {
-  return new Class2({
+function _literal(Class, value, params) {
+  return new Class({
     type: "literal",
     values: Array.isArray(value) ? value : [value],
     ...normalizeParams(params)
   });
 }
-function _file(Class2, params) {
-  return new Class2({
+function _file(Class, params) {
+  return new Class({
     type: "file",
     ...normalizeParams(params)
   });
 }
-function _transform(Class2, fn) {
-  return new Class2({
+function _transform(Class, fn) {
+  return new Class({
     type: "transform",
     transform: fn
   });
 }
-function _optional(Class2, innerType) {
-  return new Class2({
+function _optional(Class, innerType) {
+  return new Class({
     type: "optional",
     innerType
   });
 }
-function _nullable(Class2, innerType) {
-  return new Class2({
+function _nullable(Class, innerType) {
+  return new Class({
     type: "nullable",
     innerType
   });
 }
-function _default(Class2, innerType, defaultValue) {
-  return new Class2({
+function _default(Class, innerType, defaultValue) {
+  return new Class({
     type: "default",
     innerType,
     get defaultValue() {
@@ -10242,62 +10241,62 @@ function _default(Class2, innerType, defaultValue) {
     }
   });
 }
-function _nonoptional(Class2, innerType, params) {
-  return new Class2({
+function _nonoptional(Class, innerType, params) {
+  return new Class({
     type: "nonoptional",
     innerType,
     ...normalizeParams(params)
   });
 }
-function _success(Class2, innerType) {
-  return new Class2({
+function _success(Class, innerType) {
+  return new Class({
     type: "success",
     innerType
   });
 }
-function _catch(Class2, innerType, catchValue) {
-  return new Class2({
+function _catch(Class, innerType, catchValue) {
+  return new Class({
     type: "catch",
     innerType,
     catchValue: typeof catchValue === "function" ? catchValue : () => catchValue
   });
 }
-function _pipe(Class2, in_, out) {
-  return new Class2({
+function _pipe(Class, in_, out) {
+  return new Class({
     type: "pipe",
     in: in_,
     out
   });
 }
-function _readonly(Class2, innerType) {
-  return new Class2({
+function _readonly(Class, innerType) {
+  return new Class({
     type: "readonly",
     innerType
   });
 }
-function _templateLiteral(Class2, parts, params) {
-  return new Class2({
+function _templateLiteral(Class, parts, params) {
+  return new Class({
     type: "template_literal",
     parts,
     ...normalizeParams(params)
   });
 }
-function _lazy(Class2, getter) {
-  return new Class2({
+function _lazy(Class, getter) {
+  return new Class({
     type: "lazy",
     getter
   });
 }
-function _promise(Class2, innerType) {
-  return new Class2({
+function _promise(Class, innerType) {
+  return new Class({
     type: "promise",
     innerType
   });
 }
-function _custom(Class2, fn, _params) {
+function _custom(Class, fn, _params) {
   const norm = normalizeParams(_params);
   norm.abort ?? (norm.abort = true);
-  const schema = new Class2({
+  const schema = new Class({
     type: "custom",
     check: "custom",
     fn,
@@ -10305,8 +10304,8 @@ function _custom(Class2, fn, _params) {
   });
   return schema;
 }
-function _refine(Class2, fn, _params) {
-  const schema = new Class2({
+function _refine(Class, fn, _params) {
+  const schema = new Class({
     type: "custom",
     check: "custom",
     fn,
@@ -10392,7 +10391,7 @@ function _stringbool(Classes, _params) {
   });
   return codec;
 }
-function _stringFormat(Class2, format, fnOrRegex, _params = {}) {
+function _stringFormat(Class, format, fnOrRegex, _params = {}) {
   const params = normalizeParams(_params);
   const def = {
     ...normalizeParams(_params),
@@ -10405,7 +10404,7 @@ function _stringFormat(Class2, format, fnOrRegex, _params = {}) {
   if (fnOrRegex instanceof RegExp) {
     def.pattern = fnOrRegex;
   }
-  const inst = new Class2(def);
+  const inst = new Class(def);
   return inst;
 }
 // node_modules/zod/v4/core/to-json-schema.js
@@ -10941,7 +10940,7 @@ class JSONSchemaGenerator {
       const defsSegment = this.target === "draft-2020-12" ? "$defs" : "definitions";
       if (params.external) {
         const externalId = params.external.registry.get(entry[0])?.id;
-        const uriGenerator = params.external.uri ?? ((id2) => id2);
+        const uriGenerator = params.external.uri ?? ((id) => id);
         if (externalId) {
           return { ref: uriGenerator(externalId) };
         }
@@ -10966,11 +10965,11 @@ class JSONSchemaGenerator {
       seen.def = { ...seen.schema };
       if (defId)
         seen.defId = defId;
-      const schema2 = seen.schema;
-      for (const key in schema2) {
-        delete schema2[key];
+      const schema = seen.schema;
+      for (const key in schema) {
+        delete schema[key];
       }
-      schema2.$ref = ref;
+      schema.$ref = ref;
     };
     if (params.cycles === "throw") {
       for (const entry of this.seen.entries()) {
@@ -11009,30 +11008,30 @@ class JSONSchemaGenerator {
         }
       }
     }
-    const flattenRef = (zodSchema, params2) => {
+    const flattenRef = (zodSchema, params) => {
       const seen = this.seen.get(zodSchema);
-      const schema2 = seen.def ?? seen.schema;
-      const _cached = { ...schema2 };
+      const schema = seen.def ?? seen.schema;
+      const _cached = { ...schema };
       if (seen.ref === null) {
         return;
       }
       const ref = seen.ref;
       seen.ref = null;
       if (ref) {
-        flattenRef(ref, params2);
+        flattenRef(ref, params);
         const refSchema = this.seen.get(ref).schema;
-        if (refSchema.$ref && (params2.target === "draft-7" || params2.target === "draft-4" || params2.target === "openapi-3.0")) {
-          schema2.allOf = schema2.allOf ?? [];
-          schema2.allOf.push(refSchema);
+        if (refSchema.$ref && (params.target === "draft-7" || params.target === "draft-4" || params.target === "openapi-3.0")) {
+          schema.allOf = schema.allOf ?? [];
+          schema.allOf.push(refSchema);
         } else {
-          Object.assign(schema2, refSchema);
-          Object.assign(schema2, _cached);
+          Object.assign(schema, refSchema);
+          Object.assign(schema, _cached);
         }
       }
       if (!seen.isParent)
         this.override({
           zodSchema,
-          jsonSchema: schema2,
+          jsonSchema: schema,
           path: seen.path ?? []
         });
     };
@@ -11081,11 +11080,11 @@ class JSONSchemaGenerator {
 }
 function toJSONSchema(input, _params) {
   if (input instanceof $ZodRegistry) {
-    const gen2 = new JSONSchemaGenerator(_params);
+    const gen = new JSONSchemaGenerator(_params);
     const defs = {};
     for (const entry of input._idmap.entries()) {
       const [_, schema] = entry;
-      gen2.process(schema);
+      gen.process(schema);
     }
     const schemas = {};
     const external = {
@@ -11095,13 +11094,13 @@ function toJSONSchema(input, _params) {
     };
     for (const entry of input._idmap.entries()) {
       const [key, schema] = entry;
-      schemas[key] = gen2.emit(schema, {
+      schemas[key] = gen.emit(schema, {
         ..._params,
         external
       });
     }
     if (Object.keys(defs).length > 0) {
-      const defsSegment = gen2.target === "draft-2020-12" ? "$defs" : "definitions";
+      const defsSegment = gen.target === "draft-2020-12" ? "$defs" : "definitions";
       schemas.__shared = {
         [defsSegment]: defs
       };
@@ -11217,14 +11216,14 @@ var exports_json_schema = {};
 // node_modules/zod/v4/classic/iso.js
 var exports_iso = {};
 __export(exports_iso, {
-  time: () => time2,
-  duration: () => duration2,
-  datetime: () => datetime2,
-  date: () => date2,
-  ZodISOTime: () => ZodISOTime,
-  ZodISODuration: () => ZodISODuration,
+  ZodISODate: () => ZodISODate,
   ZodISODateTime: () => ZodISODateTime,
-  ZodISODate: () => ZodISODate
+  ZodISODuration: () => ZodISODuration,
+  ZodISOTime: () => ZodISOTime,
+  date: () => date2,
+  datetime: () => datetime2,
+  duration: () => duration2,
+  time: () => time2
 });
 var ZodISODateTime = /* @__PURE__ */ $constructor("ZodISODateTime", (inst, def) => {
   $ZodISODateTime.init(inst, def);
@@ -11267,14 +11266,14 @@ var initializer2 = (inst, issues) => {
       value: (mapper) => flattenError(inst, mapper)
     },
     addIssue: {
-      value: (issue2) => {
-        inst.issues.push(issue2);
+      value: (issue) => {
+        inst.issues.push(issue);
         inst.message = JSON.stringify(inst.issues, jsonStringifyReplacer, 2);
       }
     },
     addIssues: {
-      value: (issues2) => {
-        inst.issues.push(...issues2);
+      value: (issues) => {
+        inst.issues.push(...issues);
         inst.message = JSON.stringify(inst.issues, jsonStringifyReplacer, 2);
       }
     },
@@ -11310,16 +11309,16 @@ var ZodType = /* @__PURE__ */ $constructor("ZodType", (inst, def) => {
   inst.def = def;
   inst.type = def.type;
   Object.defineProperty(inst, "_def", { value: def });
-  inst.check = (...checks2) => {
+  inst.check = (...checks) => {
     return inst.clone({
       ...def,
       checks: [
         ...def.checks ?? [],
-        ...checks2.map((ch) => typeof ch === "function" ? { _zod: { check: ch, def: { check: "custom" }, onattach: [] } } : ch)
+        ...checks.map((ch) => typeof ch === "function" ? { _zod: { check: ch, def: { check: "custom" }, onattach: [] } } : ch)
       ]
     });
   };
-  inst.clone = (def2, params) => clone(inst, def2, params);
+  inst.clone = (def, params) => clone(inst, def, params);
   inst.brand = () => inst;
   inst.register = (reg, meta) => {
     reg.add(inst, meta);
@@ -11349,8 +11348,8 @@ var ZodType = /* @__PURE__ */ $constructor("ZodType", (inst, def) => {
   inst.or = (arg) => union([inst, arg]);
   inst.and = (arg) => intersection(inst, arg);
   inst.transform = (tx) => pipe(inst, transform(tx));
-  inst.default = (def2) => _default2(inst, def2);
-  inst.prefault = (def2) => prefault(inst, def2);
+  inst.default = (def) => _default2(inst, def);
+  inst.prefault = (def) => prefault(inst, def);
   inst.catch = (params) => _catch2(inst, params);
   inst.pipe = (target) => pipe(inst, target);
   inst.readonly = () => readonly(inst);
@@ -11477,8 +11476,8 @@ function url(params) {
 function httpUrl(params) {
   return _url(ZodURL, {
     protocol: /^https?$/,
-    hostname: exports_regexes.domain,
-    ...exports_util.normalizeParams(params)
+    hostname: domain,
+    ...normalizeParams(params)
   });
 }
 var ZodEmoji = /* @__PURE__ */ $constructor("ZodEmoji", (inst, def) => {
@@ -11594,10 +11593,10 @@ function stringFormat(format, fnOrRegex, _params = {}) {
   return _stringFormat(ZodCustomStringFormat, format, fnOrRegex, _params);
 }
 function hostname2(_params) {
-  return _stringFormat(ZodCustomStringFormat, "hostname", exports_regexes.hostname, _params);
+  return _stringFormat(ZodCustomStringFormat, "hostname", hostname, _params);
 }
 function hex2(_params) {
-  return _stringFormat(ZodCustomStringFormat, "hex", exports_regexes.hex, _params);
+  return _stringFormat(ZodCustomStringFormat, "hex", hex, _params);
 }
 function hash(alg, params) {
   const enc = params?.enc ?? "hex";
@@ -11776,7 +11775,7 @@ function keyof(schema) {
 var ZodObject = /* @__PURE__ */ $constructor("ZodObject", (inst, def) => {
   $ZodObjectJIT.init(inst, def);
   ZodType.init(inst, def);
-  exports_util.defineLazy(inst, "shape", () => def.shape);
+  defineLazy(inst, "shape", () => def.shape);
   inst.keyof = () => _enum2(Object.keys(inst._zod.def.shape));
   inst.catchall = (catchall) => inst.clone({ ...inst._zod.def, catchall });
   inst.passthrough = () => inst.clone({ ...inst._zod.def, catchall: unknown() });
@@ -11784,25 +11783,25 @@ var ZodObject = /* @__PURE__ */ $constructor("ZodObject", (inst, def) => {
   inst.strict = () => inst.clone({ ...inst._zod.def, catchall: never() });
   inst.strip = () => inst.clone({ ...inst._zod.def, catchall: undefined });
   inst.extend = (incoming) => {
-    return exports_util.extend(inst, incoming);
+    return extend(inst, incoming);
   };
   inst.safeExtend = (incoming) => {
-    return exports_util.safeExtend(inst, incoming);
+    return safeExtend(inst, incoming);
   };
-  inst.merge = (other) => exports_util.merge(inst, other);
-  inst.pick = (mask) => exports_util.pick(inst, mask);
-  inst.omit = (mask) => exports_util.omit(inst, mask);
-  inst.partial = (...args) => exports_util.partial(ZodOptional, inst, args[0]);
-  inst.required = (...args) => exports_util.required(ZodNonOptional, inst, args[0]);
+  inst.merge = (other) => merge(inst, other);
+  inst.pick = (mask) => pick(inst, mask);
+  inst.omit = (mask) => omit(inst, mask);
+  inst.partial = (...args) => partial(ZodOptional, inst, args[0]);
+  inst.required = (...args) => required(ZodNonOptional, inst, args[0]);
 });
 function object(shape, params) {
   const def = {
     type: "object",
     get shape() {
-      exports_util.assignProp(this, "shape", shape ? exports_util.objectClone(shape) : {});
+      assignProp(this, "shape", shape ? objectClone(shape) : {});
       return this.shape;
     },
-    ...exports_util.normalizeParams(params)
+    ...normalizeParams(params)
   };
   return new ZodObject(def);
 }
@@ -11810,22 +11809,22 @@ function strictObject(shape, params) {
   return new ZodObject({
     type: "object",
     get shape() {
-      exports_util.assignProp(this, "shape", exports_util.objectClone(shape));
+      assignProp(this, "shape", objectClone(shape));
       return this.shape;
     },
     catchall: never(),
-    ...exports_util.normalizeParams(params)
+    ...normalizeParams(params)
   });
 }
 function looseObject(shape, params) {
   return new ZodObject({
     type: "object",
     get shape() {
-      exports_util.assignProp(this, "shape", exports_util.objectClone(shape));
+      assignProp(this, "shape", objectClone(shape));
       return this.shape;
     },
     catchall: unknown(),
-    ...exports_util.normalizeParams(params)
+    ...normalizeParams(params)
   });
 }
 var ZodUnion = /* @__PURE__ */ $constructor("ZodUnion", (inst, def) => {
@@ -11837,7 +11836,7 @@ function union(options, params) {
   return new ZodUnion({
     type: "union",
     options,
-    ...exports_util.normalizeParams(params)
+    ...normalizeParams(params)
   });
 }
 var ZodDiscriminatedUnion = /* @__PURE__ */ $constructor("ZodDiscriminatedUnion", (inst, def) => {
@@ -11849,7 +11848,7 @@ function discriminatedUnion(discriminator, options, params) {
     type: "union",
     options,
     discriminator,
-    ...exports_util.normalizeParams(params)
+    ...normalizeParams(params)
   });
 }
 var ZodIntersection = /* @__PURE__ */ $constructor("ZodIntersection", (inst, def) => {
@@ -11879,7 +11878,7 @@ function tuple(items, _paramsOrRest, _params) {
     type: "tuple",
     items,
     rest,
-    ...exports_util.normalizeParams(params)
+    ...normalizeParams(params)
   });
 }
 var ZodRecord = /* @__PURE__ */ $constructor("ZodRecord", (inst, def) => {
@@ -11893,7 +11892,7 @@ function record(keyType, valueType, params) {
     type: "record",
     keyType,
     valueType,
-    ...exports_util.normalizeParams(params)
+    ...normalizeParams(params)
   });
 }
 function partialRecord(keyType, valueType, params) {
@@ -11903,7 +11902,7 @@ function partialRecord(keyType, valueType, params) {
     type: "record",
     keyType: k,
     valueType,
-    ...exports_util.normalizeParams(params)
+    ...normalizeParams(params)
   });
 }
 var ZodMap = /* @__PURE__ */ $constructor("ZodMap", (inst, def) => {
@@ -11917,7 +11916,7 @@ function map(keyType, valueType, params) {
     type: "map",
     keyType,
     valueType,
-    ...exports_util.normalizeParams(params)
+    ...normalizeParams(params)
   });
 }
 var ZodSet = /* @__PURE__ */ $constructor("ZodSet", (inst, def) => {
@@ -11932,7 +11931,7 @@ function set(valueType, params) {
   return new ZodSet({
     type: "set",
     valueType,
-    ...exports_util.normalizeParams(params)
+    ...normalizeParams(params)
   });
 }
 var ZodEnum = /* @__PURE__ */ $constructor("ZodEnum", (inst, def) => {
@@ -11952,7 +11951,7 @@ var ZodEnum = /* @__PURE__ */ $constructor("ZodEnum", (inst, def) => {
     return new ZodEnum({
       ...def,
       checks: [],
-      ...exports_util.normalizeParams(params),
+      ...normalizeParams(params),
       entries: newEntries
     });
   };
@@ -11967,7 +11966,7 @@ var ZodEnum = /* @__PURE__ */ $constructor("ZodEnum", (inst, def) => {
     return new ZodEnum({
       ...def,
       checks: [],
-      ...exports_util.normalizeParams(params),
+      ...normalizeParams(params),
       entries: newEntries
     });
   };
@@ -11977,14 +11976,14 @@ function _enum2(values, params) {
   return new ZodEnum({
     type: "enum",
     entries,
-    ...exports_util.normalizeParams(params)
+    ...normalizeParams(params)
   });
 }
 function nativeEnum(entries, params) {
   return new ZodEnum({
     type: "enum",
     entries,
-    ...exports_util.normalizeParams(params)
+    ...normalizeParams(params)
   });
 }
 var ZodLiteral = /* @__PURE__ */ $constructor("ZodLiteral", (inst, def) => {
@@ -12004,7 +12003,7 @@ function literal(value, params) {
   return new ZodLiteral({
     type: "literal",
     values: Array.isArray(value) ? value : [value],
-    ...exports_util.normalizeParams(params)
+    ...normalizeParams(params)
   });
 }
 var ZodFile = /* @__PURE__ */ $constructor("ZodFile", (inst, def) => {
@@ -12026,7 +12025,7 @@ var ZodTransform = /* @__PURE__ */ $constructor("ZodTransform", (inst, def) => {
     }
     payload.addIssue = (issue2) => {
       if (typeof issue2 === "string") {
-        payload.issues.push(exports_util.issue(issue2, payload.value, def));
+        payload.issues.push(issue(issue2, payload.value, def));
       } else {
         const _issue = issue2;
         if (_issue.fatal)
@@ -12034,13 +12033,13 @@ var ZodTransform = /* @__PURE__ */ $constructor("ZodTransform", (inst, def) => {
         _issue.code ?? (_issue.code = "custom");
         _issue.input ?? (_issue.input = payload.value);
         _issue.inst ?? (_issue.inst = inst);
-        payload.issues.push(exports_util.issue(_issue));
+        payload.issues.push(issue(_issue));
       }
     };
     const output = def.transform(payload.value, payload);
     if (output instanceof Promise) {
-      return output.then((output2) => {
-        payload.value = output2;
+      return output.then((output) => {
+        payload.value = output;
         return payload;
       });
     }
@@ -12090,7 +12089,7 @@ function _default2(innerType, defaultValue) {
     type: "default",
     innerType,
     get defaultValue() {
-      return typeof defaultValue === "function" ? defaultValue() : exports_util.shallowClone(defaultValue);
+      return typeof defaultValue === "function" ? defaultValue() : shallowClone(defaultValue);
     }
   });
 }
@@ -12104,7 +12103,7 @@ function prefault(innerType, defaultValue) {
     type: "prefault",
     innerType,
     get defaultValue() {
-      return typeof defaultValue === "function" ? defaultValue() : exports_util.shallowClone(defaultValue);
+      return typeof defaultValue === "function" ? defaultValue() : shallowClone(defaultValue);
     }
   });
 }
@@ -12117,7 +12116,7 @@ function nonoptional(innerType, params) {
   return new ZodNonOptional({
     type: "nonoptional",
     innerType,
-    ...exports_util.normalizeParams(params)
+    ...normalizeParams(params)
   });
 }
 var ZodSuccess = /* @__PURE__ */ $constructor("ZodSuccess", (inst, def) => {
@@ -12196,7 +12195,7 @@ function templateLiteral(parts, params) {
   return new ZodTemplateLiteral({
     type: "template_literal",
     parts,
-    ...exports_util.normalizeParams(params)
+    ...normalizeParams(params)
   });
 }
 var ZodLazy = /* @__PURE__ */ $constructor("ZodLazy", (inst, def) => {
@@ -12260,7 +12259,7 @@ function _instanceof(cls, params = {
     check: "custom",
     fn: (data) => data instanceof cls,
     abort: true,
-    ...exports_util.normalizeParams(params)
+    ...normalizeParams(params)
   });
   inst._zod.bag.Class = cls;
   return inst;
@@ -12293,24 +12292,24 @@ var ZodIssueCode = {
   invalid_value: "invalid_value",
   custom: "custom"
 };
-function setErrorMap(map2) {
+function setErrorMap(map) {
   config({
-    customError: map2
+    customError: map
   });
 }
 function getErrorMap() {
   return config().customError;
 }
 var ZodFirstPartyTypeKind;
-(function(ZodFirstPartyTypeKind2) {})(ZodFirstPartyTypeKind || (ZodFirstPartyTypeKind = {}));
+(function(ZodFirstPartyTypeKind) {})(ZodFirstPartyTypeKind || (ZodFirstPartyTypeKind = {}));
 // node_modules/zod/v4/classic/coerce.js
 var exports_coerce = {};
 __export(exports_coerce, {
-  string: () => string3,
-  number: () => number3,
-  date: () => date4,
+  bigint: () => bigint3,
   boolean: () => boolean3,
-  bigint: () => bigint3
+  date: () => date4,
+  number: () => number3,
+  string: () => string3
 });
 function string3(params) {
   return _coercedString(ZodString, params);
@@ -12335,6 +12334,8379 @@ function tool(input) {
   return input;
 }
 tool.schema = exports_external;
+// node_modules/@opencode/plugin/dist/promise/plugin.js
+function define(plugin) {
+  return plugin;
+}
+// node_modules/@opencode/schema/node_modules/effect/dist/Pipeable.js
+var pipeArguments = (self, args) => {
+  switch (args.length) {
+    case 0:
+      return self;
+    case 1:
+      return args[0](self);
+    case 2:
+      return args[1](args[0](self));
+    case 3:
+      return args[2](args[1](args[0](self)));
+    case 4:
+      return args[3](args[2](args[1](args[0](self))));
+    case 5:
+      return args[4](args[3](args[2](args[1](args[0](self)))));
+    case 6:
+      return args[5](args[4](args[3](args[2](args[1](args[0](self))))));
+    case 7:
+      return args[6](args[5](args[4](args[3](args[2](args[1](args[0](self)))))));
+    case 8:
+      return args[7](args[6](args[5](args[4](args[3](args[2](args[1](args[0](self))))))));
+    case 9:
+      return args[8](args[7](args[6](args[5](args[4](args[3](args[2](args[1](args[0](self)))))))));
+    default: {
+      let ret = self;
+      for (let i = 0, len = args.length;i < len; i++) {
+        ret = args[i](ret);
+      }
+      return ret;
+    }
+  }
+};
+var Prototype = {
+  pipe() {
+    return pipeArguments(this, arguments);
+  }
+};
+var Class2 = /* @__PURE__ */ function() {
+  function PipeableBase() {}
+  PipeableBase.prototype = Prototype;
+  return PipeableBase;
+}();
+
+// node_modules/@opencode/schema/node_modules/effect/dist/Function.js
+var dual = function(arity, body) {
+  if (typeof arity === "function") {
+    return function() {
+      return arity(arguments) ? body.apply(this, arguments) : (self) => body(self, ...arguments);
+    };
+  }
+  switch (arity) {
+    case 0:
+    case 1:
+      throw new RangeError(`Invalid arity ${arity}`);
+    case 2:
+      return function(a, b) {
+        if (arguments.length >= 2) {
+          return body(a, b);
+        }
+        return function(self) {
+          return body(self, a);
+        };
+      };
+    case 3:
+      return function(a, b, c) {
+        if (arguments.length >= 3) {
+          return body(a, b, c);
+        }
+        return function(self) {
+          return body(self, a, b);
+        };
+      };
+    default:
+      return function() {
+        if (arguments.length >= arity) {
+          return body.apply(this, arguments);
+        }
+        const args = arguments;
+        return function(self) {
+          return body(self, ...args);
+        };
+      };
+  }
+};
+var identity = (a) => a;
+var constant = (value) => () => value;
+var constUndefined = /* @__PURE__ */ constant(undefined);
+var constVoid = constUndefined;
+function memoize(f) {
+  const cache = new WeakMap;
+  return (a) => {
+    const cached = cache.get(a);
+    if (cached !== undefined)
+      return cached;
+    const result = f(a);
+    cache.set(a, result);
+    return result;
+  };
+}
+function memoizeIdempotent(f) {
+  const cache = new WeakMap;
+  return (a) => {
+    const cached = cache.get(a);
+    if (cached !== undefined)
+      return cached;
+    const result = f(a);
+    cache.set(a, result);
+    cache.set(result, result);
+    return result;
+  };
+}
+
+// node_modules/@opencode/schema/node_modules/effect/dist/internal/equal.js
+var getAllObjectKeys = (obj) => {
+  const keys = new Set(Reflect.ownKeys(obj));
+  if (obj.constructor === Object)
+    return keys;
+  if (obj instanceof Error) {
+    keys.delete("stack");
+  }
+  const proto = Object.getPrototypeOf(obj);
+  let current = proto;
+  while (current !== null && current !== Object.prototype) {
+    const ownKeys = Reflect.ownKeys(current);
+    for (let i = 0;i < ownKeys.length; i++) {
+      keys.add(ownKeys[i]);
+    }
+    current = Object.getPrototypeOf(current);
+  }
+  if (keys.has("constructor") && typeof obj.constructor === "function" && proto === obj.constructor.prototype) {
+    keys.delete("constructor");
+  }
+  return keys;
+};
+var byReferenceInstances = /* @__PURE__ */ new WeakSet;
+
+// node_modules/@opencode/schema/node_modules/effect/dist/Predicate.js
+function isString(input) {
+  return typeof input === "string";
+}
+function isNumber(input) {
+  return typeof input === "number";
+}
+function isBoolean(input) {
+  return typeof input === "boolean";
+}
+function isSymbol(input) {
+  return typeof input === "symbol";
+}
+function isPropertyKey(u) {
+  return isString(u) || isNumber(u) || isSymbol(u);
+}
+function isFunction(input) {
+  return typeof input === "function";
+}
+function isNotUndefined(input) {
+  return input !== undefined;
+}
+function isNotNullish(input) {
+  return input != null;
+}
+function isUnknown(_) {
+  return true;
+}
+function isObject2(input) {
+  return typeof input === "object" && input !== null && !Array.isArray(input);
+}
+function isObjectKeyword(input) {
+  return typeof input === "object" && input !== null || isFunction(input);
+}
+var hasProperty = /* @__PURE__ */ dual(2, (self, property) => isObjectKeyword(self) && (property in self));
+function isError(input) {
+  return input instanceof Error;
+}
+
+// node_modules/@opencode/schema/node_modules/effect/dist/Hash.js
+var symbol2 = "~effect/interfaces/Hash";
+var hash2 = (self) => {
+  switch (typeof self) {
+    case "number":
+      return number4(self);
+    case "bigint":
+      return string4(self.toString(10));
+    case "boolean":
+      return string4(String(self));
+    case "symbol":
+      return string4(String(self));
+    case "string":
+      return string4(self);
+    case "undefined":
+      return string4("undefined");
+    case "function":
+    case "object": {
+      if (self === null) {
+        return string4("null");
+      } else if (self instanceof Date) {
+        if (Number.isNaN(self.getTime())) {
+          return string4("Invalid Date");
+        }
+        return string4(self.toISOString());
+      } else if (self instanceof RegExp) {
+        return string4(self.toString());
+      } else {
+        if (byReferenceInstances.has(self)) {
+          return random(self);
+        }
+        if (hashCache.has(self)) {
+          return hashCache.get(self);
+        }
+        const h = withVisitedTracking(self, () => {
+          if (isHash(self)) {
+            return self[symbol2]();
+          } else if (typeof self === "function") {
+            return random(self);
+          } else if (self instanceof DataView) {
+            return array2(new Uint8Array(self.buffer, self.byteOffset, self.byteLength));
+          } else if (Array.isArray(self) || ArrayBuffer.isView(self)) {
+            return array2(self);
+          } else if (self instanceof Map) {
+            return hashMap(self);
+          } else if (self instanceof Set) {
+            return hashSet(self);
+          }
+          return structure(self);
+        });
+        hashCache.set(self, h);
+        return h;
+      }
+    }
+    default:
+      throw new Error(`BUG: unhandled typeof ${typeof self} - please report an issue at https://github.com/Effect-TS/effect/issues`);
+  }
+};
+var random = (self) => {
+  if (!randomHashCache.has(self)) {
+    randomHashCache.set(self, number4(Math.floor(Math.random() * Number.MAX_SAFE_INTEGER)));
+  }
+  return randomHashCache.get(self);
+};
+var combine = /* @__PURE__ */ dual(2, (self, b) => self * 53 ^ b);
+var optimize = (n) => n & 3221225471 | n >>> 1 & 1073741824;
+var isHash = (u) => hasProperty(u, symbol2);
+var number4 = (n) => {
+  if (n !== n) {
+    return string4("NaN");
+  }
+  if (n === Infinity) {
+    return string4("Infinity");
+  }
+  if (n === -Infinity) {
+    return string4("-Infinity");
+  }
+  let h = n | 0;
+  if (h !== n) {
+    h ^= n * 4294967295;
+  }
+  while (n > 4294967295) {
+    h ^= n /= 4294967295;
+  }
+  return optimize(h);
+};
+var string4 = (str) => {
+  let h = 5381, i = str.length;
+  while (i) {
+    h = h * 33 ^ str.charCodeAt(--i);
+  }
+  return optimize(h);
+};
+var structureKeys = (o, keys) => {
+  let h = 12289;
+  for (const key of keys) {
+    h ^= combine(hash2(key), hash2(o[key]));
+  }
+  return optimize(h);
+};
+var structure = (o) => structureKeys(o, getAllObjectKeys(o));
+var iterableWith = (seed, f) => (iter) => {
+  let h = seed;
+  for (const element of iter) {
+    h ^= f(element);
+  }
+  return optimize(h);
+};
+var array2 = /* @__PURE__ */ iterableWith(6151, hash2);
+var hashMap = /* @__PURE__ */ iterableWith(/* @__PURE__ */ string4("Map"), ([k, v]) => combine(hash2(k), hash2(v)));
+var hashSet = /* @__PURE__ */ iterableWith(/* @__PURE__ */ string4("Set"), hash2);
+var randomHashCache = /* @__PURE__ */ new WeakMap;
+var hashCache = /* @__PURE__ */ new WeakMap;
+var visitedObjects = /* @__PURE__ */ new WeakSet;
+function withVisitedTracking(obj, fn) {
+  if (visitedObjects.has(obj)) {
+    return string4("[Circular]");
+  }
+  visitedObjects.add(obj);
+  const result = fn();
+  visitedObjects.delete(obj);
+  return result;
+}
+
+// node_modules/@opencode/schema/node_modules/effect/dist/Equal.js
+var symbol3 = "~effect/interfaces/Equal";
+function equals() {
+  if (arguments.length === 1) {
+    return (self) => compareBoth(self, arguments[0]);
+  }
+  return compareBoth(arguments[0], arguments[1]);
+}
+function compareBoth(self, that) {
+  if (self === that)
+    return true;
+  if (self == null || that == null)
+    return false;
+  const selfType = typeof self;
+  if (selfType !== typeof that) {
+    return false;
+  }
+  if (selfType === "number" && self !== self && that !== that) {
+    return true;
+  }
+  if (selfType !== "object" && selfType !== "function") {
+    return false;
+  }
+  if (byReferenceInstances.has(self) || byReferenceInstances.has(that)) {
+    return false;
+  }
+  return withCache(self, that, compareObjects);
+}
+function withVisitedTracking2(self, that, fn) {
+  const hasLeft = visitedLeft.has(self);
+  const hasRight = visitedRight.has(that);
+  if (hasLeft && hasRight) {
+    return true;
+  }
+  if (hasLeft || hasRight) {
+    return false;
+  }
+  visitedLeft.add(self);
+  visitedRight.add(that);
+  const result = fn();
+  visitedLeft.delete(self);
+  visitedRight.delete(that);
+  return result;
+}
+var visitedLeft = /* @__PURE__ */ new WeakSet;
+var visitedRight = /* @__PURE__ */ new WeakSet;
+function compareObjects(self, that) {
+  if (hash2(self) !== hash2(that)) {
+    return false;
+  } else if (self instanceof Date) {
+    if (!(that instanceof Date))
+      return false;
+    const selfTime = self.getTime();
+    const thatTime = that.getTime();
+    return selfTime === thatTime || Number.isNaN(selfTime) && Number.isNaN(thatTime);
+  } else if (self instanceof RegExp) {
+    if (!(that instanceof RegExp))
+      return false;
+    return self.toString() === that.toString();
+  }
+  const selfIsEqual = isEqual(self);
+  const thatIsEqual = isEqual(that);
+  if (selfIsEqual !== thatIsEqual)
+    return false;
+  const bothEquals = selfIsEqual && thatIsEqual;
+  if (typeof self === "function" && !bothEquals) {
+    return false;
+  }
+  return withVisitedTracking2(self, that, () => {
+    if (bothEquals) {
+      return self[symbol3](that);
+    } else if (Array.isArray(self)) {
+      if (!Array.isArray(that) || self.length !== that.length) {
+        return false;
+      }
+      return compareArrays(self, that);
+    } else if (ArrayBuffer.isView(self)) {
+      const selfIsDataView = self instanceof DataView;
+      if (!ArrayBuffer.isView(that) || self.byteLength !== that.byteLength || selfIsDataView !== that instanceof DataView) {
+        return false;
+      }
+      if (selfIsDataView) {
+        const thatDataView = that;
+        return compareTypedArrays(new Uint8Array(self.buffer, self.byteOffset, self.byteLength), new Uint8Array(thatDataView.buffer, thatDataView.byteOffset, thatDataView.byteLength));
+      }
+      return compareTypedArrays(self, that);
+    } else if (self instanceof Map) {
+      if (!(that instanceof Map) || self.size !== that.size) {
+        return false;
+      }
+      return compareMaps(self, that);
+    } else if (self instanceof Set) {
+      if (!(that instanceof Set) || self.size !== that.size) {
+        return false;
+      }
+      return compareSets(self, that);
+    }
+    return compareRecords(self, that);
+  });
+}
+function withCache(self, that, f) {
+  let selfMap = equalityCache.get(self);
+  if (!selfMap) {
+    selfMap = new WeakMap;
+    equalityCache.set(self, selfMap);
+  } else if (selfMap.has(that)) {
+    return selfMap.get(that);
+  }
+  const result = f(self, that);
+  selfMap.set(that, result);
+  let thatMap = equalityCache.get(that);
+  if (!thatMap) {
+    thatMap = new WeakMap;
+    equalityCache.set(that, thatMap);
+  }
+  thatMap.set(self, result);
+  return result;
+}
+var equalityCache = /* @__PURE__ */ new WeakMap;
+function compareArrays(self, that) {
+  for (let i = 0;i < self.length; i++) {
+    if (!compareBoth(self[i], that[i])) {
+      return false;
+    }
+  }
+  return true;
+}
+function compareTypedArrays(self, that) {
+  if (self.length !== that.length) {
+    return false;
+  }
+  for (let i = 0;i < self.length; i++) {
+    if (self[i] !== that[i]) {
+      return false;
+    }
+  }
+  return true;
+}
+function compareRecords(self, that) {
+  const selfKeys = getAllObjectKeys(self);
+  const thatKeys = getAllObjectKeys(that);
+  if (selfKeys.size !== thatKeys.size) {
+    return false;
+  }
+  for (const key of selfKeys) {
+    if (!thatKeys.has(key) || !compareBoth(self[key], that[key])) {
+      return false;
+    }
+  }
+  return true;
+}
+function makeCompareMap(keyEquivalence, valueEquivalence) {
+  return function compareMaps(self, that) {
+    const thatEntries = Array.from(that);
+    for (const [selfKey, selfValue] of self) {
+      let found = false;
+      for (let i = 0;i < thatEntries.length; i++) {
+        const [thatKey, thatValue] = thatEntries[i];
+        if (keyEquivalence(selfKey, thatKey) && valueEquivalence(selfValue, thatValue)) {
+          thatEntries[i] = thatEntries[thatEntries.length - 1];
+          thatEntries.pop();
+          found = true;
+          break;
+        }
+      }
+      if (!found) {
+        return false;
+      }
+    }
+    return true;
+  };
+}
+var compareMaps = /* @__PURE__ */ makeCompareMap(compareBoth, compareBoth);
+function makeCompareSet(equivalence) {
+  return function compareSets(self, that) {
+    const thatValues = Array.from(that);
+    for (const selfValue of self) {
+      let found = false;
+      for (let i = 0;i < thatValues.length; i++) {
+        const thatValue = thatValues[i];
+        if (equivalence(selfValue, thatValue)) {
+          thatValues[i] = thatValues[thatValues.length - 1];
+          thatValues.pop();
+          found = true;
+          break;
+        }
+      }
+      if (!found) {
+        return false;
+      }
+    }
+    return true;
+  };
+}
+var compareSets = /* @__PURE__ */ makeCompareSet(compareBoth);
+var isEqual = (u) => hasProperty(u, symbol3);
+
+// node_modules/@opencode/schema/node_modules/effect/dist/Redactable.js
+var symbolRedactable = /* @__PURE__ */ Symbol.for("~effect/Redactable");
+var isRedactable = (u) => hasProperty(u, symbolRedactable);
+function redact(u) {
+  if (isRedactable(u))
+    return getRedacted(u);
+  return u;
+}
+function getRedacted(redactable) {
+  return redactable[symbolRedactable](globalThis[currentFiberTypeId]?.context ?? emptyContext);
+}
+var currentFiberTypeId = "~effect/Fiber/currentFiber";
+var emptyMap = /* @__PURE__ */ new Map;
+var emptyContext = {
+  "~effect/Context": {},
+  base: emptyMap,
+  depth: 0,
+  mapUnsafe: emptyMap,
+  pipe() {
+    return pipeArguments(this, arguments);
+  }
+};
+
+// node_modules/@opencode/schema/node_modules/effect/dist/Formatter.js
+function format(input, options) {
+  const space = options?.space ?? 0;
+  const ancestors = new WeakSet;
+  const gap = !space ? "" : typeof space === "number" ? " ".repeat(space) : space;
+  const ind = (d) => gap.repeat(d);
+  const wrap = (v, body) => {
+    const ctor = v?.constructor;
+    return ctor && ctor !== Object.prototype.constructor && ctor.name ? `${ctor.name}(${body})` : body;
+  };
+  const ownKeys = (o) => {
+    try {
+      return Reflect.ownKeys(o);
+    } catch {
+      return ["[ownKeys threw]"];
+    }
+  };
+  function recur(v, d = 0) {
+    if (typeof v === "string")
+      return JSON.stringify(v);
+    if (typeof v === "number" || v == null || typeof v === "boolean" || typeof v === "symbol")
+      return String(v);
+    if (typeof v === "bigint")
+      return String(v) + "n";
+    if (typeof v === "object" || typeof v === "function") {
+      if (ancestors.has(v))
+        return CIRCULAR;
+      ancestors.add(v);
+      let output;
+      if (symbolRedactable in v) {
+        output = recur(getRedacted(v), d);
+      } else if (Array.isArray(v)) {
+        output = !gap || v.length <= 1 ? `[${v.map((x) => recur(x, d)).join(",")}]` : `[
+${ind(d + 1)}${v.map((x) => recur(x, d + 1)).join(`,
+` + ind(d + 1))}
+${ind(d)}]`;
+      } else if (v instanceof Date) {
+        output = formatDate(v);
+      } else if (!options?.ignoreToString && hasProperty(v, "toString") && typeof v["toString"] === "function" && v["toString"] !== Object.prototype.toString && v["toString"] !== Array.prototype.toString) {
+        const s = safeToString(v);
+        output = v instanceof Error && v.cause ? `${s} (cause: ${recur(v.cause, d)})` : s;
+      } else if (Symbol.iterator in v) {
+        output = `${v.constructor.name}(${recur(Array.from(v), d)})`;
+      } else {
+        const keys = ownKeys(v);
+        if (!gap || keys.length <= 1) {
+          const body = `{${keys.map((k) => `${formatPropertyKey(k)}:${recur(v[k], d)}`).join(",")}}`;
+          output = wrap(v, body);
+        } else {
+          const body = `{
+${keys.map((k) => `${ind(d + 1)}${formatPropertyKey(k)}: ${recur(v[k], d + 1)}`).join(`,
+`)}
+${ind(d)}}`;
+          output = wrap(v, body);
+        }
+      }
+      ancestors.delete(v);
+      return output;
+    }
+    return String(v);
+  }
+  return recur(input, 0);
+}
+var CIRCULAR = "[Circular]";
+function formatPropertyKey(name) {
+  return typeof name === "string" ? JSON.stringify(name) : String(name);
+}
+function formatDate(date) {
+  try {
+    return date.toISOString();
+  } catch {
+    return "Invalid Date";
+  }
+}
+function safeToString(input) {
+  try {
+    const s = input.toString();
+    return typeof s === "string" ? s : String(s);
+  } catch {
+    return "[toString threw]";
+  }
+}
+function formatJson(input, options) {
+  const ancestors = [];
+  return JSON.stringify(input, function(key, value) {
+    const original = Object.getOwnPropertyDescriptor(this, key)?.value;
+    const redacted = hasProperty(original, symbolRedactable) ? redact(original) : redact(value);
+    if (typeof redacted === "bigint") {
+      return format(redacted);
+    }
+    if (typeof redacted !== "object" || redacted === null) {
+      return redacted;
+    }
+    while (ancestors.length > 0 && ancestors[ancestors.length - 1] !== this) {
+      ancestors.pop();
+    }
+    if (ancestors.includes(redacted)) {
+      return;
+    }
+    ancestors.push(redacted);
+    return redacted;
+  }, options?.space) ?? "null";
+}
+
+// node_modules/@opencode/schema/node_modules/effect/dist/Inspectable.js
+var NodeInspectSymbol = /* @__PURE__ */ Symbol.for("nodejs.util.inspect.custom");
+var toJson = (input) => {
+  try {
+    input = redact(input);
+    if (hasProperty(input, "toJSON") && isFunction(input["toJSON"]) && input["toJSON"].length === 0) {
+      return input.toJSON();
+    } else if (Array.isArray(input)) {
+      return input.map(toJson);
+    }
+    return input;
+  } catch {
+    return "[toJSON threw]";
+  }
+};
+var BaseProto = {
+  toJSON() {
+    return toJson(this);
+  },
+  [NodeInspectSymbol]() {
+    return this.toJSON();
+  },
+  toString() {
+    return format(this.toJSON());
+  }
+};
+
+// node_modules/@opencode/schema/node_modules/effect/dist/Utils.js
+class SingleShotGen {
+  called = false;
+  self;
+  constructor(self) {
+    this.self = self;
+  }
+  next(a) {
+    return this.called ? {
+      value: a,
+      done: true
+    } : (this.called = true, {
+      value: this.self,
+      done: false
+    });
+  }
+  [Symbol.iterator]() {
+    return new SingleShotGen(this.self);
+  }
+}
+var pickInternalCall = () => {
+  const InternalTypeId = "~effect/Utils/internal";
+  const standard = {
+    [InternalTypeId]: (body) => {
+      return body();
+    }
+  };
+  const forced = {
+    [InternalTypeId]: (body) => {
+      try {
+        return body();
+      } finally {}
+    }
+  };
+  const isNotOptimizedAway = standard[InternalTypeId](() => new Error().stack)?.includes(InternalTypeId) === true;
+  return isNotOptimizedAway ? standard[InternalTypeId] : forced[InternalTypeId];
+};
+var internalCall = /* @__PURE__ */ pickInternalCall();
+
+// node_modules/@opencode/schema/node_modules/effect/dist/internal/record.js
+function assignProperty(self, key, value) {
+  if (key === "__proto__") {
+    Object.defineProperty(self, key, {
+      value,
+      writable: true,
+      enumerable: true,
+      configurable: true
+    });
+  } else {
+    self[key] = value;
+  }
+}
+function assignProperties(self, source) {
+  for (const key of Reflect.ownKeys(source)) {
+    if (Object.prototype.propertyIsEnumerable.call(source, key)) {
+      assignProperty(self, key, source[key]);
+    }
+  }
+}
+
+// node_modules/@opencode/schema/node_modules/effect/dist/internal/core.js
+var EffectTypeId = `~effect/Effect`;
+var ExitTypeId = `~effect/Exit`;
+var effectVariance = {
+  _A: identity,
+  _E: identity,
+  _R: identity
+};
+var identifier = `${EffectTypeId}/identifier`;
+var args = `${EffectTypeId}/args`;
+var evaluate = `${EffectTypeId}/evaluate`;
+var contA = `${EffectTypeId}/successCont`;
+var contE = `${EffectTypeId}/failureCont`;
+var contAll = `${EffectTypeId}/ensureCont`;
+var Yield = /* @__PURE__ */ Symbol.for("effect/Effect/Yield");
+var PipeInspectableProto = {
+  pipe() {
+    return pipeArguments(this, arguments);
+  },
+  toJSON() {
+    return {
+      ...this
+    };
+  },
+  toString() {
+    return format(this.toJSON(), {
+      ignoreToString: true,
+      space: 2
+    });
+  },
+  [NodeInspectSymbol]() {
+    return this.toJSON();
+  }
+};
+var StructuralProto = {
+  [symbol2]() {
+    return structureKeys(this, Object.keys(this));
+  },
+  [symbol3](that) {
+    const selfKeys = Object.keys(this);
+    const thatKeys = Object.keys(that);
+    if (selfKeys.length !== thatKeys.length)
+      return false;
+    for (let i = 0;i < selfKeys.length; i++) {
+      if (selfKeys[i] !== thatKeys[i] || !equals(this[selfKeys[i]], that[selfKeys[i]])) {
+        return false;
+      }
+    }
+    return true;
+  }
+};
+var EffectProto = {
+  [EffectTypeId]: effectVariance,
+  ...PipeInspectableProto,
+  [Symbol.iterator]() {
+    return new SingleShotGen(this);
+  },
+  toJSON() {
+    return {
+      _id: "Effect",
+      op: this[identifier],
+      ...args in this ? {
+        args: this[args]
+      } : undefined
+    };
+  }
+};
+var isExit = (u) => hasProperty(u, ExitTypeId);
+var CauseTypeId = "~effect/Cause";
+var CauseReasonTypeId = "~effect/Cause/Reason";
+var isCause = (self) => hasProperty(self, CauseTypeId);
+class CauseImpl {
+  [CauseTypeId];
+  reasons;
+  constructor(failures) {
+    this[CauseTypeId] = CauseTypeId;
+    this.reasons = failures;
+  }
+  pipe() {
+    return pipeArguments(this, arguments);
+  }
+  toJSON() {
+    return {
+      _id: "Cause",
+      failures: this.reasons.map((f) => f.toJSON())
+    };
+  }
+  toString() {
+    return `Cause(${format(this.reasons)})`;
+  }
+  [NodeInspectSymbol]() {
+    return this.toJSON();
+  }
+  [symbol3](that) {
+    return isCause(that) && this.reasons.length === that.reasons.length && this.reasons.every((e, i) => equals(e, that.reasons[i]));
+  }
+  [symbol2]() {
+    return array2(this.reasons);
+  }
+}
+var annotationsMap = /* @__PURE__ */ new WeakMap;
+
+class ReasonBase {
+  [CauseReasonTypeId];
+  annotations;
+  _tag;
+  constructor(_tag, annotations, originalError) {
+    this[CauseReasonTypeId] = CauseReasonTypeId;
+    this._tag = _tag;
+    if (annotations !== constEmptyAnnotations && typeof originalError === "object" && originalError !== null && annotations.size > 0) {
+      const prevAnnotations = annotationsMap.get(originalError);
+      if (prevAnnotations) {
+        annotations = new Map([...prevAnnotations, ...annotations]);
+      }
+      annotationsMap.set(originalError, annotations);
+    }
+    this.annotations = annotations;
+  }
+  annotate(annotations, options) {
+    if (annotations.mapUnsafe.size === 0)
+      return this;
+    const newAnnotations = new Map(this.annotations);
+    annotations.mapUnsafe.forEach((value, key) => {
+      if (options?.overwrite !== true && newAnnotations.has(key))
+        return;
+      newAnnotations.set(key, value);
+    });
+    const self = Object.assign(Object.create(Object.getPrototypeOf(this)), this);
+    self.annotations = newAnnotations;
+    return self;
+  }
+  pipe() {
+    return pipeArguments(this, arguments);
+  }
+  toString() {
+    return format(this);
+  }
+  [NodeInspectSymbol]() {
+    return this.toString();
+  }
+}
+var constEmptyAnnotations = /* @__PURE__ */ new Map;
+
+class Fail extends ReasonBase {
+  error;
+  constructor(error, annotations = constEmptyAnnotations) {
+    super("Fail", annotations, error);
+    this.error = error;
+  }
+  toString() {
+    return `Fail(${format(this.error)})`;
+  }
+  toJSON() {
+    return {
+      _tag: "Fail",
+      error: this.error
+    };
+  }
+  [symbol3](that) {
+    return isFailReason(that) && equals(this.error, that.error) && equals(this.annotations, that.annotations);
+  }
+  [symbol2]() {
+    return combine(string4(this._tag))(combine(hash2(this.error))(hash2(this.annotations)));
+  }
+}
+var causeFromReasons = (reasons) => new CauseImpl(reasons);
+var causeFail = (error) => new CauseImpl([new Fail(error)]);
+
+class Die extends ReasonBase {
+  defect;
+  constructor(defect, annotations = constEmptyAnnotations) {
+    super("Die", annotations, defect);
+    this.defect = defect;
+  }
+  toString() {
+    return `Die(${format(this.defect)})`;
+  }
+  toJSON() {
+    return {
+      _tag: "Die",
+      defect: this.defect
+    };
+  }
+  [symbol3](that) {
+    return isDieReason(that) && equals(this.defect, that.defect) && equals(this.annotations, that.annotations);
+  }
+  [symbol2]() {
+    return combine(string4(this._tag))(combine(hash2(this.defect))(hash2(this.annotations)));
+  }
+}
+var causeDie = (defect) => new CauseImpl([new Die(defect)]);
+var causeAnnotate = /* @__PURE__ */ dual((args) => isCause(args[0]), (self, annotations, options) => {
+  if (annotations.mapUnsafe.size === 0)
+    return self;
+  return new CauseImpl(self.reasons.map((f) => f.annotate(annotations, options)));
+});
+var isFailReason = (self) => self._tag === "Fail";
+var isDieReason = (self) => self._tag === "Die";
+var isInterruptReason = (self) => self._tag === "Interrupt";
+function defaultEvaluate(_fiber) {
+  return exitDie(`Effect.evaluate: Not implemented`);
+}
+var makePrimitiveProto = (options) => ({
+  ...EffectProto,
+  [identifier]: options.op,
+  [evaluate]: options[evaluate] ?? defaultEvaluate,
+  [contA]: options[contA],
+  [contE]: options[contE],
+  [contAll]: options[contAll]
+});
+var makePrimitive = (options) => {
+  const Proto = makePrimitiveProto(options);
+  return function() {
+    const self = Object.create(Proto);
+    self[args] = options.single === false ? arguments : arguments[0];
+    return self;
+  };
+};
+var makeExit = (options) => {
+  const Proto = {
+    [ExitTypeId]: ExitTypeId,
+    _tag: options.op,
+    get [options.prop]() {
+      return this[args];
+    },
+    ...makePrimitiveProto(options),
+    toString() {
+      return `${options.op}(${format(this[args])})`;
+    },
+    toJSON() {
+      return {
+        _id: "Exit",
+        _tag: options.op,
+        [options.prop]: this[args]
+      };
+    },
+    [symbol3](that) {
+      return isExit(that) && that._tag === this._tag && equals(this[args], that[args]);
+    },
+    [symbol2]() {
+      return combine(string4(options.op), hash2(this[args]));
+    }
+  };
+  return function(value) {
+    const self = Object.create(Proto);
+    self[args] = value;
+    return self;
+  };
+};
+var exitSucceed = /* @__PURE__ */ makeExit({
+  op: "Success",
+  prop: "value",
+  [evaluate](fiber) {
+    const cont = fiber.getCont(contA);
+    return cont ? cont[contA](this[args], fiber, this) : fiber.yieldWith(this);
+  }
+});
+var StackTraceKey = {
+  key: "effect/Cause/StackTrace"
+};
+var InterruptorStackTrace = {
+  key: "effect/Cause/InterruptorStackTrace"
+};
+var exitFailCause = /* @__PURE__ */ makeExit({
+  op: "Failure",
+  prop: "cause",
+  [evaluate](fiber) {
+    let cause = this[args];
+    let annotated = false;
+    if (fiber.currentStackFrame) {
+      cause = causeAnnotate(cause, {
+        mapUnsafe: new Map([[StackTraceKey.key, fiber.currentStackFrame]])
+      });
+      annotated = true;
+    }
+    let cont = fiber.getCont(contE);
+    while (fiber.interruptible && fiber._interruptedCause && cont) {
+      cont = fiber.getCont(contE);
+    }
+    return cont ? cont[contE](cause, fiber, annotated ? undefined : this) : fiber.yieldWith(annotated ? exitFailCause(cause) : this);
+  }
+});
+var exitFail = (e) => exitFailCause(causeFail(e));
+var exitDie = (defect) => exitFailCause(causeDie(defect));
+var withFiber = /* @__PURE__ */ makePrimitive({
+  op: "WithFiber",
+  [evaluate](fiber) {
+    return this[args](fiber);
+  }
+});
+var YieldableError = /* @__PURE__ */ function() {
+
+  class YieldableError extends globalThis.Error {
+  }
+  const proto = /* @__PURE__ */ makePrimitiveProto({
+    op: "YieldableError",
+    [evaluate]() {
+      return exitFail(this);
+    }
+  });
+  delete proto.toString;
+  Object.assign(YieldableError.prototype, proto);
+  return YieldableError;
+}();
+var Error2 = /* @__PURE__ */ function() {
+  const plainArgsSymbol = /* @__PURE__ */ Symbol.for("effect/Data/Error/plainArgs");
+  return class Base extends YieldableError {
+    constructor(args) {
+      super(args?.message, args?.cause ? {
+        cause: args.cause
+      } : undefined);
+      if (args) {
+        assignProperties(this, args);
+        Object.defineProperty(this, plainArgsSymbol, {
+          value: args,
+          enumerable: false
+        });
+      }
+    }
+    toJSON() {
+      return {
+        ...this[plainArgsSymbol],
+        ...this
+      };
+    }
+  };
+}();
+var TaggedError = (tag) => {
+
+  class Base extends Error2 {
+    _tag = tag;
+  }
+  Base.prototype.name = tag;
+  return Base;
+};
+var DoneTypeId = "~effect/Cause/Done";
+var DoneVoid = {
+  [DoneTypeId]: DoneTypeId,
+  _tag: "Done",
+  value: undefined
+};
+
+// node_modules/@opencode/schema/node_modules/effect/dist/Effectable.js
+var Prototype2 = (options) => makePrimitiveProto({
+  op: options.label,
+  [evaluate]: options.evaluate
+});
+
+// node_modules/@opencode/schema/node_modules/effect/dist/Equivalence.js
+var make = (isEquivalent) => (self, that) => self === that || isEquivalent(self, that);
+var isStrictEquivalent = (x, y) => x === y;
+var strictEqual = () => isStrictEquivalent;
+
+// node_modules/@opencode/schema/node_modules/effect/dist/internal/option.js
+var TypeId = "~effect/data/Option";
+var CommonProto = {
+  [TypeId]: {
+    _A: (_) => _
+  },
+  ...PipeInspectableProto,
+  [Symbol.iterator]() {
+    return new SingleShotGen(this);
+  }
+};
+var SomeProto = /* @__PURE__ */ Object.defineProperty(/* @__PURE__ */ Object.assign(/* @__PURE__ */ Object.create(CommonProto), {
+  _tag: "Some",
+  _op: "Some",
+  [symbol3](that) {
+    return isOption(that) && isSome(that) && equals(this.value, that.value);
+  },
+  [symbol2]() {
+    return combine(hash2(this._tag))(hash2(this.value));
+  },
+  toString() {
+    return `some(${format(this.value)})`;
+  },
+  toJSON() {
+    return {
+      _id: "Option",
+      _tag: this._tag,
+      value: toJson(this.value)
+    };
+  }
+}), "valueOrUndefined", {
+  get() {
+    return this.value;
+  }
+});
+var NoneHash = /* @__PURE__ */ hash2("None");
+var NoneProto = /* @__PURE__ */ Object.assign(/* @__PURE__ */ Object.create(CommonProto), {
+  _tag: "None",
+  _op: "None",
+  valueOrUndefined: undefined,
+  [symbol3](that) {
+    return isOption(that) && isNone(that);
+  },
+  [symbol2]() {
+    return NoneHash;
+  },
+  toString() {
+    return `none()`;
+  },
+  toJSON() {
+    return {
+      _id: "Option",
+      _tag: this._tag
+    };
+  }
+});
+var isOption = (input) => hasProperty(input, TypeId);
+var isNone = (fa) => fa._tag === "None";
+var isSome = (fa) => fa._tag === "Some";
+var none = /* @__PURE__ */ Object.create(NoneProto);
+var some = (value) => {
+  const a = Object.create(SomeProto);
+  a.value = value;
+  return a;
+};
+
+// node_modules/@opencode/schema/node_modules/effect/dist/internal/result.js
+var TypeId2 = "~effect/data/Result";
+var CommonProto2 = {
+  [TypeId2]: {
+    _A: (_) => _,
+    _E: (_) => _
+  },
+  ...PipeInspectableProto,
+  [Symbol.iterator]() {
+    return new SingleShotGen(this);
+  }
+};
+var SuccessProto = /* @__PURE__ */ Object.assign(/* @__PURE__ */ Object.create(CommonProto2), {
+  _tag: "Success",
+  _op: "Success",
+  [symbol3](that) {
+    return isResult(that) && isSuccess(that) && equals(this.success, that.success);
+  },
+  [symbol2]() {
+    return combine(hash2(this._tag))(hash2(this.success));
+  },
+  toString() {
+    return `success(${format(this.success)})`;
+  },
+  toJSON() {
+    return {
+      _id: "Result",
+      _tag: this._tag,
+      value: toJson(this.success)
+    };
+  }
+});
+var FailureProto = /* @__PURE__ */ Object.assign(/* @__PURE__ */ Object.create(CommonProto2), {
+  _tag: "Failure",
+  _op: "Failure",
+  [symbol3](that) {
+    return isResult(that) && isFailure(that) && equals(this.failure, that.failure);
+  },
+  [symbol2]() {
+    return combine(hash2(this._tag))(hash2(this.failure));
+  },
+  toString() {
+    return `failure(${format(this.failure)})`;
+  },
+  toJSON() {
+    return {
+      _id: "Result",
+      _tag: this._tag,
+      failure: toJson(this.failure)
+    };
+  }
+});
+var isResult = (input) => hasProperty(input, TypeId2);
+var isFailure = (result) => result._tag === "Failure";
+var isSuccess = (result) => result._tag === "Success";
+var fail = (failure) => {
+  const a = Object.create(FailureProto);
+  a.failure = failure;
+  return a;
+};
+var succeed = (success) => {
+  const a = Object.create(SuccessProto);
+  a.success = success;
+  return a;
+};
+
+// node_modules/@opencode/schema/node_modules/effect/dist/Order.js
+function make2(compare) {
+  return (self, that) => self === that ? 0 : compare(self, that);
+}
+var Number2 = /* @__PURE__ */ make2((self, that) => {
+  if (globalThis.Number.isNaN(self) && globalThis.Number.isNaN(that))
+    return 0;
+  if (globalThis.Number.isNaN(self))
+    return -1;
+  if (globalThis.Number.isNaN(that))
+    return 1;
+  return self < that ? -1 : 1;
+});
+var isLessThan = (O) => dual(2, (self, that) => O(self, that) === -1);
+var isGreaterThan = (O) => dual(2, (self, that) => O(self, that) === 1);
+var isLessThanOrEqualTo = (O) => dual(2, (self, that) => O(self, that) !== 1);
+var isGreaterThanOrEqualTo = (O) => dual(2, (self, that) => O(self, that) !== -1);
+
+// node_modules/@opencode/schema/node_modules/effect/dist/Option.js
+var none2 = () => none;
+var some2 = some;
+var isNone2 = isNone;
+var isSome2 = isSome;
+var match = /* @__PURE__ */ dual(2, (self, {
+  onNone,
+  onSome
+}) => isNone2(self) ? onNone() : onSome(self.value));
+var liftThrowable = (f) => (...a) => {
+  try {
+    return some2(f(...a));
+  } catch {
+    return none2();
+  }
+};
+var map2 = /* @__PURE__ */ dual(2, (self, f) => isNone2(self) ? none2() : some2(f(self.value)));
+var filter = /* @__PURE__ */ dual(2, (self, predicate) => isNone2(self) ? none2() : predicate(self.value) ? some2(self.value) : none2());
+
+// node_modules/@opencode/schema/node_modules/effect/dist/Context.js
+var ServiceTypeId = "~effect/Context/Service";
+var Service = function() {
+  function KeyClass() {}
+  const self = KeyClass;
+  Object.setPrototypeOf(self, ServiceProto);
+  const init = (key, options) => {
+    self.key = key;
+    if (options?.defaultValue) {
+      self[ReferenceTypeId] = ReferenceTypeId;
+      self.defaultValue = options.defaultValue;
+    }
+    if (options?.make) {
+      self.make = options.make;
+    }
+    if (options?.fiberCached) {
+      cacheKeys.add(key);
+    }
+    return self;
+  };
+  return arguments.length > 0 ? init(arguments[0], arguments[1]) : init;
+};
+var ServiceProto = {
+  [ServiceTypeId]: ServiceTypeId,
+  .../* @__PURE__ */ Prototype2({
+    label: "Service",
+    evaluate(fiber) {
+      return exitSucceed(get(fiber.context, this));
+    }
+  }),
+  toJSON() {
+    return {
+      _id: "Service",
+      key: this.key
+    };
+  },
+  of(self) {
+    return self;
+  },
+  context(self) {
+    return make3(this, self);
+  },
+  use(f) {
+    return withFiber((fiber) => f(get(fiber.context, this)));
+  },
+  useSync(f) {
+    return withFiber((fiber) => exitSucceed(f(get(fiber.context, this))));
+  }
+};
+var cacheKeys = /* @__PURE__ */ new Set;
+var ReferenceTypeId = "~effect/Context/Reference";
+var TypeId3 = "~effect/Context";
+var MaxDepth = 8;
+var FlattenAfterBaseHits = 8;
+var makeImpl = (cacheRoot, base, overlay, depth) => {
+  const self = Object.create(Proto);
+  self.cacheRoot = cacheRoot ?? self;
+  self.base = base;
+  self.overlay = overlay;
+  self.depth = depth;
+  self._flat = undefined;
+  self.baseHits = 0;
+  return self;
+};
+var applyOverlays = (map, overlay) => {
+  if (!overlay)
+    return;
+  applyOverlays(map, overlay.parent);
+  map.set(overlay.key, overlay.value);
+};
+var flatten = (self) => {
+  if (self._flat)
+    return self._flat;
+  if (!self.overlay)
+    return self._flat = self.base;
+  const map = new Map(self.base);
+  applyOverlays(map, self.overlay);
+  return self._flat = map;
+};
+var notFound = /* @__PURE__ */ Symbol();
+var lookup = (self, key) => {
+  const impl = self;
+  for (let overlay = impl.overlay;overlay; overlay = overlay.parent) {
+    if (overlay.key === key)
+      return overlay.value;
+  }
+  const value = impl.base.get(key);
+  if (value === undefined && !impl.base.has(key))
+    return notFound;
+  if (impl.overlay && ++impl.baseHits >= FlattenAfterBaseHits) {
+    impl.base = flatten(impl);
+    impl.overlay = undefined;
+    impl.depth = 0;
+  }
+  return value;
+};
+var makeUnsafe = (mapUnsafe) => makeImpl(undefined, mapUnsafe, undefined, 0);
+var Proto = {
+  get mapUnsafe() {
+    return flatten(this);
+  },
+  ...PipeInspectableProto,
+  [TypeId3]: {
+    _Services: (_) => _
+  },
+  toJSON() {
+    return {
+      _id: "Context",
+      services: Array.from(this.mapUnsafe).map(([key, value]) => ({
+        key,
+        value
+      }))
+    };
+  },
+  [symbol3](that) {
+    if (!isContext(that))
+      return false;
+    const self = this.mapUnsafe;
+    const other = that.mapUnsafe;
+    if (self.size !== other.size)
+      return false;
+    for (const [key, value] of self) {
+      if (!other.has(key) || !equals(value, other.get(key)))
+        return false;
+    }
+    return true;
+  },
+  [symbol2]() {
+    return number4(this.mapUnsafe.size);
+  }
+};
+var hasSameCache = (self, that) => self.cacheRoot === that.cacheRoot;
+var isContext = (u) => hasProperty(u, TypeId3);
+var isReference = (u) => !!u[ReferenceTypeId];
+var empty = () => emptyContext2;
+var emptyContext2 = /* @__PURE__ */ makeUnsafe(/* @__PURE__ */ new Map);
+var make3 = (key, service) => makeUnsafe(new Map([[key.key, service]]));
+var add = /* @__PURE__ */ dual(3, (self, key, service) => addUnsafe(self, key.key, service));
+var addUnsafe = (self, key, service) => {
+  const impl = self;
+  const cacheRoot = cacheKeys.has(key) ? undefined : impl.cacheRoot;
+  if (impl.depth >= MaxDepth) {
+    const map = new Map(impl.mapUnsafe);
+    map.set(key, service);
+    return makeImpl(cacheRoot, map, undefined, 0);
+  }
+  return makeImpl(cacheRoot, impl.base, {
+    key,
+    value: service,
+    parent: impl.overlay
+  }, impl.depth + 1);
+};
+var getOrUndefinedUnsafe = (self, key) => {
+  const value = lookup(self, key);
+  return value === notFound ? undefined : value;
+};
+var getUnsafe = /* @__PURE__ */ dual(2, (self, service) => {
+  const value = lookup(self, service.key);
+  if (value === notFound) {
+    if (isReference(service))
+      return getDefaultValue(service);
+    throw serviceNotFoundError(service);
+  }
+  return value;
+});
+var get = getUnsafe;
+var defaultValueCacheKey = "~effect/Context/defaultValue";
+var getDefaultValue = (ref) => {
+  if (defaultValueCacheKey in ref) {
+    return ref[defaultValueCacheKey];
+  }
+  return ref[defaultValueCacheKey] = ref.defaultValue();
+};
+var serviceNotFoundError = (service) => {
+  const error = new Error(`Service not found${service.key ? `: ${String(service.key)}` : ""}`);
+  if (error.stack) {
+    const lines = error.stack.split(`
+`);
+    lines.splice(1, 3);
+    error.stack = lines.join(`
+`);
+  }
+  return error;
+};
+var Reference = Service;
+
+// node_modules/@opencode/schema/node_modules/effect/dist/internal/array.js
+var isArrayNonEmpty = (self) => self.length > 0;
+
+// node_modules/@opencode/schema/node_modules/effect/dist/Result.js
+var succeed2 = succeed;
+var fail2 = fail;
+var isFailure2 = isFailure;
+var match2 = /* @__PURE__ */ dual(2, (self, {
+  onFailure,
+  onSuccess
+}) => isFailure2(self) ? onFailure(self.failure) : onSuccess(self.success));
+
+// node_modules/@opencode/schema/node_modules/effect/dist/Array.js
+var Array2 = globalThis.Array;
+var fromIterable = (collection) => Array2.isArray(collection) ? collection : Array2.from(collection);
+var append = /* @__PURE__ */ dual(2, (self, last) => [...self, last]);
+var appendAll = /* @__PURE__ */ dual(2, (self, that) => fromIterable(self).concat(fromIterable(that)));
+var isArray = Array2.isArray;
+var isArrayNonEmpty2 = isArrayNonEmpty;
+var isReadonlyArrayNonEmpty = isArrayNonEmpty;
+var hashBucketsAdd = (buckets, value) => {
+  const hash = hash2(value);
+  const bucket = buckets.get(hash);
+  if (bucket === undefined) {
+    buckets.set(hash, [value]);
+    return true;
+  }
+  for (const previous of bucket) {
+    if (equals(previous, value)) {
+      return false;
+    }
+  }
+  bucket.push(value);
+  return true;
+};
+var union2 = /* @__PURE__ */ dual(2, (self, that) => {
+  const a = fromIterable(self);
+  const b = fromIterable(that);
+  if (isReadonlyArrayNonEmpty(a)) {
+    return isReadonlyArrayNonEmpty(b) ? dedupe(appendAll(a, b)) : a;
+  }
+  return b;
+});
+var empty2 = () => [];
+var map3 = /* @__PURE__ */ dual(2, (self, f) => self.map(f));
+var dedupe = (self) => {
+  const input = fromIterable(self);
+  if (input.length < 2) {
+    return [...input];
+  }
+  const buckets = new Map;
+  const out = [];
+  for (const value of input) {
+    if (hashBucketsAdd(buckets, value)) {
+      out.push(value);
+    }
+  }
+  return out;
+};
+
+// node_modules/@opencode/schema/node_modules/effect/dist/Scheduler.js
+var Scheduler = /* @__PURE__ */ Reference("effect/Scheduler", {
+  fiberCached: true,
+  defaultValue: () => new MixedScheduler
+});
+var setImmediate = "setImmediate" in globalThis ? (f) => {
+  const timer = globalThis.setImmediate(f);
+  return () => globalThis.clearImmediate(timer);
+} : (f) => {
+  const timer = setTimeout(f, 0);
+  return () => clearTimeout(timer);
+};
+var setMicrotask = (f) => {
+  let cancelled = false;
+  Promise.resolve().then(() => {
+    if (!cancelled)
+      f();
+  });
+  return () => {
+    cancelled = true;
+  };
+};
+
+class PriorityBuckets {
+  buckets = [];
+  scheduleTask(task, priority) {
+    const buckets = this.buckets;
+    const len = buckets.length;
+    let bucket;
+    let index = 0;
+    for (;index < len; index++) {
+      if (buckets[index][0] > priority)
+        break;
+      bucket = buckets[index];
+    }
+    if (bucket && bucket[0] === priority) {
+      bucket[1].push(task);
+    } else if (index === len) {
+      buckets.push([priority, [task]]);
+    } else {
+      buckets.splice(index, 0, [priority, [task]]);
+    }
+  }
+  drain() {
+    const buckets = this.buckets;
+    this.buckets = [];
+    return buckets;
+  }
+}
+
+class MixedScheduler {
+  executionMode;
+  setImmediate;
+  constructor(executionMode = "async", setImmediateFn) {
+    this.executionMode = executionMode;
+    this.setImmediate = setImmediateFn ?? (executionMode === "sync" ? setMicrotask : setImmediate);
+  }
+  shouldYield(fiber) {
+    return fiber.currentOpCount >= fiber.maxOpsBeforeYield;
+  }
+  makeDispatcher() {
+    return new MixedSchedulerDispatcher(this.setImmediate);
+  }
+}
+
+class MixedSchedulerDispatcher {
+  tasks = /* @__PURE__ */ new PriorityBuckets;
+  running = undefined;
+  setImmediate;
+  constructor(setImmediateFn = setImmediate) {
+    this.setImmediate = setImmediateFn;
+  }
+  scheduleTask(task, priority) {
+    this.tasks.scheduleTask(task, priority);
+    if (this.running === undefined) {
+      this.running = this.setImmediate(this.afterScheduled);
+    }
+  }
+  afterScheduled = () => {
+    this.running = undefined;
+    this.runTasks();
+  };
+  runTasks() {
+    const buckets = this.tasks.drain();
+    for (let i = 0;i < buckets.length; i++) {
+      const toRun = buckets[i][1];
+      for (let j = 0;j < toRun.length; j++) {
+        toRun[j]();
+      }
+    }
+  }
+  flush() {
+    while (this.tasks.buckets.length > 0) {
+      if (this.running !== undefined) {
+        this.running();
+        this.running = undefined;
+      }
+      this.runTasks();
+    }
+  }
+}
+var MaxOpsBeforeYield = /* @__PURE__ */ Reference("effect/Scheduler/MaxOpsBeforeYield", {
+  fiberCached: true,
+  defaultValue: () => 2048
+});
+var PreventSchedulerYield = /* @__PURE__ */ Reference("effect/Scheduler/PreventSchedulerYield", {
+  fiberCached: true,
+  defaultValue: () => false
+});
+
+// node_modules/@opencode/schema/node_modules/effect/dist/Data.js
+var Class3 = class extends Class2 {
+  constructor(props) {
+    super();
+    if (props) {
+      assignProperties(this, props);
+    }
+  }
+};
+var TaggedError2 = TaggedError;
+
+// node_modules/@opencode/schema/node_modules/effect/dist/Encoding.js
+var EncodingErrorTypeId = "~effect/encoding/EncodingError";
+
+class EncodingError extends (/* @__PURE__ */ TaggedError2("EncodingError")) {
+  [EncodingErrorTypeId] = EncodingErrorTypeId;
+}
+var encodeBase64 = (input) => typeof input === "string" ? base64EncodeUint8Array(encoder.encode(input)) : base64EncodeUint8Array(input);
+var decodeBase64 = (str) => {
+  const stripped = stripCrlf(str);
+  const length = stripped.length;
+  if (length % 4 !== 0) {
+    return fail2(new EncodingError({
+      kind: "Decode",
+      module: "Base64",
+      input: stripped,
+      message: `Length must be a multiple of 4, but is ${length}`
+    }));
+  }
+  const index = stripped.indexOf("=");
+  if (index !== -1 && (index < length - 2 || index === length - 2 && stripped[length - 1] !== "=")) {
+    return fail2(new EncodingError({
+      kind: "Decode",
+      module: "Base64",
+      input: stripped,
+      message: `Found a '=' character, but it is not at the end`
+    }));
+  }
+  try {
+    const missingOctets = stripped.endsWith("==") ? 2 : stripped.endsWith("=") ? 1 : 0;
+    const result = new Uint8Array(3 * (length / 4) - missingOctets);
+    for (let i = 0, j = 0;i < length; i += 4, j += 3) {
+      const buffer = getBase64Code(stripped.charCodeAt(i)) << 18 | getBase64Code(stripped.charCodeAt(i + 1)) << 12 | getBase64Code(stripped.charCodeAt(i + 2)) << 6 | getBase64Code(stripped.charCodeAt(i + 3));
+      result[j] = buffer >> 16;
+      result[j + 1] = buffer >> 8 & 255;
+      result[j + 2] = buffer & 255;
+    }
+    return succeed2(result);
+  } catch (e) {
+    return fail2(new EncodingError({
+      kind: "Decode",
+      module: "Base64",
+      input: stripped,
+      message: e instanceof Error ? e.message : "Invalid input"
+    }));
+  }
+};
+var encoder = /* @__PURE__ */ new TextEncoder;
+var stripCrlf = (str) => str.replace(/[\n\r]/g, "");
+var base64EncodeUint8Array = (bytes) => {
+  const length = bytes.length;
+  let result = "";
+  let i;
+  for (i = 2;i < length; i += 3) {
+    result += base64abc[bytes[i - 2] >> 2];
+    result += base64abc[(bytes[i - 2] & 3) << 4 | bytes[i - 1] >> 4];
+    result += base64abc[(bytes[i - 1] & 15) << 2 | bytes[i] >> 6];
+    result += base64abc[bytes[i] & 63];
+  }
+  if (i === length + 1) {
+    result += base64abc[bytes[i - 2] >> 2];
+    result += base64abc[(bytes[i - 2] & 3) << 4];
+    result += "==";
+  }
+  if (i === length) {
+    result += base64abc[bytes[i - 2] >> 2];
+    result += base64abc[(bytes[i - 2] & 3) << 4 | bytes[i - 1] >> 4];
+    result += base64abc[(bytes[i - 1] & 15) << 2];
+    result += "=";
+  }
+  return result;
+};
+function getBase64Code(charCode) {
+  if (charCode >= base64codes.length) {
+    throw new TypeError(`Invalid character ${String.fromCharCode(charCode)}`);
+  }
+  const code = base64codes[charCode];
+  if (code === 255) {
+    throw new TypeError(`Invalid character ${String.fromCharCode(charCode)}`);
+  }
+  return code;
+}
+var base64abc = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "+", "/"];
+var base64codes = [255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 62, 255, 255, 255, 63, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 255, 255, 255, 0, 255, 255, 255, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 255, 255, 255, 255, 255, 255, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51];
+var byteToHex = [];
+for (let i = 0;i < 256; i++) {
+  byteToHex.push(i.toString(16).padStart(2, "0"));
+}
+
+// node_modules/@opencode/schema/node_modules/effect/dist/Tracer.js
+var ParentSpanKey = "effect/Tracer/ParentSpan";
+var TracerKey = "effect/Tracer";
+
+// node_modules/@opencode/schema/node_modules/effect/dist/internal/metric.js
+var FiberRuntimeMetricsKey = "effect/observability/Metric/FiberRuntimeMetricsKey";
+
+// node_modules/@opencode/schema/node_modules/effect/dist/internal/references.js
+var CurrentStackFrame = /* @__PURE__ */ Reference("effect/References/CurrentStackFrame", {
+  fiberCached: true,
+  defaultValue: constUndefined
+});
+var CurrentLogLevel = /* @__PURE__ */ Reference("effect/References/CurrentLogLevel", {
+  fiberCached: true,
+  defaultValue: () => "Info"
+});
+var MinimumLogLevel = /* @__PURE__ */ Reference("effect/References/MinimumLogLevel", {
+  fiberCached: true,
+  defaultValue: () => "Info"
+});
+
+// node_modules/@opencode/schema/node_modules/effect/dist/internal/effect.js
+class Interrupt extends ReasonBase {
+  fiberId;
+  constructor(fiberId, annotations = constEmptyAnnotations) {
+    super("Interrupt", annotations, "Interrupted");
+    this.fiberId = fiberId;
+  }
+  toString() {
+    return `Interrupt(${this.fiberId})`;
+  }
+  toJSON() {
+    return {
+      _tag: "Interrupt",
+      fiberId: this.fiberId
+    };
+  }
+  [symbol3](that) {
+    return isInterruptReason(that) && this.fiberId === that.fiberId && this.annotations === that.annotations;
+  }
+  [symbol2]() {
+    return combine(string4(`${this._tag}:${this.fiberId}`))(random(this.annotations));
+  }
+}
+var causeInterrupt = (fiberId) => new CauseImpl([new Interrupt(fiberId)]);
+var findError = (self) => {
+  for (let i = 0;i < self.reasons.length; i++) {
+    const reason = self.reasons[i];
+    if (reason._tag === "Fail") {
+      return succeed2(reason.error);
+    }
+  }
+  return fail2(self);
+};
+var hasInterrupts = (self) => self.reasons.some(isInterruptReason);
+var causeCombine = /* @__PURE__ */ dual(2, (self, that) => {
+  if (self.reasons.length === 0) {
+    return that;
+  } else if (that.reasons.length === 0) {
+    return self;
+  }
+  const newCause = new CauseImpl(union2(self.reasons, that.reasons));
+  return equals(self, newCause) ? self : newCause;
+});
+var causeMap = /* @__PURE__ */ dual(2, (self, f) => {
+  let hasFail = false;
+  const failures = self.reasons.map((failure) => {
+    if (isFailReason(failure)) {
+      hasFail = true;
+      return new Fail(f(failure.error), failure.annotations);
+    }
+    return failure;
+  });
+  return hasFail ? causeFromReasons(failures) : self;
+});
+var FiberTypeId = "~effect/Fiber";
+var fiberVariance = {
+  _A: identity,
+  _E: identity
+};
+var fiberIdStore = {
+  id: 0
+};
+var getCurrentFiber = () => globalThis[currentFiberTypeId];
+
+class FiberImpl {
+  constructor(context, interruptible = true) {
+    this[FiberTypeId] = fiberVariance;
+    this.setContext(context);
+    this.id = ++fiberIdStore.id;
+    this.currentOpCount = 0;
+    this.interruptible = interruptible;
+    this._stack = [];
+    this._observers = [];
+    this._exit = undefined;
+    this._children = undefined;
+    this._interruptedCause = undefined;
+    this._yielded = undefined;
+    this._running = false;
+    this._deferredInterrupt = false;
+    this.runtimeMetrics?.recordFiberStart(this.context);
+  }
+  [FiberTypeId];
+  id;
+  interruptible;
+  currentOpCount;
+  _stack;
+  _observers;
+  _exit;
+  _children;
+  _interruptedCause;
+  _yielded;
+  _running;
+  _deferredInterrupt;
+  context;
+  currentScheduler;
+  currentTracerContext;
+  currentSpan;
+  currentLogLevel;
+  minimumLogLevel;
+  currentStackFrame;
+  runtimeMetrics;
+  maxOpsBeforeYield;
+  currentPreventYield;
+  _dispatcher = undefined;
+  get currentDispatcher() {
+    return this._dispatcher ??= this.currentScheduler.makeDispatcher();
+  }
+  getRef(ref) {
+    return get(this.context, ref);
+  }
+  addObserver(cb) {
+    if (this._exit) {
+      cb(this._exit);
+      return constVoid;
+    }
+    this._observers.push(cb);
+    return () => {
+      if (this._exit)
+        return;
+      const index = this._observers.indexOf(cb);
+      if (index >= 0) {
+        this._observers.splice(index, 1);
+      }
+    };
+  }
+  interruptUnsafe(fiberId, annotations) {
+    if (this._exit) {
+      return;
+    }
+    let cause = causeInterrupt(fiberId);
+    if (this.currentStackFrame) {
+      cause = causeAnnotate(cause, make3(StackTraceKey, this.currentStackFrame));
+    }
+    if (annotations) {
+      cause = causeAnnotate(cause, annotations);
+    }
+    this._interruptedCause = this._interruptedCause ? causeCombine(this._interruptedCause, cause) : cause;
+    if (this.interruptible) {
+      if (this._running) {
+        this._deferredInterrupt = true;
+      } else {
+        this.evaluate(failCause(this._interruptedCause));
+      }
+    }
+  }
+  pollUnsafe() {
+    return this._exit;
+  }
+  evaluate(effect) {
+    if (this._exit) {
+      return;
+    } else if (this._yielded !== undefined) {
+      const yielded = this._yielded;
+      this._yielded = undefined;
+      yielded();
+    }
+    const exit = this.runLoop(effect);
+    if (exit === Yield) {
+      return;
+    }
+    const interruptChildren = fiberMiddleware.interruptChildren && fiberMiddleware.interruptChildren(this);
+    if (interruptChildren !== undefined) {
+      return this.evaluate(flatMap(interruptChildren, () => exit));
+    }
+    this._exit = exit;
+    this.runtimeMetrics?.recordFiberEnd(this.context, this._exit);
+    for (let i = 0;i < this._observers.length; i++) {
+      this._observers[i](exit);
+    }
+    this._observers.length = 0;
+    this._stack.length = 0;
+    this._children = undefined;
+    this.context = empty();
+  }
+  runLoop(effect) {
+    const prevFiber = globalThis[currentFiberTypeId];
+    globalThis[currentFiberTypeId] = this;
+    const prevRunning = this._running;
+    this._running = true;
+    let yielding = false;
+    let current = effect;
+    this.currentOpCount = 0;
+    try {
+      while (true) {
+        if (this._deferredInterrupt) {
+          this._deferredInterrupt = false;
+          current = failCause(this._interruptedCause);
+        }
+        this.currentOpCount++;
+        if (!yielding && !this.currentPreventYield && this.currentScheduler.shouldYield(this)) {
+          yielding = true;
+          const prev = current;
+          current = flatMap(yieldNow, () => prev);
+        }
+        current = this.currentTracerContext ? this.currentTracerContext(current, this) : current[evaluate](this);
+        if (current === Yield) {
+          const yielded = this._yielded;
+          if (ExitTypeId in yielded) {
+            this._deferredInterrupt = false;
+            this._yielded = undefined;
+            return yielded;
+          } else if (this._deferredInterrupt) {
+            this._yielded = undefined;
+            yielded();
+            continue;
+          }
+          return Yield;
+        }
+      }
+    } catch (error) {
+      if (!hasProperty(current, evaluate)) {
+        return exitDie(`Fiber.runLoop: Not a valid effect: ${String(current)}`);
+      }
+      return this.runLoop(exitDie(error));
+    } finally {
+      this._running = prevRunning;
+      globalThis[currentFiberTypeId] = prevFiber;
+    }
+  }
+  getCont(symbol) {
+    if (this._deferredInterrupt) {
+      this._deferredInterrupt = false;
+      return deferredInterruptCont;
+    }
+    while (true) {
+      const op = this._stack.pop();
+      if (!op)
+        return;
+      const cont = op[contAll] && op[contAll](this);
+      if (cont) {
+        cont[symbol] = cont;
+        return cont;
+      }
+      if (op[symbol])
+        return op;
+    }
+  }
+  yieldWith(value) {
+    this._yielded = value;
+    return Yield;
+  }
+  children() {
+    return this._children ??= new Set;
+  }
+  pipe() {
+    return pipeArguments(this, arguments);
+  }
+  setContext(context) {
+    const previous = this.context;
+    this.context = context;
+    if (previous !== undefined && hasSameCache(previous, context))
+      return;
+    const scheduler = this.getRef(Scheduler);
+    if (scheduler !== this.currentScheduler) {
+      this.currentScheduler = scheduler;
+      this._dispatcher = undefined;
+    }
+    this.currentSpan = getOrUndefinedUnsafe(context, ParentSpanKey);
+    this.currentLogLevel = this.getRef(CurrentLogLevel);
+    this.minimumLogLevel = this.getRef(MinimumLogLevel);
+    this.currentStackFrame = this.getRef(CurrentStackFrame);
+    this.maxOpsBeforeYield = this.getRef(MaxOpsBeforeYield);
+    this.currentPreventYield = this.getRef(PreventSchedulerYield);
+    this.runtimeMetrics = getOrUndefinedUnsafe(context, FiberRuntimeMetricsKey);
+    const currentTracer = getOrUndefinedUnsafe(context, TracerKey);
+    this.currentTracerContext = currentTracer ? currentTracer["context"] : undefined;
+  }
+  get currentSpanLocal() {
+    return this.currentSpan?._tag === "Span" ? this.currentSpan : undefined;
+  }
+}
+var deferredInterruptCont = {
+  [contA](_value, fiber) {
+    return failCause(fiber._interruptedCause);
+  },
+  [contE](_cause, fiber) {
+    return failCause(fiber._interruptedCause);
+  }
+};
+var fiberMiddleware = {
+  interruptChildren: undefined
+};
+var fiberStackAnnotations = (fiber) => {
+  if (!fiber.currentStackFrame)
+    return;
+  const annotations = new Map;
+  annotations.set(InterruptorStackTrace.key, fiber.currentStackFrame);
+  return makeUnsafe(annotations);
+};
+var fiberAwaitAll = (self) => callback((resume) => {
+  const iter = self[Symbol.iterator]();
+  const exits = [];
+  let cancel = undefined;
+  function loop() {
+    let result = iter.next();
+    while (!result.done) {
+      if (result.value._exit) {
+        exits.push(result.value._exit);
+        result = iter.next();
+        continue;
+      }
+      cancel = result.value.addObserver((exit) => {
+        exits.push(exit);
+        loop();
+      });
+      return;
+    }
+    resume(succeed3(exits));
+  }
+  loop();
+  return sync(() => cancel?.());
+});
+var fiberInterruptAll = (fibers) => withFiber((parent) => {
+  const annotations = fiberStackAnnotations(parent);
+  let fiberArr = empty2();
+  for (const fiber of fibers) {
+    fiber.interruptUnsafe(parent.id, annotations);
+    fiberArr.push(fiber);
+  }
+  return asVoid(fiberAwaitAll(fiberArr));
+});
+var succeed3 = exitSucceed;
+var failCause = exitFailCause;
+var fail3 = exitFail;
+var sync = /* @__PURE__ */ makePrimitive({
+  op: "Sync",
+  [evaluate](fiber) {
+    const value = this[args]();
+    const cont = fiber.getCont(contA);
+    return cont ? cont[contA](value, fiber) : fiber.yieldWith(exitSucceed(value));
+  }
+});
+var suspend = /* @__PURE__ */ makePrimitive({
+  op: "Suspend",
+  [evaluate](_fiber) {
+    return this[args]();
+  }
+});
+var fromResult = /* @__PURE__ */ match2({
+  onFailure: fail3,
+  onSuccess: succeed3
+});
+var yieldNowWith = /* @__PURE__ */ makePrimitive({
+  op: "Yield",
+  [evaluate](fiber) {
+    let resumed = false;
+    fiber.currentDispatcher.scheduleTask(() => {
+      if (resumed)
+        return;
+      fiber.evaluate(exitVoid);
+    }, this[args] ?? 0);
+    return fiber.yieldWith(() => {
+      resumed = true;
+    });
+  }
+});
+var yieldNow = /* @__PURE__ */ yieldNowWith(0);
+var succeedNone = /* @__PURE__ */ succeed3(/* @__PURE__ */ none2());
+var failCauseSync = (evaluate) => suspend(() => failCause(internalCall(evaluate)));
+var die = (defect) => exitDie(defect);
+var failSync = (error) => suspend(() => fail3(internalCall(error)));
+var void_ = /* @__PURE__ */ succeed3(undefined);
+var try_ = (options) => {
+  const evaluate = typeof options === "function" ? options : options.try;
+  const catcher = typeof options === "function" ? (cause) => new UnknownError(cause, "An error occurred in Effect.try") : options.catch;
+  return suspend(() => {
+    try {
+      return succeed3(internalCall(evaluate));
+    } catch (err) {
+      return fail3(internalCall(() => catcher(err)));
+    }
+  });
+};
+var tryPromise = (options) => {
+  const f = typeof options === "function" ? options : options.try;
+  const catcher = typeof options === "function" ? (cause) => new UnknownError(cause, "An error occurred in Effect.tryPromise") : options.catch;
+  return callbackOptions(function(resume, signal) {
+    const failWithCatch = (cause) => {
+      try {
+        resume(fail3(internalCall(() => catcher(cause))));
+      } catch (err) {
+        resume(die(err));
+      }
+    };
+    try {
+      internalCall(() => f(signal)).then((a) => resume(succeed3(a)), failWithCatch);
+    } catch (err) {
+      failWithCatch(err);
+    }
+  }, f.length !== 0);
+};
+var callbackOptions = /* @__PURE__ */ makePrimitive({
+  op: "Async",
+  single: false,
+  [evaluate](fiber) {
+    const register = internalCall(() => this[args][0].bind(fiber.currentScheduler));
+    let resumed = false;
+    let yielded = false;
+    const controller = this[args][1] ? new AbortController : undefined;
+    const onCancel = register((effect) => {
+      if (resumed)
+        return;
+      resumed = true;
+      if (yielded) {
+        fiber.evaluate(effect);
+      } else {
+        yielded = effect;
+      }
+    }, controller?.signal);
+    if (yielded !== false)
+      return yielded;
+    yielded = true;
+    fiber._yielded = () => {
+      resumed = true;
+    };
+    if (controller === undefined && onCancel === undefined) {
+      return Yield;
+    }
+    fiber._stack.push(asyncFinalizer(() => {
+      resumed = true;
+      controller?.abort();
+      return onCancel ?? exitVoid;
+    }));
+    return Yield;
+  }
+});
+var asyncFinalizer = /* @__PURE__ */ makePrimitive({
+  op: "AsyncFinalizer",
+  [contAll](fiber) {
+    if (fiber.interruptible) {
+      fiber.interruptible = false;
+      fiber._stack.push(setInterruptibleTrue);
+    }
+  },
+  [contE](cause, _fiber) {
+    return hasInterrupts(cause) ? flatMap(this[args](), () => failCause(cause)) : failCause(cause);
+  }
+});
+var callback = (register) => callbackOptions(register, register.length >= 2);
+var defineFunctionLength = (length, fn) => Object.defineProperty(fn, "length", {
+  value: length,
+  configurable: true
+});
+var fnUntracedEager = (body, ...pipeables) => defineFunctionLength(body.length, pipeables.length === 0 ? function() {
+  return fromIteratorEagerUnsafe(() => body.apply(this, arguments));
+} : function() {
+  let effect = fromIteratorEagerUnsafe(() => body.apply(this, arguments));
+  for (const pipeable of pipeables) {
+    effect = pipeable(effect);
+  }
+  return effect;
+});
+var fromIteratorEagerUnsafe = (evaluate) => {
+  try {
+    const iterator = evaluate();
+    let value = undefined;
+    while (true) {
+      const state = iterator.next(value);
+      if (state.done) {
+        return succeed3(state.value);
+      }
+      const primitive = state.value;
+      if (primitive && primitive._tag === "Success") {
+        value = primitive.value;
+        continue;
+      } else if (primitive && primitive._tag === "Failure") {
+        return state.value;
+      } else {
+        let isFirstExecution = true;
+        return suspend(() => {
+          if (isFirstExecution) {
+            isFirstExecution = false;
+            return flatMap(state.value, (value) => fromIteratorUnsafe(iterator, value));
+          } else {
+            return suspend(() => fromIteratorUnsafe(evaluate()));
+          }
+        });
+      }
+    }
+  } catch (error) {
+    return die(error);
+  }
+};
+var fromIteratorUnsafe = /* @__PURE__ */ makePrimitive({
+  op: "Iterator",
+  single: false,
+  [contA](value, fiber) {
+    const iter = this[args][0];
+    while (true) {
+      const state = iter.next(value);
+      if (state.done)
+        return succeed3(state.value);
+      if (!effectIsExit(state.value)) {
+        fiber._stack.push(this);
+        return state.value;
+      } else if (state.value._tag === "Failure") {
+        return state.value;
+      }
+      value = state.value.value;
+    }
+  },
+  [evaluate](fiber) {
+    return this[contA](this[args][1], fiber);
+  }
+});
+var asVoid = (self) => flatMap(self, (_) => exitVoid);
+var flatMap = /* @__PURE__ */ dual(2, (self, f) => {
+  const onSuccess = Object.create(OnSuccessProto);
+  onSuccess[args] = self;
+  onSuccess[contA] = f.length !== 1 ? (a) => f(a) : f;
+  return onSuccess;
+});
+var OnSuccessProto = /* @__PURE__ */ makePrimitiveProto({
+  op: "OnSuccess",
+  [evaluate](fiber) {
+    fiber._stack.push(this);
+    return this[args];
+  }
+});
+var effectIsExit = (effect) => (ExitTypeId in effect);
+var flatMapEager = /* @__PURE__ */ dual(2, (self, f) => {
+  if (effectIsExit(self)) {
+    return self._tag === "Success" ? f(self.value) : self;
+  }
+  return flatMap(self, f);
+});
+var map5 = /* @__PURE__ */ dual(2, (self, f) => flatMap(self, (a) => succeed3(internalCall(() => f(a)))));
+var mapEager = /* @__PURE__ */ dual(2, (self, f) => effectIsExit(self) ? exitMap(self, f) : map5(self, f));
+var mapErrorEager = /* @__PURE__ */ dual(2, (self, f) => effectIsExit(self) ? exitMapError(self, f) : mapError(self, f));
+var exitIsSuccess = (self) => self._tag === "Success";
+var exitVoid = /* @__PURE__ */ exitSucceed(undefined);
+var exitMap = /* @__PURE__ */ dual(2, (self, f) => self._tag === "Success" ? exitSucceed(f(self.value)) : self);
+var exitMapError = /* @__PURE__ */ dual(2, (self, f) => {
+  if (self._tag === "Success")
+    return self;
+  const error = findError(self.cause);
+  if (isFailure2(error))
+    return self;
+  return exitFail(f(error.success));
+});
+var catchCause = /* @__PURE__ */ dual(2, (self, f) => {
+  const onFailure = Object.create(OnFailureProto);
+  onFailure[args] = self;
+  onFailure[contE] = f.length !== 1 ? (cause) => f(cause) : f;
+  return onFailure;
+});
+var OnFailureProto = /* @__PURE__ */ makePrimitiveProto({
+  op: "OnFailure",
+  [evaluate](fiber) {
+    fiber._stack.push(this);
+    return this[args];
+  }
+});
+var catchCauseFilter = /* @__PURE__ */ dual(3, (self, filter, f) => catchCause(self, (cause) => {
+  const eb = filter(cause);
+  return isFailure2(eb) ? failCause(eb.failure) : internalCall(() => f(eb.success, cause));
+}));
+var catch_ = /* @__PURE__ */ dual(2, (self, f) => catchCauseFilter(self, findError, (e) => f(e)));
+var mapError = /* @__PURE__ */ dual(2, (self, f) => catch_(self, (error) => failSync(() => f(error))));
+var OnSuccessAndFailureProto = /* @__PURE__ */ makePrimitiveProto({
+  op: "OnSuccessAndFailure",
+  [evaluate](fiber) {
+    fiber._stack.push(this);
+    return this[args];
+  }
+});
+var exit = (self) => effectIsExit(self) ? exitSucceed(self) : exitPrimitive(self);
+var exitPrimitive = /* @__PURE__ */ makePrimitive({
+  op: "Exit",
+  [evaluate](fiber) {
+    fiber._stack.push(this);
+    return this[args];
+  },
+  [contA](value, _, exit) {
+    return succeed3(exit ?? exitSucceed(value));
+  },
+  [contE](cause, _, exit) {
+    return succeed3(exit ?? exitFailCause(cause));
+  }
+});
+var combineFinalizerCause = (exit_, finalizer) => exitIsSuccess(exit_) ? finalizer : catchCause(finalizer, (cause) => failCause(causeCombine(exit_.cause, cause)));
+var onExitPrimitive = /* @__PURE__ */ makePrimitive({
+  op: "OnExit",
+  single: false,
+  [evaluate](fiber) {
+    fiber._stack.push(this);
+    return this[args][0];
+  },
+  [contAll](fiber) {
+    if (fiber.interruptible && this[args][2] !== true) {
+      fiber._stack.push(setInterruptibleTrue);
+      fiber.interruptible = false;
+    }
+  },
+  [contA](value, _, exit) {
+    exit ??= exitSucceed(value);
+    const eff = this[args][1](exit);
+    return eff ? flatMap(eff, (_) => exit) : exit;
+  },
+  [contE](cause, _, exit) {
+    exit ??= exitFailCause(cause);
+    const eff = this[args][1](exit);
+    return eff ? flatMap(combineFinalizerCause(exit, eff), (_) => exit) : exit;
+  }
+});
+var uninterruptible = (self) => withFiber((fiber) => {
+  if (!fiber.interruptible)
+    return self;
+  fiber.interruptible = false;
+  fiber._stack.push(setInterruptibleTrue);
+  return self;
+});
+var setInterruptible = /* @__PURE__ */ makePrimitive({
+  op: "SetInterruptible",
+  [contAll](fiber) {
+    fiber.interruptible = this[args];
+    if (fiber._interruptedCause && fiber.interruptible) {
+      return () => failCause(fiber._interruptedCause);
+    }
+  }
+});
+var setInterruptibleTrue = /* @__PURE__ */ setInterruptible(true);
+var whileLoop = /* @__PURE__ */ makePrimitive({
+  op: "While",
+  [contA](value, fiber) {
+    this[args].step(value);
+    if (this[args].while()) {
+      fiber._stack.push(this);
+      return this[args].body();
+    }
+    return exitVoid;
+  },
+  [evaluate](fiber) {
+    if (this[args].while()) {
+      fiber._stack.push(this);
+      return this[args].body();
+    }
+    return exitVoid;
+  }
+});
+var iterateEagerImpl = (options) => {
+  const onItem = options.onItem;
+  const step = options.step;
+  const runSequential = (state, items, index, end) => {
+    for (;index < end; index++) {
+      const item = items[index];
+      const effect = onItem(state, item, index);
+      if (!effectIsExit(effect)) {
+        return flatMap(exit(effect), (itemExit) => step(state, item, itemExit, index) ?? runSequential(state, items, index + 1, end) ?? void_);
+      }
+      const terminal = step(state, item, effect, index);
+      if (terminal)
+        return terminal._tag === "Failure" ? terminal : undefined;
+    }
+  };
+  return (state, items, opts) => {
+    let index = 0;
+    const end = opts?.end ?? items.length;
+    const concurrency = opts?.concurrency ?? 1;
+    if (concurrency === 1) {
+      return runSequential(state, items, 0, end);
+    }
+    const orderedStep = opts?.orderedStep === true;
+    let done = false;
+    let parentFiber;
+    let fibers;
+    let resume;
+    let interrupted = false;
+    let terminal;
+    let effect;
+    let nextIndex = index;
+    const exits = orderedStep ? new Array(end) : undefined;
+    const failDefect = (error) => {
+      const defect = exitDie(error);
+      terminal = defect;
+      done = true;
+      interrupted = true;
+      return fibers && fibers.size > 0 ? flatMap(uninterruptible(fiberInterruptAll(Array.from(fibers))), () => defect) : defect;
+    };
+    const runStep = (item, exit, currentIndex) => {
+      if (!orderedStep)
+        return step(state, item, exit, currentIndex);
+      if (terminal)
+        return terminal;
+      exits[currentIndex] = exit;
+      while (nextIndex < end) {
+        const nextExit = exits[nextIndex];
+        if (nextExit === undefined)
+          return;
+        exits[nextIndex] = undefined;
+        const index = nextIndex++;
+        const result = step(state, items[index], nextExit, index);
+        if (result)
+          return result;
+      }
+    };
+    const go = () => {
+      let paused = false;
+      for (;!terminal && index < end; index++) {
+        const item = items[index];
+        const eff = effect ?? onItem(state, item, index);
+        if (effectIsExit(eff)) {
+          terminal = runStep(item, eff, index);
+          if (terminal)
+            break;
+        } else if (!parentFiber) {
+          return callback((cb) => {
+            parentFiber = getCurrentFiber();
+            fibers = new Set;
+            effect = eff;
+            resume = cb;
+            let result;
+            try {
+              result = go();
+            } catch (error) {
+              return cb(failDefect(error));
+            }
+            if (result)
+              return cb(result);
+            return suspend(() => {
+              terminal = exitVoid;
+              interrupted = true;
+              return fibers ? fiberInterruptAll(fibers) : void_;
+            });
+          });
+        } else {
+          effect = undefined;
+          const fiber = forkUnsafe(parentFiber, eff, true, true, "inherit");
+          if (fiber._exit) {
+            terminal = runStep(item, fiber._exit, index);
+            if (terminal)
+              break;
+            continue;
+          }
+          fibers.add(fiber);
+          const currentIndex = index;
+          fiber.addObserver((exit) => {
+            fibers.delete(fiber);
+            try {
+              if (terminal) {
+                if (!interrupted && exit._tag === "Failure") {
+                  for (const reason of exit.cause.reasons) {
+                    if (reason._tag === "Interrupt")
+                      continue;
+                    else if (terminal._tag === "Failure") {
+                      terminal.cause.reasons.push(reason);
+                    } else {
+                      terminal = exitFailCause(causeFromReasons([reason]));
+                    }
+                  }
+                }
+              } else {
+                const result = runStep(item, exit, currentIndex);
+                if (result) {
+                  terminal = result._tag === "Failure" ? exitFailCause(causeFromReasons(result.cause.reasons.slice())) : result;
+                  go();
+                }
+              }
+              if (paused) {
+                const eff = go();
+                if (eff)
+                  resume(eff);
+              } else if (done && fibers.size === 0) {
+                resume(terminal ?? void_);
+              }
+            } catch (error) {
+              resume(failDefect(error));
+            }
+          });
+          if (fibers.size < concurrency)
+            continue;
+          paused = true;
+          index++;
+          return;
+        }
+      }
+      done = true;
+      if (terminal) {
+        if (fibers && fibers.size > 0) {
+          const annotations = fiberStackAnnotations(parentFiber);
+          fibers.forEach((f) => f.interruptUnsafe(parentFiber.id, annotations));
+          return;
+        }
+        if (resume || terminal._tag === "Failure") {
+          return terminal;
+        }
+      } else if (resume) {
+        if (!fibers) {
+          return exitVoid;
+        } else if (fibers.size === 0) {
+          resume(void_);
+        }
+      }
+    };
+    return go();
+  };
+};
+var iterateEager = () => iterateEagerImpl;
+var forkUnsafe = (parent, effect, immediate = false, daemon = false, uninterruptible = false) => {
+  const parentRuntime = parent;
+  const interruptible = uninterruptible === "inherit" ? parentRuntime.interruptible : !uninterruptible;
+  const child = new FiberImpl(parentRuntime.context, interruptible);
+  if (immediate) {
+    child.evaluate(effect);
+  } else {
+    parentRuntime.currentDispatcher.scheduleTask(() => child.evaluate(effect), 0);
+  }
+  if (!daemon && !child._exit) {
+    parentRuntime.children().add(child);
+    child.addObserver(() => parentRuntime._children.delete(child));
+  }
+  return child;
+};
+var runForkWith = (context) => (effect, options) => {
+  const fiber = new FiberImpl(options?.scheduler ? add(context, Scheduler, options.scheduler) : context, options?.uninterruptible !== true);
+  fiber.evaluate(effect);
+  if (fiber._exit)
+    return fiber;
+  if (options?.signal) {
+    if (options.signal.aborted) {
+      fiber.interruptUnsafe();
+    } else {
+      const abort = () => fiber.interruptUnsafe();
+      options.signal.addEventListener("abort", abort, {
+        once: true
+      });
+      fiber.addObserver(() => options.signal.removeEventListener("abort", abort));
+    }
+  }
+  if (options?.onFiberStart) {
+    options.onFiberStart(fiber);
+  }
+  return fiber;
+};
+var runSyncExitWith = (context) => {
+  const runFork = runForkWith(context);
+  return (effect) => {
+    if (effectIsExit(effect))
+      return effect;
+    const scheduler = new MixedScheduler("sync");
+    const fiber = runFork(effect, {
+      scheduler
+    });
+    fiber._dispatcher?.flush();
+    return fiber._exit ?? exitDie(new AsyncFiberError(fiber));
+  };
+};
+var runSyncExit = /* @__PURE__ */ runSyncExitWith(/* @__PURE__ */ empty());
+var MAX_TIMER_MILLIS = 2 ** 31 - 1;
+var IllegalArgumentErrorTypeId = "~effect/Cause/IllegalArgumentError";
+class IllegalArgumentError extends (/* @__PURE__ */ TaggedError("IllegalArgumentError")) {
+  [IllegalArgumentErrorTypeId] = IllegalArgumentErrorTypeId;
+  constructor(message) {
+    super({
+      message
+    });
+  }
+}
+var AsyncFiberErrorTypeId = "~effect/Cause/AsyncFiberError";
+class AsyncFiberError extends (/* @__PURE__ */ TaggedError("AsyncFiberError")) {
+  [AsyncFiberErrorTypeId] = AsyncFiberErrorTypeId;
+  constructor(fiber) {
+    super({
+      message: "An asynchronous Effect was executed with Effect.runSync",
+      fiber
+    });
+  }
+}
+var UnknownErrorTypeId = "~effect/Cause/UnknownError";
+class UnknownError extends (/* @__PURE__ */ TaggedError("UnknownError")) {
+  [UnknownErrorTypeId] = UnknownErrorTypeId;
+  constructor(cause, message) {
+    super({
+      message,
+      cause
+    });
+  }
+}
+var LoggerTypeId = "~effect/Logger";
+var LoggerProto = {
+  [LoggerTypeId]: {
+    _Message: identity,
+    _Output: identity
+  },
+  pipe() {
+    return pipeArguments(this, arguments);
+  }
+};
+var colors = {
+  bold: "1",
+  red: "31",
+  green: "32",
+  yellow: "33",
+  blue: "34",
+  cyan: "36",
+  white: "37",
+  gray: "90",
+  black: "30",
+  bgBrightRed: "101"
+};
+var logLevelColors = {
+  None: [],
+  All: [],
+  Trace: [colors.gray],
+  Debug: [colors.blue],
+  Info: [colors.green],
+  Warn: [colors.yellow],
+  Error: [colors.red],
+  Fatal: [colors.bgBrightRed, colors.black]
+};
+
+// node_modules/@opencode/schema/node_modules/effect/dist/Exit.js
+var succeed4 = exitSucceed;
+var failCause2 = exitFailCause;
+var fail4 = exitFail;
+var void_2 = exitVoid;
+var isSuccess3 = exitIsSuccess;
+
+// node_modules/@opencode/schema/node_modules/effect/dist/Cause.js
+var isFailReason2 = isFailReason;
+var map6 = causeMap;
+var IllegalArgumentError2 = IllegalArgumentError;
+
+// node_modules/@opencode/schema/node_modules/effect/dist/internal/dateTime.js
+var TypeId4 = "~effect/time/DateTime";
+var TimeZoneTypeId = "~effect/time/DateTime/TimeZone";
+var Proto2 = {
+  [TypeId4]: TypeId4,
+  pipe() {
+    return pipeArguments(this, arguments);
+  },
+  [NodeInspectSymbol]() {
+    return this.toString();
+  },
+  toJSON() {
+    return toDateUtc(this).toJSON();
+  }
+};
+var ProtoUtc = {
+  ...Proto2,
+  _tag: "Utc",
+  [symbol2]() {
+    return number4(this.epochMilliseconds);
+  },
+  [symbol3](that) {
+    return isDateTime(that) && that._tag === "Utc" && this.epochMilliseconds === that.epochMilliseconds;
+  },
+  toString() {
+    return `DateTime.Utc(${toDateUtc(this).toJSON()})`;
+  }
+};
+var ProtoZoned = {
+  ...Proto2,
+  _tag: "Zoned",
+  [symbol2]() {
+    return combine(number4(this.epochMilliseconds))(hash2(this.zone));
+  },
+  [symbol3](that) {
+    return isDateTime(that) && that._tag === "Zoned" && this.epochMilliseconds === that.epochMilliseconds && equals(this.zone, that.zone);
+  },
+  toString() {
+    return `DateTime.Zoned(${formatIsoZoned(this)})`;
+  }
+};
+var ProtoTimeZone = {
+  [TimeZoneTypeId]: TimeZoneTypeId,
+  [NodeInspectSymbol]() {
+    return this.toString();
+  }
+};
+var ProtoTimeZoneNamed = {
+  ...ProtoTimeZone,
+  _tag: "Named",
+  [symbol2]() {
+    return string4(`Named:${this.id}`);
+  },
+  [symbol3](that) {
+    return isTimeZone(that) && that._tag === "Named" && this.id === that.id;
+  },
+  toString() {
+    return `TimeZone.Named(${this.id})`;
+  },
+  toJSON() {
+    return {
+      _id: "TimeZone",
+      _tag: "Named",
+      id: this.id
+    };
+  }
+};
+var ProtoTimeZoneOffset = {
+  ...ProtoTimeZone,
+  _tag: "Offset",
+  [symbol2]() {
+    return string4(`Offset:${this.offset}`);
+  },
+  [symbol3](that) {
+    return isTimeZone(that) && that._tag === "Offset" && this.offset === that.offset;
+  },
+  toString() {
+    return `TimeZone.Offset(${offsetToString(this.offset)})`;
+  },
+  toJSON() {
+    return {
+      _id: "TimeZone",
+      _tag: "Offset",
+      offset: this.offset
+    };
+  }
+};
+var isDateTime = (u) => hasProperty(u, TypeId4);
+var isTimeZone = (u) => hasProperty(u, TimeZoneTypeId);
+var isUtc = (self) => self._tag === "Utc";
+var Equivalence = /* @__PURE__ */ make((a, b) => a.epochMilliseconds === b.epochMilliseconds);
+var Order = /* @__PURE__ */ make2((self, that) => self.epochMilliseconds < that.epochMilliseconds ? -1 : self.epochMilliseconds > that.epochMilliseconds ? 1 : 0);
+var makeUtc = (epochMillis) => {
+  const self = Object.create(ProtoUtc);
+  self.epochMilliseconds = epochMillis;
+  Object.defineProperty(self, "partsUtc", {
+    value: undefined,
+    enumerable: false,
+    writable: true
+  });
+  return self;
+};
+var fromDateUnsafe = (date) => {
+  const epochMillis = date.getTime();
+  if (Number.isNaN(epochMillis)) {
+    throw new IllegalArgumentError2("Invalid date");
+  }
+  return makeUtc(epochMillis);
+};
+var makeUnsafe2 = (input) => {
+  if (isDateTime(input)) {
+    return input;
+  } else if (input instanceof Date) {
+    return fromDateUnsafe(input);
+  } else if (typeof input === "object") {
+    if ("epochMilliseconds" in input) {
+      return fromDateUnsafe(new Date(input.epochMilliseconds));
+    }
+    const date = new Date(0);
+    setPartsDate(date, input);
+    return fromDateUnsafe(date);
+  } else if (typeof input === "string" && !hasZone(input)) {
+    return fromDateUnsafe(new Date(input + "Z"));
+  }
+  return fromDateUnsafe(new Date(input));
+};
+var hasZone = (input) => /Z|GMT|[+-]\d{2}$|[+-]\d{2}:?\d{2}$|\]$/.test(input);
+var minEpochMillis = -8640000000000000 + 12 * 60 * 60 * 1000;
+var maxEpochMillis = 8640000000000000 - 14 * 60 * 60 * 1000;
+var make4 = /* @__PURE__ */ liftThrowable(makeUnsafe2);
+var toUtc = (self) => makeUtc(self.epochMilliseconds);
+var toDateUtc = (self) => new Date(self.epochMilliseconds);
+var toDate = (self) => {
+  if (self._tag === "Utc") {
+    return new Date(self.epochMilliseconds);
+  } else if (self.zone._tag === "Offset") {
+    return new Date(self.epochMilliseconds + self.zone.offset);
+  } else if (self.adjustedEpochMilliseconds !== undefined) {
+    return new Date(self.adjustedEpochMilliseconds);
+  }
+  const parts = self.zone.format.formatToParts(self.epochMilliseconds).filter((_) => _.type !== "literal");
+  const date = new Date(0);
+  date.setUTCFullYear(Number(parts[2].value), Number(parts[0].value) - 1, Number(parts[1].value));
+  date.setUTCHours(Number(parts[3].value), Number(parts[4].value), Number(parts[5].value), Number(parts[6].value));
+  self.adjustedEpochMilliseconds = date.getTime();
+  return date;
+};
+var zonedOffset = (self) => {
+  const date = toDate(self);
+  return date.getTime() - toEpochMillis(self);
+};
+var offsetToString = (offset) => {
+  const abs = Math.abs(offset);
+  let hours = Math.floor(abs / (60 * 60 * 1000));
+  let minutes = Math.round(abs % (60 * 60 * 1000) / (60 * 1000));
+  if (minutes === 60) {
+    hours += 1;
+    minutes = 0;
+  }
+  return `${offset < 0 ? "-" : "+"}${String(hours).padStart(2, "0")}:${String(minutes).padStart(2, "0")}`;
+};
+var zonedOffsetIso = (self) => offsetToString(zonedOffset(self));
+var toEpochMillis = (self) => self.epochMilliseconds;
+var setPartsDate = (date, parts) => {
+  if (parts.year !== undefined) {
+    date.setUTCFullYear(parts.year);
+  }
+  if (parts.month !== undefined) {
+    date.setUTCMonth(parts.month - 1);
+  }
+  if (parts.day !== undefined) {
+    date.setUTCDate(parts.day);
+  }
+  if (parts.weekDay !== undefined) {
+    const diff = parts.weekDay - date.getUTCDay();
+    date.setUTCDate(date.getUTCDate() + diff);
+  }
+  if (parts.hour !== undefined) {
+    date.setUTCHours(parts.hour);
+  }
+  if (parts.minute !== undefined) {
+    date.setUTCMinutes(parts.minute);
+  }
+  if (parts.second !== undefined) {
+    date.setUTCSeconds(parts.second);
+  }
+  if (parts.millisecond !== undefined) {
+    date.setUTCMilliseconds(parts.millisecond);
+  }
+};
+var constDayMillis = 24 * 60 * 60 * 1000;
+var formatIso = (self) => toDateUtc(self).toISOString();
+var formatIsoOffset = (self) => {
+  const date = toDate(self);
+  return self._tag === "Utc" ? date.toISOString() : `${date.toISOString().slice(0, -1)}${zonedOffsetIso(self)}`;
+};
+var formatIsoZoned = (self) => self.zone._tag === "Offset" ? formatIsoOffset(self) : `${formatIsoOffset(self)}[${self.zone.id}]`;
+
+// node_modules/@opencode/schema/node_modules/effect/dist/String.js
+var String2 = globalThis.String;
+var trim = (self) => self.trim();
+
+// node_modules/@opencode/schema/node_modules/effect/dist/Effect.js
+var tryPromise2 = tryPromise;
+var succeed5 = succeed3;
+var succeedNone2 = succeedNone;
+var fail5 = fail3;
+var failCauseSync2 = failCauseSync;
+var die2 = die;
+var try_2 = try_;
+var fromResult2 = fromResult;
+var flatMap2 = flatMap;
+var exit2 = exit;
+var catchCause2 = catchCause;
+var runSyncExit2 = runSyncExit;
+var mapEager2 = mapEager;
+var mapErrorEager2 = mapErrorEager;
+var flatMapEager2 = flatMapEager;
+var fnUntracedEager2 = fnUntracedEager;
+
+// node_modules/@opencode/schema/node_modules/effect/dist/DateTime.js
+var isDateTime2 = isDateTime;
+var isUtc2 = isUtc;
+var Equivalence2 = Equivalence;
+var Order2 = Order;
+var fromDateUnsafe2 = fromDateUnsafe;
+var makeUnsafe3 = makeUnsafe2;
+var make5 = make4;
+var toUtc2 = toUtc;
+var toDateUtc2 = toDateUtc;
+var toEpochMillis2 = toEpochMillis;
+var formatIso2 = formatIso;
+// node_modules/@opencode/schema/node_modules/effect/dist/internal/schema/annotations.js
+function resolve(ast) {
+  return ast.checks ? ast.checks[ast.checks.length - 1].annotations : ast.annotations;
+}
+function resolveAt(key) {
+  return (ast) => resolve(ast)?.[key];
+}
+var STRUCTURAL_ANNOTATION_KEY = "~structural";
+var SENTINELS_ANNOTATION_KEY = "~sentinels";
+var CONSTRUCTOR_ANNOTATION_KEY = "~constructor";
+var resolveBrands = /* @__PURE__ */ resolveAt("brands");
+
+// node_modules/@opencode/schema/node_modules/effect/dist/internal/schema/parser.js
+var missing = /* @__PURE__ */ Symbol();
+var succeed6 = succeed4;
+var missingExit = /* @__PURE__ */ succeed6(missing);
+var sameExit = /* @__PURE__ */ succeed6(missing);
+var toOption = (value) => value === missing ? none2() : some2(value);
+var fromOptionExit = (option) => option._tag === "None" ? missingExit : succeed6(option.value);
+
+// node_modules/@opencode/schema/node_modules/effect/dist/SchemaIssue.js
+var TypeId5 = "~effect/SchemaIssue/Issue";
+function isIssue(u) {
+  return hasProperty(u, TypeId5) && u[TypeId5] === TypeId5;
+}
+class Base {
+  [TypeId5] = TypeId5;
+  constructor(input, options) {
+    if (options?.reportInput === true && input !== missing) {
+      this.input = input;
+    }
+  }
+}
+
+class Filter extends Base {
+  _tag = "Filter";
+  filter;
+  issue;
+  constructor(filter, issue, input, options) {
+    super(input, options);
+    this.filter = filter;
+    this.issue = issue;
+  }
+}
+
+class Encoding extends Base {
+  _tag = "Encoding";
+  ast;
+  issue;
+  constructor(ast, issue, input, options) {
+    super(input, options);
+    this.ast = ast;
+    this.issue = issue;
+  }
+}
+
+class Pointer extends Base {
+  _tag = "Pointer";
+  path;
+  issue;
+  constructor(path, issue) {
+    super();
+    this.path = path;
+    this.issue = issue;
+  }
+}
+
+class MissingKey extends Base {
+  _tag = "MissingKey";
+  annotations;
+  constructor(annotations) {
+    super();
+    this.annotations = annotations;
+  }
+}
+
+class UnexpectedKey extends Base {
+  _tag = "UnexpectedKey";
+  ast;
+  constructor(ast, input, options) {
+    super(input, options);
+    this.ast = ast;
+  }
+}
+
+class Composite extends Base {
+  _tag = "Composite";
+  ast;
+  issues;
+  constructor(ast, issues, input, options) {
+    super(input, options);
+    this.ast = ast;
+    this.issues = issues;
+  }
+}
+
+class InvalidType extends Base {
+  _tag = "InvalidType";
+  ast;
+  constructor(ast, input, options) {
+    super(input, options);
+    this.ast = ast;
+  }
+}
+
+class InvalidValue extends Base {
+  _tag = "InvalidValue";
+  annotations;
+  constructor(annotations, input, options) {
+    super(input, options);
+    this.annotations = annotations;
+  }
+}
+class AnyOf extends Base {
+  _tag = "AnyOf";
+  ast;
+  issues;
+  constructor(ast, issues, input, options) {
+    super(input, options);
+    this.ast = ast;
+    this.issues = issues;
+  }
+}
+
+class OneOf extends Base {
+  _tag = "OneOf";
+  ast;
+  successes;
+  constructor(ast, successes, input, options) {
+    super(input, options);
+    this.ast = ast;
+    this.successes = successes;
+  }
+}
+function makeFilterIssue(entry, input, options) {
+  if (isIssue(entry)) {
+    return entry;
+  }
+  if (typeof entry === "string") {
+    return new InvalidValue({
+      message: entry
+    }, input, options);
+  }
+  const inner = typeof entry.issue === "string" ? new InvalidValue({
+    message: entry.issue
+  }, input, options) : entry.issue;
+  return new Pointer(entry.path, inner);
+}
+function makeSingle(out, input, options) {
+  if (out === undefined) {
+    return;
+  }
+  if (typeof out === "boolean") {
+    return out ? undefined : new InvalidValue(undefined, input, options);
+  }
+  return makeFilterIssue(out, input, options);
+}
+function normalizeFilterOutput(ast, out, input, options) {
+  if (Array.isArray(out)) {
+    if (!isReadonlyArrayNonEmpty(out)) {
+      return;
+    }
+    return out.length === 1 ? makeFilterIssue(out[0], input, options) : new Composite(ast, map3(out, (entry) => makeFilterIssue(entry, input, options)), input, options);
+  }
+  return makeSingle(out, input, options);
+}
+
+// node_modules/@opencode/schema/node_modules/effect/dist/internal/schema/cause.js
+function getSchemaIssue(cause) {
+  let issue;
+  for (const reason of cause.reasons) {
+    if (!isFailReason2(reason) || !isIssue(reason.error)) {
+      return;
+    }
+    issue ??= reason.error;
+  }
+  return issue;
+}
+function getSchemaIssueOrThrow(cause, message) {
+  const issue = getSchemaIssue(cause);
+  if (issue === undefined) {
+    throw new Error(message, {
+      cause
+    });
+  }
+  return issue;
+}
+
+// node_modules/@opencode/schema/node_modules/effect/dist/SchemaGetter.js
+class Getter extends Class2 {
+  run;
+  constructor(run) {
+    super();
+    this.run = run;
+  }
+  map(f) {
+    return new Getter((oe, options) => this.run(oe, options).pipe(mapEager2(map2(f))));
+  }
+  compose(other) {
+    if (isPassthrough(this)) {
+      return other;
+    }
+    if (isPassthrough(other)) {
+      return this;
+    }
+    return new Getter((oe, options) => this.run(oe, options).pipe(flatMapEager2((ot) => other.run(ot, options))));
+  }
+}
+var passthrough_ = /* @__PURE__ */ new Getter(succeed5);
+function isPassthrough(getter) {
+  return getter.run === passthrough_.run;
+}
+function passthrough() {
+  return passthrough_;
+}
+function onSome(f) {
+  return new Getter((oe, options) => isNone2(oe) ? succeedNone2 : f(oe.value, options));
+}
+function transform2(f) {
+  return transformOptional(map2(f));
+}
+function transformOrFail(f) {
+  return onSome((e, options) => f(e, options).pipe(mapEager2(some2)));
+}
+function transformOptional(f) {
+  return new Getter((oe) => succeed5(f(oe)));
+}
+function withDefault(defaultValue) {
+  return new Getter((o) => {
+    const filtered = filter(o, isNotUndefined);
+    return isSome2(filtered) ? succeed5(filtered) : mapEager2(defaultValue, some2);
+  });
+}
+function String3() {
+  return transform2(globalThis.String);
+}
+function Number3() {
+  return transform2(globalThis.Number);
+}
+function trim2() {
+  return transform2(trim);
+}
+function encodeBase642() {
+  return transform2(encodeBase64);
+}
+function decodeBase642() {
+  return transformOrFail((input, options) => mapErrorEager2(fromResult2(decodeBase64(input)), () => new InvalidValue({
+    expected: "a valid Base64 string"
+  }, input, options)));
+}
+
+// node_modules/@opencode/schema/node_modules/effect/dist/SchemaTransformation.js
+var TypeId6 = "~effect/SchemaTransformation/Transformation";
+
+class Transformation {
+  [TypeId6] = TypeId6;
+  _tag = "Transformation";
+  decode;
+  encode;
+  constructor(decode, encode) {
+    this.decode = decode;
+    this.encode = encode;
+  }
+  flip() {
+    return new Transformation(this.encode, this.decode);
+  }
+  compose(other) {
+    return new Transformation(this.decode.compose(other.decode), other.encode.compose(this.encode));
+  }
+}
+function isTransformation(u) {
+  return hasProperty(u, TypeId6) && u[TypeId6] === TypeId6;
+}
+var make6 = (options) => {
+  if (isTransformation(options)) {
+    return options;
+  }
+  return new Transformation(options.decode, options.encode);
+};
+function transformOrFail2(options) {
+  return new Transformation(transformOrFail(options.decode), transformOrFail(options.encode));
+}
+function transform3(options) {
+  return new Transformation(transform2(options.decode), transform2(options.encode));
+}
+function trim3() {
+  return new Transformation(trim2(), passthrough());
+}
+var passthrough_2 = /* @__PURE__ */ new Transformation(/* @__PURE__ */ passthrough(), /* @__PURE__ */ passthrough());
+function passthrough2() {
+  return passthrough_2;
+}
+var numberFromString = /* @__PURE__ */ new Transformation(/* @__PURE__ */ Number3(), /* @__PURE__ */ String3());
+var isJsonError = (input) => isObject2(input) && typeof input["message"] === "string";
+var decodeJsonError = (input) => {
+  const hasCause = Object.hasOwn(input, "cause");
+  const err = hasCause ? new Error(input.message, {
+    cause: decodeDefect(input.cause)
+  }) : new Error(input.message);
+  if (typeof input.name === "string" && input.name !== "Error")
+    err.name = input.name;
+  if (typeof input.stack === "string")
+    err.stack = input.stack;
+  return err;
+};
+var encodeUnknownAsJson = (input) => {
+  try {
+    const json = formatJson(input);
+    return json === undefined ? format(input) : JSON.parse(json);
+  } catch {
+    return format(input);
+  }
+};
+var encodeJsonError = (input, options, encodeDefect) => {
+  const encoded = {
+    name: input.name,
+    message: typeof input.message === "string" ? input.message : ""
+  };
+  if (options?.includeStack && typeof input.stack === "string") {
+    encoded.stack = input.stack;
+  }
+  if (!options?.excludeCause && input.cause !== undefined) {
+    encoded.cause = encodeDefect(input.cause);
+  }
+  return encoded;
+};
+var makeEncodeDefect = (options) => {
+  const seen = new WeakSet;
+  const encode = (input) => {
+    if (isError(input)) {
+      if (seen.has(input)) {
+        return "[Circular]";
+      }
+      seen.add(input);
+      const encoded = encodeJsonError(input, options, encode);
+      seen.delete(input);
+      return encoded;
+    }
+    return encodeUnknownAsJson(input);
+  };
+  return encode;
+};
+var decodeDefect = (input) => isJsonError(input) ? decodeJsonError(input) : input;
+var defectFromJson = (options) => transform3({
+  decode: decodeDefect,
+  encode: makeEncodeDefect(options)
+});
+var urlFromString = /* @__PURE__ */ transformOrFail2({
+  decode: (s, options) => URL.canParse(s) ? succeed5(new URL(s)) : fail5(new InvalidValue({
+    expected: "a valid URL string"
+  }, s, options)),
+  encode: (url) => succeed5(url.href)
+});
+var uint8ArrayFromBase64String = /* @__PURE__ */ new Transformation(/* @__PURE__ */ decodeBase642(), /* @__PURE__ */ encodeBase642());
+var dateTimeUtcFromString = /* @__PURE__ */ transformOrFail2({
+  decode: (s, options) => {
+    return match(make5(s), {
+      onNone: () => fail5(new InvalidValue({
+        expected: "a valid UTC DateTime string"
+      }, s, options)),
+      onSome: (result) => succeed5(toUtc2(result))
+    });
+  },
+  encode: (utc) => succeed5(formatIso2(utc))
+});
+
+// node_modules/@opencode/schema/node_modules/effect/dist/SchemaAST.js
+function makeGuard(tag) {
+  return (ast) => ast._tag === tag;
+}
+var isDeclaration = /* @__PURE__ */ makeGuard("Declaration");
+var isNever2 = /* @__PURE__ */ makeGuard("Never");
+var isLiteral = /* @__PURE__ */ makeGuard("Literal");
+var isUniqueSymbol = /* @__PURE__ */ makeGuard("UniqueSymbol");
+var isArrays = /* @__PURE__ */ makeGuard("Arrays");
+var isObjects = /* @__PURE__ */ makeGuard("Objects");
+var isUnion = /* @__PURE__ */ makeGuard("Union");
+var isSuspend = /* @__PURE__ */ makeGuard("Suspend");
+
+class Link {
+  to;
+  transformation;
+  constructor(to, transformation) {
+    this.to = to;
+    this.transformation = transformation;
+  }
+}
+var defaultParseOptions = {};
+
+class Context {
+  isOptional;
+  isMutable;
+  constructorDefault;
+  annotations;
+  constructor(isOptional, isMutable, constructorDefault = undefined, annotations = undefined) {
+    this.isOptional = isOptional;
+    this.isMutable = isMutable;
+    this.constructorDefault = constructorDefault;
+    this.annotations = annotations;
+  }
+}
+var TypeId7 = "~effect/Schema";
+
+class Base2 {
+  [TypeId7] = TypeId7;
+  annotations;
+  checks;
+  encoding;
+  context;
+  constructor(annotations = undefined, checks = undefined, encoding = undefined, context = undefined) {
+    this.annotations = annotations;
+    this.checks = checks;
+    this.encoding = encoding;
+    this.context = context;
+  }
+  toString() {
+    return `<${this._tag}>`;
+  }
+}
+
+class Declaration extends Base2 {
+  _tag = "Declaration";
+  typeParameters;
+  run;
+  encodingChecks;
+  encodingRun;
+  constructor(typeParameters, run, annotations, checks, encoding, context, encodingChecks, encodingRun) {
+    super(annotations, checks, encoding, context);
+    this.typeParameters = typeParameters;
+    this.run = run;
+    this.encodingChecks = encodingChecks;
+    this.encodingRun = encodingRun;
+  }
+  getParser() {
+    let run;
+    return (input, options) => {
+      if (input === missing)
+        return missingExit;
+      return (run ??= this.run(this.typeParameters))(input, this, options);
+    };
+  }
+  _rebuild(recur, checks, encodingChecks, run, encodingRun) {
+    const tps = mapOrSame(this.typeParameters, recur);
+    return tps === this.typeParameters && checks === this.checks && encodingChecks === this.encodingChecks && run === this.run && encodingRun === this.encodingRun ? this : new Declaration(tps, run, this.annotations, checks, undefined, this.context, encodingChecks, encodingRun);
+  }
+  recur(recur) {
+    return this._rebuild(recur, this.checks, this.encodingChecks, this.run, this.encodingRun);
+  }
+  flip(recur) {
+    return this._rebuild(recur, this.encodingChecks, this.checks, this.encodingRun ?? this.run, this.run);
+  }
+  getExpected() {
+    const expected = this.annotations?.expected;
+    if (typeof expected === "string")
+      return expected;
+    return "<Declaration>";
+  }
+}
+
+class Null extends Base2 {
+  _tag = "Null";
+  getParser() {
+    return fromConst(this, null);
+  }
+  getExpected() {
+    return "null";
+  }
+}
+var null_ = /* @__PURE__ */ new Null;
+class Undefined extends Base2 {
+  _tag = "Undefined";
+  getParser() {
+    return fromConst(this, undefined);
+  }
+  toCodecJson() {
+    return replaceEncoding(this, [undefinedToNull]);
+  }
+  getExpected() {
+    return "undefined";
+  }
+}
+var undefinedToNull = /* @__PURE__ */ new Link(null_, /* @__PURE__ */ new Transformation(/* @__PURE__ */ transform2(() => {
+  return;
+}), /* @__PURE__ */ transform2(() => null)));
+var undefined_2 = /* @__PURE__ */ new Undefined;
+class Any extends Base2 {
+  _tag = "Any";
+  getParser() {
+    return fromRefinement(this, isUnknown);
+  }
+  getExpected() {
+    return "any";
+  }
+}
+var any2 = /* @__PURE__ */ new Any;
+
+class Unknown extends Base2 {
+  _tag = "Unknown";
+  getParser() {
+    return fromRefinement(this, isUnknown);
+  }
+  getExpected() {
+    return "unknown";
+  }
+}
+var unknown2 = /* @__PURE__ */ new Unknown;
+class Literal extends Base2 {
+  _tag = "Literal";
+  literal;
+  constructor(literal, annotations, checks, encoding, context) {
+    super(annotations, checks, encoding, context);
+    if (typeof literal === "number" && !globalThis.Number.isFinite(literal)) {
+      throw new Error(`A numeric literal must be finite, got ${format(literal)}`);
+    }
+    this.literal = literal;
+  }
+  getParser() {
+    return fromConst(this, this.literal);
+  }
+  matchPart(s, _options) {
+    return s === globalThis.String(this.literal) ? this.literal : undefined;
+  }
+  toCodecJson() {
+    return typeof this.literal === "bigint" ? literalToString(this) : this;
+  }
+  toCodecStringTree() {
+    return typeof this.literal === "string" ? this : literalToString(this);
+  }
+  getExpected() {
+    return typeof this.literal === "string" ? JSON.stringify(this.literal) : globalThis.String(this.literal);
+  }
+}
+function literalToString(ast) {
+  const literalAsString = globalThis.String(ast.literal);
+  return replaceEncoding(ast, [new Link(new Literal(literalAsString), new Transformation(transform2(() => ast.literal), transform2(() => literalAsString)))]);
+}
+
+class String4 extends Base2 {
+  _tag = "String";
+  getParser() {
+    return fromRefinement(this, isString);
+  }
+  matchPart(s, options) {
+    const checks = this.checks;
+    return checks && !options.disableChecks && collectIssues(checks, s, undefined, this, options) ? undefined : s;
+  }
+  getExpected() {
+    return "string";
+  }
+}
+var string5 = /* @__PURE__ */ new String4;
+
+class Number4 extends Base2 {
+  _tag = "Number";
+  getParser() {
+    return fromRefinement(this, isNumber);
+  }
+  matchKey(s, options) {
+    return this._match(isStringNumberRegExp, s, options);
+  }
+  matchPart(s, options) {
+    return this._match(isStringFiniteRegExp, s, options);
+  }
+  _match(regexp, s, options) {
+    if (!regexp.test(s))
+      return;
+    const value = globalThis.Number(s);
+    if (options.disableChecks || !this.checks)
+      return value;
+    return collectIssues(this.checks, value, undefined, this, options) ? undefined : value;
+  }
+  toCodecJson() {
+    if (this.checks && (hasCheck(this.checks, "effect/schema/isFinite") || hasCheck(this.checks, "effect/schema/isInt"))) {
+      return this;
+    }
+    return replaceEncoding(this, [numberToJson]);
+  }
+  toCodecStringTree() {
+    if (this.toCodecJson() === this) {
+      return replaceEncoding(this, [finiteToString]);
+    }
+    return replaceEncoding(this, [numberToString]);
+  }
+  getExpected() {
+    return "number";
+  }
+}
+function hasCheck(checks, id) {
+  return checks.some((check) => check.annotations?.representation?.id === id || check._tag === "FilterGroup" && hasCheck(check.checks, id));
+}
+var number5 = /* @__PURE__ */ new Number4;
+
+class Boolean2 extends Base2 {
+  _tag = "Boolean";
+  getParser() {
+    return fromRefinement(this, isBoolean);
+  }
+  getExpected() {
+    return "boolean";
+  }
+}
+var boolean4 = /* @__PURE__ */ new Boolean2;
+class Arrays extends Base2 {
+  _tag = "Arrays";
+  isMutable;
+  elements;
+  rest;
+  encodingChecks;
+  constructor(isMutable, elements, rest, annotations, checks, encoding, context, encodingChecks) {
+    super(annotations, checks, encoding, context);
+    this.isMutable = isMutable;
+    this.elements = elements;
+    this.rest = rest;
+    this.encodingChecks = encodingChecks;
+    let hasOptional = false;
+    for (let i = 0;i < elements.length; i++) {
+      if (isOptional(elements[i])) {
+        hasOptional = true;
+      } else if (hasOptional) {
+        throw new Error("A required element cannot follow an optional element. ts(1257)");
+      }
+    }
+    if (hasOptional && rest.length > 1) {
+      throw new Error("A required element cannot follow an optional element. ts(1257)");
+    }
+    for (let i = 1;i < rest.length; i++) {
+      if (isOptional(rest[i])) {
+        throw new Error("An optional element cannot follow a rest element. ts(1266)");
+      }
+    }
+  }
+  getParser(compile, compileConstructorDefault = compile) {
+    const ast = this;
+    let elements;
+    let rest;
+    const elementLen = ast.elements.length;
+    const tailLen = Math.max(0, ast.rest.length - 1);
+    function getParser(tailThreshold, index) {
+      if (index < elementLen) {
+        return elements[index];
+      } else if (index >= tailThreshold) {
+        return rest[index - tailThreshold + 1];
+      }
+      return rest[0];
+    }
+    return fnUntracedEager2(function* (input, options) {
+      if (input === missing) {
+        return missing;
+      }
+      if (!Array.isArray(input)) {
+        return yield* fail5(new InvalidType(ast, input, options));
+      }
+      if (!elements) {
+        elements = ast.elements.map((ast) => ({
+          ast,
+          parser: compileConstructorDefault(ast)
+        }));
+        rest = ast.rest.map((ast) => ({
+          ast,
+          parser: compileConstructorDefault(ast)
+        }));
+      }
+      const len = input.length;
+      const state = {
+        ast,
+        getParser,
+        input,
+        len,
+        tailThreshold: Math.max(elementLen, len - tailLen),
+        output: new globalThis.Array(len),
+        issues: undefined,
+        options
+      };
+      const concurrency = resolveConcurrency(options?.concurrency);
+      const eff = parseArray(state, input, {
+        concurrency: concurrency?.concurrency,
+        end: ast.rest.length === 0 ? elementLen : Math.max(len, elementLen + tailLen)
+      });
+      if (eff)
+        yield* eff;
+      if (ast.rest.length === 0 && len > elementLen) {
+        for (let i = elementLen;i <= len - 1; i++) {
+          const unexpected = new UnexpectedKey(ast, input[i], options);
+          const issue = new Pointer([i], unexpected);
+          if (options.errors === "all") {
+            if (state.issues)
+              state.issues.push(issue);
+            else
+              state.issues = [issue];
+          } else {
+            return yield* fail5(new Composite(ast, [issue], input, options));
+          }
+        }
+      }
+      if (state.issues) {
+        return yield* fail5(new Composite(ast, state.issues, input, options));
+      }
+      return state.output;
+    });
+  }
+  _rebuild(recur, checks, encodingChecks) {
+    const elements = mapOrSame(this.elements, recur);
+    const rest = mapOrSame(this.rest, recur);
+    return elements === this.elements && rest === this.rest && checks === this.checks && encodingChecks === this.encodingChecks ? this : new Arrays(this.isMutable, elements, rest, this.annotations, checks, undefined, this.context, encodingChecks);
+  }
+  recur(recur) {
+    return this._rebuild(recur, this.checks, this.encodingChecks);
+  }
+  flip(recur) {
+    return this._rebuild(recur, this.encodingChecks, this.checks);
+  }
+  getExpected() {
+    return "array";
+  }
+}
+var parseArray = /* @__PURE__ */ iterateEager()({
+  onItem(s, item, i) {
+    const value = i < s.len ? item : missing;
+    return s.getParser(s.tailThreshold, i).parser(value, s.options);
+  },
+  step(s, item, exit, i) {
+    if (exit._tag === "Failure") {
+      return wrapPropertyKeyIssue(s, s.ast, i, exit);
+    }
+    const value = exit === sameExit ? item : exit[args];
+    if (value !== missing) {
+      s.output[i] = value;
+    } else {
+      const p = s.getParser(s.tailThreshold, i);
+      if (isOptional(p.ast))
+        return;
+      const issue = new Pointer([i], new MissingKey(p.ast.context?.annotations));
+      if (s.options.errors === "all") {
+        if (s.issues)
+          s.issues.push(issue);
+        else
+          s.issues = [issue];
+      } else {
+        return fail4(new Composite(s.ast, [issue], s.input, s.options));
+      }
+    }
+  }
+});
+var resolveConcurrency = (value) => {
+  value = value === "unbounded" ? Infinity : value ?? 1;
+  return value > 1 ? {
+    concurrency: value
+  } : undefined;
+};
+var wrapPropertyKeyIssue = (s, ast, key, exit) => {
+  if (exit.cause.reasons.length === 0) {
+    return exit;
+  }
+  const issue = getSchemaIssue(exit.cause);
+  if (issue === undefined) {
+    return failCause2(map6(exit.cause, (issue) => new Composite(ast, [new Pointer([key], issue)], s.input, s.options)));
+  }
+  const pointer = new Pointer([key], issue);
+  if (s.options.errors === "all") {
+    if (s.issues)
+      s.issues.push(pointer);
+    else
+      s.issues = [pointer];
+  } else {
+    return fail4(new Composite(ast, [pointer], s.input, s.options));
+  }
+};
+var FINITE_PATTERN = "[+-]?\\d*\\.?\\d+(?:[Ee][+-]?\\d+)?";
+function getIndexSignatureKeys(input, parameter, options = defaultParseOptions) {
+  let stringKeys;
+  let symbolKeys;
+  function go(parameter) {
+    switch (parameter._tag) {
+      case "String":
+      case "TemplateLiteral":
+        return (stringKeys ??= Object.keys(input)).filter((k) => parameter.matchPart(k, options) !== undefined);
+      case "Number":
+        return (stringKeys ??= Object.keys(input)).filter((k) => parameter.matchKey(k, options) !== undefined);
+      case "Symbol":
+        return (symbolKeys ??= Object.getOwnPropertySymbols(input)).filter((k) => parameter.matchKey(k, options) !== undefined);
+      case "Union":
+        return [...new Set(parameter.types.flatMap(go))];
+      default:
+        return [];
+    }
+  }
+  return go(parameterFromPropertyKey(toEncoded(parameter)));
+}
+
+class PropertySignature {
+  name;
+  type;
+  constructor(name, type) {
+    this.name = name;
+    this.type = type;
+  }
+}
+function isIndexSignatureParameterSide(ast) {
+  switch (ast._tag) {
+    case "String":
+    case "Number":
+    case "Symbol":
+    case "TemplateLiteral":
+      return true;
+    case "Union":
+      return ast.types.every(isIndexSignatureParameterSide);
+    default:
+      return false;
+  }
+}
+function isIndexSignatureParameter(ast) {
+  return isIndexSignatureParameterSide(ast) && isIndexSignatureParameterSide(toEncoded(ast));
+}
+
+class IndexSignature {
+  parameter;
+  type;
+  constructor(parameter, type) {
+    if (!isIndexSignatureParameter(parameter)) {
+      throw new Error(`Invalid index signature parameter ${parameter._tag}`);
+    }
+    this.parameter = parameter;
+    this.type = type;
+    if (isOptional(type) && !containsUndefined(type)) {
+      throw new Error("Cannot use `Schema.optionalKey` with index signatures, use `Schema.optional` instead.");
+    }
+  }
+}
+
+class Objects extends Base2 {
+  _tag = "Objects";
+  propertySignatures;
+  indexSignatures;
+  encodingChecks;
+  constructor(propertySignatures, indexSignatures, annotations, checks, encoding, context, encodingChecks) {
+    super(annotations, checks, encoding, context);
+    this.propertySignatures = propertySignatures;
+    this.indexSignatures = indexSignatures;
+    this.encodingChecks = encodingChecks;
+    const duplicates = propertySignatures.map((ps) => ps.name).filter((name, i, arr) => arr.indexOf(name) !== i);
+    if (duplicates.length > 0) {
+      throw new Error(`Duplicate identifiers: ${JSON.stringify(duplicates)}. ts(2300)`);
+    }
+  }
+  getParser(compile, compileConstructorDefault = compile) {
+    const ast = this;
+    const expectedKeys = [];
+    for (const ps of ast.propertySignatures) {
+      expectedKeys.push(ps.name);
+    }
+    const hasProperties = expectedKeys.length;
+    const indexCount = ast.indexSignatures.length;
+    let expectedKeysSet = hasProperties && indexCount ? new Set(expectedKeys) : undefined;
+    if (!hasProperties && !indexCount) {
+      return fromRefinement(ast, isNotNullish);
+    }
+    let properties;
+    let indexes;
+    const finishIndex = (s, key, k2, inputValue, exitValue) => {
+      if (exitValue._tag === "Failure") {
+        return wrapPropertyKeyIssue(s, ast, key, exitValue) ?? void_2;
+      }
+      const value = exitValue === sameExit ? inputValue : exitValue[args];
+      if (k2 !== missing && value !== missing) {
+        if (hasProperties && (expectedKeysSet.has(key) || expectedKeysSet.has(k2)))
+          return void_2;
+        assignProperty(s.out, k2, value);
+      }
+      return void_2;
+    };
+    const parseIndex = (s, key, index, exitKey) => {
+      if (!exitKey) {
+        const eff = index.parserKey(key, s.options);
+        if (!effectIsExit(eff)) {
+          return flatMap2(exit2(eff), (exit) => parseIndex(s, key, index, exit));
+        }
+        exitKey = eff;
+      }
+      if (exitKey._tag === "Failure") {
+        return wrapPropertyKeyIssue(s, ast, key, exitKey) ?? void_2;
+      }
+      const k2 = exitKey === sameExit ? key : exitKey[args];
+      const inputValue = s.input[key];
+      const result = index.parserValue(inputValue, s.options);
+      return effectIsExit(result) ? finishIndex(s, key, k2, inputValue, result) : flatMap2(exit2(result), (exit) => finishIndex(s, key, k2, inputValue, exit));
+    };
+    const parseStringIndex = (s, key, index) => {
+      const inputValue = s.input[key];
+      const result = index.parserValue(inputValue, s.options);
+      return effectIsExit(result) ? finishIndex(s, key, key, inputValue, result) : flatMap2(exit2(result), (exit) => finishIndex(s, key, key, inputValue, exit));
+    };
+    const parseIndexes = indexCount ? iterateEager()({
+      onItem: (s, [key, index]) => parseIndex(s, key, index),
+      step: (_s, _, exit) => exit._tag === "Failure" ? exit : undefined
+    }) : undefined;
+    const compileMembers = () => {
+      if (!properties) {
+        properties = ast.propertySignatures.map((ps) => ({
+          parser: compileConstructorDefault(ps.type),
+          name: ps.name,
+          type: ps.type
+        }));
+        indexes = indexCount ? ast.indexSignatures.map((is) => ({
+          is,
+          parserKey: compile(parameterFromPropertyKey(is.parameter)),
+          parserValue: compileConstructorDefault(is.type)
+        })) : undefined;
+      }
+      return properties;
+    };
+    const fallback = fnUntracedEager2(function* (input, options) {
+      if (input === missing) {
+        return missing;
+      }
+      if (!(typeof input === "object" && input !== null && !Array.isArray(input))) {
+        return yield* fail5(new InvalidType(ast, input, options));
+      }
+      compileMembers();
+      const record = input;
+      const out = {};
+      const state = {
+        ast,
+        input: record,
+        out,
+        issues: undefined,
+        options
+      };
+      const errorsAllOption = options.errors === "all";
+      const onExcessPropertyError = options.onExcessProperty === "error";
+      const onExcessPropertyPreserve = options.onExcessProperty === "preserve";
+      let inputKeys;
+      if (!indexCount && (onExcessPropertyError || onExcessPropertyPreserve)) {
+        expectedKeysSet ??= new Set(expectedKeys);
+        inputKeys = Reflect.ownKeys(record);
+        for (let i = 0;i < inputKeys.length; i++) {
+          const key = inputKeys[i];
+          if (!expectedKeysSet.has(key)) {
+            if (onExcessPropertyError) {
+              const unexpected = new UnexpectedKey(ast, record[key], options);
+              const issue = new Pointer([key], unexpected);
+              if (errorsAllOption) {
+                if (state.issues) {
+                  state.issues.push(issue);
+                } else {
+                  state.issues = [issue];
+                }
+                continue;
+              } else {
+                return yield* fail5(new Composite(ast, [issue], input, options));
+              }
+            } else {
+              assignProperty(out, key, record[key]);
+            }
+          }
+        }
+      }
+      const concurrency = resolveConcurrency(options?.concurrency);
+      if (hasProperties) {
+        const eff = parseProperties(state, properties, concurrency);
+        if (eff)
+          yield* eff;
+      }
+      if (indexCount && !concurrency) {
+        for (let i = 0;i < indexCount; i++) {
+          const index = indexes[i];
+          const parse = index.is.parameter === string5 ? parseStringIndex : parseIndex;
+          const keys = index.is.parameter === string5 ? Object.keys(record) : getIndexSignatureKeys(record, index.is.parameter, options);
+          for (let j = 0;j < keys.length; j++) {
+            const eff = parse(state, keys[j], index);
+            if (!effectIsExit(eff))
+              yield* eff;
+            else if (eff._tag === "Failure")
+              return yield* eff;
+          }
+        }
+      } else if (parseIndexes) {
+        const keyPairs = empty2();
+        for (let i = 0;i < indexCount; i++) {
+          const index = indexes[i];
+          const keys = getIndexSignatureKeys(record, index.is.parameter, options);
+          for (let j = 0;j < keys.length; j++) {
+            keyPairs.push([keys[j], index]);
+          }
+        }
+        const eff = parseIndexes(state, keyPairs, concurrency);
+        if (eff)
+          yield* eff;
+      }
+      if (state.issues) {
+        return yield* fail5(new Composite(ast, state.issues, input, options));
+      }
+      if (options.propertyOrder === "original") {
+        const keys = (inputKeys ?? Reflect.ownKeys(record)).concat(expectedKeys);
+        const preserved = {};
+        for (const key of keys) {
+          if (Object.hasOwn(out, key)) {
+            assignProperty(preserved, key, out[key]);
+          }
+        }
+        return preserved;
+      }
+      return out;
+    });
+    if (indexCount)
+      return fallback;
+    const resume = (state, index, pending) => {
+      const property = properties[index];
+      return flatMap2(exit2(pending), (exit) => {
+        const terminal = stepProperty(state, property, exit);
+        if (terminal)
+          return terminal;
+        const done = () => succeed6(state.out);
+        const eff = parseProperties(state, properties.slice(index + 1));
+        return eff ? flatMapEager2(eff, done) : done();
+      });
+    };
+    return (input, options) => {
+      if (input === missing)
+        return missingExit;
+      if (options.errors === "all" || options.onExcessProperty !== undefined || options.propertyOrder === "original" || options.concurrency !== undefined) {
+        return fallback(input, options);
+      }
+      if (!(typeof input === "object" && input !== null && !Array.isArray(input))) {
+        return fail5(new InvalidType(ast, input, options));
+      }
+      const props = compileMembers();
+      const record = input;
+      const out = {};
+      const state = {
+        ast,
+        input: record,
+        out,
+        issues: undefined,
+        options
+      };
+      try {
+        for (let index = 0;index < props.length; index++) {
+          const property = props[index];
+          const name = property.name;
+          const hasKey = Object.hasOwn(record, name);
+          const value = hasKey ? record[name] : missing;
+          const exit = property.parser(value, options);
+          if (!effectIsExit(exit)) {
+            return resume(state, index, exit);
+          }
+          if (exit === sameExit) {
+            if (hasKey)
+              assignProperty(out, name, value);
+            continue;
+          }
+          const terminal = stepProperty(state, property, exit);
+          if (terminal)
+            return terminal;
+        }
+      } catch (error) {
+        return die2(error);
+      }
+      return succeed6(out);
+    };
+  }
+  _rebuild(recur, recurParameter, checks, encodingChecks) {
+    const props = mapOrSame(this.propertySignatures, (ps) => {
+      const t = recur(ps.type);
+      return t === ps.type ? ps : new PropertySignature(ps.name, t);
+    });
+    const indexes = mapOrSame(this.indexSignatures, (is) => {
+      const p = recurParameter(is.parameter);
+      const t = recur(is.type);
+      return p === is.parameter && t === is.type ? is : new IndexSignature(p, t);
+    });
+    return props === this.propertySignatures && indexes === this.indexSignatures && checks === this.checks && encodingChecks === this.encodingChecks ? this : new Objects(props, indexes, this.annotations, checks, undefined, this.context, encodingChecks);
+  }
+  flip(recur) {
+    return this._rebuild(recur, recur, this.encodingChecks, this.checks);
+  }
+  recur(recur, recurParameter = recur) {
+    return this._rebuild(recur, recurParameter, this.checks, this.encodingChecks);
+  }
+  getExpected() {
+    if (this.propertySignatures.length === 0 && this.indexSignatures.length === 0)
+      return "object | array";
+    return "object";
+  }
+}
+function stepProperty(s, p, exit) {
+  if (exit._tag === "Failure") {
+    return wrapPropertyKeyIssue(s, s.ast, p.name, exit);
+  }
+  if (exit === sameExit)
+    return;
+  const value = exit[args];
+  if (value !== missing) {
+    assignProperty(s.out, p.name, value);
+    return;
+  }
+  delete s.out[p.name];
+  if (!isOptional(p.type)) {
+    const issue = new Pointer([p.name], new MissingKey(p.type.context?.annotations));
+    if (s.options.errors === "all") {
+      if (s.issues)
+        s.issues.push(issue);
+      else
+        s.issues = [issue];
+      return;
+    } else {
+      return fail4(new Composite(s.ast, [issue], s.input, s.options));
+    }
+  }
+}
+var parseProperties = /* @__PURE__ */ iterateEager()({
+  onItem(s, p) {
+    if (!Object.hasOwn(s.input, p.name)) {
+      return p.parser(missing, s.options);
+    }
+    const value = s.input[p.name];
+    assignProperty(s.out, p.name, value);
+    return p.parser(value, s.options);
+  },
+  step: stepProperty
+});
+function combineChecks(a, b) {
+  if (!a)
+    return b;
+  if (!b)
+    return a;
+  return [...a, ...b];
+}
+function struct(fields, checks, annotations) {
+  return new Objects(Reflect.ownKeys(fields).map((key) => {
+    return new PropertySignature(key, fields[key].ast);
+  }), [], annotations, checks);
+}
+function getAST(self) {
+  return self.ast;
+}
+function tuple2(elements, checks = undefined) {
+  return new Arrays(false, elements.map((e) => e.ast), [], undefined, checks);
+}
+function union3(members, mode, checks) {
+  return new Union(members.map(getAST), mode, undefined, checks);
+}
+function structWithRest(ast, records) {
+  if (ast.encoding || records.some((r) => r.encoding)) {
+    throw new Error("StructWithRest does not support encodings");
+  }
+  let propertySignatures = ast.propertySignatures;
+  let indexSignatures = ast.indexSignatures;
+  let checks = ast.checks;
+  for (const record of records) {
+    propertySignatures = propertySignatures.concat(record.propertySignatures);
+    indexSignatures = indexSignatures.concat(record.indexSignatures);
+    checks = combineChecks(checks, record.checks);
+  }
+  return new Objects(propertySignatures, indexSignatures, undefined, checks);
+}
+var toCandidate = /* @__PURE__ */ memoizeIdempotent((ast) => {
+  while (true) {
+    if (isSuspend(ast))
+      return unknown2;
+    const encoding = ast.encoding;
+    if (!encoding) {
+      return ast.recur?.(toCandidate, identity) ?? ast;
+    }
+    if (encoding.some((link) => link.transformation._tag === "Middleware" && link.transformation.decode !== identity))
+      return unknown2;
+    ast = encoding[encoding.length - 1].to;
+  }
+});
+function getCandidateTypes(ast) {
+  switch (ast._tag) {
+    case "Null":
+      return ["null"];
+    case "Undefined":
+      return ["undefined"];
+    case "String":
+    case "TemplateLiteral":
+      return ["string"];
+    case "Number":
+      return ["number"];
+    case "Boolean":
+      return ["boolean"];
+    case "Symbol":
+    case "UniqueSymbol":
+      return ["symbol"];
+    case "BigInt":
+      return ["bigint"];
+    case "Arrays":
+      return ["array"];
+    case "ObjectKeyword":
+      return ["object", "array", "function"];
+    case "Objects":
+      return ast.propertySignatures.length || ast.indexSignatures.length ? ["object"] : ["string", "number", "boolean", "symbol", "bigint", "object", "array", "function"];
+    case "Enum":
+      return Array.from(new Set(ast.enums.map(([, v]) => typeof v)));
+    case "Literal":
+      return [typeof ast.literal];
+    case "Union":
+      return Array.from(new Set(ast.types.flatMap(getCandidateTypes)));
+    default:
+      return ["null", "undefined", "string", "number", "boolean", "symbol", "bigint", "object", "array", "function"];
+  }
+}
+function collectSentinels(ast) {
+  switch (ast._tag) {
+    default:
+      return [];
+    case "Declaration": {
+      const s = ast.annotations?.[SENTINELS_ANNOTATION_KEY];
+      return Array.isArray(s) ? s : [];
+    }
+    case "Objects":
+      return ast.propertySignatures.flatMap((ps) => {
+        const type = ps.type;
+        if (!isOptional(type)) {
+          if (isLiteral(type)) {
+            return [{
+              key: ps.name,
+              literal: type.literal
+            }];
+          }
+          if (isUniqueSymbol(type)) {
+            return [{
+              key: ps.name,
+              literal: type.symbol
+            }];
+          }
+        }
+        return [];
+      });
+    case "Arrays":
+      return ast.elements.flatMap((e, i) => {
+        if (!isOptional(e)) {
+          if (isLiteral(e)) {
+            return [{
+              key: i,
+              literal: e.literal
+            }];
+          }
+          if (isUniqueSymbol(e)) {
+            return [{
+              key: i,
+              literal: e.symbol
+            }];
+          }
+        }
+        return [];
+      });
+    case "Union": {
+      if (ast.types.length === 0)
+        return [];
+      const members = ast.types.map((type) => collectSentinels(toCandidate(type)));
+      return members[0].filter((s) => members.every((sentinels) => sentinels.some((o) => o.key === s.key && o.literal === s.literal)));
+    }
+    case "Suspend":
+      return collectSentinels(ast.thunk());
+  }
+}
+var candidateIndexCache = /* @__PURE__ */ new WeakMap;
+var emptyCandidates = /* @__PURE__ */ Object.freeze([]);
+function getIndex(types) {
+  let index = candidateIndexCache.get(types);
+  if (index)
+    return index;
+  let bySentinel;
+  let sentinelCandidateCount = 0;
+  let otherwise;
+  let literalCandidates;
+  let onlyLiterals = true;
+  for (let i = 0;i < types.length; i++) {
+    const a = types[i];
+    const encoded = toCandidate(a);
+    if (isNever2(encoded))
+      continue;
+    if (onlyLiterals) {
+      if (isLiteral(encoded) || isUniqueSymbol(encoded)) {
+        literalCandidates ??= new Map;
+        const literal = isLiteral(encoded) ? encoded.literal : encoded.symbol;
+        let arr = literalCandidates.get(literal);
+        if (!arr)
+          literalCandidates.set(literal, arr = []);
+        arr.push(a);
+      } else {
+        onlyLiterals = false;
+      }
+    }
+    const sentinels = collectSentinels(encoded);
+    if (sentinels.length) {
+      bySentinel ??= new Map;
+      sentinelCandidateCount++;
+      for (const {
+        key,
+        literal
+      } of sentinels) {
+        let entry = bySentinel.get(key);
+        if (!entry)
+          bySentinel.set(key, entry = [new Map, new Set]);
+        entry[1].add(i);
+        let indexes = entry[0].get(literal);
+        if (!indexes)
+          entry[0].set(literal, indexes = new Set);
+        indexes.add(i);
+      }
+    } else {
+      otherwise ??= {};
+      const candidateTypes = getCandidateTypes(encoded);
+      for (const t of candidateTypes)
+        (otherwise[t] ??= []).push(i);
+    }
+  }
+  if (onlyLiterals && literalCandidates) {
+    literalCandidates.forEach(Object.freeze);
+    index = (input) => literalCandidates.get(input) ?? emptyCandidates;
+  } else if (bySentinel?.size === 1 && !otherwise) {
+    const [key, [byValue]] = bySentinel.entries().next().value;
+    const candidates = byValue;
+    for (const [literal, indexes] of byValue) {
+      candidates.set(literal, Object.freeze(Array.from(indexes, (index) => types[index])));
+    }
+    index = (input, isConstructor) => {
+      if (isObjectKeyword(input)) {
+        const value = Object.hasOwn(input, key) ? input[key] : undefined;
+        if (value !== undefined)
+          return candidates.get(value) ?? emptyCandidates;
+        if (isConstructor)
+          return types;
+      }
+      return emptyCandidates;
+    };
+  } else if (bySentinel) {
+    let commonSentinel;
+    for (const entry of bySentinel) {
+      if ((!commonSentinel || entry[1][0].size > commonSentinel[1][0].size) && entry[1][1].size === sentinelCandidateCount) {
+        commonSentinel = entry;
+      }
+    }
+    index = (input, isConstructor) => {
+      const runtimeType = input === null ? "null" : Array.isArray(input) ? "array" : typeof input;
+      const base = otherwise?.[runtimeType] ?? emptyCandidates;
+      if (!isObjectKeyword(input))
+        return base.map((i) => types[i]);
+      const selected = new Set(base);
+      let directKey;
+      if (commonSentinel) {
+        const [key, [byValue]] = commonSentinel;
+        const hasKey = Object.hasOwn(input, key);
+        const value = hasKey ? input[key] : undefined;
+        if (hasKey && (!isConstructor || value !== undefined)) {
+          const match = byValue.get(value);
+          if (!match)
+            return base.map((i) => types[i]);
+          for (const i of match)
+            selected.add(i);
+          directKey = key;
+        }
+      }
+      if (directKey === undefined) {
+        for (const [key, [byValue, all]] of bySentinel) {
+          const hasKey = Object.hasOwn(input, key);
+          const value = hasKey ? input[key] : undefined;
+          if (hasKey && (!isConstructor || value !== undefined)) {
+            const match = byValue.get(value);
+            if (match) {
+              for (const i of match)
+                selected.add(i);
+            }
+          } else if (isConstructor) {
+            for (const i of all)
+              selected.add(i);
+          }
+        }
+      }
+      for (const [key, [byValue, all]] of bySentinel) {
+        if (key === directKey)
+          continue;
+        const hasKey = Object.hasOwn(input, key);
+        const value = hasKey ? input[key] : undefined;
+        if (hasKey && (!isConstructor || value !== undefined)) {
+          const match = byValue.get(value);
+          for (const i of selected) {
+            if (all.has(i) && !match?.has(i))
+              selected.delete(i);
+          }
+        }
+      }
+      return Array.from(selected).sort((a, b) => a - b).map((i) => types[i]);
+    };
+  } else {
+    index = (input) => {
+      const runtimeType = input === null ? "null" : Array.isArray(input) ? "array" : typeof input;
+      return (otherwise?.[runtimeType] ?? emptyCandidates).map((i) => types[i]).filter(filterLiterals(input));
+    };
+  }
+  candidateIndexCache.set(types, index);
+  return index;
+}
+function filterLiterals(input) {
+  return (ast) => {
+    const encoded = toCandidate(ast);
+    return encoded._tag === "Literal" ? encoded.literal === input : encoded._tag === "UniqueSymbol" ? encoded.symbol === input : true;
+  };
+}
+function getCandidates(input, types, isConstructor = false) {
+  return getIndex(types)(input, isConstructor);
+}
+
+class Union extends Base2 {
+  _tag = "Union";
+  types;
+  mode;
+  encodingChecks;
+  constructor(types, mode, annotations, checks, encoding, context, encodingChecks) {
+    super(annotations, checks, encoding, context);
+    this.types = types;
+    this.mode = mode;
+    this.encodingChecks = encodingChecks;
+  }
+  getParser(compile, compileConstructorDefault) {
+    const ast = this;
+    return (input, options) => {
+      if (input === missing) {
+        return missingExit;
+      }
+      const candidates = getCandidates(input, ast.types, compileConstructorDefault !== undefined);
+      if (candidates.length === 1) {
+        const result = compile(candidates[0])(input, options);
+        if (result._tag === "Success")
+          return result;
+        return effectIsExit(result) ? failSingleUnionCandidate(ast, result.cause, input, options) : catchCause2(result, (cause) => failSingleUnionCandidate(ast, cause, input, options));
+      }
+      const state = {
+        ast,
+        compile,
+        input,
+        out: undefined,
+        successes: ast.mode === "oneOf" ? [] : undefined,
+        issues: undefined,
+        options
+      };
+      const concurrency = resolveConcurrency(options?.concurrency);
+      const eff = parseUnion(state, candidates, concurrency ? {
+        ...concurrency,
+        orderedStep: true
+      } : undefined);
+      if (!eff) {
+        if (state.out)
+          return state.out;
+        return fail5(new AnyOf(ast, state.issues ?? [], input, options));
+      }
+      return flatMapEager2(eff, (_) => {
+        if (state.out === sameExit)
+          return succeed5(input);
+        if (state.out)
+          return state.out;
+        return fail5(new AnyOf(ast, state.issues ?? [], input, options));
+      });
+    };
+  }
+  _rebuild(recur, checks, encodingChecks) {
+    const types = mapOrSame(this.types, recur);
+    return types === this.types && checks === this.checks && encodingChecks === this.encodingChecks ? this : new Union(types, this.mode, this.annotations, checks, undefined, this.context, encodingChecks);
+  }
+  recur(recur) {
+    return this._rebuild(recur, this.checks, this.encodingChecks);
+  }
+  flip(recur) {
+    return this._rebuild(recur, this.encodingChecks, this.checks);
+  }
+  matchPart(s, options) {
+    for (const type of this.types) {
+      const out = type.matchPart(s, options);
+      if (out !== undefined)
+        return out;
+    }
+    return;
+  }
+  getExpected(getExpected) {
+    const expected = this.annotations?.expected;
+    if (typeof expected === "string")
+      return expected;
+    if (this.types.length === 0)
+      return "never";
+    const types = this.types.map((type) => {
+      const encoded = toEncoded(type);
+      switch (encoded._tag) {
+        case "Arrays": {
+          const literals = encoded.elements.filter(isLiteral);
+          if (literals.length > 0) {
+            return `${formatIsMutable(encoded.isMutable)}[ ${literals.map((e) => getExpected(e) + formatIsOptional(e.context?.isOptional)).join(", ")}, ... ]`;
+          }
+          break;
+        }
+        case "Objects": {
+          const literals = encoded.propertySignatures.filter((ps) => isLiteral(ps.type));
+          if (literals.length > 0) {
+            return `{ ${literals.map((ps) => `${formatIsMutable(ps.type.context?.isMutable)}${formatPropertyKey(ps.name)}${formatIsOptional(ps.type.context?.isOptional)}: ${getExpected(ps.type)}`).join(", ")}, ... }`;
+          }
+          break;
+        }
+      }
+      return getExpected(encoded);
+    });
+    return Array.from(new Set(types)).join(" | ");
+  }
+}
+function failSingleUnionCandidate(ast, cause, input, options) {
+  const issue = getSchemaIssue(cause);
+  if (!issue)
+    return failCause2(cause);
+  return fail4(new AnyOf(ast, [issue], input, options));
+}
+var parseUnion = /* @__PURE__ */ iterateEager()({
+  onItem(s, ast) {
+    const parser = s.compile(ast);
+    return parser(s.input, s.options);
+  },
+  step(s, candidate, exit) {
+    if (exit._tag === "Failure") {
+      const issue = getSchemaIssue(exit.cause);
+      if (issue === undefined) {
+        return exit;
+      }
+      if (s.issues)
+        s.issues.push(issue);
+      else
+        s.issues = [issue];
+    } else {
+      if (s.out && s.successes) {
+        s.successes.push(candidate);
+        return fail4(new OneOf(s.ast, s.successes, s.input, s.options));
+      }
+      s.out = exit;
+      if (s.successes) {
+        s.successes.push(candidate);
+      } else {
+        return void_2;
+      }
+    }
+  }
+});
+var nonFiniteLiterals = /* @__PURE__ */ new Union([/* @__PURE__ */ new Literal("Infinity"), /* @__PURE__ */ new Literal("-Infinity"), /* @__PURE__ */ new Literal("NaN")], "anyOf");
+function formatIsMutable(isMutable) {
+  return isMutable ? "" : "readonly ";
+}
+function formatIsOptional(isOptional) {
+  return isOptional ? "?" : "";
+}
+function memoizeThunk(f) {
+  let done = false;
+  let a;
+  return () => {
+    if (done) {
+      return a;
+    }
+    a = f();
+    done = true;
+    return a;
+  };
+}
+
+class Suspend extends Base2 {
+  _tag = "Suspend";
+  thunk;
+  constructor(thunk, annotations, checks, encoding, context) {
+    if (checks) {
+      throw new Error("Cannot add checks to Suspend");
+    }
+    super(annotations, undefined, encoding, context);
+    this.thunk = memoizeThunk(thunk);
+  }
+  getParser(compile) {
+    let parser;
+    return (input, options) => (parser ??= compile(this.thunk()))(input, options);
+  }
+  recur(recur) {
+    return new Suspend(() => recur(this.thunk()), this.annotations, undefined, undefined, this.context);
+  }
+  getExpected(getExpected) {
+    return getExpected(this.thunk());
+  }
+}
+
+class Filter2 extends Class2 {
+  _tag = "Filter";
+  run;
+  annotations;
+  aborted;
+  constructor(run, annotations = undefined, aborted = false) {
+    super();
+    this.run = run;
+    this.annotations = annotations;
+    this.aborted = aborted;
+  }
+  annotate(annotations) {
+    return new Filter2(this.run, {
+      ...this.annotations,
+      ...annotations
+    }, this.aborted);
+  }
+  abort() {
+    return new Filter2(this.run, this.annotations, true);
+  }
+  and(other, annotations) {
+    return new FilterGroup([this, other], annotations);
+  }
+}
+
+class FilterGroup extends Class2 {
+  _tag = "FilterGroup";
+  checks;
+  annotations;
+  constructor(checks, annotations = undefined) {
+    super();
+    this.checks = checks;
+    this.annotations = annotations;
+  }
+  annotate(annotations) {
+    return new FilterGroup(this.checks, {
+      ...this.annotations,
+      ...annotations
+    });
+  }
+  and(other, annotations) {
+    return new FilterGroup([this, other], annotations);
+  }
+}
+function makeFilter(filter, annotations, aborted = false) {
+  return new Filter2((input, ast, options) => normalizeFilterOutput(ast, filter(input, ast, options), input, options), annotations, aborted);
+}
+function isFinite(annotations) {
+  return makeFilter((n) => globalThis.Number.isFinite(n), {
+    expected: "a finite number",
+    representation: {
+      id: "effect/schema/isFinite",
+      payload: null
+    },
+    toJsonSchema: () => ({
+      type: "number"
+    }),
+    toCode: () => ({
+      runtime: "Schema.isFinite()"
+    }),
+    arbitrary: {
+      constraint: {
+        noInfinity: true,
+        noNaN: true
+      }
+    },
+    ...annotations
+  });
+}
+var finite = /* @__PURE__ */ appendChecks(number5, [/* @__PURE__ */ isFinite()]);
+var numberToJson = /* @__PURE__ */ new Link(/* @__PURE__ */ new Union([finite, nonFiniteLiterals], "anyOf"), /* @__PURE__ */ new Transformation(/* @__PURE__ */ Number3(), /* @__PURE__ */ transform2((n) => globalThis.Number.isFinite(n) ? n : globalThis.String(n))));
+function isPattern(regExp, annotations) {
+  const source = regExp.source;
+  const pattern = new globalThis.RegExp(source, regExp.flags);
+  return makeFilter((s) => {
+    pattern.lastIndex = 0;
+    return pattern.test(s);
+  }, {
+    expected: `a string matching the RegExp ${source}`,
+    representation: {
+      id: "effect/schema/isPattern",
+      payload: {
+        source,
+        flags: regExp.flags
+      }
+    },
+    toJsonSchema: () => ({
+      pattern: source
+    }),
+    arbitrary: {
+      constraint: {
+        patterns: [regExp.source]
+      }
+    },
+    ...annotations
+  });
+}
+function modifyOwnPropertyDescriptors(ast, f) {
+  const d = Object.getOwnPropertyDescriptors(ast);
+  f(d);
+  return Object.create(Object.getPrototypeOf(ast), d);
+}
+var contextOwners = /* @__PURE__ */ new WeakMap;
+function getContextOwner(ast) {
+  return contextOwners.get(ast) ?? ast;
+}
+function replaceEncoding(ast, encoding) {
+  if (ast.encoding === encoding) {
+    return ast;
+  }
+  return modifyOwnPropertyDescriptors(ast, (d) => {
+    d.encoding.value = encoding;
+  });
+}
+function replaceContext(ast, context) {
+  if (ast.context === context) {
+    return ast;
+  }
+  const owner = getContextOwner(ast);
+  if (owner.context === context) {
+    return owner;
+  }
+  const out = modifyOwnPropertyDescriptors(ast, (d) => {
+    d.context.value = context;
+  });
+  contextOwners.set(out, owner);
+  return out;
+}
+function annotate(ast, annotations) {
+  if (ast.checks) {
+    const last = ast.checks[ast.checks.length - 1];
+    return replaceChecks(ast, append(ast.checks.slice(0, -1), last.annotate(annotations)));
+  }
+  return modifyOwnPropertyDescriptors(ast, (d) => {
+    d.annotations.value = {
+      ...d.annotations.value,
+      ...annotations
+    };
+  });
+}
+function replaceChecks(ast, checks) {
+  if (ast._tag === "Suspend" && checks) {
+    throw new Error("Cannot add checks to Suspend");
+  }
+  if (ast.checks === checks) {
+    return ast;
+  }
+  return modifyOwnPropertyDescriptors(ast, (d) => {
+    d.checks.value = checks;
+  });
+}
+function appendChecks(ast, checks) {
+  return replaceChecks(ast, combineChecks(ast.checks, checks));
+}
+function mapLink(link, f) {
+  const to = f(link.to);
+  return to === link.to ? link : new Link(to, link.transformation);
+}
+function updateLastLink(encoding, f) {
+  const links = encoding;
+  const last = links[links.length - 1];
+  const out = mapLink(last, f);
+  return out === last ? encoding : append(encoding.slice(0, encoding.length - 1), out);
+}
+function applyToLastLink(f) {
+  return (ast) => ast.encoding ? replaceEncoding(ast, updateLastLink(ast.encoding, f)) : ast;
+}
+function applyToSelfOrLastLinkEncodingIdempotent(f, options) {
+  function out(ast) {
+    if (ast.encoding) {
+      const last = ast.encoding[ast.encoding.length - 1];
+      return options?.stopAt?.(last) ? ast : replaceEncoding(ast, updateLastLink(ast.encoding, out));
+    }
+    return f(ast);
+  }
+  return memoizeIdempotent(out);
+}
+function appendTransformation(from, transformation, to) {
+  const link = new Link(from, transformation);
+  return replaceEncoding(to, to.encoding ? [...to.encoding, link] : [link]);
+}
+function brand(ast, brand) {
+  const existing = resolveBrands(ast);
+  const brands = existing ? [...existing, brand] : [brand];
+  return annotate(ast, {
+    brands
+  });
+}
+function mapOrSame(as, f) {
+  let changed = false;
+  const out = new Array(as.length);
+  for (let i = 0;i < as.length; i++) {
+    const a = as[i];
+    const fa = f(a);
+    if (fa !== a) {
+      changed = true;
+    }
+    out[i] = fa;
+  }
+  return changed ? out : as;
+}
+function annotateKey(ast, annotations) {
+  const context = ast.context ? new Context(ast.context.isOptional, ast.context.isMutable, ast.context.constructorDefault, {
+    ...ast.context.annotations,
+    ...annotations
+  }) : new Context(false, false, undefined, annotations);
+  return replaceContext(ast, context);
+}
+var optionalKey = /* @__PURE__ */ memoizeIdempotent((ast) => {
+  const context = ast.context ? ast.context.isOptional === false ? new Context(true, ast.context.isMutable, ast.context.constructorDefault, ast.context.annotations) : ast.context : new Context(true, false);
+  return optionalKeyLastLink(replaceContext(ast, context));
+});
+var optionalKeyLastLink = /* @__PURE__ */ applyToLastLink(optionalKey);
+var optional2 = /* @__PURE__ */ memoize((ast) => optionalKey(new Union([ast, undefined_2], "anyOf")));
+function withConstructorDefault(ast, defaultValue) {
+  const transformation = new Transformation(withDefault(defaultValue), passthrough());
+  const constructorDefault = new Link(unknown2, transformation);
+  const context = ast.context ? new Context(ast.context.isOptional, ast.context.isMutable, constructorDefault, ast.context.annotations) : new Context(false, false, constructorDefault);
+  return replaceContext(ast, context);
+}
+function decodeTo(from, to, transformation) {
+  return appendTransformation(from, transformation, to);
+}
+function parseParameter(ast) {
+  const literals = [];
+  const parameters = [];
+  function go(ast) {
+    switch (ast._tag) {
+      case "Literal":
+        if (isPropertyKey(ast.literal)) {
+          literals.push(ast.literal);
+        }
+        return;
+      case "UniqueSymbol":
+        literals.push(ast.symbol);
+        return;
+      case "Never":
+        return;
+      case "Union":
+        for (let i = 0;i < ast.types.length; i++) {
+          go(ast.types[i]);
+        }
+        return;
+      default:
+        parameters.push(ast);
+    }
+  }
+  go(ast);
+  return {
+    literals,
+    parameters
+  };
+}
+function record2(key, value) {
+  const {
+    literals,
+    parameters: indexSignatures
+  } = parseParameter(key);
+  return new Objects(literals.map((literal) => new PropertySignature(literal, value)), indexSignatures.map((parameter) => new IndexSignature(parameter, value)));
+}
+function isOptional(ast) {
+  return ast.context?.isOptional ?? false;
+}
+function isStructuralCheck(check) {
+  return check.annotations?.[STRUCTURAL_ANNOTATION_KEY] === true || check._tag === "FilterGroup" && check.checks.every(isStructuralCheck);
+}
+function extractStructuralChecks(checks) {
+  function extract(check) {
+    if (isStructuralCheck(check))
+      return [check];
+    return check._tag === "FilterGroup" ? check.checks.flatMap(extract) : [];
+  }
+  const out = checks.flatMap(extract);
+  return isArrayNonEmpty2(out) ? out : undefined;
+}
+var toType = /* @__PURE__ */ memoizeIdempotent((ast) => {
+  if (ast.encoding) {
+    return toType(replaceEncoding(ast, undefined));
+  }
+  const out = ast;
+  const type = out.recur?.(toType) ?? out;
+  const encodingChecks = type.encodingChecks;
+  if (encodingChecks) {
+    const checks = type === ast ? encodingChecks : isArrays(type) || isObjects(type) || isDeclaration(type) && type.typeParameters.length > 0 ? extractStructuralChecks(encodingChecks) : undefined;
+    return modifyOwnPropertyDescriptors(type, (d) => {
+      d.encodingChecks.value = undefined;
+      d.checks.value = combineChecks(type.checks, checks);
+    });
+  }
+  return type;
+});
+var toEncoded = /* @__PURE__ */ memoizeIdempotent((ast) => {
+  return toType(flip2(ast));
+});
+function flipEncoding(ast, encoding) {
+  const links = encoding;
+  const len = links.length;
+  const last = links[len - 1];
+  const ls = [new Link(flip2(replaceEncoding(ast, undefined)), links[0].transformation.flip())];
+  for (let i = 1;i < len; i++) {
+    ls.unshift(new Link(flip2(links[i - 1].to), links[i].transformation.flip()));
+  }
+  const to = flip2(last.to);
+  if (to.encoding) {
+    return replaceEncoding(to, [...to.encoding, ...ls]);
+  } else {
+    return replaceEncoding(to, ls);
+  }
+}
+var flip2 = /* @__PURE__ */ memoize((ast) => {
+  if (ast.encoding) {
+    return flipEncoding(ast, ast.encoding);
+  }
+  const out = ast;
+  return out.flip?.(flip2) ?? out.recur?.(flip2) ?? out;
+});
+function containsUndefined(ast) {
+  switch (ast._tag) {
+    case "Undefined":
+      return true;
+    case "Union":
+      return ast.types.some(containsUndefined);
+    default:
+      return false;
+  }
+}
+function fromConst(ast, value) {
+  const succeed = succeed6(value);
+  return (input, options) => {
+    if (input === missing)
+      return missingExit;
+    if (input === value)
+      return succeed;
+    return fail5(new InvalidType(ast, input, options));
+  };
+}
+function fromRefinement(ast, refinement) {
+  return (input, options) => {
+    if (input === missing)
+      return missingExit;
+    if (refinement(input))
+      return sameExit;
+    return fail5(new InvalidType(ast, input, options));
+  };
+}
+var parameterFromPropertyKey = /* @__PURE__ */ applyToSelfOrLastLinkEncodingIdempotent((ast) => {
+  switch (ast._tag) {
+    default:
+      return ast;
+    case "Number":
+      return ast.toCodecStringTree();
+    case "Union":
+      return ast.recur(parameterFromPropertyKey);
+  }
+});
+var isStringFiniteRegExp = /* @__PURE__ */ new globalThis.RegExp(`^${FINITE_PATTERN}$`);
+var isStringNumberRegExp = /* @__PURE__ */ new globalThis.RegExp(`^(?:${FINITE_PATTERN}|Infinity|-Infinity|NaN)$`);
+function isStringFinite(annotations) {
+  return isPattern(isStringFiniteRegExp, {
+    expected: "a string representing a finite number",
+    representation: {
+      id: "effect/schema/isStringFinite",
+      payload: null
+    },
+    toJsonSchema: () => ({
+      pattern: isStringFiniteRegExp.source
+    }),
+    ...annotations
+  });
+}
+var finiteString = /* @__PURE__ */ appendChecks(string5, [/* @__PURE__ */ isStringFinite()]);
+var finiteToString = /* @__PURE__ */ new Link(finiteString, numberFromString);
+var numberToString = /* @__PURE__ */ new Link(/* @__PURE__ */ new Union([finiteString, nonFiniteLiterals], "anyOf"), numberFromString);
+var BIGINT_PATTERN = "-?\\d+";
+var isStringBigIntRegExp = /* @__PURE__ */ new globalThis.RegExp(`^${BIGINT_PATTERN}$`);
+var REGEXP_PATTERN = "Symbol\\((.*)\\)";
+var isStringSymbolRegExp = /* @__PURE__ */ new globalThis.RegExp(`^${REGEXP_PATTERN}$`);
+function collectIssues(checks, value, issues, ast, options) {
+  for (let i = 0;i < checks.length; i++) {
+    const check = checks[i];
+    if (check._tag === "FilterGroup") {
+      issues = collectIssues(check.checks, value, issues, ast, options);
+      if (issues && (options.errors !== "all" || issues[issues.length - 1].filter.aborted)) {
+        return issues;
+      }
+    } else {
+      const issue = check.run(value, ast, options);
+      if (issue) {
+        const filter = new Filter(check, issue, value, options);
+        if (issues)
+          issues.push(filter);
+        else
+          issues = [filter];
+        if (options.errors !== "all" || check.aborted) {
+          return issues;
+        }
+      }
+    }
+  }
+  return issues;
+}
+function getConstructorDescriptor(ast) {
+  if (!isDeclaration(ast))
+    return;
+  const getDescriptor = ast.annotations?.[CONSTRUCTOR_ANNOTATION_KEY];
+  return isFunction(getDescriptor) ? getDescriptor(ast.typeParameters) : undefined;
+}
+function isJsonLeaf(u) {
+  return u === null || typeof u === "string" || typeof u === "boolean" || typeof u === "number" && globalThis.Number.isFinite(u);
+}
+function isStringTreeLeaf(u) {
+  return u === undefined || typeof u === "string";
+}
+function isTree(u, isLeaf) {
+  const cache = new WeakMap;
+  const stack = [];
+  outer:
+    while (true) {
+      if (typeof u !== "object" || u === null) {
+        if (!isLeaf(u)) {
+          return false;
+        }
+      } else {
+        const value = u;
+        const cached = cache.get(value);
+        if (cached === false) {
+          return false;
+        }
+        if (cached === undefined) {
+          const isArray = Array.isArray(value);
+          if (!isArray) {
+            const prototype = Object.getPrototypeOf(value);
+            if (prototype !== null && prototype !== Object.prototype && Object.getPrototypeOf(prototype) !== null) {
+              return false;
+            }
+          }
+          cache.set(value, false);
+          stack.push({
+            value,
+            keys: isArray ? value.length : Object.keys(value),
+            index: 0
+          });
+        }
+      }
+      while (stack.length > 0) {
+        const frame = stack[stack.length - 1];
+        const keys = frame.keys;
+        if (typeof keys === "number") {
+          if (frame.index < keys) {
+            u = frame.value[frame.index++];
+            continue outer;
+          }
+        } else if (frame.index < keys.length) {
+          u = frame.value[keys[frame.index++]];
+          continue outer;
+        }
+        cache.set(frame.value, true);
+        stack.pop();
+      }
+      return true;
+    }
+}
+function isJson(u) {
+  return isTree(u, isJsonLeaf);
+}
+var Json = /* @__PURE__ */ new Declaration([], () => (input, ast, options) => isJson(input) ? sameExit : fail5(new InvalidType(ast, input, options)), {
+  representation: {
+    id: "effect/schema/Json",
+    payload: null
+  },
+  expected: "JSON value",
+  toCodecJson: () => {
+    return;
+  },
+  toCodecStringTree: () => unknownToStringTree,
+  toArbitrary: () => (fc) => fc.jsonValue()
+});
+function isStringTree(u) {
+  return isTree(u, isStringTreeLeaf);
+}
+var StringTree = /* @__PURE__ */ new Declaration([], () => (input, ast, options) => isStringTree(input) ? sameExit : fail5(new InvalidType(ast, input, options)), {
+  expected: "StringTree",
+  toCodecStringTree: () => {
+    return;
+  }
+});
+var unknownToStringTree = /* @__PURE__ */ new Link(StringTree, /* @__PURE__ */ passthrough2());
+
+// node_modules/@opencode/schema/node_modules/effect/dist/SchemaParser.js
+function makeEffect(schema) {
+  const parser = runWithCompiler(constructorCompiler, toType(schema.ast));
+  return (input, options) => {
+    return parser(input, options?.disableChecks ? options?.parseOptions ? {
+      ...options.parseOptions,
+      disableChecks: true
+    } : {
+      disableChecks: true
+    } : options?.parseOptions);
+  };
+}
+function makeOption(schema) {
+  const parser = makeEffect(schema);
+  return (input, options) => {
+    const exit = runSyncExit2(parser(input, options));
+    if (isSuccess3(exit)) {
+      return some2(exit.value);
+    }
+    getSchemaIssueOrThrow(exit.cause, "Option adapter can only return none for schema issues");
+    return none2();
+  };
+}
+function make7(schema) {
+  const parser = makeEffect(schema);
+  return (input, options) => {
+    const exit = runSyncExit2(parser(input, options));
+    if (isSuccess3(exit)) {
+      return exit.value;
+    }
+    const issue = getSchemaIssueOrThrow(exit.cause, "Constructor adapter can only throw schema issues");
+    throw new Error("Schema validation failed", {
+      cause: issue
+    });
+  };
+}
+function is(schema) {
+  return _is(schema.ast);
+}
+function _is(ast) {
+  const parser = asExit(run(toType(ast)));
+  return (input) => {
+    const exit = parser(input, defaultParseOptions);
+    if (isSuccess3(exit)) {
+      return true;
+    }
+    getSchemaIssueOrThrow(exit.cause, "Type guard adapter can only return false for schema issues");
+    return false;
+  };
+}
+var mergeParseOptions = (options, overrideOptions) => overrideOptions ? {
+  ...options,
+  ...overrideOptions
+} : options;
+var getValue = (value) => {
+  if (value === missing) {
+    return fail5(new InvalidValue);
+  }
+  return succeed5(value);
+};
+function run(ast) {
+  return runWithCompiler(normalCompiler, ast);
+}
+function runWithCompiler(compiler, ast) {
+  let parser;
+  return (input, options) => {
+    const result = (parser ??= compiler(ast))(input, options ?? defaultParseOptions);
+    if (result === sameExit) {
+      return succeed5(input);
+    }
+    if (!effectIsExit(result)) {
+      return flatMapEager2(result, getValue);
+    }
+    return result[args] === missing ? getValue(missing) : result;
+  };
+}
+function asExit(parser) {
+  return (input, options) => runSyncExit2(parser(input, options));
+}
+var normalCompiler = /* @__PURE__ */ memoize((ast) => makeParser(ast, normalCompiler));
+var constructorCompiler = /* @__PURE__ */ memoize((ast) => makeParser(ast, constructorCompiler, compileConstructorDefault));
+var compileDefaulted = /* @__PURE__ */ memoize((ast) => makeParser(ast, constructorCompiler, compileConstructorDefault, ast.context?.constructorDefault));
+function compileConstructorDefault(ast) {
+  return ast.context?.constructorDefault ? compileDefaulted(ast) : constructorCompiler(ast);
+}
+function applyTransformation(result, current, transformation, options) {
+  let transformed;
+  if (effectIsExit(result) && result._tag === "Success") {
+    const optional = toOption(result === sameExit ? current : result[args]);
+    transformed = transformation._tag === "Transformation" ? transformation.decode.run(optional, options) : transformation.decode(succeed6(optional), options);
+  } else if (transformation._tag === "Transformation") {
+    transformed = flatMapEager2(result, (value) => transformation.decode.run(toOption(value), options));
+  } else {
+    transformed = transformation.decode(mapEager2(result, toOption), options);
+  }
+  return effectIsExit(transformed) && transformed._tag === "Success" ? fromOptionExit(transformed[args]) : flatMapEager2(transformed, fromOptionExit);
+}
+function makeConstructorParser(descriptor, compile) {
+  let sourceParser;
+  return (input, options) => {
+    if (input === missing)
+      return missingExit;
+    if (descriptor.isConstructed(input))
+      return sameExit;
+    const result = (sourceParser ??= compile(descriptor.link.to))(input, options);
+    return applyTransformation(result, input, descriptor.link.transformation, options);
+  };
+}
+function makeParser(ast, compile, compileConstructorDefault, constructorDefault) {
+  const descriptor = compileConstructorDefault ? getConstructorDescriptor(ast) : undefined;
+  const parser = descriptor ? makeConstructorParser(descriptor, compile) : ast.getParser(compile, compileConstructorDefault);
+  const checks = ast.checks;
+  const links = constructorDefault ? ast.encoding ? [...ast.encoding, constructorDefault] : [constructorDefault] : ast.encoding;
+  const encodingChecks = ast.encodingChecks;
+  const astOptions = (checks ? checks[checks.length - 1].annotations : ast.annotations)?.["parseOptions"];
+  if (!links && !checks && !encodingChecks) {
+    if (!astOptions) {
+      return parser;
+    }
+    return (input, options) => parser(input, mergeParseOptions(options, astOptions));
+  }
+  let encodingParsers;
+  const parseLocal = (input, options) => {
+    let result = parser(input, options);
+    if (encodingChecks && !options.disableChecks) {
+      if (effectIsExit(result)) {
+        if (result._tag === "Success") {
+          const output = result === sameExit ? input : result[args];
+          if (input !== missing && output !== missing) {
+            const issues = collectIssues(encodingChecks, input, undefined, ast, options);
+            if (issues) {
+              result = fail5(new Composite(ast, issues, input, options));
+            }
+          }
+        }
+      } else {
+        result = flatMap2(result, (value) => {
+          if (input !== missing && value !== missing) {
+            const issues = collectIssues(encodingChecks, input, undefined, ast, options);
+            if (issues) {
+              return fail5(new Composite(ast, issues, input, options));
+            }
+          }
+          return succeed5(value);
+        });
+      }
+    }
+    if (checks && !options.disableChecks) {
+      if (effectIsExit(result)) {
+        if (result._tag === "Success") {
+          const value = result === sameExit ? input : result[args];
+          if (value === missing)
+            return result;
+          const issues = collectIssues(checks, value, undefined, ast, options);
+          if (issues) {
+            result = fail5(new Composite(ast, issues, value, options));
+          }
+        }
+      } else {
+        result = flatMap2(result, (value) => {
+          if (value !== missing) {
+            const issues = collectIssues(checks, value, undefined, ast, options);
+            if (issues) {
+              return fail5(new Composite(ast, issues, value, options));
+            }
+          }
+          return succeed5(value);
+        });
+      }
+    }
+    return result;
+  };
+  if (!links) {
+    return astOptions ? (input, options) => parseLocal(input, mergeParseOptions(options, astOptions)) : parseLocal;
+  }
+  return (input, options) => {
+    if (astOptions) {
+      options = mergeParseOptions(options, astOptions);
+    }
+    const parsers = encodingParsers ??= links.map((link) => compile(link.to));
+    let current = input;
+    let result = parsers[parsers.length - 1](input, options);
+    for (let i = links.length - 1;i >= 0; i--) {
+      result = applyTransformation(result, current, links[i].transformation, options);
+      if (i !== 0) {
+        const next = parsers[i - 1];
+        if (result._tag === "Success") {
+          current = result[args];
+          result = next(current, options);
+        } else {
+          result = flatMapEager2(result, (value) => {
+            const nextResult = next(value, options);
+            return nextResult === sameExit ? succeed6(value) : nextResult;
+          });
+        }
+      }
+    }
+    if (result._tag === "Success") {
+      const value = result[args];
+      const local = parseLocal(value, options);
+      return local === sameExit ? result : local;
+    }
+    result = catchCause2(result, (cause) => failCauseSync2(() => map6(cause, (issue) => new Encoding(ast, issue, input, options))));
+    return flatMapEager2(result, (value) => {
+      const local = parseLocal(value, options);
+      return local === sameExit ? succeed6(value) : local;
+    });
+  };
+}
+
+// node_modules/@opencode/schema/node_modules/effect/dist/internal/schema/schema.js
+var TypeId8 = "~effect/Schema/Schema";
+var SchemaProto = {
+  [TypeId8]: TypeId8,
+  pipe() {
+    return pipeArguments(this, arguments);
+  },
+  annotate(annotations) {
+    return this.rebuild(annotate(this.ast, annotations));
+  },
+  annotateKey(annotations) {
+    return this.rebuild(annotateKey(this.ast, annotations));
+  },
+  check(...checks) {
+    return this.rebuild(appendChecks(this.ast, checks));
+  }
+};
+function make8(ast, options) {
+  function Schema() {}
+  const self = Object.defineProperties(Object.setPrototypeOf(Schema, SchemaProto), Object.getOwnPropertyDescriptors({
+    ...options
+  }));
+  self.ast = ast;
+  self.rebuild = (ast) => make8(ast, options);
+  self.makeEffect = makeEffect(self);
+  self.make = make7(self);
+  self.makeOption = makeOption(self);
+  return self;
+}
+
+// node_modules/@opencode/schema/node_modules/effect/dist/Struct.js
+var omit2 = /* @__PURE__ */ dual(2, (self, keys) => {
+  return buildStruct(self, (k, v) => !keys.includes(k) ? [k, v] : undefined);
+});
+var lambda = (f) => f;
+function buildStruct(source, f) {
+  const out = {};
+  for (const k of Reflect.ownKeys(source)) {
+    if (!Object.prototype.propertyIsEnumerable.call(source, k))
+      continue;
+    const res = f(k, source[k]);
+    if (res) {
+      const [nk, nv] = res;
+      assignProperty(out, nk, nv);
+    }
+  }
+  return out;
+}
+
+// node_modules/@opencode/schema/node_modules/effect/dist/internal/schema/toEquivalence.js
+var toEquivalence = /* @__PURE__ */ memoize((ast) => {
+  return recur(ast, []);
+});
+function recur(ast, path) {
+  const annotation = resolve(ast)?.["toEquivalence"];
+  if (annotation) {
+    return annotation(isDeclaration(ast) ? ast.typeParameters.map((tp) => recur(tp, path)) : []);
+  }
+  switch (ast._tag) {
+    case "Never":
+      return strictEqual();
+    case "Declaration":
+    case "Null":
+    case "Undefined":
+    case "Void":
+    case "Unknown":
+    case "Any":
+    case "String":
+    case "Number":
+    case "Boolean":
+    case "BigInt":
+    case "Symbol":
+    case "Literal":
+    case "UniqueSymbol":
+    case "ObjectKeyword":
+    case "Enum":
+    case "TemplateLiteral":
+      return equals;
+    case "Arrays": {
+      const elements = ast.elements.map((e, i) => recur(e, [...path, i]));
+      const len = ast.elements.length;
+      const rest = ast.rest.map((r, i) => recur(r, [...path, len + i]));
+      return make((a, b) => {
+        if (!Array.isArray(a) || !Array.isArray(b)) {
+          return false;
+        }
+        const len = a.length;
+        if (len !== b.length) {
+          return false;
+        }
+        let i = 0;
+        for (;i < Math.min(len, ast.elements.length); i++) {
+          if (!elements[i](a[i], b[i])) {
+            return false;
+          }
+        }
+        if (rest.length > 0) {
+          const [head, ...tail] = rest;
+          for (;i < len - tail.length; i++) {
+            if (!head(a[i], b[i])) {
+              return false;
+            }
+          }
+          for (let j = 0;j < tail.length; j++) {
+            if (!tail[j](a[i + j], b[i + j])) {
+              return false;
+            }
+          }
+        }
+        return true;
+      });
+    }
+    case "Objects": {
+      if (ast.propertySignatures.length === 0 && ast.indexSignatures.length === 0) {
+        return equals;
+      }
+      const propertySignatures = ast.propertySignatures.map((ps) => recur(ps.type, [...path, ps.name]));
+      const indexSignatures = ast.indexSignatures.map((is) => recur(is.type, path));
+      return make((a, b) => {
+        if (!isObject2(a) || !isObject2(b)) {
+          return false;
+        }
+        for (let i = 0;i < propertySignatures.length; i++) {
+          const ps = ast.propertySignatures[i];
+          const name = ps.name;
+          const aHas = Object.hasOwn(a, name);
+          const bHas = Object.hasOwn(b, name);
+          if (isOptional(ps.type)) {
+            if (aHas !== bHas) {
+              return false;
+            }
+          }
+          if (aHas && bHas && !propertySignatures[i](a[name], b[name])) {
+            return false;
+          }
+        }
+        for (let i = 0;i < indexSignatures.length; i++) {
+          const is = ast.indexSignatures[i];
+          const aKeys = getIndexSignatureKeys(a, is.parameter);
+          const bKeys = getIndexSignatureKeys(b, is.parameter);
+          if (aKeys.length !== bKeys.length)
+            return false;
+          for (let j = 0;j < aKeys.length; j++) {
+            const key = aKeys[j];
+            if (!Object.hasOwn(b, key) || !indexSignatures[i](a[key], b[key])) {
+              return false;
+            }
+          }
+        }
+        return true;
+      });
+    }
+    case "Union": {
+      const types = toType(ast).types;
+      const compiled = new Map(types.map((candidate, i) => [candidate, [_is(candidate), recur(ast.types[i], path)]]));
+      return make((a, b) => {
+        const candidates = getCandidates(a, types);
+        for (let i = 0;i < candidates.length; i++) {
+          const [is, equivalence] = compiled.get(candidates[i]);
+          if (is(a) && is(b)) {
+            return equivalence(a, b);
+          }
+        }
+        return false;
+      });
+    }
+    case "Suspend": {
+      const get = memoizeThunk(() => recur(ast.thunk(), path));
+      return make((a, b) => get()(a, b));
+    }
+  }
+}
+
+// node_modules/@opencode/schema/node_modules/effect/dist/RegExp.js
+var RegExp2 = globalThis.RegExp;
+var escape = (string) => string.replace(/[/\\^$*+?.()|[\]{}]/g, "\\$&");
+
+// node_modules/@opencode/schema/node_modules/effect/dist/Schema.js
+var TypeId9 = TypeId8;
+function declareConstructor() {
+  return (typeParameters, run, annotations) => {
+    return make9(new Declaration(typeParameters.map(getAST), (typeParameters) => run(typeParameters.map((ast) => make9(ast))), annotations));
+  };
+}
+function declare(is, annotations) {
+  return declareConstructor()([], () => (input, ast, options) => is(input) ? succeed5(input) : fail5(new InvalidType(ast, input, options)), annotations);
+}
+function annotate2(annotations) {
+  return (self) => self.annotate(annotations);
+}
+var is2 = is;
+var make9 = make8;
+function isSchema(u) {
+  return hasProperty(u, TypeId9) && u[TypeId9] === TypeId9;
+}
+var optionalKey2 = /* @__PURE__ */ lambda((schema) => make9(optionalKey(schema.ast), {
+  schema
+}));
+var optional3 = /* @__PURE__ */ lambda((self) => {
+  const schema = UndefinedOr(self);
+  return make9(optional2(self.ast), {
+    schema
+  });
+});
+var toType2 = /* @__PURE__ */ lambda((schema) => make9(toType(schema.ast), {
+  schema
+}));
+var toEncoded2 = /* @__PURE__ */ lambda((schema) => make9(toEncoded(schema.ast), {
+  schema
+}));
+function Literal2(literal) {
+  const out = make9(new Literal(literal), {
+    literal,
+    transform(to) {
+      return out.pipe(decodeTo2(Literal2(to), {
+        decode: transform2(() => to),
+        encode: transform2(() => literal)
+      }));
+    }
+  });
+  return out;
+}
+var Any2 = /* @__PURE__ */ make9(any2);
+var Unknown2 = /* @__PURE__ */ make9(unknown2);
+var Null2 = /* @__PURE__ */ make9(null_);
+var Undefined2 = /* @__PURE__ */ make9(undefined_2);
+var String5 = /* @__PURE__ */ make9(string5);
+var Number5 = /* @__PURE__ */ make9(number5);
+var Boolean3 = /* @__PURE__ */ make9(boolean4);
+function makeStruct(ast, fields) {
+  return make9(ast, {
+    fields,
+    mapFields(f, options) {
+      const fields = f(this.fields);
+      return makeStruct(struct(fields, options?.unsafePreserveChecks ? this.ast.checks : undefined), fields);
+    }
+  });
+}
+function Struct(fields) {
+  return makeStruct(struct(fields, undefined), fields);
+}
+function Record(key, value) {
+  return make9(record2(key.ast, value.ast), {
+    key,
+    value
+  });
+}
+function StructWithRest(schema, records) {
+  return make9(structWithRest(schema.ast, records.map(getAST)), {
+    schema,
+    records
+  });
+}
+function makeTuple(ast, elements) {
+  return make9(ast, {
+    elements,
+    mapElements(f, options) {
+      const elements = f(this.elements);
+      return makeTuple(tuple2(elements, options?.unsafePreserveChecks ? this.ast.checks : undefined), elements);
+    }
+  });
+}
+function Tuple(elements) {
+  return makeTuple(tuple2(elements), elements);
+}
+var ArraySchema = /* @__PURE__ */ lambda((schema) => make9(new Arrays(false, [], [schema.ast]), {
+  value: schema
+}));
+var NonEmptyArray = /* @__PURE__ */ lambda((schema) => make9(new Arrays(false, [schema.ast], [schema.ast]), {
+  value: schema
+}));
+function makeUnion(ast, members) {
+  return make9(ast, {
+    members,
+    mapMembers(f, options) {
+      const members = f(this.members);
+      return makeUnion(union3(members, this.ast.mode, options?.unsafePreserveChecks ? this.ast.checks : undefined), members);
+    }
+  });
+}
+function Union2(members, options) {
+  return makeUnion(union3(members, options?.mode ?? "anyOf", undefined), members);
+}
+function Literals(literals) {
+  const members = literals.map(Literal2);
+  return make9(union3(members, "anyOf", undefined), {
+    literals,
+    members,
+    mapMembers(f) {
+      return Union2(f(this.members));
+    },
+    pick(literals) {
+      return Literals(literals);
+    },
+    transform(to) {
+      return Union2(members.map((member, index) => member.transform(to[index])));
+    }
+  });
+}
+var NullOr = /* @__PURE__ */ lambda((self) => Union2([self, Null2]));
+var UndefinedOr = /* @__PURE__ */ lambda((self) => Union2([self, Undefined2]));
+function suspend2(f) {
+  return make9(new Suspend(() => f().ast));
+}
+function check2(...checks) {
+  return (self) => self.check(...checks);
+}
+function brand2(identifier) {
+  return (schema) => make9(brand(schema.ast, identifier), {
+    schema,
+    identifier
+  });
+}
+function decodeTo2(to, transformation) {
+  return (from) => {
+    return make9(decodeTo(from.ast, to.ast, transformation ? make6(transformation) : passthrough2()), {
+      from,
+      to
+    });
+  };
+}
+function withConstructorDefault2(defaultValue) {
+  return (schema) => make9(withConstructorDefault(schema.ast, defaultValue), {
+    schema
+  });
+}
+function tag(literal) {
+  return Literal2(literal).pipe(withConstructorDefault2(succeed5(literal)));
+}
+function TaggedStruct(value, fields) {
+  return Struct({
+    _tag: tag(value),
+    ...fields
+  });
+}
+function toTaggedUnion(tag) {
+  return (self) => {
+    const cases = {};
+    const discriminants = [];
+    const discriminantKeys = new Set;
+    const guards = {};
+    const isAnyOf = (keys) => (value) => keys.includes(value[tag]);
+    walk(self);
+    return Object.assign(self, {
+      cases,
+      discriminants,
+      isAnyOf,
+      guards,
+      match,
+      matchOrElse
+    });
+    function walk(schema) {
+      const ast = schema.ast;
+      if (isUnion(ast) && "members" in schema && globalThis.Array.isArray(schema.members) && schema.members.every(isSchema)) {
+        return schema.members.forEach(walk);
+      }
+      const sentinels = collectSentinels(ast);
+      if (sentinels.length > 0) {
+        const literal = sentinels.find((s) => s.key === tag)?.literal;
+        if (isPropertyKey(literal)) {
+          const key = typeof literal === "number" ? globalThis.String(literal) : literal;
+          if (discriminantKeys.has(key)) {
+            throw new globalThis.Error(`Duplicate discriminant: ${globalThis.String(literal)}`);
+          }
+          discriminantKeys.add(key);
+          discriminants.push(literal);
+          assignProperty(cases, literal, schema);
+          assignProperty(guards, literal, is2(toType2(schema)));
+          return;
+        }
+      }
+      throw new globalThis.Error("No literal or unique symbol found");
+    }
+    function match() {
+      if (arguments.length === 1) {
+        const cases = arguments[0];
+        return function(value) {
+          const key = value[tag];
+          const handler = Object.hasOwn(cases, key) ? cases[key] : undefined;
+          return handler(value);
+        };
+      }
+      const value = arguments[0];
+      const cases = arguments[1];
+      const key = value[tag];
+      const handler = Object.hasOwn(cases, key) ? cases[key] : undefined;
+      return handler(value);
+    }
+    function matchOrElse() {
+      if (arguments.length === 2) {
+        const cases = arguments[0];
+        const orElse = arguments[1];
+        return function(value) {
+          const key = value[tag];
+          const handler = Object.hasOwn(cases, key) ? cases[key] ?? orElse : orElse;
+          return handler(value);
+        };
+      }
+      const value = arguments[0];
+      const cases = arguments[1];
+      const orElse = arguments[2];
+      const key = value[tag];
+      const handler = Object.hasOwn(cases, key) ? cases[key] ?? orElse : orElse;
+      return handler(value);
+    }
+  };
+}
+function instanceOf(constructor, annotations) {
+  return declare((u) => u instanceof constructor, annotations);
+}
+function link() {
+  return (encodeTo, transformation) => {
+    return new Link(encodeTo.ast, make6(transformation));
+  };
+}
+var makeFilter2 = makeFilter;
+var TRIMMED_PATTERN = "^\\S[\\s\\S]*\\S$|^\\S$|^$";
+function isTrimmed(annotations) {
+  const regExp = new globalThis.RegExp(TRIMMED_PATTERN);
+  return makeFilter2((s) => s.trim() === s, {
+    expected: "a string with no leading or trailing whitespace",
+    representation: {
+      id: "effect/schema/isTrimmed",
+      payload: null
+    },
+    toJsonSchema: () => ({
+      pattern: regExp.source
+    }),
+    toCode: () => ({
+      runtime: "Schema.isTrimmed()"
+    }),
+    arbitrary: {
+      constraint: {
+        patterns: [TRIMMED_PATTERN]
+      }
+    },
+    ...annotations
+  });
+}
+function isPattern2(regExp, annotations) {
+  const source = regExp.source;
+  const flags = regExp.flags;
+  const runtimeRegExp = flags === "" ? `new RegExp(${format(source)})` : `new RegExp(${format(source)}, ${format(flags)})`;
+  return isPattern(regExp, {
+    toCode: () => ({
+      runtime: `Schema.isPattern(${runtimeRegExp})`
+    }),
+    ...annotations
+  });
+}
+function isBase64(annotations) {
+  const regExp = /^([0-9a-zA-Z+/]{4})*(([0-9a-zA-Z+/]{2}==)|([0-9a-zA-Z+/]{3}=))?$/;
+  return isPattern2(regExp, {
+    expected: "a base64 encoded string",
+    representation: {
+      id: "effect/schema/isBase64",
+      payload: null
+    },
+    toJsonSchema: () => ({
+      pattern: regExp.source
+    }),
+    toCode: () => ({
+      runtime: "Schema.isBase64()"
+    }),
+    ...annotations
+  });
+}
+function isStartsWith(startsWith, annotations) {
+  const formatted = JSON.stringify(startsWith);
+  const regExp = new globalThis.RegExp(`^${escape(startsWith)}`);
+  return makeFilter2((s) => s.startsWith(startsWith), {
+    expected: `a string starting with ${formatted}`,
+    representation: {
+      id: "effect/schema/isStartsWith",
+      payload: {
+        startsWith
+      }
+    },
+    toJsonSchema: () => ({
+      pattern: regExp.source
+    }),
+    toCode: () => ({
+      runtime: `Schema.isStartsWith(${format(startsWith)})`
+    }),
+    arbitrary: {
+      constraint: {
+        patterns: [regExp.source]
+      }
+    },
+    ...annotations
+  });
+}
+var Finite = /* @__PURE__ */ make9(finite);
+function makeIsGreaterThan(options) {
+  const gt = isGreaterThan(options.order);
+  const formatter = options.formatter ?? format;
+  return (exclusiveMinimum, annotations) => {
+    return makeFilter2((input) => gt(input, exclusiveMinimum), {
+      expected: `a value greater than ${formatter(exclusiveMinimum)}`,
+      arbitrary: {
+        constraint: {
+          ordered: {
+            order: options.order,
+            minimum: exclusiveMinimum,
+            exclusiveMinimum: true
+          }
+        }
+      },
+      ...options.annotate?.(exclusiveMinimum),
+      ...annotations
+    });
+  };
+}
+function makeIsGreaterThanOrEqualTo(options) {
+  const gte = isGreaterThanOrEqualTo(options.order);
+  const formatter = options.formatter ?? format;
+  return (minimum, annotations) => {
+    return makeFilter2((input) => gte(input, minimum), {
+      expected: `a value greater than or equal to ${formatter(minimum)}`,
+      arbitrary: {
+        constraint: {
+          ordered: {
+            order: options.order,
+            minimum
+          }
+        }
+      },
+      ...options.annotate?.(minimum),
+      ...annotations
+    });
+  };
+}
+function makeIsLessThanOrEqualTo(options) {
+  const lte = isLessThanOrEqualTo(options.order);
+  const formatter = options.formatter ?? format;
+  return (maximum, annotations) => {
+    return makeFilter2((input) => lte(input, maximum), {
+      expected: `a value less than or equal to ${formatter(maximum)}`,
+      arbitrary: {
+        constraint: {
+          ordered: {
+            order: options.order,
+            maximum
+          }
+        }
+      },
+      ...options.annotate?.(maximum),
+      ...annotations
+    });
+  };
+}
+function makeIsBetween(deriveOptions) {
+  const greaterThanOrEqualTo = isGreaterThanOrEqualTo(deriveOptions.order);
+  const greaterThan = isGreaterThan(deriveOptions.order);
+  const lessThanOrEqualTo = isLessThanOrEqualTo(deriveOptions.order);
+  const lessThan = isLessThan(deriveOptions.order);
+  const formatter = deriveOptions.formatter ?? format;
+  return (options, annotations) => {
+    const gte = options.exclusiveMinimum ? greaterThan : greaterThanOrEqualTo;
+    const lte = options.exclusiveMaximum ? lessThan : lessThanOrEqualTo;
+    return makeFilter2((input) => gte(input, options.minimum) && lte(input, options.maximum), {
+      expected: `a value between ${formatter(options.minimum)}${options.exclusiveMinimum ? " (excluded)" : ""} and ${formatter(options.maximum)}${options.exclusiveMaximum ? " (excluded)" : ""}`,
+      arbitrary: {
+        constraint: {
+          ordered: {
+            order: deriveOptions.order,
+            minimum: options.minimum,
+            maximum: options.maximum,
+            ...options.exclusiveMinimum && {
+              exclusiveMinimum: true
+            },
+            ...options.exclusiveMaximum && {
+              exclusiveMaximum: true
+            }
+          }
+        }
+      },
+      ...deriveOptions.annotate?.(options),
+      ...annotations
+    });
+  };
+}
+function encodeNumberPayload(number) {
+  if (!globalThis.Number.isFinite(number)) {
+    throw new globalThis.RangeError(`Expected a finite number, got ${format(number)}`);
+  }
+  return number;
+}
+var isGreaterThan3 = /* @__PURE__ */ makeIsGreaterThan({
+  order: Number2,
+  annotate: (exclusiveMinimum) => ({
+    representation: {
+      id: "effect/schema/isGreaterThan",
+      payload: {
+        exclusiveMinimum: encodeNumberPayload(exclusiveMinimum)
+      }
+    },
+    toJsonSchema: () => ({
+      exclusiveMinimum
+    }),
+    toCode: () => ({
+      runtime: `Schema.isGreaterThan(${format(exclusiveMinimum)})`
+    })
+  })
+});
+var isGreaterThanOrEqualTo3 = /* @__PURE__ */ makeIsGreaterThanOrEqualTo({
+  order: Number2,
+  annotate: (minimum) => ({
+    representation: {
+      id: "effect/schema/isGreaterThanOrEqualTo",
+      payload: {
+        minimum: encodeNumberPayload(minimum)
+      }
+    },
+    toJsonSchema: () => ({
+      minimum
+    }),
+    toCode: () => ({
+      runtime: `Schema.isGreaterThanOrEqualTo(${format(minimum)})`
+    })
+  })
+});
+var isLessThanOrEqualTo3 = /* @__PURE__ */ makeIsLessThanOrEqualTo({
+  order: Number2,
+  annotate: (maximum) => ({
+    representation: {
+      id: "effect/schema/isLessThanOrEqualTo",
+      payload: {
+        maximum: encodeNumberPayload(maximum)
+      }
+    },
+    toJsonSchema: () => ({
+      maximum
+    }),
+    toCode: () => ({
+      runtime: `Schema.isLessThanOrEqualTo(${format(maximum)})`
+    })
+  })
+});
+var isBetween2 = /* @__PURE__ */ makeIsBetween({
+  order: Number2,
+  annotate: (options) => {
+    const exclusiveMinimum = options.exclusiveMinimum ? true : undefined;
+    const exclusiveMaximum = options.exclusiveMaximum ? true : undefined;
+    const payload = {
+      minimum: encodeNumberPayload(options.minimum),
+      maximum: encodeNumberPayload(options.maximum),
+      ...exclusiveMinimum && {
+        exclusiveMinimum
+      },
+      ...exclusiveMaximum && {
+        exclusiveMaximum
+      }
+    };
+    return {
+      representation: {
+        id: "effect/schema/isBetween",
+        payload
+      },
+      toJsonSchema: () => ({
+        [exclusiveMinimum ? "exclusiveMinimum" : "minimum"]: options.minimum,
+        [exclusiveMaximum ? "exclusiveMaximum" : "maximum"]: options.maximum
+      }),
+      toCode: () => ({
+        runtime: `Schema.isBetween({ minimum: ${format(options.minimum)}, maximum: ${format(options.maximum)}, exclusiveMinimum: ${format(exclusiveMinimum)}, exclusiveMaximum: ${format(exclusiveMaximum)} })`
+      })
+    };
+  }
+});
+function isInt(annotations) {
+  return makeFilter2((n) => globalThis.Number.isSafeInteger(n), {
+    expected: "an integer",
+    representation: {
+      id: "effect/schema/isInt",
+      payload: null
+    },
+    toJsonSchema: () => ({
+      type: "integer"
+    }),
+    toCode: () => ({
+      runtime: "Schema.isInt()"
+    }),
+    arbitrary: {
+      constraint: {
+        integer: true
+      }
+    },
+    ...annotations
+  });
+}
+var Int = /* @__PURE__ */ Number5.check(/* @__PURE__ */ isInt());
+function isMinLength(minLength, annotations) {
+  minLength = Math.max(0, Math.floor(minLength));
+  return makeFilter2((input) => input.length >= minLength, {
+    expected: `a value with a length of at least ${minLength}`,
+    representation: {
+      id: "effect/schema/isMinLength",
+      payload: {
+        minLength
+      }
+    },
+    toJsonSchema: ({
+      type
+    }) => type === "array" ? {
+      minItems: minLength
+    } : {
+      minLength
+    },
+    toCode: () => ({
+      runtime: `Schema.isMinLength(${minLength})`
+    }),
+    [STRUCTURAL_ANNOTATION_KEY]: true,
+    arbitrary: {
+      constraint: {
+        minLength
+      }
+    },
+    ...annotations
+  });
+}
+function isNonEmpty(annotations) {
+  return isMinLength(1, annotations);
+}
+var getErrorOptionsKey = (options) => (options?.includeStack === true ? 1 : 0) | (options?.excludeCause === true ? 2 : 0);
+var getErrorOptions = (key) => {
+  switch (key) {
+    case 0:
+      return;
+    case 1:
+      return {
+        includeStack: true
+      };
+    case 2:
+      return {
+        excludeCause: true
+      };
+    case 3:
+      return {
+        includeStack: true,
+        excludeCause: true
+      };
+  }
+};
+var defectSchemaCache = [];
+function Defect(options) {
+  const key = getErrorOptionsKey(options);
+  const cached = defectSchemaCache[key];
+  if (cached !== undefined) {
+    return cached;
+  }
+  const schema = Json2.pipe(decodeTo2(Unknown2, defectFromJson(getErrorOptions(key))));
+  defectSchemaCache[key] = schema;
+  return schema;
+}
+var RegExp3 = /* @__PURE__ */ instanceOf(globalThis.RegExp, {
+  representation: {
+    id: "effect/schema/RegExp",
+    payload: null
+  },
+  toCode: () => ({
+    runtime: `Schema.RegExp`,
+    Type: `globalThis.RegExp`
+  }),
+  expected: "RegExp",
+  toCodecJson: () => link()(Struct({
+    source: String5,
+    flags: String5
+  }), transformOrFail2({
+    decode: (e, options) => try_2({
+      try: () => new globalThis.RegExp(e.source, e.flags),
+      catch: () => new InvalidValue({
+        expected: "valid RegExp source and flags"
+      }, e, options)
+    }),
+    encode: (regExp) => succeed5({
+      source: regExp.source,
+      flags: regExp.flags
+    })
+  })),
+  toArbitrary: () => (fc) => fc.tuple(fc.constantFrom(".", ".*", "\\d+", "\\w+", "[a-z]+", "[A-Z]+", "[0-9]+", "^[a-zA-Z0-9]+$", "^\\d{4}-\\d{2}-\\d{2}$"), fc.uniqueArray(fc.constantFrom("g", "i", "m", "s", "u", "y"), {
+    minLength: 0,
+    maxLength: 6
+  }).map((flags) => flags.join(""))).map(([source, flags]) => new globalThis.RegExp(source, flags)),
+  toEquivalence: () => (a, b) => a.source === b.source && a.flags === b.flags
+});
+var URLString = /* @__PURE__ */ String5.annotate({
+  expected: "a string that will be decoded as a URL"
+});
+var URL2 = /* @__PURE__ */ instanceOf(globalThis.URL, {
+  representation: {
+    id: "effect/schema/URL",
+    payload: null
+  },
+  toCode: () => ({
+    runtime: `Schema.URL`,
+    Type: `globalThis.URL`
+  }),
+  expected: "URL",
+  toCodecJson: () => link()(URLString, urlFromString),
+  toArbitrary: () => (fc) => fc.webUrl().map((s) => new globalThis.URL(s)),
+  toEquivalence: () => (a, b) => a.toString() === b.toString()
+});
+function dateArbitraryConstraints(ordered, base, toDate) {
+  const out = {
+    ...base
+  };
+  if (ordered?.minimum !== undefined) {
+    const minimum = toDate === undefined ? ordered.minimum : toDate(ordered.minimum);
+    const nextMin = ordered.exclusiveMinimum ? new globalThis.Date(minimum.getTime() + 1) : minimum;
+    if (out.min === undefined || nextMin.getTime() > out.min.getTime()) {
+      out.min = nextMin;
+    }
+  }
+  if (ordered?.maximum !== undefined) {
+    const maximum = toDate === undefined ? ordered.maximum : toDate(ordered.maximum);
+    const nextMax = ordered.exclusiveMaximum ? new globalThis.Date(maximum.getTime() - 1) : maximum;
+    if (out.max === undefined || nextMax.getTime() < out.max.getTime()) {
+      out.max = nextMax;
+    }
+  }
+  return out;
+}
+var File2 = /* @__PURE__ */ instanceOf(globalThis.File, {
+  representation: {
+    id: "effect/schema/File",
+    payload: null
+  },
+  toCode: () => ({
+    runtime: `Schema.File`,
+    Type: `globalThis.File`
+  }),
+  expected: "File",
+  toCodecJson: () => link()(Struct({
+    data: String5.check(isBase64()),
+    type: String5,
+    name: String5,
+    lastModified: Int
+  }), transformOrFail2({
+    decode: (e, options) => match2(decodeBase64(e.data), {
+      onFailure: () => fail5(new InvalidValue({
+        expected: "a valid Base64 string"
+      }, e.data, options)),
+      onSuccess: (bytes) => {
+        const buffer = new globalThis.Uint8Array(bytes);
+        return succeed5(new globalThis.File([buffer], e.name, {
+          type: e.type,
+          lastModified: e.lastModified
+        }));
+      }
+    }),
+    encode: (file, options) => tryPromise2({
+      try: async () => {
+        const bytes = new globalThis.Uint8Array(await file.arrayBuffer());
+        return {
+          data: encodeBase64(bytes),
+          type: file.type,
+          name: file.name,
+          lastModified: file.lastModified
+        };
+      },
+      catch: () => new InvalidValue({
+        expected: "a readable File"
+      }, file, options)
+    })
+  }))
+});
+var FormData2 = /* @__PURE__ */ instanceOf(globalThis.FormData, {
+  representation: {
+    id: "effect/schema/FormData",
+    payload: null
+  },
+  toCode: () => ({
+    runtime: `Schema.FormData`,
+    Type: `globalThis.FormData`
+  }),
+  expected: "FormData",
+  toCodecJson: () => link()(ArraySchema(Tuple([String5, Union2([Struct({
+    _tag: tag("String"),
+    value: String5
+  }), Struct({
+    _tag: tag("File"),
+    value: File2
+  })])])), transformOrFail2({
+    decode: (e) => {
+      const out = new globalThis.FormData;
+      for (const [key, entry] of e) {
+        out.append(key, entry.value);
+      }
+      return succeed5(out);
+    },
+    encode: (formData) => {
+      return succeed5(globalThis.Array.from(formData.entries()).map(([key, value]) => {
+        if (typeof value === "string") {
+          return [key, {
+            _tag: "String",
+            value
+          }];
+        } else {
+          return [key, {
+            _tag: "File",
+            value
+          }];
+        }
+      }));
+    }
+  }))
+});
+var URLSearchParams2 = /* @__PURE__ */ instanceOf(globalThis.URLSearchParams, {
+  representation: {
+    id: "effect/schema/URLSearchParams",
+    payload: null
+  },
+  toCode: () => ({
+    runtime: `Schema.URLSearchParams`,
+    Type: `globalThis.URLSearchParams`
+  }),
+  expected: "URLSearchParams",
+  toCodecJson: () => link()(String5.annotate({
+    expected: "a query string that will be decoded as URLSearchParams"
+  }), transform3({
+    decode: (e) => new globalThis.URLSearchParams(e),
+    encode: (params) => params.toString()
+  }))
+});
+var Trimmed = /* @__PURE__ */ String5.check(/* @__PURE__ */ isTrimmed());
+var Trim = /* @__PURE__ */ String5.annotate({
+  expected: "a string that will be decoded as a trimmed string"
+}).pipe(/* @__PURE__ */ decodeTo2(Trimmed, /* @__PURE__ */ trim3()));
+var Base64String = /* @__PURE__ */ String5.annotate({
+  expected: "a base64 encoded string that will be decoded as Uint8Array",
+  format: "byte",
+  contentEncoding: "base64"
+});
+var Uint8Array2 = /* @__PURE__ */ instanceOf(globalThis.Uint8Array, {
+  representation: {
+    id: "effect/schema/Uint8Array",
+    payload: null
+  },
+  toCode: () => ({
+    runtime: `Schema.Uint8Array`,
+    Type: `globalThis.Uint8Array`
+  }),
+  expected: "Uint8Array",
+  toCodecJson: () => link()(Base64String, uint8ArrayFromBase64String),
+  toArbitrary: () => (fc) => fc.uint8Array()
+});
+var DateTimeUtc = /* @__PURE__ */ declare((u) => isDateTime2(u) && isUtc2(u), {
+  representation: {
+    id: "effect/schema/DateTimeUtc",
+    payload: null
+  },
+  toCode: () => ({
+    runtime: `Schema.DateTimeUtc`,
+    Type: `DateTime.Utc`,
+    importDeclarations: [`import * as DateTime from "effect/DateTime"`]
+  }),
+  expected: "DateTime.Utc",
+  toCodecJson: () => link()(String5, dateTimeUtcFromString),
+  toArbitrary: () => (fc, ctx) => fc.date(dateArbitraryConstraints(ctx?.constraint?.ordered?.order === Order2 ? ctx.constraint.ordered : undefined, {
+    noInvalidDate: true
+  }, toDateUtc2)).map((date) => fromDateUnsafe2(date)),
+  toFormatter: () => (utc) => utc.toString(),
+  toEquivalence: () => Equivalence2
+});
+var immerable = /* @__PURE__ */ globalThis.Symbol.for("immer-draftable");
+var payloadToken = {};
+function makeClass(Inherited, identifier, struct2, annotations, proto) {
+  const getClassSchema = getClassSchemaFactory(struct2, identifier, annotations);
+  const ClassTypeId = getClassTypeId(identifier);
+  const out = class extends Inherited {
+    constructor(...[input, options]) {
+      const internalOptions = options;
+      const payload = internalOptions?.["~payload"];
+      const value = payload?.token === payloadToken ? payload.value : struct2.make(input ?? {}, options);
+      super(value, {
+        ...options,
+        disableChecks: true,
+        "~payload": {
+          token: payloadToken,
+          value
+        }
+      });
+    }
+    static [TypeId9] = TypeId9;
+    get [ClassTypeId]() {
+      return ClassTypeId;
+    }
+    static [immerable] = true;
+    static identifier = identifier;
+    static fields = struct2.fields;
+    static get ast() {
+      return getClassSchema(this).ast;
+    }
+    static pipe() {
+      return pipeArguments(this, arguments);
+    }
+    static rebuild(ast) {
+      return getClassSchema(this).rebuild(ast);
+    }
+    static make(input, options) {
+      return new this(input, options);
+    }
+    static makeOption(input, options) {
+      return makeOption(getClassSchema(this))(input ?? {}, options);
+    }
+    static makeEffect(input, options) {
+      return getClassSchema(this).makeEffect(input ?? {}, options);
+    }
+    static annotate(annotations) {
+      return this.rebuild(annotate(this.ast, annotations));
+    }
+    static annotateKey(annotations) {
+      return this.rebuild(annotateKey(this.ast, annotations));
+    }
+    static check(...checks) {
+      return this.rebuild(appendChecks(this.ast, checks));
+    }
+    static extend(identifier2) {
+      return (schema, annotations) => {
+        const extension = isStruct(schema) ? schema : Struct(schema);
+        const fields = {
+          ...struct2.fields,
+          ...extension.fields
+        };
+        const ast = struct(fields, struct2.ast.checks, {
+          identifier: identifier2
+        });
+        return makeClass(this, identifier2, makeStruct(appendChecks(ast, extension.ast.checks), fields), annotations, proto);
+      };
+    }
+    static mapFields(f, options) {
+      return struct2.mapFields(f, options);
+    }
+  };
+  if (proto !== undefined) {
+    Object.assign(out.prototype, proto(identifier));
+  }
+  return out;
+}
+function getClassTransformation(self) {
+  return new Transformation(transform2((input) => new self(input, {
+    "~payload": {
+      token: payloadToken,
+      value: input
+    }
+  })), passthrough());
+}
+function getClassTypeId(identifier) {
+  return `~effect/Schema/Class/${identifier}`;
+}
+function getClassSchemaFactory(from, identifier, annotations) {
+  let memo;
+  return (self) => {
+    if (memo !== undefined) {
+      return memo;
+    }
+    const ClassTypeId = getClassTypeId(identifier);
+    const isClassValue = (input) => input instanceof self || hasProperty(input, ClassTypeId);
+    const transformation = getClassTransformation(self);
+    const to = make9(new Declaration([from.ast], () => (input, ast, options) => {
+      return isClassValue(input) ? succeed5(input) : fail5(new InvalidType(ast, input, options));
+    }, {
+      identifier,
+      [CONSTRUCTOR_ANNOTATION_KEY]: ([from]) => ({
+        isConstructed: isClassValue,
+        link: new Link(from, transformation)
+      }),
+      toCodec: ([from]) => new Link(from.ast, transformation),
+      toArbitrary: ([from]) => () => ({
+        arbitrary: from.arbitrary.map((args) => new self(args)),
+        terminal: from.terminal?.map((args) => new self(args))
+      }),
+      toFormatter: ([from]) => (t) => `${self.identifier}(${from(t)})`,
+      [SENTINELS_ANNOTATION_KEY]: collectSentinels(from.ast),
+      ...annotations
+    }));
+    return memo = decodeTo2(to, transformation)(from);
+  };
+}
+function isStruct(schema) {
+  return isSchema(schema);
+}
+var Class4 = (identifier) => (schema, annotations) => {
+  const struct = isStruct(schema) ? schema : Struct(schema);
+  return makeClass(Class3, identifier, struct, annotations, (identifier) => ({
+    toString() {
+      return `${identifier}(${format({
+        ...this
+      })})`;
+    }
+  }));
+};
+var Error3 = (identifier) => (schema, annotations) => {
+  const struct = isStruct(schema) ? schema : Struct(schema);
+  const self = makeClass(Error2, identifier, struct, annotations, (identifier) => ({
+    name: identifier
+  }));
+  return self;
+};
+var TaggedError3 = (identifier) => {
+  return (tagValue, schema, annotations) => {
+    const struct = isStruct(schema) ? schema.mapFields((fields) => ({
+      _tag: tag(tagValue),
+      ...fields
+    }), {
+      unsafePreserveChecks: true
+    }) : TaggedStruct(tagValue, schema);
+    return Error3(identifier ?? tagValue)(struct, annotations);
+  };
+};
+function toEquivalence2(schema) {
+  return toEquivalence(schema.ast);
+}
+var Json2 = /* @__PURE__ */ make9(/* @__PURE__ */ annotate(Json, {
+  toCode: () => ({
+    runtime: "Schema.Json",
+    Type: "Schema.Json"
+  })
+}));
+// node_modules/@opencode/schema/dist/schema.js
+var PositiveInt = Int.check(isGreaterThan3(0));
+var NonNegativeInt = Int.check(isGreaterThanOrEqualTo3(0));
+var RelativePath = String5.pipe(brand2("RelativePath"));
+var AbsolutePath = String5.pipe(brand2("AbsolutePath"));
+var optional4 = (schema) => optionalKey2(schema).pipe(decodeTo2(optional3(toType2(schema)), {
+  decode: passthrough({ strict: false }),
+  encode: transformOptional(filter((value) => value !== undefined))
+}));
+var statics = (methods) => (schema) => Object.assign(schema, methods(schema));
+var DateTimeUtcFromMillis = Finite.pipe(decodeTo2(DateTimeUtc, {
+  decode: transform2((value) => makeUnsafe3(value)),
+  encode: transform2((value) => toEpochMillis2(value))
+}));
+
+// node_modules/@opencode/schema/dist/identifier.js
+var length = 26;
+var chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+var lastTimestamp = 0;
+var counter = 0;
+function ascending() {
+  return create(false);
+}
+function descending() {
+  return create(true);
+}
+function create(descending, timestamp = Date.now()) {
+  if (timestamp !== lastTimestamp) {
+    lastTimestamp = timestamp;
+    counter = 0;
+  }
+  counter++;
+  const current = BigInt(timestamp) * 0x1000n + BigInt(counter);
+  const value = descending ? ~current : current;
+  const time = Array.from({ length: 6 }, (_, index) => Number(value >> BigInt(40 - 8 * index) & 0xffn).toString(16).padStart(2, "0")).join("");
+  const bytes = crypto.getRandomValues(new Uint8Array(length - 12));
+  return time + Array.from(bytes, (byte) => chars[byte % 62]).join("");
+}
+// node_modules/@opencode/schema/dist/project-id.js
+var ProjectID = String5.pipe(brand2("Project.ID"), statics((schema) => ({ global: schema.make("global") })));
+
+// node_modules/@opencode/schema/dist/workspace-id.js
+var WorkspaceID = String5.check(isStartsWith("wrk")).pipe(brand2("Workspace.ID"), statics((schema) => {
+  const create = () => schema.make("wrk_" + ascending());
+  return {
+    ascending: (id) => {
+      if (!id)
+        return create();
+      if (!id.startsWith("wrk"))
+        throw new Error(`ID ${id} does not start with wrk`);
+      return schema.make(id);
+    },
+    create
+  };
+}));
+
+// node_modules/@opencode/schema/dist/location.js
+var Ref2 = Struct({
+  directory: AbsolutePath,
+  workspaceID: optional4(WorkspaceID)
+}).annotate({ identifier: "Location.Ref" });
+var PublicRef = Struct(omit2(Ref2.fields, ["workspaceID"])).annotate({
+  identifier: "Location.PublicRef"
+});
+
+class Info extends Class4("Location.Info")({
+  directory: AbsolutePath,
+  workspaceID: optional4(WorkspaceID),
+  project: Struct({
+    id: ProjectID,
+    directory: AbsolutePath,
+    canonical: AbsolutePath
+  })
+}) {
+}
+var PublicInfo = Struct(omit2(Info.fields, ["workspaceID"])).annotate({
+  identifier: "Location.PublicInfo"
+});
+
+// node_modules/@opencode/schema/dist/event.js
+var ID = String5.check(isStartsWith("evt_")).pipe(brand2("Event.ID"), statics((schema) => ({ create: () => schema.make("evt_" + ascending()) })));
+var Seq = Int.check(isGreaterThanOrEqualTo3(0)).pipe(brand2("Event.Seq"));
+var Version = Int.check(isGreaterThanOrEqualTo3(1)).pipe(brand2("Event.Version"));
+var DurableEnvelope = Struct({ aggregateID: String5, seq: Seq, version: Version });
+function durable(input) {
+  const data = Struct(input.schema);
+  const durable = Struct({
+    aggregateID: DurableEnvelope.fields.aggregateID,
+    seq: DurableEnvelope.fields.seq,
+    version: Literal2(input.durable.version).pipe(decodeTo2(toType2(Version), transform3({
+      decode: () => Version.make(input.durable.version),
+      encode: () => input.durable.version
+    })))
+  });
+  return Struct({
+    id: ID,
+    created: Finite,
+    metadata: optional4(Record(String5, Unknown2)),
+    type: Literal2(input.type),
+    durable,
+    location: optional4(Ref2),
+    data
+  }).annotate({ identifier: input.identifier ?? input.type }).pipe(statics(() => ({
+    type: input.type,
+    durability: "durable",
+    durable: input.durable,
+    data
+  })));
+}
+function ephemeral(input) {
+  const data = Struct(input.schema);
+  return Struct({
+    id: ID,
+    created: Finite,
+    metadata: optional4(Record(String5, Unknown2)),
+    type: Literal2(input.type),
+    location: optional4(Ref2),
+    data
+  }).annotate({ identifier: input.identifier ?? input.type }).pipe(statics(() => ({
+    type: input.type,
+    durability: "ephemeral",
+    durable: undefined,
+    data
+  })));
+}
+function inventory(...definitions) {
+  return Object.freeze(definitions);
+}
+// node_modules/@opencode/schema/dist/integration-id.js
+var IntegrationID = String5.pipe(brand2("Integration.ID"));
+var IntegrationMethodID = String5.pipe(brand2("Integration.MethodID"));
+// node_modules/@opencode/schema/dist/form.js
+var IDSchema = String5.check(isStartsWith("frm_")).pipe(brand2("Form.ID"));
+var ID2 = IDSchema.pipe(statics((schema) => ({ create: (id) => schema.make(id ?? "frm_" + ascending()) })));
+var Metadata = Record(String5, Unknown2).annotate({ identifier: "Form.Metadata" });
+var Option = Struct({
+  value: String5,
+  label: String5,
+  description: String5.pipe(optional4)
+}).annotate({ identifier: "Form.Option" });
+var When = Struct({
+  key: String5,
+  op: Literals(["eq", "neq"]),
+  value: Union2([String5, Number5, Boolean3])
+}).annotate({ identifier: "Form.When" });
+var FieldBase = {
+  key: String5,
+  title: String5.pipe(optional4),
+  description: String5.pipe(optional4),
+  required: Boolean3.pipe(optional4),
+  hidden: Boolean3.pipe(optional4).annotate({
+    description: "Skip the interactive authentication prompt and use the default unless an answer is supplied"
+  }),
+  when: ArraySchema(When).pipe(optional4)
+};
+var StringField = Struct({
+  ...FieldBase,
+  type: Literal2("string"),
+  format: Literals(["email", "uri", "date", "date-time"]).pipe(optional4),
+  minLength: NonNegativeInt.pipe(optional4),
+  maxLength: NonNegativeInt.pipe(optional4),
+  pattern: String5.pipe(optional4),
+  placeholder: String5.pipe(optional4),
+  default: String5.pipe(optional4),
+  options: ArraySchema(Option).pipe(optional4),
+  custom: Boolean3.pipe(optional4)
+}).annotate({ identifier: "Form.StringField" });
+var NumberField = Struct({
+  ...FieldBase,
+  type: Literal2("number"),
+  minimum: Number5.pipe(optional4),
+  maximum: Number5.pipe(optional4),
+  default: Number5.pipe(optional4)
+}).annotate({ identifier: "Form.NumberField" });
+var IntegerField = Struct({
+  ...FieldBase,
+  type: Literal2("integer"),
+  minimum: Number5.pipe(optional4),
+  maximum: Number5.pipe(optional4),
+  default: Number5.pipe(optional4)
+}).annotate({ identifier: "Form.IntegerField" });
+var BooleanField = Struct({
+  ...FieldBase,
+  type: Literal2("boolean"),
+  default: Boolean3.pipe(optional4)
+}).annotate({ identifier: "Form.BooleanField" });
+var MultiselectField = Struct({
+  ...FieldBase,
+  type: Literal2("multiselect"),
+  options: ArraySchema(Option),
+  minItems: NonNegativeInt.pipe(optional4),
+  maxItems: NonNegativeInt.pipe(optional4),
+  custom: Boolean3.pipe(optional4),
+  default: ArraySchema(String5).pipe(optional4)
+}).annotate({ identifier: "Form.MultiselectField" });
+var ExternalField = Struct({
+  key: String5,
+  type: Literal2("external"),
+  url: String5,
+  title: String5.pipe(optional4),
+  description: String5.pipe(optional4)
+}).annotate({ identifier: "Form.ExternalField" });
+var Field = Union2([
+  StringField,
+  NumberField,
+  IntegerField,
+  BooleanField,
+  MultiselectField,
+  ExternalField
+]).pipe(toTaggedUnion("type"), annotate2({ identifier: "Form.Field" }));
+var Fields = NonEmptyArray(Field).annotate({ identifier: "Form.Fields" });
+var InfoBase = {
+  id: ID2,
+  sessionID: String5,
+  title: String5,
+  metadata: Metadata.pipe(optional4)
+};
+var Info2 = Struct({
+  ...InfoBase,
+  fields: Fields
+}).annotate({ identifier: "Form.Info" });
+var Value = Union2([String5, Number5, Boolean3, ArraySchema(String5)]).annotate({
+  identifier: "Form.Value"
+});
+var Answer = Record(String5, Value).annotate({ identifier: "Form.Answer" });
+var State = Union2([
+  Struct({ status: Literal2("pending") }),
+  Struct({ status: Literal2("answered"), answer: Answer }),
+  Struct({ status: Literal2("cancelled") })
+]).pipe(toTaggedUnion("status")).annotate({ identifier: "Form.State" });
+var Detail = Struct({
+  ...Info2.fields,
+  state: State
+}).annotate({ identifier: "Form.Detail" });
+var Reply = Struct({
+  answer: Answer
+}).annotate({ identifier: "Form.Reply" });
+var Created = ephemeral({ type: "form.created", schema: { form: Info2 } });
+var Replied = ephemeral({ type: "form.replied", schema: { id: ID2, sessionID: String5, answer: Answer } });
+var Cancelled = ephemeral({ type: "form.cancelled", schema: { id: ID2, sessionID: String5 } });
+var Event = { Created, Replied, Cancelled, Definitions: inventory(Created, Replied, Cancelled) };
+
+// node_modules/@opencode/schema/dist/credential.js
+var ID3 = String5.pipe(brand2("Credential.ID"), statics((schema) => ({ create: () => schema.make("cred_" + ascending()) })));
+var Updated = ephemeral({
+  type: "credential.updated",
+  schema: {}
+});
+var Switched = ephemeral({
+  type: "credential.switched",
+  schema: { integrationID: IntegrationID, credentialID: NullOr(ID3) }
+});
+var Event2 = {
+  Updated,
+  Switched,
+  Definitions: inventory(Updated, Switched)
+};
+var OAuth = Struct({
+  type: Literal2("oauth"),
+  methodID: IntegrationMethodID,
+  refresh: String5,
+  access: String5,
+  expires: NonNegativeInt,
+  metadata: optional4(Record(String5, Unknown2))
+}).annotate({ identifier: "Credential.OAuth" });
+var Key = Struct({
+  type: Literal2("key"),
+  key: String5,
+  metadata: optional4(Record(String5, Unknown2)),
+  configuration: optional4(Answer)
+}).annotate({ identifier: "Credential.Key" });
+var Value2 = Union2([OAuth, Key]).pipe(toTaggedUnion("type")).annotate({ identifier: "Credential.Value" });
+
+// node_modules/@opencode/schema/dist/connection.js
+var CredentialInfo = Struct({
+  type: Literal2("credential"),
+  id: ID3,
+  label: String5,
+  method: Literals(["key", "oauth"])
+}).annotate({ identifier: "Connection.CredentialInfo" });
+var EnvInfo = Struct({
+  type: Literal2("env"),
+  name: String5
+}).annotate({ identifier: "Connection.EnvInfo" });
+var Info3 = Union2([CredentialInfo, EnvInfo]).pipe(toTaggedUnion("type")).annotate({ identifier: "Connection.Info" });
+
+// node_modules/@opencode/schema/dist/integration.js
+var ID4 = IntegrationID;
+var MethodID = IntegrationMethodID;
+var OAuthMethod = Struct({
+  id: MethodID,
+  type: Literal2("oauth"),
+  label: String5,
+  form: optional4(Fields)
+}).annotate({ identifier: "Integration.OAuthMethod" });
+var CommandMethod = Struct({
+  id: MethodID,
+  type: Literal2("command"),
+  label: String5,
+  command: ArraySchema(String5)
+}).annotate({ identifier: "Integration.CommandMethod" });
+var KeyMethod = Struct({
+  type: Literal2("key"),
+  label: optional4(String5),
+  form: optional4(Fields)
+}).annotate({ identifier: "Integration.KeyMethod" });
+var EnvMethod = Struct({
+  type: Literal2("env"),
+  names: ArraySchema(String5)
+}).annotate({ identifier: "Integration.EnvMethod" });
+var Method = Union2([OAuthMethod, CommandMethod, KeyMethod, EnvMethod]).pipe(toTaggedUnion("type")).annotate({ identifier: "Integration.Method" });
+var Updated2 = ephemeral({
+  type: "integration.updated",
+  schema: {}
+});
+var Event3 = { Updated: Updated2, Definitions: inventory(Updated2) };
+var Ref3 = Struct({
+  id: ID4,
+  name: String5,
+  metadata: optional4(Record(String5, Any2))
+}).annotate({ identifier: "Integration.Ref" });
+var Info4 = Struct({
+  id: ID4,
+  name: String5,
+  metadata: optional4(Record(String5, Any2)),
+  methods: ArraySchema(Method),
+  connections: ArraySchema(Info3)
+}).annotate({ identifier: "Integration.Info" });
+var AttemptID = String5.pipe(brand2("Integration.AttemptID"), statics((schema) => ({ create: () => schema.make("con_" + ascending()) })));
+var AttemptTime = Struct({
+  created: Number5,
+  expires: Number5
+});
+
+class Attempt extends Class4("Integration.Attempt")({
+  attemptID: AttemptID,
+  url: String5,
+  instructions: String5,
+  mode: Literals(["auto", "code"]),
+  time: AttemptTime
+}) {
+}
+var AttemptStatus = Union2([
+  Struct({ status: Literal2("pending"), time: AttemptTime }),
+  Struct({ status: Literal2("complete"), time: AttemptTime }),
+  Struct({ status: Literal2("failed"), message: String5, time: AttemptTime }),
+  Struct({ status: Literal2("expired"), time: AttemptTime })
+]).pipe(toTaggedUnion("status")).annotate({ identifier: "Integration.AttemptStatus" });
+var CommandAttempt = Struct({
+  attemptID: AttemptID,
+  time: AttemptTime
+}).annotate({ identifier: "Integration.CommandAttempt" });
+var CommandAttemptStatus = Union2([
+  Struct({ status: Literal2("pending"), message: optional4(String5), time: AttemptTime }),
+  Struct({ status: Literal2("complete"), time: AttemptTime }),
+  Struct({ status: Literal2("failed"), message: String5, time: AttemptTime }),
+  Struct({ status: Literal2("expired"), time: AttemptTime })
+]).pipe(toTaggedUnion("status")).annotate({ identifier: "Integration.CommandAttemptStatus" });
+
+// node_modules/@opencode/schema/dist/provider.js
+var ID5 = String5.pipe(brand2("Provider.ID"), statics((schema) => ({
+  opencode: schema.make("opencode"),
+  anthropic: schema.make("anthropic"),
+  openai: schema.make("openai"),
+  google: schema.make("google"),
+  googleVertex: schema.make("google-vertex"),
+  githubCopilot: schema.make("github-copilot"),
+  amazonBedrock: schema.make("amazon-bedrock"),
+  azure: schema.make("azure"),
+  openrouter: schema.make("openrouter"),
+  mistral: schema.make("mistral"),
+  gitlab: schema.make("gitlab")
+})));
+var Updated3 = ephemeral({ type: "provider.updated", schema: {} });
+var Event4 = { Updated: Updated3, Definitions: inventory(Updated3) };
+var Package = String5;
+var Activation = Literals(["auto", "enabled", "disabled"]);
+var Compaction = Union2([
+  Struct({ type: Literal2("summary") }),
+  Struct({ type: Literal2("native") })
+]).pipe(toTaggedUnion("type")).annotate({ identifier: "Provider.Compaction" });
+var Transport = Literals(["http", "websocket"]).annotate({ identifier: "Provider.Transport" });
+var Settings = StructWithRest(Struct({
+  timeout: Union2([Finite, Literal2(false)]).pipe(optional4),
+  chunkTimeout: Finite.pipe(optional4),
+  compaction: Compaction.pipe(optional4),
+  transport: Transport.pipe(optional4)
+}), [Record(String5, Any2)]).annotate({ identifier: "Provider.Settings" });
+var Overlays = {
+  settings: Settings.pipe(optional4),
+  headers: Record(String5, String5).pipe(optional4),
+  body: Record(String5, Any2).pipe(optional4)
+};
+var Request2 = Struct({
+  settings: Settings.pipe(withConstructorDefault2(succeed5({}))),
+  headers: Record(String5, String5),
+  body: Record(String5, Any2)
+}).annotate({ identifier: "Provider.Request" });
+var Info5 = Struct({
+  id: ID5,
+  canonical: ID5.pipe(optional4),
+  integrationID: ID4.pipe(optional4),
+  name: String5,
+  activation: Activation,
+  package: Package,
+  ...Overlays
+}).annotate({ identifier: "Provider.Info" }).pipe(statics(() => ({
+  empty: (id) => ({ id, name: id, activation: "auto", package: "" })
+})));
+// node_modules/@opencode/schema/dist/money.js
+var USD = Finite.pipe(brand2("Money.USD"), annotate2({ identifier: "Money.USD" }), statics((schema) => ({ zero: schema.make(0) })));
+var USDPerMillionTokens = Finite.pipe(brand2("Money.USDPerMillionTokens"), annotate2({ identifier: "Money.USDPerMillionTokens" }), statics((schema) => ({ zero: schema.make(0) })));
+
+// node_modules/@opencode/schema/dist/model.js
+var ID6 = String5.pipe(brand2("Model.ID"));
+var Updated4 = ephemeral({ type: "model.updated", schema: {} });
+var Event5 = { Updated: Updated4, Definitions: inventory(Updated4) };
+var VariantID = String5.pipe(brand2("Model.VariantID"));
+var Ref4 = Struct({
+  id: ID6,
+  providerID: ID5,
+  variant: VariantID.pipe(optional4)
+}).annotate({ identifier: "Model.Ref" }).pipe(statics((schema) => ({
+  parse: (input) => {
+    const providerEnd = input.indexOf("/");
+    if (providerEnd <= 0)
+      throw new Error(`Invalid model reference: ${input}`);
+    const providerID = input.slice(0, providerEnd);
+    const variantStart = input.indexOf("#", providerEnd + 1);
+    const id = input.slice(providerEnd + 1, variantStart === -1 ? undefined : variantStart);
+    const variant = variantStart === -1 ? undefined : input.slice(variantStart + 1);
+    if (!id || providerID.includes("#") || variant !== undefined && (!variant || variant.includes("#")))
+      throw new Error(`Invalid model reference: ${input}`);
+    return schema.make({
+      providerID: ID5.make(providerID),
+      id: ID6.make(id),
+      ...variant ? { variant: VariantID.make(variant) } : {}
+    });
+  }
+})));
+var Family = String5.pipe(brand2("Model.Family"));
+var ReasoningField = Union2([
+  Literals(["reasoning", "reasoning_content", "reasoning_text"]),
+  String5
+]).annotate({ identifier: "Model.ReasoningField" });
+var MaxTokensField = Literals(["max_completion_tokens", "max_tokens"]).annotate({
+  identifier: "Model.MaxTokensField"
+});
+var Settings2 = StructWithRest(Struct({
+  compaction: Compaction.pipe(optional4)
+}), [Record(String5, Any2)]).annotate({ identifier: "Model.Settings" });
+var Overlays2 = {
+  settings: Settings2.pipe(optional4),
+  headers: Record(String5, String5).pipe(optional4),
+  body: Record(String5, Any2).pipe(optional4)
+};
+var Compatibility = Struct({
+  reasoningField: ReasoningField.pipe(optional4),
+  requireReasoning: Boolean3.pipe(optional4),
+  maxTokensField: MaxTokensField.pipe(optional4),
+  requireFinishReason: Boolean3.pipe(optional4),
+  requireAssistantAfterTool: Boolean3.pipe(optional4),
+  supportsPromptCacheKey: Boolean3.pipe(optional4)
+}).annotate({ identifier: "Model.Compatibility" });
+var Capabilities = Struct({
+  tools: Boolean3,
+  input: ArraySchema(String5),
+  output: ArraySchema(String5)
+}).annotate({ identifier: "Model.Capabilities" }).pipe(statics(() => ({
+  default: () => ({ tools: true, input: ["text", "image"], output: ["text"] })
+})));
+var Cost = Struct({
+  tier: Struct({
+    type: tag("context"),
+    size: Int
+  }).pipe(optional4),
+  input: USDPerMillionTokens,
+  output: USDPerMillionTokens,
+  cache: Struct({
+    read: USDPerMillionTokens,
+    write: USDPerMillionTokens
+  })
+}).annotate({ identifier: "Model.Cost" });
+var Variant = Struct({
+  id: VariantID,
+  ...Overlays2
+}).annotate({ identifier: "Model.Variant" });
+var Info6 = Struct({
+  id: ID6,
+  modelID: ID6,
+  providerID: ID5,
+  canonical: ID5.pipe(optional4),
+  family: Family.pipe(optional4),
+  name: String5,
+  compatibility: Compatibility.pipe(optional4),
+  package: Package.pipe(optional4),
+  ...Overlays2,
+  capabilities: Capabilities,
+  variants: ArraySchema(Variant),
+  time: Struct({
+    released: Finite
+  }),
+  cost: ArraySchema(Cost),
+  status: Literals(["alpha", "beta", "deprecated", "active"]),
+  enabled: Boolean3,
+  limit: Struct({
+    context: Int,
+    input: Int.pipe(optional4),
+    output: Int
+  })
+}).annotate({ identifier: "Model.Info" }).pipe(statics(() => ({
+  default: (providerID, id) => ({
+    id,
+    modelID: id,
+    providerID,
+    name: id,
+    capabilities: Capabilities.default(),
+    variants: [],
+    time: { released: 0 },
+    cost: [],
+    status: "active",
+    enabled: true,
+    limit: { context: 200000, output: 32000 }
+  })
+})));
+// node_modules/@opencode/schema/dist/session-id.js
+var SessionID = String5.check(isStartsWith("ses")).pipe(brand2("SessionID"), statics((schema) => {
+  const create = () => schema.make("ses_" + descending());
+  return {
+    create,
+    descending: (id) => id === undefined ? create() : schema.make(id)
+  };
+}));
+
+// node_modules/@opencode/schema/dist/permission.js
+var ID7 = String5.check(isStartsWith("per")).pipe(brand2("Permission.ID"), statics((schema) => ({ create: (id) => schema.make(id ?? "per_" + ascending()) })));
+var Source = Union2([
+  Struct({
+    type: Literal2("tool"),
+    messageID: String5,
+    id: String5
+  })
+]).annotate({ identifier: "Permission.Source" });
+var RequestFields = {
+  sessionID: SessionID,
+  action: String5,
+  resources: ArraySchema(String5),
+  save: ArraySchema(String5).pipe(optional4),
+  metadata: Record(String5, Unknown2).pipe(optional4),
+  source: Source.pipe(optional4),
+  message: String5.pipe(optional4)
+};
+var Request3 = Struct({
+  id: ID7,
+  ...RequestFields
+}).annotate({ identifier: "Permission.Request" });
+var Reply2 = Literals(["once", "always", "reject"]).annotate({ identifier: "Permission.Reply" });
+var Asked = ephemeral({ type: "permission.asked", schema: Request3.fields });
+var Replied2 = ephemeral({
+  type: "permission.replied",
+  schema: {
+    sessionID: SessionID,
+    requestID: ID7,
+    reply: Reply2
+  }
+});
+var Event6 = { Asked, Replied: Replied2, Definitions: inventory(Asked, Replied2) };
+var Effect = Literals(["allow", "deny", "ask"]).annotate({ identifier: "Permission.Effect" });
+var Rule = Struct({
+  action: String5,
+  resource: String5,
+  effect: Effect
+}).annotate({ identifier: "Permission.Rule" });
+var Ruleset = ArraySchema(Rule).annotate({ identifier: "Permission.Ruleset" });
+
+// node_modules/@opencode/schema/dist/agent.js
+var Updated5 = ephemeral({ type: "agent.updated", schema: {} });
+var ID8 = String5.pipe(brand2("Agent.ID"));
+var Name = String5.pipe(brand2("Agent.Name"));
+var Color = String5.annotate({ identifier: "Agent.Color" });
+var Info7 = Struct({
+  id: ID8,
+  name: Name,
+  model: Ref4.pipe(optional4),
+  request: Request2,
+  system: String5.pipe(optional4),
+  description: String5.pipe(optional4),
+  mode: Literals(["subagent", "primary", "all"]),
+  hidden: Boolean3,
+  color: Color.pipe(optional4),
+  steps: PositiveInt.pipe(optional4),
+  permissions: Ruleset
+}).annotate({ identifier: "Agent.Info" }).pipe(statics(() => ({
+  default: (id) => ({
+    id,
+    name: Name.make(id),
+    request: { settings: {}, headers: {}, body: {} },
+    mode: "primary",
+    hidden: false,
+    permissions: [
+      { action: "*", resource: "*", effect: "allow" },
+      { action: "external_directory", resource: "*", effect: "ask" },
+      { action: "read", resource: "*.env", effect: "ask" },
+      { action: "read", resource: "*.env.*", effect: "ask" },
+      { action: "read", resource: "*.env.example", effect: "allow" }
+    ]
+  })
+})));
+var Event7 = {
+  Updated: Updated5,
+  Definitions: inventory(Updated5)
+};
+// node_modules/@opencode/schema/dist/command.js
+var Updated6 = ephemeral({ type: "command.updated", schema: {} });
+var Info8 = Struct({
+  name: String5,
+  description: String5.pipe(optional4)
+}).annotate({ identifier: "Command.Info" });
+var Event8 = {
+  Updated: Updated6,
+  Definitions: inventory(Updated6)
+};
+// node_modules/@opencode/schema/dist/mcp.js
+class TimeoutConfig extends Class4("Mcp.TimeoutConfig")({
+  startup: PositiveInt.pipe(optional4).annotate({
+    description: "Maximum time in milliseconds to establish and initialize the MCP server."
+  }),
+  catalog: PositiveInt.pipe(optional4).annotate({
+    description: "Maximum time in milliseconds to wait for MCP discovery requests such as tools/list and prompts/list."
+  }),
+  execution: PositiveInt.pipe(optional4).annotate({
+    description: "Maximum time in milliseconds to wait for MCP tool and prompt execution."
+  })
+}) {
+}
+var Protocol = Literals(["legacy", "auto", "2026-07-28"]).annotate({
+  identifier: "Mcp.Protocol",
+  description: 'MCP protocol negotiation. "legacy" (default) opens with the initialize handshake and speaks protocol revisions up to 2025-11-25. "auto" probes for the 2026-07-28 revision and falls back to legacy when the server does not support it. "2026-07-28" requires that revision and fails otherwise.'
+});
+
+class LocalConfig extends Class4("Mcp.LocalConfig")({
+  type: Literal2("local"),
+  command: String5.pipe(ArraySchema),
+  cwd: String5.pipe(optional4).annotate({
+    description: "Working directory for the MCP server process. Relative paths resolve from the workspace directory."
+  }),
+  environment: Record(String5, String5).pipe(optional4),
+  disabled: Boolean3.pipe(optional4),
+  codemode: Boolean3.pipe(optional4).annotate({
+    description: "Expose this server's tools through Code Mode. Defaults to true."
+  }),
+  timeout: TimeoutConfig.pipe(optional4),
+  protocol: Protocol.pipe(optional4)
+}) {
+}
+
+class OAuthConfig extends Class4("Mcp.OAuthConfig")({
+  client_id: String5.pipe(optional4),
+  client_secret: String5.pipe(optional4),
+  scope: String5.pipe(optional4),
+  callback_port: Int.check(isBetween2({ minimum: 1, maximum: 65535 })).pipe(optional4),
+  redirect_uri: String5.pipe(optional4),
+  auth_server_metadata_url: String5.pipe(optional4).annotate({
+    description: "URL of the OAuth or OpenID Connect authorization server metadata document. Set when the MCP server does not publish protected resource metadata that names its authorization server."
+  })
+}) {
+}
+
+class RemoteConfig extends Class4("Mcp.RemoteConfig")({
+  type: Literal2("remote"),
+  url: String5,
+  headers: Record(String5, String5).pipe(optional4),
+  oauth: Union2([OAuthConfig, Literal2(false)]).pipe(optional4),
+  disabled: Boolean3.pipe(optional4),
+  codemode: Boolean3.pipe(optional4).annotate({
+    description: "Expose this server's tools through Code Mode. Defaults to true."
+  }),
+  timeout: TimeoutConfig.pipe(optional4),
+  protocol: Protocol.pipe(optional4)
+}) {
+}
+var ServerConfig = Union2([LocalConfig, RemoteConfig]).pipe(toTaggedUnion("type"));
+var Connected = Struct({ status: Literal2("connected") }).annotate({
+  identifier: "Mcp.Status.Connected"
+});
+var Pending = Struct({ status: Literal2("pending") }).annotate({
+  identifier: "Mcp.Status.Pending"
+});
+var Disabled = Struct({ status: Literal2("disabled") }).annotate({
+  identifier: "Mcp.Status.Disabled"
+});
+var Failed = Struct({ status: Literal2("failed"), error: String5 }).annotate({
+  identifier: "Mcp.Status.Failed"
+});
+var NeedsAuth = Struct({ status: Literal2("needs_auth"), error: String5 }).annotate({
+  identifier: "Mcp.Status.NeedsAuth"
+});
+var Status = Union2([Connected, Pending, Disabled, Failed, NeedsAuth]).pipe(toTaggedUnion("status"));
+var Server = Struct({
+  name: String5,
+  status: Status,
+  integrationID: optional4(IntegrationID)
+}).annotate({ identifier: "Mcp.Server" });
+var Resource2 = Struct({
+  server: String5,
+  name: String5,
+  uri: String5,
+  description: optional4(String5),
+  mimeType: optional4(String5)
+}).annotate({ identifier: "Mcp.Resource" });
+var ResourceTemplate = Struct({
+  server: String5,
+  name: String5,
+  uriTemplate: String5,
+  description: optional4(String5),
+  mimeType: optional4(String5)
+}).annotate({ identifier: "Mcp.ResourceTemplate" });
+var ResourceCatalog = Struct({
+  resources: ArraySchema(Resource2),
+  templates: ArraySchema(ResourceTemplate)
+}).annotate({ identifier: "Mcp.ResourceCatalog" });
+var ResourceContentPart = Union2([
+  Struct({
+    type: Literal2("text"),
+    uri: String5,
+    text: String5,
+    mimeType: optional4(String5)
+  }),
+  Struct({
+    type: Literal2("blob"),
+    uri: String5,
+    blob: String5,
+    mimeType: optional4(String5)
+  })
+]).pipe(toTaggedUnion("type"), annotate2({ identifier: "Mcp.ResourceContentPart" }));
+var ResourceContent = Struct({
+  server: String5,
+  uri: String5,
+  contents: ArraySchema(ResourceContentPart)
+}).annotate({ identifier: "Mcp.ResourceContent" });
+// node_modules/@opencode/schema/dist/pty.js
+var IDSchema2 = String5.check(isStartsWith("pty")).pipe(brand2("PtyID"));
+var ID9 = IDSchema2.pipe(statics((schema) => {
+  const create = () => schema.make("pty_" + ascending());
+  return {
+    create,
+    ascending: (id) => id === undefined ? create() : schema.make(id)
+  };
+}));
+var Info9 = Struct({
+  id: ID9,
+  title: String5,
+  command: String5,
+  args: ArraySchema(String5),
+  cwd: String5,
+  status: Literals(["running", "exited"]),
+  pid: NonNegativeInt,
+  exitCode: optional4(NonNegativeInt)
+}).annotate({ identifier: "Pty" });
+var Created2 = ephemeral({ type: "pty.created", schema: { info: Info9 } });
+var Updated7 = ephemeral({ type: "pty.updated", schema: { info: Info9 } });
+var Exited = ephemeral({ type: "pty.exited", schema: { id: ID9, exitCode: NonNegativeInt } });
+var Deleted = ephemeral({ type: "pty.deleted", schema: { id: ID9 } });
+var Event9 = { Created: Created2, Updated: Updated7, Exited, Deleted, Definitions: inventory(Created2, Updated7, Exited, Deleted) };
+var CreateInput = Struct({
+  command: optional4(String5),
+  args: optional4(ArraySchema(String5)),
+  cwd: optional4(String5),
+  title: optional4(String5),
+  env: optional4(Record(String5, String5))
+});
+var UpdateInput = Struct({
+  title: optional4(String5),
+  size: optional4(Struct({
+    rows: PositiveInt,
+    cols: PositiveInt
+  }))
+});
+// node_modules/@opencode/schema/dist/project.js
+var ID10 = ProjectID;
+var Vcs = String5.check(isPattern2(/^[a-z][a-z0-9._-]*$/)).annotate({
+  identifier: "Project.Vcs"
+});
+var Current = Struct({
+  id: ID10,
+  directory: AbsolutePath,
+  canonical: AbsolutePath
+}).annotate({ identifier: "Project.Current" });
+var Icon = Struct({
+  url: optional4(String5),
+  override: optional4(String5),
+  color: optional4(String5)
+}).annotate({ identifier: "Project.Icon" });
+var Commands = Struct({
+  start: optional4(String5.annotate({ description: "Startup script to run when creating a new workspace (worktree)" }))
+}).annotate({ identifier: "Project.Commands" });
+var Time = Struct({
+  created: NonNegativeInt,
+  updated: NonNegativeInt,
+  active: NonNegativeInt
+}).annotate({ identifier: "Project.Time" });
+var Info10 = Struct({
+  id: ID10,
+  canonical: AbsolutePath,
+  vcs: optional4(Vcs),
+  name: optional4(String5),
+  icon: optional4(Icon),
+  commands: optional4(Commands),
+  time: Time,
+  sandboxes: ArraySchema(String5)
+}).annotate({ identifier: "Project" });
+var UpdateInput2 = Struct({
+  projectID: ID10,
+  canonical: optional4(AbsolutePath),
+  name: optional4(String5),
+  icon: optional4(Icon),
+  commands: optional4(Commands)
+}).annotate({ identifier: "Project.UpdateInput" });
+var Updated8 = ephemeral({ type: "project.updated", schema: Info10.fields });
+var Event10 = { Updated: Updated8, Definitions: inventory(Updated8) };
+// node_modules/@opencode/schema/dist/llm.js
+var FinishReason = Literals(["stop", "length", "tool-calls", "content-filter", "error", "unknown"]);
+// node_modules/@opencode/schema/dist/tool.js
+var CallID = String5.pipe(brand2("Tool.CallID"));
+
+class Error4 extends TaggedError3()("Tool.Error", {
+  message: String5,
+  error: optional3(Defect()),
+  metadata: optional3(Record(String5, Unknown2))
+}) {
+}
+var TextContent = Struct({
+  type: Literal2("text"),
+  text: String5
+}).annotate({ identifier: "Tool.TextContent" });
+var FileContent = Struct({
+  type: Literal2("file"),
+  uri: String5,
+  mime: String5,
+  name: optional3(String5)
+}).annotate({ identifier: "Tool.FileContent" });
+var Content = Union2([TextContent, FileContent]).pipe(toTaggedUnion("type")).annotate({ identifier: "Tool.Content" });
+// node_modules/@opencode/schema/dist/skill.js
+var ID11 = String5.pipe(brand2("Skill.ID"));
+var Name2 = String5.pipe(brand2("Skill.Name"));
+var DirectorySource = Struct({
+  type: tag("directory"),
+  path: AbsolutePath
+}).annotate({ identifier: "Skill.DirectorySource" });
+var UrlSource = Struct({
+  type: tag("url"),
+  url: String5
+}).annotate({ identifier: "Skill.UrlSource" });
+var Info11 = Struct({
+  id: ID11,
+  name: Name2,
+  description: String5.pipe(optional4),
+  autoinvoke: Boolean3.pipe(optional4),
+  path: AbsolutePath,
+  content: String5
+}).annotate({ identifier: "Skill.Info" });
+var Updated9 = ephemeral({ type: "skill.updated", schema: {} });
+var Event11 = { Updated: Updated9, Definitions: inventory(Updated9) };
+var EmbeddedSource = Struct({
+  type: tag("embedded"),
+  skill: suspend2(() => Info11)
+}).annotate({ identifier: "Skill.EmbeddedSource" });
+var Source2 = Object.assign(Union2([DirectorySource, UrlSource, EmbeddedSource]).pipe(toTaggedUnion("type"), annotate2({ identifier: "Skill.Source" })), {
+  equals: (a, b) => {
+    if (a.type !== b.type)
+      return false;
+    if (a.type === "directory" && b.type === "directory")
+      return a.path === b.path;
+    if (a.type === "url" && b.type === "url")
+      return a.url === b.url;
+    if (a.type === "embedded" && b.type === "embedded")
+      return a.skill.id === b.skill.id;
+    return false;
+  },
+  key: (source) => source.type === "directory" ? `directory:${source.path}` : source.type === "url" ? `url:${source.url}` : `embedded:${source.skill.id}`
+});
+
+// node_modules/@opencode/schema/dist/prompt.js
+var PromptMention = Struct({
+  start: Finite,
+  end: Finite,
+  text: String5
+}).annotate({ identifier: "Prompt.Mention" });
+var FileSource = Union2([
+  Struct({ type: Literal2("inline") }),
+  Struct({ type: Literal2("uri"), uri: String5 })
+]).pipe(toTaggedUnion("type")).annotate({ identifier: "Prompt.FileSource" });
+var Base64 = String5.check(isPattern2(/^(?:[A-Za-z0-9+/]{4})*(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?$/)).annotate({ identifier: "Prompt.Base64" });
+var FileAttachment = Struct({
+  data: Base64,
+  mime: String5,
+  source: FileSource,
+  name: String5.pipe(optional4),
+  description: String5.pipe(optional4),
+  mention: PromptMention.pipe(optional4)
+}).annotate({ identifier: "Prompt.FileAttachment" }).pipe(statics((schema) => ({
+  create: (input) => schema.make({
+    data: input.data,
+    mime: input.mime,
+    source: input.source,
+    name: input.name,
+    description: input.description,
+    mention: input.mention
+  })
+})));
+var AgentAttachment = Struct({
+  name: String5,
+  mention: PromptMention.pipe(optional4)
+}).annotate({ identifier: "Prompt.AgentAttachment" });
+var SkillAttachment = Struct({
+  id: ID11,
+  name: Name2,
+  text: String5.pipe(optional4),
+  mention: PromptMention.pipe(optional4)
+}).annotate({ identifier: "Prompt.SkillAttachment" });
+var Prompt = Struct({
+  text: String5,
+  files: ArraySchema(FileAttachment).pipe(optional4),
+  agents: ArraySchema(AgentAttachment).pipe(optional4),
+  skills: ArraySchema(SkillAttachment).pipe(optional4)
+}).annotate({ identifier: "Prompt" }).pipe(statics((schema) => ({
+  equivalence: toEquivalence2(schema),
+  fromUserMessage: (input) => schema.make({
+    text: input.text,
+    ...input.files === undefined ? {} : { files: input.files },
+    ...input.agents === undefined ? {} : { agents: input.agents },
+    ...input.skills === undefined ? {} : { skills: input.skills }
+  })
+})));
+
+// node_modules/@opencode/schema/dist/session-metadata.js
+var SessionMetadata = Record(String5, Json2).annotate({
+  identifier: "Session.Metadata"
+});
+// node_modules/@opencode/schema/dist/session-provider-context.js
+var Provenance = Struct({
+  providerID: ID5,
+  provider: String5,
+  modelID: String5,
+  route: String5,
+  protocol: String5,
+  endpoint: String5
+}).annotate({ identifier: "Session.ProviderContext.Provenance" });
+var Info12 = Struct({
+  version: Literal2(1),
+  provenance: Provenance,
+  messages: Json2
+}).annotate({ identifier: "Session.ProviderContext" });
+// node_modules/@opencode/schema/dist/shell.js
+var IDSchema3 = String5.check(isStartsWith("sh_")).pipe(brand2("Shell.ID"));
+var ID12 = IDSchema3.pipe(statics((schema) => {
+  const create = () => schema.make("sh_" + ascending());
+  return {
+    create,
+    ascending: (id) => id === undefined ? create() : schema.make(id)
+  };
+}));
+var Status2 = Literals(["running", "exited", "timeout", "killed"]);
+var Time2 = Struct({
+  started: Finite.annotate({ description: "Start time in milliseconds since the Unix epoch" }),
+  completed: optional4(Finite).annotate({
+    description: "Completion time in milliseconds since the Unix epoch"
+  })
+});
+var Metadata2 = Record(String5, Unknown2);
+var Info13 = Struct({
+  id: ID12,
+  status: Status2,
+  command: String5,
+  cwd: String5,
+  shell: String5,
+  file: String5,
+  pid: optional4(NonNegativeInt),
+  exit: optional4(Finite),
+  signal: optional4(String5),
+  metadata: Metadata2,
+  time: Time2
+}).annotate({ identifier: "Shell.Info" });
+var Created3 = ephemeral({ type: "shell.created", schema: { info: Info13 } });
+var Exited2 = ephemeral({ type: "shell.exited", schema: { id: ID12, exit: optional4(Finite), status: Status2 } });
+var Deleted2 = ephemeral({ type: "shell.deleted", schema: { id: ID12 } });
+var Event12 = { Created: Created3, Exited: Exited2, Deleted: Deleted2, Definitions: inventory(Created3, Exited2, Deleted2) };
+var CreateInput2 = Struct({
+  command: String5,
+  cwd: optional4(String5),
+  timeout: optional4(NonNegativeInt),
+  metadata: optional4(Metadata2)
+});
+var OutputInput = Struct({
+  cursor: optional4(NonNegativeInt),
+  limit: optional4(NonNegativeInt)
+});
+var Output = Struct({
+  output: String5,
+  cursor: NonNegativeInt,
+  size: NonNegativeInt,
+  truncated: Boolean3
+});
+// node_modules/@opencode/schema/dist/session-error.js
+var Error5 = Struct({
+  type: String5,
+  message: String5,
+  status: Int.check(isBetween2({ minimum: 100, maximum: 599 })).pipe(optional4)
+}).annotate({ identifier: "Session.StructuredError" });
+// node_modules/@opencode/schema/dist/snapshot.js
+var ID13 = String5.pipe(brand2("Snapshot.ID"));
+// node_modules/@opencode/schema/dist/token-usage.js
+var Info14 = Struct({
+  input: Finite,
+  output: Finite,
+  reasoning: Finite,
+  cache: Struct({
+    read: Finite,
+    write: Finite
+  })
+}).annotate({ identifier: "TokenUsage.Info" });
+
+// node_modules/@opencode/schema/dist/session-message.js
+var ID14 = String5.check(isStartsWith("msg_")).pipe(brand2("Session.Message.ID"), statics((schema) => ({
+  create: () => schema.make("msg_" + ascending()),
+  fromEvent: (eventID) => schema.make(eventID.replace(/^evt_/, "msg_"))
+})));
+var Base3 = {
+  id: ID14,
+  metadata: Record(String5, Unknown2).pipe(optional4),
+  time: Struct({ created: DateTimeUtcFromMillis })
+};
+var ProviderState = Record(String5, Unknown2).annotate({
+  identifier: "Session.Message.ProviderState"
+});
+var AgentSelected = Struct({
+  ...Base3,
+  type: tag("agent-switched"),
+  agent: ID8,
+  previous: ID8.pipe(optional4)
+}).annotate({ identifier: "Session.Message.AgentSelected" });
+var ModelSelected = Struct({
+  ...Base3,
+  type: tag("model-switched"),
+  model: Ref4,
+  previous: Ref4.pipe(optional4)
+}).annotate({ identifier: "Session.Message.ModelSelected" });
+var LocationSwitched = Struct({
+  ...Base3,
+  type: tag("location-switched"),
+  location: Ref2,
+  projectID: ID10.pipe(optional4),
+  subpath: RelativePath.pipe(optional4),
+  previous: Struct({
+    location: Ref2,
+    projectID: ID10.pipe(optional4),
+    subpath: RelativePath.pipe(optional4)
+  }).pipe(optional4)
+}).annotate({ identifier: "Session.Message.LocationSwitched" });
+var User = Struct({
+  ...Base3,
+  text: Prompt.fields.text,
+  files: Prompt.fields.files,
+  agents: Prompt.fields.agents,
+  skills: Prompt.fields.skills,
+  type: tag("user")
+}).annotate({ identifier: "Session.Message.User" });
+var Synthetic = Struct({
+  ...Base3,
+  text: String5,
+  description: String5.pipe(optional4),
+  type: tag("synthetic")
+}).annotate({ identifier: "Session.Message.Synthetic" });
+var System = Struct({
+  ...Base3,
+  type: tag("system"),
+  text: String5,
+  description: String5.pipe(optional4)
+}).annotate({ identifier: "Session.Message.System" });
+var Skill = Struct({
+  ...Base3,
+  type: tag("skill"),
+  skill: ID11,
+  name: Name2,
+  text: String5
+}).annotate({ identifier: "Session.Message.Skill" });
+var Shell = Struct({
+  ...Base3,
+  type: tag("shell"),
+  shellID: ID12,
+  command: String5,
+  status: Status2,
+  exit: Number5.pipe(optional4),
+  output: Output.pipe(optional4),
+  time: Struct({
+    created: DateTimeUtcFromMillis,
+    completed: DateTimeUtcFromMillis.pipe(optional4)
+  })
+}).annotate({ identifier: "Session.Message.Shell" });
+var ToolStateStreaming = Struct({
+  status: tag("streaming"),
+  input: String5
+}).annotate({ identifier: "Session.Message.ToolState.Streaming" });
+var ToolStateRunning = Struct({
+  status: tag("running"),
+  input: Record(String5, Unknown2),
+  metadata: Record(String5, Json2)
+}).annotate({ identifier: "Session.Message.ToolState.Running" });
+var ToolStateCompleted = Struct({
+  status: tag("completed"),
+  input: Record(String5, Unknown2),
+  content: NonEmptyArray(Content),
+  metadata: Record(String5, Json2).pipe(optional4)
+}).annotate({ identifier: "Session.Message.ToolState.Completed" });
+var ToolStateError = Struct({
+  status: tag("error"),
+  input: Record(String5, Unknown2),
+  error: Error5,
+  content: NonEmptyArray(Content).pipe(optional4),
+  metadata: Record(String5, Json2).pipe(optional4)
+}).annotate({ identifier: "Session.Message.ToolState.Error" });
+var ToolState = Union2([ToolStateStreaming, ToolStateRunning, ToolStateCompleted, ToolStateError]).pipe(toTaggedUnion("status"));
+var AssistantTool = Struct({
+  type: tag("tool"),
+  id: String5,
+  name: String5,
+  executed: Boolean3.pipe(optional4),
+  providerState: ProviderState.pipe(optional4),
+  providerResultState: ProviderState.pipe(optional4),
+  state: ToolState,
+  time: Struct({
+    created: DateTimeUtcFromMillis,
+    ran: DateTimeUtcFromMillis.pipe(optional4),
+    completed: DateTimeUtcFromMillis.pipe(optional4)
+  })
+}).annotate({ identifier: "Session.Message.Assistant.Tool" });
+var AssistantText = Struct({
+  type: tag("text"),
+  text: String5,
+  state: ProviderState.pipe(optional4)
+}).annotate({ identifier: "Session.Message.Assistant.Text" });
+var AssistantReasoning = Struct({
+  type: tag("reasoning"),
+  text: String5,
+  state: ProviderState.pipe(optional4),
+  time: Struct({
+    created: DateTimeUtcFromMillis,
+    completed: DateTimeUtcFromMillis.pipe(optional4)
+  }).pipe(optional4)
+}).annotate({ identifier: "Session.Message.Assistant.Reasoning" });
+var AssistantContent = Union2([AssistantText, AssistantReasoning, AssistantTool]).pipe(toTaggedUnion("type"));
+var AssistantContentEncoded = toEncoded2(AssistantContent).annotate({
+  identifier: "Session.Message.AssistantContent.Encoded"
+});
+var AssistantRetry = Struct({
+  attempt: PositiveInt,
+  at: DateTimeUtcFromMillis,
+  error: Error5
+}).annotate({ identifier: "Session.Message.Assistant.Retry" });
+var Assistant = Struct({
+  ...Base3,
+  type: tag("assistant"),
+  agent: ID8,
+  model: Ref4,
+  content: AssistantContent.pipe(ArraySchema),
+  snapshot: Struct({
+    start: ID13.pipe(optional4),
+    end: ID13.pipe(optional4),
+    files: ArraySchema(RelativePath).pipe(optional4)
+  }).pipe(optional4),
+  finish: FinishReason.pipe(optional4),
+  rawFinish: String5.pipe(optional4),
+  providerState: ProviderState.pipe(optional4),
+  cost: USD.pipe(optional4),
+  tokens: Info14.pipe(optional4),
+  error: Error5.pipe(optional4),
+  retry: AssistantRetry.pipe(optional4),
+  time: Struct({
+    created: DateTimeUtcFromMillis,
+    streamed: DateTimeUtcFromMillis.pipe(optional4),
+    completed: DateTimeUtcFromMillis.pipe(optional4)
+  })
+}).annotate({ identifier: "Session.Message.Assistant" });
+var CompactionBase = { type: tag("compaction"), ...Base3 };
+var CompactionUsage = {
+  cost: USD.pipe(optional4),
+  tokens: Info14.pipe(optional4)
+};
+var CompactionRunning = Struct({
+  ...CompactionBase,
+  status: tag("running"),
+  reason: Literals(["auto", "manual"]),
+  summary: String5,
+  recent: String5
+}).annotate({ identifier: "Session.Message.Compaction.Running" });
+var CompactionCompleted = Struct({
+  ...CompactionBase,
+  status: tag("completed"),
+  reason: Literals(["auto", "manual"]),
+  model: Ref4.pipe(optional4),
+  providerState: ProviderState.pipe(optional4),
+  summary: String5,
+  recent: String5,
+  providerContext: Info12.pipe(optional4),
+  ...CompactionUsage
+}).annotate({ identifier: "Session.Message.Compaction.Completed" });
+var CompactionFailed = Struct({
+  ...CompactionBase,
+  status: tag("failed"),
+  reason: Literals(["auto", "manual"]),
+  error: Error5,
+  ...CompactionUsage
+}).annotate({ identifier: "Session.Message.Compaction.Failed" });
+var Compaction2 = Union2([CompactionRunning, CompactionCompleted, CompactionFailed]).pipe(toTaggedUnion("status"), annotate2({ identifier: "Session.Message.Compaction" }));
+var Idle = Struct({
+  ...Base3,
+  type: tag("idle"),
+  outcome: Literals(["succeeded", "failed", "interrupted"])
+}).annotate({ identifier: "Session.Message.Idle" });
+var Info15 = Union2([
+  AgentSelected,
+  ModelSelected,
+  LocationSwitched,
+  User,
+  Synthetic,
+  System,
+  Skill,
+  Shell,
+  Assistant,
+  Compaction2,
+  Idle
+]).annotate({ identifier: "Session.Message.Info" });
+// node_modules/@opencode/schema/dist/file-diff.js
+var Info16 = Struct({
+  file: String5,
+  patch: String5,
+  additions: NonNegativeInt,
+  deletions: NonNegativeInt,
+  status: Literals(["added", "deleted", "modified"])
+}).annotate({ identifier: "FileDiff.Info" });
+var LegacyInfo = Struct({
+  file: String5.pipe(optional4),
+  patch: String5.pipe(optional4),
+  additions: Finite,
+  deletions: Finite,
+  status: Literals(["added", "deleted", "modified"]).pipe(optional4)
+}).annotate({ identifier: "FileDiff.LegacyInfo" });
+
+// node_modules/@opencode/schema/dist/session-revert.js
+var Revert = Struct({
+  messageID: ID14,
+  partID: String5.pipe(optional4),
+  snapshot: ID13.pipe(optional4),
+  files: ArraySchema(Info16).pipe(optional4)
+}).annotate({ identifier: "Session.Revert" });
+var FileDiffV1 = Struct({
+  path: String5,
+  status: Literals(["added", "modified", "deleted"]),
+  additions: Finite,
+  deletions: Finite,
+  patch: String5
+});
+var RevertV1 = Struct({
+  messageID: ID14,
+  partID: String5.pipe(optional4),
+  snapshot: String5.pipe(optional4),
+  diff: String5.pipe(optional4),
+  files: ArraySchema(FileDiffV1).pipe(optional4)
+}).annotate({ identifier: "Session.RevertV1" });
+var PersistedCurrent = Revert.pipe(decodeTo2(Struct({ source: tag("current"), revert: toType2(Revert) }), transform3({
+  decode: (revert) => ({
+    source: "current",
+    revert
+  }),
+  encode: (value) => value.revert
+})));
+var PersistedLegacy = RevertV1.pipe(decodeTo2(Struct({ source: tag("legacy"), revert: toType2(RevertV1) }), transform3({
+  decode: (revert) => ({
+    source: "legacy",
+    revert
+  }),
+  encode: (value) => value.revert
+})));
+var PersistedRevert = Union2([PersistedCurrent, PersistedLegacy]).pipe(toTaggedUnion("source"), decodeTo2(toType2(Revert), transform3({
+  decode: (persisted) => {
+    if (persisted.source === "current")
+      return persisted.revert;
+    return Revert.make({
+      messageID: persisted.revert.messageID,
+      partID: persisted.revert.partID,
+      snapshot: persisted.revert.snapshot ? ID13.make(persisted.revert.snapshot) : undefined,
+      files: persisted.revert.files?.map((file) => ({
+        file: file.path,
+        status: file.status,
+        additions: file.additions,
+        deletions: file.deletions,
+        patch: file.patch
+      }))
+    });
+  },
+  encode: (revert) => ({
+    source: "current",
+    revert
+  })
+})), annotate2({ identifier: "Session.Revert.Persisted" }));
+// node_modules/@opencode/schema/dist/instruction.js
+var Key2 = String5.check(isPattern2(/^[a-z0-9][a-z0-9._-]*\/[a-z0-9][a-z0-9._/-]*$/)).pipe(brand2("Instruction.Key"));
+var Hash2 = String5.check(isPattern2(/^[a-f0-9]{64}$/)).pipe(brand2("Instruction.Hash"));
+var Values = Record(Key2, Hash2);
+var Removed = Literal2("removed");
+var removed = Removed.make("removed");
+var Delta = Record(String5, Union2([Hash2, Removed]));
+// node_modules/@opencode/schema/dist/instruction-entry.js
+var Key3 = String5.check(isPattern2(/^[a-z0-9][a-z0-9._-]*$/)).annotate({
+  identifier: "InstructionEntry.Key",
+  description: "Instruction entry key (lowercase alphanumerics plus . _ -)"
+});
+var Info17 = Struct({
+  key: Key3,
+  value: Json2.annotate({ description: "JSON value attached to the session's instructions" })
+}).annotate({ identifier: "InstructionEntry.Info" });
+var Snapshot = ArraySchema(Struct({
+  ...Info17.fields,
+  removed: Boolean3
+})).annotate({ identifier: "InstructionEntry.Snapshot" });
+var MaxValueBytes = 256 * 1024;
+
+class ValueTooLargeError extends TaggedError3()("InstructionEntryValueTooLargeError", {
+  actualBytes: Int,
+  maxBytes: Int,
+  message: String5
+}, { httpApiStatus: 413 }) {
+}
+// node_modules/@opencode/schema/dist/session-inbox.js
+var Delivery = Literals(["steer", "queue"]).annotate({ identifier: "Session.Inbox.Delivery" });
+var UserPayload = Struct({
+  ...Prompt.fields,
+  metadata: Record(String5, Unknown2).pipe(optional4)
+}).annotate({ identifier: "Session.Inbox.UserPayload" });
+var SyntheticPayload = Struct({
+  text: String5,
+  description: String5.pipe(optional4),
+  metadata: Record(String5, Unknown2).pipe(optional4)
+}).annotate({ identifier: "Session.Inbox.SyntheticPayload" });
+var CompactionPayload = Struct({}).annotate({ identifier: "Session.Inbox.CompactionPayload" });
+var MovePayload = Struct({
+  location: Ref2,
+  projectID: ID10,
+  subpath: RelativePath.pipe(optional4)
+}).annotate({ identifier: "Session.Inbox.MovePayload" });
+var UserItem = Struct({ type: tag("user"), payload: UserPayload, delivery: Delivery });
+var SyntheticItem = Struct({ type: tag("synthetic"), payload: SyntheticPayload, delivery: Delivery });
+var CompactionItem = Struct({
+  type: tag("compaction"),
+  payload: CompactionPayload,
+  delivery: Delivery
+});
+var MoveItem = Struct({ type: tag("move"), payload: MovePayload, delivery: Delivery });
+var Item = Union2([UserItem, SyntheticItem, CompactionItem, MoveItem]).pipe(toTaggedUnion("type"), annotate2({ identifier: "Session.Inbox.Item" }));
+var Enqueued = {
+  id: ID14,
+  sessionID: SessionID,
+  time: Struct({ created: DateTimeUtcFromMillis })
+};
+var User2 = Struct({ ...Enqueued, ...UserItem.fields }).annotate({ identifier: "Session.Inbox.User" });
+var Synthetic2 = Struct({ ...Enqueued, ...SyntheticItem.fields }).annotate({
+  identifier: "Session.Inbox.Synthetic"
+});
+var Compaction3 = Struct({ ...Enqueued, ...CompactionItem.fields }).annotate({
+  identifier: "Session.Inbox.Compaction"
+});
+var Move = Struct({ ...Enqueued, ...MoveItem.fields }).annotate({ identifier: "Session.Inbox.Move" });
+var Info18 = Union2([User2, Synthetic2, Compaction3, Move]).pipe(toTaggedUnion("type"), annotate2({ identifier: "Session.Inbox.Info" }));
+// node_modules/@opencode/schema/dist/session-fork.js
+var Boundary = Union2([
+  Struct({ type: Literal2("before"), messageID: ID14 }),
+  Struct({ type: Literal2("through"), messageID: ID14 })
+]).annotate({ identifier: "Session.ForkBoundary" });
+
+// node_modules/@opencode/schema/dist/session-event.js
+var Source3 = Struct({
+  start: NonNegativeInt,
+  end: NonNegativeInt,
+  text: String5
+}).annotate({
+  identifier: "Session.Event.Source"
+});
+var Base4 = {
+  sessionID: SessionID
+};
+var options = {
+  durable: {
+    aggregate: "sessionID",
+    version: 1
+  }
+};
+var Created4 = durable({
+  type: "session.created",
+  ...options,
+  schema: {
+    ...Base4,
+    projectID: ID10,
+    location: Ref2,
+    subpath: RelativePath.pipe(optional4),
+    parentID: SessionID.pipe(optional4),
+    slug: String5,
+    title: String5.pipe(optional4),
+    agent: ID8.pipe(optional4),
+    model: Ref4.pipe(optional4),
+    metadata: SessionMetadata.pipe(optional4),
+    permissions: Ruleset.pipe(optional4),
+    version: String5
+  }
+});
+var AgentSelected2 = durable({
+  type: "session.agent.selected",
+  ...options,
+  schema: {
+    ...Base4,
+    agent: ID8,
+    previous: ID8.pipe(optional4)
+  }
+});
+var ModelSelected2 = durable({
+  type: "session.model.selected",
+  ...options,
+  schema: {
+    ...Base4,
+    model: Ref4,
+    previous: Ref4.pipe(optional4)
+  }
+});
+var Moved = durable({
+  type: "session.moved",
+  ...options,
+  schema: {
+    ...Base4,
+    ...MovePayload.fields
+  }
+});
+var Renamed = durable({
+  type: "session.renamed",
+  ...options,
+  schema: {
+    ...Base4,
+    title: String5
+  }
+});
+var MetadataUpdated = durable({
+  type: "session.metadata.updated",
+  ...options,
+  schema: {
+    ...Base4,
+    metadata: SessionMetadata
+  }
+});
+var Permissions = durable({
+  type: "session.permissions",
+  ...options,
+  schema: {
+    ...Base4,
+    permissions: Ruleset
+  }
+});
+var Viewed = durable({
+  type: "session.viewed",
+  ...options,
+  schema: {
+    ...Base4,
+    idle: Finite
+  }
+});
+var MessageContentUpdated = durable({
+  type: "session.message.content.updated",
+  ...options,
+  schema: {
+    ...Base4,
+    messageID: ID14,
+    content: ArraySchema(AssistantContentEncoded)
+  }
+});
+var UsageRecorded = durable({
+  type: "session.usage.recorded",
+  ...options,
+  schema: {
+    ...Base4,
+    source: Literals(["title", "compaction"]),
+    cost: USD,
+    tokens: Info14
+  }
+});
+var UsageUpdated = ephemeral({
+  type: "session.usage.updated",
+  schema: {
+    ...Base4,
+    cost: USD,
+    tokens: Info14
+  }
+});
+var Deleted3 = durable({
+  type: "session.deleted",
+  durable: {
+    aggregate: "sessionID",
+    version: 2
+  },
+  schema: Base4
+});
+var Forked = durable({
+  type: "session.forked",
+  durable: {
+    aggregate: "sessionID",
+    version: 2
+  },
+  schema: {
+    ...Base4,
+    parentID: SessionID,
+    boundary: Boundary,
+    instructions: Values.pipe(optional4),
+    instructionEntries: Snapshot.pipe(optional4)
+  }
+});
+var InboxRef = {
+  ...Base4,
+  inboxID: ID14
+};
+var InboxDelivered = durable({
+  type: "session.inbox.delivered",
+  ...options,
+  schema: InboxRef
+});
+var InboxEnqueued = durable({
+  type: "session.inbox.enqueued",
+  ...options,
+  schema: {
+    ...InboxRef,
+    item: Item
+  }
+});
+var InboxCancelled = durable({
+  type: "session.inbox.cancelled",
+  ...options,
+  schema: InboxRef
+});
+var InboxDeliveryChanged = durable({
+  type: "session.inbox.delivery.changed",
+  ...options,
+  schema: { ...InboxRef, delivery: Delivery }
+});
+var Execution;
+(function(Execution) {
+  Execution.Started = durable({ type: "session.execution.started", ...options, schema: Base4 });
+  Execution.Succeeded = durable({ type: "session.execution.succeeded", ...options, schema: Base4 });
+  Execution.Failed = durable({
+    type: "session.execution.failed",
+    ...options,
+    schema: { ...Base4, error: Error5 }
+  });
+  Execution.Interrupted = durable({
+    type: "session.execution.interrupted",
+    ...options,
+    schema: { ...Base4, reason: Literals(["user", "shutdown", "superseded", "inactivity"]) }
+  });
+})(Execution || (Execution = {}));
+var InstructionsUpdated = durable({
+  type: "session.instructions.updated",
+  durable: {
+    aggregate: "sessionID",
+    version: 2
+  },
+  schema: {
+    ...Base4,
+    delta: Delta,
+    text: String5.pipe(optional4)
+  }
+});
+var Synthetic3 = durable({
+  type: "session.synthetic",
+  ...options,
+  schema: {
+    ...Base4,
+    text: String5,
+    description: String5.pipe(optional4),
+    metadata: Record(String5, Unknown2).pipe(optional4)
+  }
+});
+var Skill2;
+(function(Skill) {
+  Skill.Activated = durable({
+    type: "session.skill.activated",
+    ...options,
+    schema: {
+      ...Base4,
+      id: ID11,
+      name: Name2,
+      text: String5
+    }
+  });
+})(Skill2 || (Skill2 = {}));
+var Shell2;
+(function(Shell) {
+  Shell.Started = durable({
+    type: "session.shell.started",
+    ...options,
+    schema: {
+      ...Base4,
+      shell: Info13
+    }
+  });
+  Shell.Ended = durable({
+    type: "session.shell.ended",
+    ...options,
+    schema: {
+      ...Base4,
+      shell: Info13,
+      output: Output
+    }
+  });
+})(Shell2 || (Shell2 = {}));
+var Step;
+(function(Step) {
+  Step.Started = durable({
+    type: "session.step.started",
+    ...options,
+    schema: {
+      ...Base4,
+      assistantMessageID: ID14,
+      agent: ID8,
+      model: Ref4,
+      snapshot: ID13.pipe(optional4),
+      started: NonNegativeInt
+    }
+  });
+  Step.Streamed = durable({
+    type: "session.step.streamed",
+    ...options,
+    schema: {
+      ...Base4,
+      assistantMessageID: ID14
+    }
+  });
+  Step.Ended = durable({
+    type: "session.step.ended",
+    ...options,
+    schema: {
+      ...Base4,
+      assistantMessageID: ID14,
+      finish: FinishReason,
+      rawFinish: String5.pipe(optional4),
+      providerState: ProviderState.pipe(optional4),
+      cost: USD,
+      tokens: Info14,
+      snapshot: ID13.pipe(optional4),
+      files: ArraySchema(RelativePath).pipe(optional4)
+    }
+  });
+  Step.Failed = durable({
+    type: "session.step.failed",
+    ...options,
+    schema: {
+      ...Base4,
+      assistantMessageID: ID14,
+      error: Error5,
+      finish: Literals(["content-filter"]).pipe(optional4),
+      rawFinish: String5.pipe(optional4),
+      providerState: ProviderState.pipe(optional4),
+      cost: USD.pipe(optional4),
+      tokens: Info14.pipe(optional4),
+      snapshot: ID13.pipe(optional4),
+      files: ArraySchema(RelativePath).pipe(optional4)
+    }
+  });
+})(Step || (Step = {}));
+var Text;
+(function(Text) {
+  Text.Started = durable({
+    type: "session.text.started",
+    ...options,
+    schema: {
+      ...Base4,
+      assistantMessageID: ID14,
+      ordinal: NonNegativeInt
+    }
+  });
+  Text.Delta = ephemeral({
+    type: "session.text.delta",
+    schema: {
+      ...Base4,
+      assistantMessageID: ID14,
+      ordinal: NonNegativeInt,
+      delta: String5
+    }
+  });
+  Text.Ended = durable({
+    type: "session.text.ended",
+    ...options,
+    schema: {
+      ...Base4,
+      assistantMessageID: ID14,
+      ordinal: NonNegativeInt,
+      text: String5,
+      state: ProviderState.pipe(optional4)
+    }
+  });
+})(Text || (Text = {}));
+var Reasoning;
+(function(Reasoning) {
+  Reasoning.Started = durable({
+    type: "session.reasoning.started",
+    ...options,
+    schema: {
+      ...Base4,
+      assistantMessageID: ID14,
+      ordinal: NonNegativeInt,
+      state: ProviderState.pipe(optional4)
+    }
+  });
+  Reasoning.Delta = ephemeral({
+    type: "session.reasoning.delta",
+    schema: {
+      ...Base4,
+      assistantMessageID: ID14,
+      ordinal: NonNegativeInt,
+      delta: String5
+    }
+  });
+  Reasoning.Ended = durable({
+    type: "session.reasoning.ended",
+    ...options,
+    schema: {
+      ...Base4,
+      assistantMessageID: ID14,
+      ordinal: NonNegativeInt,
+      text: String5,
+      state: ProviderState.pipe(optional4)
+    }
+  });
+})(Reasoning || (Reasoning = {}));
+var Tool;
+(function(Tool) {
+  const ToolBase = {
+    ...Base4,
+    assistantMessageID: ID14,
+    id: String5
+  };
+  let Input;
+  (function(Input) {
+    Input.Started = durable({
+      type: "session.tool.input.started",
+      ...options,
+      schema: {
+        ...ToolBase,
+        name: String5
+      }
+    });
+    Input.Delta = ephemeral({
+      type: "session.tool.input.delta",
+      schema: {
+        ...ToolBase,
+        delta: String5
+      }
+    });
+    Input.Ended = durable({
+      type: "session.tool.input.ended",
+      ...options,
+      schema: {
+        ...ToolBase,
+        text: String5
+      }
+    });
+  })(Input = Tool.Input || (Tool.Input = {}));
+  Tool.Called = durable({
+    type: "session.tool.called",
+    ...options,
+    schema: {
+      ...ToolBase,
+      input: Record(String5, Unknown2),
+      executed: Boolean3,
+      state: ProviderState.pipe(optional4)
+    }
+  });
+  Tool.Progress = ephemeral({
+    type: "session.tool.progress",
+    schema: {
+      ...ToolBase,
+      metadata: Record(String5, Json2)
+    }
+  });
+  Tool.Success = durable({
+    type: "session.tool.success",
+    durable: {
+      aggregate: "sessionID",
+      version: 2
+    },
+    schema: {
+      ...ToolBase,
+      content: NonEmptyArray(Content),
+      metadata: Record(String5, Json2).pipe(optional4),
+      executed: Boolean3,
+      resultState: ProviderState.pipe(optional4)
+    }
+  });
+  Tool.Failed = durable({
+    type: "session.tool.failed",
+    durable: {
+      aggregate: "sessionID",
+      version: 2
+    },
+    schema: {
+      ...ToolBase,
+      error: Error5,
+      content: NonEmptyArray(Content).pipe(optional4),
+      metadata: Record(String5, Json2).pipe(optional4),
+      executed: Boolean3,
+      resultState: ProviderState.pipe(optional4)
+    }
+  });
+})(Tool || (Tool = {}));
+var RetryScheduled = durable({
+  type: "session.retry.scheduled",
+  ...options,
+  schema: {
+    ...Base4,
+    assistantMessageID: ID14,
+    attempt: PositiveInt,
+    at: NonNegativeInt,
+    error: Error5
+  }
+});
+var Compaction4;
+(function(Compaction) {
+  Compaction.Started = durable({
+    type: "session.compaction.started",
+    ...options,
+    schema: {
+      ...Base4,
+      reason: Literals(["auto", "manual"]),
+      recent: String5,
+      inputID: ID14.pipe(optional4)
+    }
+  });
+  Compaction.Delta = ephemeral({
+    type: "session.compaction.delta",
+    schema: {
+      ...Base4,
+      text: String5
+    }
+  });
+  Compaction.Ended = durable({
+    type: "session.compaction.ended",
+    ...options,
+    schema: {
+      ...Base4,
+      reason: Compaction.Started.data.fields.reason,
+      model: CompactionCompleted.fields.model,
+      providerState: CompactionCompleted.fields.providerState,
+      providerContext: CompactionCompleted.fields.providerContext,
+      text: String5,
+      recent: String5,
+      cost: CompactionCompleted.fields.cost,
+      tokens: CompactionCompleted.fields.tokens
+    }
+  });
+  Compaction.Failed = durable({
+    type: "session.compaction.failed",
+    ...options,
+    schema: {
+      ...Base4,
+      reason: Compaction.Started.data.fields.reason,
+      error: Error5,
+      inputID: ID14.pipe(optional4),
+      cost: CompactionFailed.fields.cost,
+      tokens: CompactionFailed.fields.tokens
+    }
+  });
+})(Compaction4 || (Compaction4 = {}));
+var RevertEvent;
+(function(RevertEvent) {
+  RevertEvent.Staged = durable({
+    type: "session.revert.staged",
+    ...options,
+    schema: { ...Base4, revert: Revert }
+  });
+  RevertEvent.Cleared = durable({ type: "session.revert.cleared", ...options, schema: Base4 });
+  RevertEvent.Committed = durable({
+    type: "session.revert.committed",
+    ...options,
+    schema: { ...Base4, to: ID14 }
+  });
+})(RevertEvent || (RevertEvent = {}));
+var Definitions = inventory(Created4, AgentSelected2, ModelSelected2, Moved, Renamed, MetadataUpdated, Permissions, Viewed, UsageUpdated, Deleted3, Forked, InboxDelivered, InboxEnqueued, InboxCancelled, InboxDeliveryChanged, Execution.Started, Execution.Succeeded, Execution.Failed, Execution.Interrupted, InstructionsUpdated, Synthetic3, Skill2.Activated, Shell2.Started, Shell2.Ended, Step.Started, Step.Streamed, Step.Ended, Step.Failed, Text.Started, Text.Delta, Text.Ended, Reasoning.Started, Reasoning.Delta, Reasoning.Ended, Tool.Input.Started, Tool.Input.Delta, Tool.Input.Ended, Tool.Called, Tool.Progress, Tool.Success, Tool.Failed, RetryScheduled, Compaction4.Started, Compaction4.Delta, Compaction4.Ended, Compaction4.Failed, RevertEvent.Staged, RevertEvent.Cleared, RevertEvent.Committed);
+var DurableDefinitions = inventory(...Definitions.filter((definition) => definition.durability === "durable"), UsageRecorded, MessageContentUpdated);
+var EphemeralDefinitions = inventory(...Definitions.filter((definition) => definition.durability === "ephemeral"));
+var Durable = Union2(DurableDefinitions, { mode: "oneOf" }).pipe(toTaggedUnion("type")).annotate({ identifier: "Session.Event.Durable" });
+var All = Union2([Durable, ...EphemeralDefinitions], { mode: "oneOf" }).pipe(toTaggedUnion("type"));
+
+// node_modules/@opencode/schema/dist/session.js
+var ID15 = SessionID;
+var Metadata3 = SessionMetadata;
+var ForkBoundary = Boundary;
+var Info19 = Struct({
+  id: ID15,
+  parentID: ID15.pipe(optional4),
+  fork: Struct({
+    sessionID: ID15,
+    boundary: ForkBoundary
+  }).pipe(optional4),
+  projectID: ID10,
+  agent: ID8.pipe(optional4),
+  model: Ref4.pipe(optional4),
+  cost: USD,
+  tokens: Info14,
+  outcome: Literals(["succeeded", "failed", "interrupted"]).pipe(optional4),
+  time: Struct({
+    created: DateTimeUtcFromMillis,
+    updated: DateTimeUtcFromMillis,
+    idle: DateTimeUtcFromMillis.pipe(optional4),
+    viewed: DateTimeUtcFromMillis.pipe(optional4),
+    archived: DateTimeUtcFromMillis.pipe(optional4)
+  }),
+  title: String5.pipe(optional4),
+  location: Ref2,
+  subpath: RelativePath.pipe(optional4),
+  metadata: Metadata3.pipe(optional4),
+  permissions: Ruleset.pipe(optional4),
+  revert: Revert.pipe(optional4)
+}).annotate({ identifier: "Session.Info" });
+var ListAnchor = Struct({
+  id: ID15,
+  time: Finite,
+  direction: Literals(["previous", "next"])
+}).annotate({ identifier: "Session.ListAnchor" });
+
+// node_modules/@opencode/schema/dist/persistent-pty.js
+var Info20 = Struct({
+  ...Info9.fields,
+  sessionID: ID15,
+  foregroundProcess: NullOr(String5),
+  size: Struct({ cols: PositiveInt, rows: PositiveInt }),
+  output: Struct({ head: NonNegativeInt, tail: NonNegativeInt })
+}).annotate({ identifier: "PersistentPty.Info" });
+var Handoff = Struct({
+  directory: String5,
+  instanceID: String5,
+  ticket: String5,
+  expiresAt: Number5
+}).annotate({ identifier: "PersistentPty.Handoff" });
+var CreateInput3 = Struct({
+  command: optional4(String5),
+  args: ArraySchema(String5),
+  cwd: optional4(String5),
+  title: String5,
+  env: Record(String5, String5),
+  size: optional4(Struct({ cols: PositiveInt, rows: PositiveInt }))
+}).annotate({ identifier: "PersistentPty.CreateInput" });
+var UpdateInput3 = Struct({
+  attachmentID: optional4(String5),
+  size: Struct({ cols: PositiveInt, rows: PositiveInt })
+}).annotate({ identifier: "PersistentPty.UpdateInput" });
+var Snapshot2 = Struct({
+  info: Info20,
+  text: String5,
+  checkpoint: Uint8Array2,
+  cursor: Struct({ x: NonNegativeInt, y: NonNegativeInt })
+}).annotate({ identifier: "PersistentPty.Snapshot" });
+var ReadLines = PositiveInt.check(isLessThanOrEqualTo3(65535)).annotate({
+  identifier: "PersistentPty.ReadLines"
+});
+var ReadResult = Struct({
+  ptyID: ID9,
+  title: String5,
+  cwd: String5,
+  foregroundProcess: NullOr(String5),
+  screen: Struct({
+    text: String5,
+    cols: PositiveInt,
+    rows: PositiveInt,
+    cursor: Snapshot2.fields.cursor
+  })
+}).annotate({ identifier: "PersistentPty.ReadResult" });
+var Added = ephemeral({ type: "persistent-pty.added", schema: { sessionID: ID15, terminal: Info20 } });
+var Removed2 = ephemeral({ type: "persistent-pty.removed", schema: { sessionID: ID15, ptyID: ID9 } });
+var Event13 = { Added, Removed: Removed2, Definitions: inventory(Added, Removed2) };
+// node_modules/@opencode/schema/dist/reference.js
+var Updated10 = ephemeral({ type: "reference.updated", schema: {} });
+var Event14 = { Updated: Updated10, Definitions: inventory(Updated10) };
+var LocalSource = Struct({
+  type: Literal2("local"),
+  path: AbsolutePath,
+  description: String5.pipe(optional4),
+  hidden: Boolean3.pipe(optional4)
+}).annotate({ identifier: "Reference.LocalSource" });
+var GitSource = Struct({
+  type: Literal2("git"),
+  repository: String5,
+  branch: String5.pipe(optional4),
+  description: String5.pipe(optional4),
+  hidden: Boolean3.pipe(optional4)
+}).annotate({ identifier: "Reference.GitSource" });
+var Source4 = Union2([LocalSource, GitSource]).pipe(toTaggedUnion("type")).annotate({ identifier: "Reference.Source" });
+var Info21 = Struct({
+  name: String5,
+  path: AbsolutePath,
+  description: String5.pipe(optional4),
+  hidden: Boolean3.pipe(optional4),
+  source: Source4
+}).annotate({ identifier: "Reference.Info" });
+// node_modules/@opencode/schema/dist/vcs.js
+var Branch = Struct({
+  current: optional4(String5),
+  default: optional4(String5)
+}).annotate({ identifier: "Vcs.Branch" });
+var Info22 = Struct({
+  provider: optional4(String5),
+  branch: Branch
+}).annotate({ identifier: "Vcs.Info" });
+var BranchList = ArraySchema(String5).annotate({ identifier: "Vcs.BranchList" });
+var Base5 = Struct({
+  name: String5,
+  ref: String5,
+  source: Literals(["reflog", "default"])
+}).annotate({ identifier: "Vcs.Base" });
+var Mode = Literals(["working", "branch", "committed"]).annotate({ identifier: "Vcs.Mode" });
+var FileStatus = Struct({
+  file: String5,
+  additions: NonNegativeInt,
+  deletions: NonNegativeInt,
+  status: Literals(["added", "deleted", "modified"])
+}).annotate({ identifier: "Vcs.FileStatus" });
+// node_modules/@opencode/schema/dist/websearch.js
+var ID16 = String5.pipe(brand2("WebSearch.ID"));
+var Provider = Struct({
+  id: ID16,
+  name: String5
+}).annotate({ identifier: "WebSearch.Provider" });
+var Input = Struct({
+  query: String5,
+  providerID: ID16.pipe(optional4)
+}).annotate({ identifier: "WebSearch.Input" });
+var Result2 = Struct({
+  url: String5,
+  title: String5.pipe(optional4),
+  content: String5.pipe(optional4),
+  time: Struct({
+    published: Finite.pipe(optional4).annotate({
+      description: "Publication time in milliseconds since the Unix epoch"
+    })
+  })
+}).annotate({ identifier: "WebSearch.Result" });
+
+class Response extends Class4("WebSearch.Response")({
+  providerID: ID16,
+  results: ArraySchema(Result2)
+}) {
+}
+var Updated11 = ephemeral({
+  type: "websearch.updated",
+  schema: {}
+});
+var Event15 = { Updated: Updated11, Definitions: inventory(Updated11) };
+// node_modules/@opencode/schema/dist/worktree.js
+var StrategyID = Trim.pipe(check2(isNonEmpty()), brand2("Worktree.StrategyID"));
+var CreateInput4 = Struct({
+  projectID: ID10,
+  from: optional4(AbsolutePath),
+  branch: optional4(Trim.pipe(check2(isNonEmpty()))),
+  directory: optional4(AbsolutePath).annotate({
+    description: "Parent directory for the new worktree. Uses the project's canonical configuration, then defaults to the server's data directory under worktree/<first six project ID characters>."
+  }),
+  name: optional4(String5)
+}).annotate({ identifier: "Worktree.CreateInput" });
+var RemoveInput = Struct({
+  projectID: ID10,
+  directory: AbsolutePath,
+  force: Boolean3
+}).annotate({ identifier: "Worktree.RemoveInput" });
+var Info23 = Struct({
+  directory: AbsolutePath
+}).annotate({ identifier: "Worktree.Info" });
+var Directory = Struct({
+  directory: AbsolutePath,
+  strategy: optional4(String5)
+}).annotate({ identifier: "Worktree.Directory" });
+var ListEntry = Struct({
+  directory: AbsolutePath,
+  type: Literals(["root", "worktree"])
+}).annotate({ identifier: "Worktree.ListEntry" });
+
+class OperationError extends TaggedError3()("Worktree.OperationError", {
+  message: String5,
+  forceRequired: optional4(Boolean3)
+}) {
+}
+var List = ArraySchema(Directory).annotate({ identifier: "Worktree.List" });
+var Updated12 = ephemeral({
+  type: "worktree.updated",
+  schema: { projectID: ID10 }
+});
+var Resolved = durable({
+  type: "worktree.resolved",
+  durable: { aggregate: "projectID", version: 1 },
+  schema: {
+    projectID: ID10,
+    directory: AbsolutePath,
+    previous: ID10,
+    adopted: optional4(ArraySchema(ID10))
+  }
+});
+var Event16 = { Updated: Updated12, Resolved, Definitions: inventory(Updated12, Resolved) };
 // skill-creator.ts
 import { join as join10, dirname as dirname3, isAbsolute, relative as relative2, sep } from "path";
 import { homedir } from "os";
@@ -12487,9 +20859,9 @@ function parseSkillMd(skillPath) {
     throw new Error("SKILL.md missing frontmatter (no opening ---)");
   }
   let endIdx = null;
-  for (let i2 = 1;i2 < lines.length; i2++) {
-    if (lines[i2].trim() === "---") {
-      endIdx = i2;
+  for (let i = 1;i < lines.length; i++) {
+    if (lines[i].trim() === "---") {
+      endIdx = i;
       break;
     }
   }
@@ -12549,14 +20921,14 @@ function isFailedProcess(result) {
 }
 function runProcess(command, opts) {
   return new Promise((resolve, reject) => {
-    const [file2, ...args] = command;
-    if (!file2) {
+    const [file, ...args] = command;
+    if (!file) {
       reject(new Error("Cannot spawn an empty command"));
       return;
     }
     const maxStderrChars = opts.maxStderrChars ?? 64 * 1024;
     const killGraceMs = opts.killGraceMs ?? 1000;
-    const proc = spawn(file2, args, {
+    const proc = spawn(file, args, {
       cwd: opts.cwd,
       env: opts.env,
       stdio: ["ignore", "pipe", "pipe"]
@@ -12601,14 +20973,14 @@ function runProcess(command, opts) {
         stderr = stderr.slice(-maxStderrChars);
       }
     });
-    proc.on("error", (error45) => {
+    proc.on("error", (error) => {
       if (settled)
         return;
       settled = true;
       clearTimeout(timeoutId);
       if (killTimeoutId)
         clearTimeout(killTimeoutId);
-      reject(error45);
+      reject(error);
     });
     proc.on("close", (exitCode) => {
       if (settled)
@@ -12654,11 +21026,11 @@ function findSkillConflicts(stdoutText, skillName) {
     return parsed.flatMap((entry) => {
       if (!entry || typeof entry !== "object")
         return [];
-      const record2 = entry;
-      if (record2.name !== skillName)
+      const record = entry;
+      if (record.name !== skillName)
         return [];
       return [
-        typeof record2.location === "string" && record2.location.trim() ? record2.location : "unknown location"
+        typeof record.location === "string" && record.location.trim() ? record.location : "unknown location"
       ];
     });
   } catch {
@@ -12673,6 +21045,7 @@ async function assertNoInstalledSkillConflict(skillName, projectRoot) {
       timeoutMs: 1e4
     });
   } catch {
+    console.warn(`opencode-skill-creator: could not run \`opencode debug skill\` to check for an installed skill named "${skillName}" in ${projectRoot}; skipping the conflict check.`);
     return;
   }
   if (isFailedProcess(result))
@@ -12882,12 +21255,12 @@ async function runEval(opts) {
   const results = [];
   for (const [query, triggers] of queryTriggers) {
     const item = queryItems.get(query);
-    const errors3 = queryErrors.get(query) ?? 0;
-    const successfulRuns = triggers.length - errors3;
+    const errors = queryErrors.get(query) ?? 0;
+    const successfulRuns = triggers.length - errors;
     const triggerRate = successfulRuns > 0 ? triggers.filter(Boolean).length / successfulRuns : 0;
     const shouldTrigger = item.should_trigger;
     const thresholdPass = shouldTrigger ? triggerRate >= triggerThreshold : triggerRate < triggerThreshold;
-    const didPass = errors3 === 0 && thresholdPass;
+    const didPass = errors === 0 && thresholdPass;
     results.push({
       query,
       should_trigger: shouldTrigger,
@@ -12895,7 +21268,7 @@ async function runEval(opts) {
       triggers: triggers.filter(Boolean).length,
       runs: triggers.length,
       successful_runs: successfulRuns,
-      errors: errors3,
+      errors,
       pass: didPass
     });
   }
@@ -13735,8 +22108,8 @@ function computeRunsPerConfiguration(results, evalIds) {
       continue;
     }
     for (const evalId of evalIds) {
-      const set2 = byEval.get(String(evalId));
-      counts.push(set2 ? set2.size : 0);
+      const set = byEval.get(String(evalId));
+      counts.push(set ? set.size : 0);
     }
   }
   if (counts.length === 0)
@@ -13800,9 +22173,9 @@ function loadRunResults(benchmarkDir) {
     for (const configDir of sortedDirs(evalDir)) {
       if (sortedDirs(configDir, /^run-/).length === 0)
         continue;
-      const config2 = basename(configDir);
-      if (!results[config2])
-        results[config2] = [];
+      const config = basename(configDir);
+      if (!results[config])
+        results[config] = [];
       for (const runDir of sortedDirs(configDir, /^run-/)) {
         const parsedRunNumber = Number.parseInt(basename(runDir).split("-")[1] ?? "", 10);
         if (!Number.isFinite(parsedRunNumber)) {
@@ -13866,7 +22239,7 @@ function loadRunResults(benchmarkDir) {
         if (notesSummary.workarounds)
           notes.push(...notesSummary.workarounds);
         result.notes = notes;
-        results[config2].push(result);
+        results[config].push(result);
         hasLoadedRuns = true;
       }
     }
@@ -13890,17 +22263,17 @@ function aggregateResults(results) {
     };
     return runSummary;
   }
-  for (const config2 of configs) {
-    const runs = results[config2] ?? [];
+  for (const config of configs) {
+    const runs = results[config] ?? [];
     if (runs.length === 0) {
-      runSummary[config2] = {
+      runSummary[config] = {
         pass_rate: { mean: 0, stddev: 0, min: 0, max: 0 },
         time_seconds: { mean: 0, stddev: 0, min: 0, max: 0 },
         tokens: { mean: 0, stddev: 0, min: 0, max: 0 }
       };
       continue;
     }
-    runSummary[config2] = {
+    runSummary[config] = {
       pass_rate: calculateStats(runs.map((r) => r.pass_rate)),
       time_seconds: calculateStats(runs.map((r) => r.time_seconds)),
       tokens: calculateStats(runs.map((r) => r.tokens))
@@ -13923,11 +22296,11 @@ function generateBenchmark(benchmarkDir, skillName = "", skillPath = "") {
   const results = loaded.results;
   const runSummary = aggregateResults(results);
   const runs = [];
-  for (const config2 of Object.keys(results)) {
-    for (const result of results[config2]) {
+  for (const config of Object.keys(results)) {
+    for (const result of results[config]) {
       runs.push({
         eval_id: result.eval_id,
-        configuration: config2,
+        configuration: config,
         run_number: result.run_number,
         result: {
           pass_rate: result.pass_rate,
@@ -14208,10 +22581,10 @@ function isValidFeedbackPayload(value) {
     return false;
   if (!Object.prototype.hasOwnProperty.call(value, "reviews"))
     return false;
-  const record2 = value;
-  if (!Array.isArray(record2.reviews))
+  const record = value;
+  if (!Array.isArray(record.reviews))
     return false;
-  for (const item of record2.reviews) {
+  for (const item of record.reviews) {
     if (typeof item !== "object" || item === null)
       return false;
     const review = item;
@@ -14223,7 +22596,7 @@ function isValidFeedbackPayload(value) {
       return false;
     }
   }
-  if (Object.prototype.hasOwnProperty.call(record2, "status") && typeof record2.status !== "string") {
+  if (Object.prototype.hasOwnProperty.call(record, "status") && typeof record.status !== "string") {
     return false;
   }
   return true;
@@ -14324,7 +22697,7 @@ function runCommand(command, args) {
     proc.stdout?.on("data", (chunk) => {
       text += chunk;
     });
-    proc.on("error", (error45) => resolve({ ok: false, stdout: text, error: error45 }));
+    proc.on("error", (error) => resolve({ ok: false, stdout: text, error }));
     proc.on("close", (code) => resolve({ ok: code === 0, stdout: text }));
   });
 }
@@ -14363,8 +22736,8 @@ function textResponse(body, status = 200, contentType = "text/plain") {
   };
 }
 async function handleReviewRequest(method, requestUrl, requestBody, context) {
-  const url2 = new URL(requestUrl, "http://localhost");
-  if (method === "GET" && (url2.pathname === "/" || url2.pathname === "/index.html")) {
+  const url = new URL(requestUrl, "http://localhost");
+  if (method === "GET" && (url.pathname === "/" || url.pathname === "/index.html")) {
     const runs = findRuns(context.workspace);
     let benchmark = null;
     if (context.benchmarkPath && existsSync4(context.benchmarkPath)) {
@@ -14381,7 +22754,7 @@ async function handleReviewRequest(method, requestUrl, requestBody, context) {
     });
     return textResponse(html, 200, "text/html; charset=utf-8");
   }
-  if (method === "GET" && url2.pathname === "/api/feedback") {
+  if (method === "GET" && url.pathname === "/api/feedback") {
     let data = "{}";
     if (existsSync4(context.feedbackPath)) {
       try {
@@ -14390,7 +22763,7 @@ async function handleReviewRequest(method, requestUrl, requestBody, context) {
     }
     return textResponse(data, 200, "application/json");
   }
-  if (method === "POST" && url2.pathname === "/api/feedback") {
+  if (method === "POST" && url.pathname === "/api/feedback") {
     let body;
     try {
       body = JSON.parse(requestBody);
@@ -14428,9 +22801,9 @@ async function handleNodeRequest(req, res, context) {
 }
 function listen(server, port) {
   return new Promise((resolve, reject) => {
-    const onError = (error45) => {
+    const onError = (error) => {
       server.off("error", onError);
-      reject(error45);
+      reject(error);
     };
     server.once("error", onError);
     server.listen(port, "127.0.0.1", () => {
@@ -14444,9 +22817,9 @@ function closeServer(server, sockets) {
     socket.destroy();
   }
   return new Promise((resolve, reject) => {
-    server.close((error45) => {
-      if (error45)
-        reject(error45);
+    server.close((error) => {
+      if (error)
+        reject(error);
       else
         resolve();
     });
@@ -14665,11 +23038,11 @@ function readStore(path) {
     return [];
   try {
     return JSON.parse(readFileSync5(path, "utf-8"));
-  } catch (error45) {
-    if (error45 instanceof SyntaxError) {
+  } catch (error) {
+    if (error instanceof SyntaxError) {
       throw new Error(`Failed to read gold standards store at ${path}: malformed JSON`);
     }
-    throw error45;
+    throw error;
   }
 }
 function sortStandards(standards) {
@@ -14797,8 +23170,8 @@ function ensureBundledSkillInstalled(options) {
       if (existsSync7(userSkillFile)) {
         try {
           copyFileSync(userSkillFile, userSkillBackup);
-        } catch (error45) {
-          options.onError?.(`Failed to back up existing user skill file before updating ${SKILL_NAME}`, error45);
+        } catch (error) {
+          options.onError?.(`Failed to back up existing user skill file before updating ${SKILL_NAME}`, error);
         }
         try {
           copyFileSync(userSkillFile, join9(tmpInstallDir, "SKILL.md"));
@@ -14819,8 +23192,8 @@ function ensureBundledSkillInstalled(options) {
         backupTimestamp: options.backupTimestamp ?? defaultBackupTimestamp
       });
     }
-  } catch (error45) {
-    options.onError?.("Failed to install opencode-skill-creator skill", error45);
+  } catch (error) {
+    options.onError?.("Failed to install opencode-skill-creator skill", error);
   } finally {
     if (existsSync7(tmpInstallDir)) {
       rmSync2(tmpInstallDir, { recursive: true, force: true });
@@ -14850,7 +23223,7 @@ function prepareReviewLaunch(args) {
   const strictMode = !(args.allowPartial ?? false);
   const validation = validateComparisonWorkspace(args.workspace);
   if (strictMode && !validation.valid) {
-    const issueLines = validation.issues.map((issue2) => `- ${issue2.evalDir}: ${issue2.issue}`);
+    const issueLines = validation.issues.map((issue) => `- ${issue.evalDir}: ${issue.issue}`);
     throw new Error([
       `Strict review preflight failed for ${args.workspace}.`,
       "Preflight issues:",
@@ -14894,12 +23267,12 @@ function getAutoUpdatePaths() {
   };
 }
 function compareVersions(a, b) {
-  const parse6 = (value) => value.split(".").map((part) => {
+  const parse = (value) => value.split(".").map((part) => {
     const parsed = Number.parseInt(part, 10);
     return Number.isNaN(parsed) ? 0 : parsed;
   });
-  const left = parse6(a);
-  const right = parse6(b);
+  const left = parse(a);
+  const right = parse(b);
   const length = Math.max(left.length, right.length);
   for (let index = 0;index < length; index += 1) {
     const diff = (left[index] ?? 0) - (right[index] ?? 0);
@@ -14990,14 +23363,218 @@ async function maybeAutoRefreshPluginCache(options = {}) {
   }
 }
 var activeServers = new Map;
-var SkillCreatorPlugin = async (ctx) => {
+async function runSkillValidate(args) {
+  const result = validateSkill(args.skillPath);
+  return JSON.stringify(result, null, 2);
+}
+async function runSkillParse(args) {
+  const meta = parseSkillMd(args.skillPath);
+  return JSON.stringify({
+    name: meta.name,
+    description: meta.description,
+    content: meta.fullContent,
+    contentLength: meta.fullContent.length
+  }, null, 2);
+}
+async function runSkillAddGoldStandard(args) {
+  const standard = addGoldStandard(GOLD_STANDARDS_PATH, {
+    skillName: args.skillName,
+    description: args.description,
+    passRate: args.passRate,
+    notes: args.notes
+  });
+  return JSON.stringify(standard, null, 2);
+}
+async function runSkillListGoldStandards() {
+  return JSON.stringify(listGoldStandards(GOLD_STANDARDS_PATH), null, 2);
+}
+async function runSkillRemoveGoldStandard(args) {
+  return JSON.stringify({
+    removed: removeGoldStandard(GOLD_STANDARDS_PATH, args.id)
+  });
+}
+async function runSkillGetGoldAdvice() {
+  return JSON.stringify({ advice: getGoldAdvice(GOLD_STANDARDS_PATH) });
+}
+async function runSkillEval(args) {
+  const { readFileSync } = await import("fs");
+  const evalSet = JSON.parse(readFileSync(args.evalSetPath, "utf-8"));
+  const validation = validateSkill(args.skillPath);
+  if (!validation.valid) {
+    throw new Error(`Invalid skill at ${args.skillPath}: ${validation.message}`);
+  }
+  const meta = parseSkillMd(args.skillPath);
+  const projectRoot = findProjectRoot();
+  await assertNoInstalledSkillConflict(meta.name, projectRoot);
+  const result = await runEval({
+    evalSet,
+    skillName: meta.name,
+    description: normalizeDescriptionOverride(args.descriptionOverride) ?? meta.description,
+    numWorkers: args.numWorkers ?? 10,
+    timeout: args.timeout ?? 30,
+    projectRoot,
+    runsPerQuery: args.runsPerQuery ?? 3,
+    triggerThreshold: args.triggerThreshold ?? 0.5,
+    triggerOnly: args.triggerOnly ?? true,
+    model: args.model,
+    agent: args.agent ?? "build"
+  });
+  return JSON.stringify(result, null, 2);
+}
+async function runSkillImproveDescription(args) {
+  const { readFileSync } = await import("fs");
+  const meta = parseSkillMd(args.skillPath);
+  const evalResults = JSON.parse(readFileSync(args.evalResultsPath, "utf-8"));
+  const history = args.historyPath ? JSON.parse(readFileSync(args.historyPath, "utf-8")) : [];
+  const newDescription = await improveDescription({
+    skillName: meta.name,
+    skillContent: meta.fullContent,
+    currentDescription: meta.description,
+    evalResults,
+    history,
+    model: args.model,
+    logDir: args.logDir ?? null,
+    iteration: args.iteration ?? null
+  });
+  return JSON.stringify({ description: newDescription, charCount: newDescription.length });
+}
+async function runSkillOptimizeLoop(args) {
+  const { readFileSync } = await import("fs");
+  const evalSet = JSON.parse(readFileSync(args.evalSetPath, "utf-8"));
+  const meta = parseSkillMd(args.skillPath);
+  const projectRoot = findProjectRoot();
+  await assertNoInstalledSkillConflict(meta.name, projectRoot);
+  const result = await runLoop({
+    evalSet,
+    skillPath: args.skillPath,
+    descriptionOverride: normalizeDescriptionOverride(args.descriptionOverride) ?? null,
+    numWorkers: args.numWorkers ?? 10,
+    timeout: args.timeout ?? 30,
+    maxIterations: args.maxIterations ?? 5,
+    runsPerQuery: args.runsPerQuery ?? 3,
+    triggerThreshold: args.triggerThreshold ?? 0.5,
+    triggerOnly: args.triggerOnly ?? true,
+    holdout: args.holdout ?? 0.4,
+    model: args.model,
+    agent: args.agent ?? "build",
+    verbose: true,
+    liveReportPath: args.liveReportPath ?? null,
+    logDir: args.logDir ?? null
+  });
+  return JSON.stringify(result, null, 2);
+}
+async function runSkillAggregateBenchmark(args) {
+  const { writeFileSync } = await import("fs");
+  const benchmark = generateBenchmark(args.benchmarkDir, args.skillName ?? "", args.skillPath ?? "");
+  const jsonPath = args.outputPath ?? join10(args.benchmarkDir, "benchmark.json");
+  writeFileSync(jsonPath, JSON.stringify(benchmark, null, 2));
+  const mdPath = args.markdownPath ?? join10(args.benchmarkDir, "benchmark.md");
+  writeFileSync(mdPath, generateMarkdown(benchmark));
+  return JSON.stringify({
+    benchmarkJsonPath: jsonPath,
+    benchmarkMdPath: mdPath,
+    summary: benchmark.run_summary
+  }, null, 2);
+}
+async function runSkillGenerateReport(args) {
+  const { readFileSync, writeFileSync } = await import("fs");
+  const data = JSON.parse(readFileSync(args.dataPath, "utf-8"));
+  const html = generateHtml(data, {
+    autoRefresh: args.autoRefresh ?? false,
+    skillName: args.skillName ?? ""
+  });
+  writeFileSync(args.outputPath, html);
+  return JSON.stringify({ reportPath: args.outputPath });
+}
+async function runSkillServeReview(args) {
+  const prep = prepareReviewLaunch(args);
+  const existing = activeServers.get(args.workspace);
+  if (existing) {
+    await existing.stop();
+    activeServers.delete(args.workspace);
+  }
+  const templatePath = join10(TEMPLATES_DIR, "viewer.html");
+  const { server, url, feedbackPath, stop } = await serveReview({
+    workspace: args.workspace,
+    port: args.port ?? 3117,
+    skillName: args.skillName,
+    previousWorkspace: args.previousWorkspace ?? null,
+    benchmarkPath: prep.benchmarkPath,
+    templatePath,
+    openBrowser: true
+  });
+  activeServers.set(args.workspace, { stop, url });
+  return JSON.stringify({
+    url,
+    feedbackPath,
+    benchmarkPath: prep.benchmarkPath,
+    workflowGuard: {
+      strictMode: prep.strictMode,
+      allowPartial: prep.allowPartial,
+      evalCount: prep.validation.evalCount,
+      foundConfigs: prep.validation.foundConfigs,
+      issues: prep.validation.issues
+    },
+    message: `Eval viewer running at ${url}. Press Ctrl+C or call skill_stop_review to stop.`
+  });
+}
+async function runSkillStopReview(args) {
+  if (args.workspace) {
+    const srv = activeServers.get(args.workspace);
+    if (srv) {
+      await srv.stop();
+      activeServers.delete(args.workspace);
+      return JSON.stringify({ stopped: args.workspace });
+    }
+    return JSON.stringify({ error: "No server running for this workspace" });
+  }
+  const stopped = [];
+  for (const [ws, srv] of activeServers) {
+    await srv.stop();
+    stopped.push(ws);
+  }
+  activeServers.clear();
+  return JSON.stringify({ stopped });
+}
+async function runSkillExportStaticReview(args) {
+  const prep = prepareReviewLaunch(args);
+  const templatePath = join10(TEMPLATES_DIR, "viewer.html");
+  const outPath = exportStaticReview({
+    workspace: args.workspace,
+    outputPath: args.outputPath,
+    skillName: args.skillName,
+    previousWorkspace: args.previousWorkspace ?? null,
+    benchmarkPath: prep.benchmarkPath,
+    templatePath
+  });
+  return JSON.stringify({
+    outputPath: outPath,
+    benchmarkPath: prep.benchmarkPath,
+    workflowGuard: {
+      strictMode: prep.strictMode,
+      allowPartial: prep.allowPartial,
+      evalCount: prep.validation.evalCount,
+      foundConfigs: prep.validation.foundConfigs,
+      issues: prep.validation.issues
+    },
+    message: `Static viewer written to ${outPath}`
+  });
+}
+var initialized = false;
+async function initialize() {
+  if (initialized)
+    return;
+  initialized = true;
   ensureBundledSkillInstalled({
     bundledSkillDir: BUNDLED_SKILL_DIR,
     configDir: process.env.XDG_CONFIG_HOME || join10(homedir(), ".config"),
     packageVersion: PACKAGE_VERSION,
-    onError: (message, error45) => console.warn(message, error45)
+    onError: (message, error) => console.warn(message, error)
   });
   maybeAutoRefreshPluginCache();
+}
+async function createV1Hooks() {
+  await initialize();
   return {
     tool: {
       skill_validate: tool({
@@ -15006,8 +23583,7 @@ var SkillCreatorPlugin = async (ctx) => {
           skillPath: tool.schema.string().describe("Path to the skill directory containing SKILL.md")
         },
         async execute(args) {
-          const result = validateSkill(args.skillPath);
-          return JSON.stringify(result, null, 2);
+          return runSkillValidate(args);
         }
       }),
       skill_parse: tool({
@@ -15016,13 +23592,7 @@ var SkillCreatorPlugin = async (ctx) => {
           skillPath: tool.schema.string().describe("Path to the skill directory containing SKILL.md")
         },
         async execute(args) {
-          const meta = parseSkillMd(args.skillPath);
-          return JSON.stringify({
-            name: meta.name,
-            description: meta.description,
-            content: meta.fullContent,
-            contentLength: meta.fullContent.length
-          }, null, 2);
+          return runSkillParse(args);
         }
       }),
       skill_add_gold_standard: tool({
@@ -15034,20 +23604,14 @@ var SkillCreatorPlugin = async (ctx) => {
           notes: tool.schema.string().optional().describe("Optional notes about why this example worked")
         },
         async execute(args) {
-          const standard = addGoldStandard(GOLD_STANDARDS_PATH, {
-            skillName: args.skillName,
-            description: args.description,
-            passRate: args.passRate,
-            notes: args.notes
-          });
-          return JSON.stringify(standard, null, 2);
+          return runSkillAddGoldStandard(args);
         }
       }),
       skill_list_gold_standards: tool({
         description: "List saved gold-standard skill description examples.",
         args: {},
         async execute() {
-          return JSON.stringify(listGoldStandards(GOLD_STANDARDS_PATH), null, 2);
+          return runSkillListGoldStandards();
         }
       }),
       skill_remove_gold_standard: tool({
@@ -15056,16 +23620,14 @@ var SkillCreatorPlugin = async (ctx) => {
           id: tool.schema.string().describe("Gold-standard example id")
         },
         async execute(args) {
-          return JSON.stringify({
-            removed: removeGoldStandard(GOLD_STANDARDS_PATH, args.id)
-          });
+          return runSkillRemoveGoldStandard(args);
         }
       }),
       skill_get_gold_advice: tool({
         description: "Return formatted gold-standard advice for description optimization prompts.",
         args: {},
         async execute() {
-          return JSON.stringify({ advice: getGoldAdvice(GOLD_STANDARDS_PATH) });
+          return runSkillGetGoldAdvice();
         }
       }),
       skill_eval: tool({
@@ -15083,29 +23645,7 @@ var SkillCreatorPlugin = async (ctx) => {
           agent: tool.schema.string().optional().describe("OpenCode agent for trigger eval runs (default: build)")
         },
         async execute(args) {
-          const { readFileSync: readFileSync8 } = await import("fs");
-          const evalSet = JSON.parse(readFileSync8(args.evalSetPath, "utf-8"));
-          const validation = validateSkill(args.skillPath);
-          if (!validation.valid) {
-            throw new Error(`Invalid skill at ${args.skillPath}: ${validation.message}`);
-          }
-          const meta = parseSkillMd(args.skillPath);
-          const projectRoot = findProjectRoot();
-          await assertNoInstalledSkillConflict(meta.name, projectRoot);
-          const result = await runEval({
-            evalSet,
-            skillName: meta.name,
-            description: normalizeDescriptionOverride(args.descriptionOverride) ?? meta.description,
-            numWorkers: args.numWorkers ?? 10,
-            timeout: args.timeout ?? 30,
-            projectRoot,
-            runsPerQuery: args.runsPerQuery ?? 3,
-            triggerThreshold: args.triggerThreshold ?? 0.5,
-            triggerOnly: args.triggerOnly ?? true,
-            model: args.model,
-            agent: args.agent ?? "build"
-          });
-          return JSON.stringify(result, null, 2);
+          return runSkillEval(args);
         }
       }),
       skill_improve_description: tool({
@@ -15119,21 +23659,7 @@ var SkillCreatorPlugin = async (ctx) => {
           iteration: tool.schema.number().optional().describe("Current iteration number")
         },
         async execute(args) {
-          const { readFileSync: readFileSync8 } = await import("fs");
-          const meta = parseSkillMd(args.skillPath);
-          const evalResults = JSON.parse(readFileSync8(args.evalResultsPath, "utf-8"));
-          const history = args.historyPath ? JSON.parse(readFileSync8(args.historyPath, "utf-8")) : [];
-          const newDescription = await improveDescription({
-            skillName: meta.name,
-            skillContent: meta.fullContent,
-            currentDescription: meta.description,
-            evalResults,
-            history,
-            model: args.model,
-            logDir: args.logDir ?? null,
-            iteration: args.iteration ?? null
-          });
-          return JSON.stringify({ description: newDescription, charCount: newDescription.length });
+          return runSkillImproveDescription(args);
         }
       }),
       skill_optimize_loop: tool({
@@ -15155,29 +23681,7 @@ var SkillCreatorPlugin = async (ctx) => {
           logDir: tool.schema.string().optional().describe("Directory for improvement transcripts")
         },
         async execute(args) {
-          const { readFileSync: readFileSync8 } = await import("fs");
-          const evalSet = JSON.parse(readFileSync8(args.evalSetPath, "utf-8"));
-          const meta = parseSkillMd(args.skillPath);
-          const projectRoot = findProjectRoot();
-          await assertNoInstalledSkillConflict(meta.name, projectRoot);
-          const result = await runLoop({
-            evalSet,
-            skillPath: args.skillPath,
-            descriptionOverride: normalizeDescriptionOverride(args.descriptionOverride) ?? null,
-            numWorkers: args.numWorkers ?? 10,
-            timeout: args.timeout ?? 30,
-            maxIterations: args.maxIterations ?? 5,
-            runsPerQuery: args.runsPerQuery ?? 3,
-            triggerThreshold: args.triggerThreshold ?? 0.5,
-            triggerOnly: args.triggerOnly ?? true,
-            holdout: args.holdout ?? 0.4,
-            model: args.model,
-            agent: args.agent ?? "build",
-            verbose: true,
-            liveReportPath: args.liveReportPath ?? null,
-            logDir: args.logDir ?? null
-          });
-          return JSON.stringify(result, null, 2);
+          return runSkillOptimizeLoop(args);
         }
       }),
       skill_aggregate_benchmark: tool({
@@ -15190,17 +23694,7 @@ var SkillCreatorPlugin = async (ctx) => {
           markdownPath: tool.schema.string().optional().describe("Path to write benchmark.md (default: <benchmarkDir>/benchmark.md)")
         },
         async execute(args) {
-          const { writeFileSync: writeFileSync9 } = await import("fs");
-          const benchmark = generateBenchmark(args.benchmarkDir, args.skillName ?? "", args.skillPath ?? "");
-          const jsonPath = args.outputPath ?? join10(args.benchmarkDir, "benchmark.json");
-          writeFileSync9(jsonPath, JSON.stringify(benchmark, null, 2));
-          const mdPath = args.markdownPath ?? join10(args.benchmarkDir, "benchmark.md");
-          writeFileSync9(mdPath, generateMarkdown(benchmark));
-          return JSON.stringify({
-            benchmarkJsonPath: jsonPath,
-            benchmarkMdPath: mdPath,
-            summary: benchmark.run_summary
-          }, null, 2);
+          return runSkillAggregateBenchmark(args);
         }
       }),
       skill_generate_report: tool({
@@ -15212,14 +23706,7 @@ var SkillCreatorPlugin = async (ctx) => {
           autoRefresh: tool.schema.boolean().optional().describe("Add auto-refresh meta tag (default: false)")
         },
         async execute(args) {
-          const { readFileSync: readFileSync8, writeFileSync: writeFileSync9 } = await import("fs");
-          const data = JSON.parse(readFileSync8(args.dataPath, "utf-8"));
-          const html = generateHtml(data, {
-            autoRefresh: args.autoRefresh ?? false,
-            skillName: args.skillName ?? ""
-          });
-          writeFileSync9(args.outputPath, html);
-          return JSON.stringify({ reportPath: args.outputPath });
+          return runSkillGenerateReport(args);
         }
       }),
       skill_serve_review: tool({
@@ -15233,36 +23720,7 @@ var SkillCreatorPlugin = async (ctx) => {
           allowPartial: tool.schema.boolean().optional().describe("Allow launching review even if with_skill/baseline run pairs are incomplete (default: false)")
         },
         async execute(args) {
-          const prep = prepareReviewLaunch(args);
-          const existing = activeServers.get(args.workspace);
-          if (existing) {
-            await existing.stop();
-            activeServers.delete(args.workspace);
-          }
-          const templatePath = join10(TEMPLATES_DIR, "viewer.html");
-          const { server, url: url2, feedbackPath, stop } = await serveReview({
-            workspace: args.workspace,
-            port: args.port ?? 3117,
-            skillName: args.skillName,
-            previousWorkspace: args.previousWorkspace ?? null,
-            benchmarkPath: prep.benchmarkPath,
-            templatePath,
-            openBrowser: true
-          });
-          activeServers.set(args.workspace, { stop, url: url2 });
-          return JSON.stringify({
-            url: url2,
-            feedbackPath,
-            benchmarkPath: prep.benchmarkPath,
-            workflowGuard: {
-              strictMode: prep.strictMode,
-              allowPartial: prep.allowPartial,
-              evalCount: prep.validation.evalCount,
-              foundConfigs: prep.validation.foundConfigs,
-              issues: prep.validation.issues
-            },
-            message: `Eval viewer running at ${url2}. Press Ctrl+C or call skill_stop_review to stop.`
-          });
+          return runSkillServeReview(args);
         }
       }),
       skill_stop_review: tool({
@@ -15271,22 +23729,7 @@ var SkillCreatorPlugin = async (ctx) => {
           workspace: tool.schema.string().optional().describe("Workspace path of the server to stop (stops all if omitted)")
         },
         async execute(args) {
-          if (args.workspace) {
-            const srv = activeServers.get(args.workspace);
-            if (srv) {
-              await srv.stop();
-              activeServers.delete(args.workspace);
-              return JSON.stringify({ stopped: args.workspace });
-            }
-            return JSON.stringify({ error: "No server running for this workspace" });
-          }
-          const stopped = [];
-          for (const [ws, srv] of activeServers) {
-            await srv.stop();
-            stopped.push(ws);
-          }
-          activeServers.clear();
-          return JSON.stringify({ stopped });
+          return runSkillStopReview(args);
         }
       }),
       skill_export_static_review: tool({
@@ -15300,34 +23743,477 @@ var SkillCreatorPlugin = async (ctx) => {
           allowPartial: tool.schema.boolean().optional().describe("Allow exporting review even if with_skill/baseline run pairs are incomplete (default: false)")
         },
         async execute(args) {
-          const prep = prepareReviewLaunch(args);
-          const templatePath = join10(TEMPLATES_DIR, "viewer.html");
-          const outPath = exportStaticReview({
-            workspace: args.workspace,
-            outputPath: args.outputPath,
-            skillName: args.skillName,
-            previousWorkspace: args.previousWorkspace ?? null,
-            benchmarkPath: prep.benchmarkPath,
-            templatePath
-          });
-          return JSON.stringify({
-            outputPath: outPath,
-            benchmarkPath: prep.benchmarkPath,
-            workflowGuard: {
-              strictMode: prep.strictMode,
-              allowPartial: prep.allowPartial,
-              evalCount: prep.validation.evalCount,
-              foundConfigs: prep.validation.foundConfigs,
-              issues: prep.validation.issues
-            },
-            message: `Static viewer written to ${outPath}`
-          });
+          return runSkillExportStaticReview(args);
         }
       })
     }
   };
+}
+var skill_creator_default = {
+  ...define({
+    id: "opencode-skill-creator",
+    async setup(ctx) {
+      await initialize();
+      await ctx.tool.transform((editor) => {
+        editor.add({
+          name: "skill_validate",
+          description: "Validate a skill directory. Checks that SKILL.md exists with well-formed YAML frontmatter, required fields, naming conventions, and description limits.",
+          input: {
+            type: "object",
+            properties: {
+              skillPath: {
+                type: "string",
+                description: "Path to the skill directory containing SKILL.md"
+              }
+            },
+            required: ["skillPath"],
+            additionalProperties: false
+          },
+          async execute(input) {
+            return { content: await runSkillValidate(input) };
+          }
+        });
+        editor.add({
+          name: "skill_parse",
+          description: "Parse a SKILL.md file and return its name, description, and full content.",
+          input: {
+            type: "object",
+            properties: {
+              skillPath: {
+                type: "string",
+                description: "Path to the skill directory containing SKILL.md"
+              }
+            },
+            required: ["skillPath"],
+            additionalProperties: false
+          },
+          async execute(input) {
+            return { content: await runSkillParse(input) };
+          }
+        });
+        editor.add({
+          name: "skill_add_gold_standard",
+          description: "Save a durable gold-standard skill description example for future meta-learning experiments.",
+          input: {
+            type: "object",
+            properties: {
+              skillName: {
+                type: "string",
+                description: "Skill name for this example"
+              },
+              description: {
+                type: "string",
+                description: "High-performing skill description"
+              },
+              passRate: {
+                type: "number",
+                description: "Observed pass rate as a decimal from 0 to 1"
+              },
+              notes: {
+                type: "string",
+                description: "Optional notes about why this example worked"
+              }
+            },
+            required: ["skillName", "description", "passRate"],
+            additionalProperties: false
+          },
+          async execute(input) {
+            return {
+              content: await runSkillAddGoldStandard(input)
+            };
+          }
+        });
+        editor.add({
+          name: "skill_list_gold_standards",
+          description: "List saved gold-standard skill description examples.",
+          input: {
+            type: "object",
+            properties: {},
+            additionalProperties: false
+          },
+          async execute() {
+            return { content: await runSkillListGoldStandards() };
+          }
+        });
+        editor.add({
+          name: "skill_remove_gold_standard",
+          description: "Remove a saved gold-standard skill description example by id.",
+          input: {
+            type: "object",
+            properties: {
+              id: {
+                type: "string",
+                description: "Gold-standard example id"
+              }
+            },
+            required: ["id"],
+            additionalProperties: false
+          },
+          async execute(input) {
+            return { content: await runSkillRemoveGoldStandard(input) };
+          }
+        });
+        editor.add({
+          name: "skill_get_gold_advice",
+          description: "Return formatted gold-standard advice for description optimization prompts.",
+          input: {
+            type: "object",
+            properties: {},
+            additionalProperties: false
+          },
+          async execute() {
+            return { content: await runSkillGetGoldAdvice() };
+          }
+        });
+        editor.add({
+          name: "skill_eval",
+          description: "Test whether a skill description causes OpenCode to invoke the skill for a set of queries. Runs each query against `opencode run` and checks if the skill was triggered. Returns pass/fail results per query.",
+          input: {
+            type: "object",
+            properties: {
+              evalSetPath: {
+                type: "string",
+                description: "Path to eval_set.json (array of {query, should_trigger})"
+              },
+              skillPath: {
+                type: "string",
+                description: "Path to the skill directory containing SKILL.md"
+              },
+              descriptionOverride: {
+                type: "string",
+                description: "Override description to test (uses SKILL.md description if omitted)"
+              },
+              numWorkers: {
+                type: "number",
+                description: "Parallel workers (default: 10)"
+              },
+              timeout: {
+                type: "number",
+                description: "Timeout per query in seconds (default: 30)"
+              },
+              runsPerQuery: {
+                type: "number",
+                description: "Number of runs per query for reliability (default: 3)"
+              },
+              triggerThreshold: {
+                type: "number",
+                description: "Trigger rate threshold to count as triggered (default: 0.5)"
+              },
+              triggerOnly: {
+                type: "boolean",
+                description: "Stop each eval run as soon as the synthetic skill is triggered and ignore later workflow failures (default: true)"
+              },
+              model: {
+                type: "string",
+                description: "Model ID in provider/model format"
+              },
+              agent: {
+                type: "string",
+                description: "OpenCode agent for trigger eval runs (default: build)"
+              }
+            },
+            required: ["evalSetPath", "skillPath"],
+            additionalProperties: false
+          },
+          async execute(input) {
+            return {
+              content: await runSkillEval(input)
+            };
+          }
+        });
+        editor.add({
+          name: "skill_improve_description",
+          description: "Call OpenCode to generate an improved skill description based on eval results. Uses the current description and failure patterns to propose a better one.",
+          input: {
+            type: "object",
+            properties: {
+              skillPath: {
+                type: "string",
+                description: "Path to the skill directory"
+              },
+              evalResultsPath: {
+                type: "string",
+                description: "Path to JSON file with eval results (output of skill_eval)"
+              },
+              historyPath: {
+                type: "string",
+                description: "Path to JSON file with previous improvement history"
+              },
+              model: {
+                type: "string",
+                description: "Model ID in provider/model format"
+              },
+              logDir: {
+                type: "string",
+                description: "Directory to save improvement transcripts"
+              },
+              iteration: {
+                type: "number",
+                description: "Current iteration number"
+              }
+            },
+            required: ["skillPath", "evalResultsPath"],
+            additionalProperties: false
+          },
+          async execute(input) {
+            return {
+              content: await runSkillImproveDescription(input)
+            };
+          }
+        });
+        editor.add({
+          name: "skill_optimize_loop",
+          description: "Run the full description optimization loop: split eval set into train/test, evaluate, improve description based on failures, repeat. Returns the best description found. This can take several minutes.",
+          input: {
+            type: "object",
+            properties: {
+              evalSetPath: {
+                type: "string",
+                description: "Path to eval_set.json"
+              },
+              skillPath: {
+                type: "string",
+                description: "Path to the skill directory"
+              },
+              descriptionOverride: {
+                type: "string",
+                description: "Starting description override"
+              },
+              maxIterations: {
+                type: "number",
+                description: "Max optimization iterations (default: 5)"
+              },
+              numWorkers: {
+                type: "number",
+                description: "Parallel workers (default: 10)"
+              },
+              timeout: {
+                type: "number",
+                description: "Timeout per query in seconds (default: 30)"
+              },
+              runsPerQuery: {
+                type: "number",
+                description: "Runs per query (default: 3)"
+              },
+              triggerThreshold: {
+                type: "number",
+                description: "Trigger rate threshold (default: 0.5)"
+              },
+              triggerOnly: {
+                type: "boolean",
+                description: "Stop each eval run as soon as the synthetic skill is triggered and ignore later workflow failures (default: true)"
+              },
+              holdout: {
+                type: "number",
+                description: "Test set holdout fraction (default: 0.4)"
+              },
+              model: {
+                type: "string",
+                description: "Model ID in provider/model format"
+              },
+              agent: {
+                type: "string",
+                description: "OpenCode agent for trigger eval runs (default: build)"
+              },
+              liveReportPath: {
+                type: "string",
+                description: "Path to write live HTML report"
+              },
+              logDir: {
+                type: "string",
+                description: "Directory for improvement transcripts"
+              }
+            },
+            required: ["evalSetPath", "skillPath"],
+            additionalProperties: false
+          },
+          async execute(input) {
+            return {
+              content: await runSkillOptimizeLoop(input)
+            };
+          }
+        });
+        editor.add({
+          name: "skill_aggregate_benchmark",
+          description: "Aggregate grading.json files from benchmark run directories into summary statistics. Produces benchmark.json with pass rates, timing, and token usage per configuration.",
+          input: {
+            type: "object",
+            properties: {
+              benchmarkDir: {
+                type: "string",
+                description: "Path to the benchmark directory (containing eval-N/ subdirectories)"
+              },
+              skillName: {
+                type: "string",
+                description: "Skill name for the report header"
+              },
+              skillPath: {
+                type: "string",
+                description: "Path to the skill directory"
+              },
+              outputPath: {
+                type: "string",
+                description: "Path to write benchmark.json (default: <benchmarkDir>/benchmark.json)"
+              },
+              markdownPath: {
+                type: "string",
+                description: "Path to write benchmark.md (default: <benchmarkDir>/benchmark.md)"
+              }
+            },
+            required: ["benchmarkDir"],
+            additionalProperties: false
+          },
+          async execute(input) {
+            return {
+              content: await runSkillAggregateBenchmark(input)
+            };
+          }
+        });
+        editor.add({
+          name: "skill_generate_report",
+          description: "Generate a self-contained HTML report showing description optimization results per iteration with pass/fail indicators for each eval query.",
+          input: {
+            type: "object",
+            properties: {
+              dataPath: {
+                type: "string",
+                description: "Path to the optimization results JSON (output of skill_optimize_loop)"
+              },
+              outputPath: {
+                type: "string",
+                description: "Path to write the HTML report"
+              },
+              skillName: {
+                type: "string",
+                description: "Skill name for the report title"
+              },
+              autoRefresh: {
+                type: "boolean",
+                description: "Add auto-refresh meta tag (default: false)"
+              }
+            },
+            required: ["dataPath", "outputPath"],
+            additionalProperties: false
+          },
+          async execute(input) {
+            return {
+              content: await runSkillGenerateReport(input)
+            };
+          }
+        });
+        editor.add({
+          name: "skill_serve_review",
+          description: "Start an HTTP server that serves the eval review viewer. Regenerates HTML on each page load so refreshing picks up new outputs. Opens the browser automatically.",
+          input: {
+            type: "object",
+            properties: {
+              workspace: {
+                type: "string",
+                description: "Path to the workspace directory containing eval results"
+              },
+              port: {
+                type: "number",
+                description: "Server port (default: 3117)"
+              },
+              skillName: {
+                type: "string",
+                description: "Skill name for the viewer header"
+              },
+              previousWorkspace: {
+                type: "string",
+                description: "Path to previous iteration's workspace (for showing old outputs and feedback)"
+              },
+              benchmarkPath: {
+                type: "string",
+                description: "Path to benchmark.json for the Benchmark tab"
+              },
+              allowPartial: {
+                type: "boolean",
+                description: "Allow launching review even if with_skill/baseline run pairs are incomplete (default: false)"
+              }
+            },
+            required: ["workspace"],
+            additionalProperties: false
+          },
+          async execute(input) {
+            return {
+              content: await runSkillServeReview(input)
+            };
+          }
+        });
+        editor.add({
+          name: "skill_stop_review",
+          description: "Stop a running eval review viewer server.",
+          input: {
+            type: "object",
+            properties: {
+              workspace: {
+                type: "string",
+                description: "Workspace path of the server to stop (stops all if omitted)"
+              }
+            },
+            additionalProperties: false
+          },
+          async execute(input) {
+            return { content: await runSkillStopReview(input) };
+          }
+        });
+        editor.add({
+          name: "skill_export_static_review",
+          description: "Generate a standalone HTML eval review file (no server needed). Use in headless environments or for sharing.",
+          input: {
+            type: "object",
+            properties: {
+              workspace: {
+                type: "string",
+                description: "Path to the workspace directory"
+              },
+              outputPath: {
+                type: "string",
+                description: "Path to write the HTML file"
+              },
+              skillName: {
+                type: "string",
+                description: "Skill name for the viewer header"
+              },
+              previousWorkspace: {
+                type: "string",
+                description: "Path to previous iteration's workspace"
+              },
+              benchmarkPath: {
+                type: "string",
+                description: "Path to benchmark.json"
+              },
+              allowPartial: {
+                type: "boolean",
+                description: "Allow exporting review even if with_skill/baseline run pairs are incomplete (default: false)"
+              }
+            },
+            required: ["workspace", "outputPath"],
+            additionalProperties: false
+          },
+          async execute(input) {
+            return {
+              content: await runSkillExportStaticReview(input)
+            };
+          }
+        });
+      });
+      return async () => {
+        const servers = [...activeServers.values()];
+        activeServers.clear();
+        await Promise.all(servers.map(async (server) => {
+          try {
+            await server.stop();
+          } catch {}
+        }));
+      };
+    }
+  }),
+  async server() {
+    return createV1Hooks();
+  }
 };
-var skill_creator_default = SkillCreatorPlugin;
 
 // runtime-entry.ts
 var runtime_entry_default = skill_creator_default;

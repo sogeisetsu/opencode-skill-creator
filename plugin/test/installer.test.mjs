@@ -23,6 +23,9 @@ async function runInstaller(home) {
       ...process.env,
       APPDATA: join(home, "AppData", "Roaming"),
       HOME: home,
+      // Windows os.homedir() reads USERPROFILE, not HOME; without this the
+      // installer writes into the real user config instead of the temp home.
+      USERPROFILE: home,
       XDG_CACHE_HOME: join(home, ".cache"),
       XDG_CONFIG_HOME: join(home, ".config"),
     },
@@ -123,13 +126,15 @@ test("global install updates opencode.jsonc when it exists and preserves comment
 
     const updated = readFileSync(path, "utf-8")
     assert.match(updated, /\/\/ Keep this comment/)
+    assert.match(updated, /"plugin": \[/)
     assert.match(updated, /"existing-plugin"/)
+    assert.match(updated, /"plugins": \[/)
     assert.match(updated, /"opencode-skill-creator"/)
     assert.equal(existsSync(configPath(home, "opencode.json")), false)
   })
 })
 
-test("global install creates plugin array in existing opencode.jsonc without plugin key", async () => {
+test("global install creates the V2 plugins array without a plugins key", async () => {
   await withHome(async (home) => {
     const path = configPath(home, "opencode.jsonc")
     writeFileSync(
@@ -147,9 +152,67 @@ test("global install creates plugin array in existing opencode.jsonc without plu
     const updated = readFileSync(path, "utf-8")
     assert.match(updated, /\/\/ Keep this comment/)
     assert.match(updated, /"model": "anthropic\/claude-sonnet-4-6"/)
-    assert.match(updated, /"plugin": \[/)
+    assert.match(updated, /"plugins": \[/)
     assert.match(updated, /"opencode-skill-creator"/)
     assert.equal(existsSync(configPath(home, "opencode.json")), false)
+  })
+})
+
+test("global install appends to an existing V2 plugins array and keeps object entries", async () => {
+  await withHome(async (home) => {
+    const path = configPath(home, "opencode.jsonc")
+    writeFileSync(
+      path,
+      `{
+  // Keep this comment
+  "plugin": [
+    "existing-plugin"
+  ],
+  "plugins": [
+    "existing-string-plugin",
+    { "package": "existing-object-plugin", "options": { "flag": true } }
+  ]
+}
+`,
+      "utf-8"
+    )
+
+    await runInstaller(home)
+
+    const updated = readFileSync(path, "utf-8")
+    assert.match(updated, /\/\/ Keep this comment/)
+    assert.match(updated, /"plugin": \[/)
+    assert.match(updated, /"existing-plugin"/)
+    assert.match(updated, /"existing-string-plugin"/)
+    assert.match(updated, /"existing-object-plugin"/)
+    assert.match(updated, /"opencode-skill-creator"/)
+    assert.equal(updated.indexOf('"opencode-skill-creator"') > updated.indexOf('"plugins": ['), true)
+    assert.equal(existsSync(configPath(home, "opencode.json")), false)
+  })
+})
+
+test("global install reports no changes when the V2 plugins array already lists the plugin", async () => {
+  await withHome(async (home) => {
+    const path = configPath(home, "opencode.json")
+    writeFileSync(
+      path,
+      `{
+  "plugins": ["opencode-skill-creator"]
+}
+`,
+      "utf-8"
+    )
+
+    const result = await runInstaller(home)
+
+    assert.match(result.stdout, /No changes needed/)
+    assert.equal(
+      readFileSync(path, "utf-8"),
+      `{
+  "plugins": ["opencode-skill-creator"]
+}
+`
+    )
   })
 })
 

@@ -14,7 +14,7 @@ import {
 } from "node:fs"
 import { tmpdir } from "node:os"
 import { join, relative } from "node:path"
-import { fileURLToPath } from "node:url"
+import { fileURLToPath, pathToFileURL } from "node:url"
 import test from "node:test"
 
 const pluginSourcePath = fileURLToPath(new URL("../skill-creator.ts", import.meta.url))
@@ -86,17 +86,22 @@ test("bundled skill uses the opencode-specific skill name", () => {
   assert.match(distSkill, /^name: opencode-skill-creator$/m)
 })
 
-test("compiled entrypoint imports as a plugin function", async () => {
-  const mod = await import(distEntryPath)
+test("compiled entrypoint exposes both the V1 server and V2 setup entrypoints", async () => {
+  // Windows needs a file:// URL; a bare "E:\..." path is rejected by the ESM loader.
+  const mod = await import(pathToFileURL(distEntryPath).href)
 
-  assert.equal(typeof mod.default, "function")
+  assert.equal(typeof mod.default, "object")
+  assert.equal(typeof mod.default.server, "function")
+  assert.equal(typeof mod.default.setup, "function")
+  assert.equal(mod.default.id, "opencode-skill-creator")
 })
 
-test("compiled entrypoint only exposes plugin functions for legacy OpenCode loaders", async () => {
-  const mod = await import(distEntryPath)
+test("compiled entrypoint only exposes plugin entrypoints for OpenCode loaders", async () => {
+  const mod = await import(pathToFileURL(distEntryPath).href)
 
   assert.deepEqual(Object.keys(mod), ["default"])
-  assert.equal(typeof mod.default, "function")
+  assert.equal(typeof mod.default.server, "function")
+  assert.equal(typeof mod.default.setup, "function")
 })
 
 test("compiled entrypoint does not depend on Bun runtime APIs", () => {

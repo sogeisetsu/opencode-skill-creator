@@ -56,6 +56,7 @@ execFileSync(
     "--format=esm",
     "--outfile=dist/skill-creator.js",
     "--external:@opencode-ai/plugin",
+    "--external:@opencode/plugin",
   ],
   { cwd: pluginRoot, stdio: "inherit" },
 )

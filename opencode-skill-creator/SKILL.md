@@ -68,7 +68,7 @@ If the user explicitly asks to skip intake, warn that final quality and workflow
 
 Proactively ask questions about edge cases, input/output formats, example files, success criteria, and dependencies. Use a buddy/shadowing stance: mirror the user's real workflow, terminology, handoffs, and decision points. Wait to write test prompts until you've got this part ironed out.
 
-Check available MCPs — if useful for research (searching docs, finding similar skills, looking up best practices), research in parallel via the Task tool (using `general` or `explore` subagent types) if available, otherwise inline. Come prepared with context to reduce burden on the user.
+Check available MCPs — if useful for research (searching docs, finding similar skills, looking up best practices), research in parallel via the task/subagent dispatch tool (V1: `task`, V2: `subagent`; subagent types `general` or `explore`) if available, otherwise inline. Come prepared with context to reduce burden on the user.
 
 ### Write the SKILL.md
 
@@ -183,7 +183,7 @@ Put results in `<skill-name>-workspace/` next to the staged skill directory in t
 
 ### Step 1: Spawn all runs (with-skill AND baseline) in the same turn
 
-For each test case, spawn two Task tool invocations (using `general` subagent type) in the same turn — one with the skill, one without. This is important: don't spawn the with-skill runs first and then come back for baselines later. Launch everything at once so it all finishes around the same time.
+For each test case, spawn two task/subagent dispatch invocations (V1: `task`, V2: `subagent`; using `general` subagent type) in the same turn — one with the skill, one without. This is important: don't spawn the with-skill runs first and then come back for baselines later. Launch everything at once so it all finishes around the same time.
 
 **With-skill run:**
 
@@ -198,7 +198,7 @@ Execute this task:
 
 **Baseline run** (same prompt, but the baseline depends on context):
 - **Creating a new skill**: no skill at all. Same prompt, no skill path, save to `without_skill/outputs/`.
-- **Improving an existing skill**: the old version. Before editing, snapshot the skill (`cp -r <skill-path> <workspace>/skill-snapshot/`), then point the baseline Task tool invocation at the snapshot. Save to `old_skill/outputs/`.
+- **Improving an existing skill**: the old version. Before editing, snapshot the skill (`cp -r <skill-path> <workspace>/skill-snapshot/`), then point the baseline task/subagent dispatch invocation (V1: `task`, V2: `subagent`) at the snapshot. Save to `old_skill/outputs/`.
 
 Write an `eval_metadata.json` for each test case (assertions can be empty for now). Give each eval a descriptive name based on what it's testing — not just "eval-0". Use this name for the directory too. If this iteration uses new or modified eval prompts, create these files for each new eval directory — don't assume they carry over from previous iterations.
 
@@ -221,7 +221,7 @@ Update the `eval_metadata.json` files and `evals/evals.json` with the assertions
 
 ### Step 3: As runs complete, capture timing data
 
-When each Task tool invocation completes, you receive a notification containing `total_tokens` and `duration_ms`. Save this data immediately to `timing.json` in the run directory:
+When each task/subagent dispatch invocation (V1: `task`, V2: `subagent`) completes, you receive a notification containing `total_tokens` and `duration_ms`. Save this data immediately to `timing.json` in the run directory:
 
 ```json
 {
@@ -319,7 +319,7 @@ This is the heart of the loop. You've run the test cases, the user has reviewed 
 
 3. **Explain the why.** Try hard to explain the **why** behind everything you're asking the model to do. Today's LLMs are *smart*. They have good theory of mind and when given a good harness can go beyond rote instructions and really make things happen. Even if the feedback from the user is terse or frustrated, try to actually understand the task and why the user is writing what they wrote, and what they actually wrote, and then transmit this understanding into the instructions. If you find yourself writing ALWAYS or NEVER in all caps, or using super rigid structures, that's a yellow flag — if possible, reframe and explain the reasoning so that the model understands why the thing you're asking for is important. That's a more humane, powerful, and effective approach.
 
-4. **Look for repeated work across test cases.** Read the transcripts from the test runs and notice if the Task tool invocations all independently wrote similar helper scripts or took the same multi-step approach to something. If all 3 test cases resulted in the agent writing a `create_docx.py` or a `build_chart.py`, that's a strong signal the skill should bundle that script. Write it once, put it in `scripts/`, and tell the skill to use it. This saves every future invocation from reinventing the wheel.
+4. **Look for repeated work across test cases.** Read the transcripts from the test runs and notice if the task/subagent dispatch invocations (V1: `task`, V2: `subagent`) all independently wrote similar helper scripts or took the same multi-step approach to something. If all 3 test cases resulted in the agent writing a `create_docx.py` or a `build_chart.py`, that's a strong signal the skill should bundle that script. Write it once, put it in `scripts/`, and tell the skill to use it. This saves every future invocation from reinventing the wheel.
 
 This task is pretty important (we are trying to create billions a year in economic value here!) and your thinking time is not the blocker; take your time and really mull things over. I'd suggest writing a draft revision and then looking at it anew and making improvements. Really do your best to get into the head of the user and understand what they want and need.
 
@@ -344,7 +344,7 @@ Keep going until:
 
 For situations where you want a more rigorous comparison between two versions of a skill (e.g., the user asks "is the new version actually better?"), there's a blind comparison system. Read `agents/comparator.md` and `agents/analyzer.md` for the details. The basic idea is: give two outputs to an independent agent without telling it which is which, and let it judge quality. Then analyze why the winner won.
 
-This is optional, requires the Task tool (using `general` subagent type), and most users won't need it. The human review loop is usually sufficient.
+This is optional, requires the task/subagent dispatch tool (V1: `task`, V2: `subagent`; using `general` subagent type), and most users won't need it. The human review loop is usually sufficient.
 
 ---
 
@@ -410,7 +410,7 @@ This handles the full optimization loop automatically. It splits the eval set in
 
 ### How skill triggering works
 
-Understanding the triggering mechanism helps design better eval queries. Skills appear in OpenCode's `available_skills` list with their name + description, and OpenCode decides whether to consult a skill based on that description. The important thing to know is that OpenCode only consults skills for tasks it can't easily handle on its own — simple, one-step queries like "read this PDF" may not trigger a skill even if the description matches perfectly, because OpenCode can handle them directly with basic tools. Complex, multi-step, or specialized queries reliably trigger skills when the description matches.
+Understanding the triggering mechanism helps design better eval queries. Skills appear in OpenCode's `available_skills` list with their name + description, and OpenCode decides whether to consult a skill based on that description. The important thing to know is that OpenCode only consults skills for tasks it can't easily handle on its own — simple, one-step queries like "read this PDF" may not trigger a skill even if the description matches perfectly, because OpenCode can handle them directly with basic tools. Complex, multi-step, or specialized queries reliably trigger skills when the description matches. In OpenCode V2 the skill is selected by an ID derived from its path rather than by name, and the `skill` tool takes that `{ id }` as its input.
 
 This means your eval queries should be substantive enough that OpenCode would actually benefit from consulting a skill. Simple queries like "read file X" are poor test cases — they won't trigger skills regardless of description quality.
 
@@ -454,7 +454,7 @@ The opencode-skill-creator plugin provides these custom tools that are available
 
 ## Reference files
 
-The agents/ directory contains instructions for specialized tasks (used via the Task tool). Read them when you need to spawn the relevant task.
+The agents/ directory contains instructions for specialized tasks (used via the task/subagent dispatch tool; V1: `task`, V2: `subagent`). Read them when you need to spawn the relevant task.
 
 - `agents/grader.md` — How to evaluate assertions against outputs
 - `agents/comparator.md` — How to do blind A/B comparison between two outputs

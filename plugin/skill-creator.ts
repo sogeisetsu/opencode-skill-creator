@@ -7,13 +7,15 @@
  * original Anthropic skill-creator.
  *
  * Install via npm:
- *   Add "opencode-skill-creator" to the "plugin" array in opencode.json
+ *   Add "opencode-skill-creator" to the "plugins" array in opencode.json
+ *   (OpenCode V2 key; V1 uses the singular "plugin" key)
  *
  * Or install locally:
  *   Copy this directory to .opencode/plugins/ or ~/.config/opencode/plugins/
  */
 
 import { type Plugin, tool } from "@opencode-ai/plugin"
+import { Plugin as V2Plugin } from "@opencode/plugin"
 import { join, dirname, isAbsolute, relative, sep } from "path"
 import { homedir } from "os"
 import { fileURLToPath } from "url"
@@ -334,10 +336,337 @@ export async function maybeAutoRefreshPluginCache(
 const activeServers: Map<string, { stop: () => Promise<void>; url: string }> = new Map()
 
 // ---------------------------------------------------------------------------
+// Shared tool implementations — one body per tool, used by both the V1
+// `server()` hooks and the V2 `setup()` tool transform.
+// ---------------------------------------------------------------------------
+
+async function runSkillValidate(args: { skillPath: string }): Promise<string> {
+  const result = validateSkill(args.skillPath)
+  return JSON.stringify(result, null, 2)
+}
+
+async function runSkillParse(args: { skillPath: string }): Promise<string> {
+  const meta = parseSkillMd(args.skillPath)
+  return JSON.stringify(
+    {
+      name: meta.name,
+      description: meta.description,
+      content: meta.fullContent,
+      contentLength: meta.fullContent.length,
+    },
+    null,
+    2,
+  )
+}
+
+async function runSkillAddGoldStandard(args: {
+  skillName: string
+  description: string
+  passRate: number
+  notes?: string
+}): Promise<string> {
+  const standard = addGoldStandard(GOLD_STANDARDS_PATH, {
+    skillName: args.skillName,
+    description: args.description,
+    passRate: args.passRate,
+    notes: args.notes,
+  })
+  return JSON.stringify(standard, null, 2)
+}
+
+async function runSkillListGoldStandards(): Promise<string> {
+  return JSON.stringify(listGoldStandards(GOLD_STANDARDS_PATH), null, 2)
+}
+
+async function runSkillRemoveGoldStandard(args: { id: string }): Promise<string> {
+  return JSON.stringify({
+    removed: removeGoldStandard(GOLD_STANDARDS_PATH, args.id),
+  })
+}
+
+async function runSkillGetGoldAdvice(): Promise<string> {
+  return JSON.stringify({ advice: getGoldAdvice(GOLD_STANDARDS_PATH) })
+}
+
+async function runSkillEval(args: {
+  evalSetPath: string
+  skillPath: string
+  descriptionOverride?: string
+  numWorkers?: number
+  timeout?: number
+  runsPerQuery?: number
+  triggerThreshold?: number
+  triggerOnly?: boolean
+  model?: string
+  agent?: string
+}): Promise<string> {
+  const { readFileSync } = await import("fs")
+  const evalSet: EvalItem[] = JSON.parse(
+    readFileSync(args.evalSetPath, "utf-8"),
+  )
+
+  const validation = validateSkill(args.skillPath)
+  if (!validation.valid) {
+    throw new Error(`Invalid skill at ${args.skillPath}: ${validation.message}`)
+  }
+
+  const meta = parseSkillMd(args.skillPath)
+  const projectRoot = findProjectRoot()
+  await assertNoInstalledSkillConflict(meta.name, projectRoot)
+
+  const result = await runEval({
+    evalSet,
+    skillName: meta.name,
+    description: normalizeDescriptionOverride(args.descriptionOverride) ?? meta.description,
+    numWorkers: args.numWorkers ?? 10,
+    timeout: args.timeout ?? 30,
+    projectRoot,
+    runsPerQuery: args.runsPerQuery ?? 3,
+    triggerThreshold: args.triggerThreshold ?? 0.5,
+    triggerOnly: args.triggerOnly ?? true,
+    model: args.model,
+    agent: args.agent ?? "build",
+  })
+
+  return JSON.stringify(result, null, 2)
+}
+
+async function runSkillImproveDescription(args: {
+  skillPath: string
+  evalResultsPath: string
+  historyPath?: string
+  model?: string
+  logDir?: string
+  iteration?: number
+}): Promise<string> {
+  const { readFileSync } = await import("fs")
+  const meta = parseSkillMd(args.skillPath)
+  const evalResults = JSON.parse(readFileSync(args.evalResultsPath, "utf-8"))
+  const history = args.historyPath
+    ? JSON.parse(readFileSync(args.historyPath, "utf-8"))
+    : []
+
+  const newDescription = await improveDescription({
+    skillName: meta.name,
+    skillContent: meta.fullContent,
+    currentDescription: meta.description,
+    evalResults,
+    history,
+    model: args.model,
+    logDir: args.logDir ?? null,
+    iteration: args.iteration ?? null,
+  })
+
+  return JSON.stringify({ description: newDescription, charCount: newDescription.length })
+}
+
+async function runSkillOptimizeLoop(args: {
+  evalSetPath: string
+  skillPath: string
+  descriptionOverride?: string
+  maxIterations?: number
+  numWorkers?: number
+  timeout?: number
+  runsPerQuery?: number
+  triggerThreshold?: number
+  triggerOnly?: boolean
+  holdout?: number
+  model?: string
+  agent?: string
+  liveReportPath?: string
+  logDir?: string
+}): Promise<string> {
+  const { readFileSync } = await import("fs")
+  const evalSet: EvalItem[] = JSON.parse(
+    readFileSync(args.evalSetPath, "utf-8"),
+  )
+  const meta = parseSkillMd(args.skillPath)
+  const projectRoot = findProjectRoot()
+  await assertNoInstalledSkillConflict(meta.name, projectRoot)
+
+  const result = await runLoop({
+    evalSet,
+    skillPath: args.skillPath,
+    descriptionOverride: normalizeDescriptionOverride(args.descriptionOverride) ?? null,
+    numWorkers: args.numWorkers ?? 10,
+    timeout: args.timeout ?? 30,
+    maxIterations: args.maxIterations ?? 5,
+    runsPerQuery: args.runsPerQuery ?? 3,
+    triggerThreshold: args.triggerThreshold ?? 0.5,
+    triggerOnly: args.triggerOnly ?? true,
+    holdout: args.holdout ?? 0.4,
+    model: args.model,
+    agent: args.agent ?? "build",
+    verbose: true,
+    liveReportPath: args.liveReportPath ?? null,
+    logDir: args.logDir ?? null,
+  })
+
+  return JSON.stringify(result, null, 2)
+}
+
+async function runSkillAggregateBenchmark(args: {
+  benchmarkDir: string
+  skillName?: string
+  skillPath?: string
+  outputPath?: string
+  markdownPath?: string
+}): Promise<string> {
+  const { writeFileSync } = await import("fs")
+  const benchmark = generateBenchmark(
+    args.benchmarkDir,
+    args.skillName ?? "",
+    args.skillPath ?? "",
+  )
+
+  const jsonPath = args.outputPath ?? join(args.benchmarkDir, "benchmark.json")
+  writeFileSync(jsonPath, JSON.stringify(benchmark, null, 2))
+
+  const mdPath = args.markdownPath ?? join(args.benchmarkDir, "benchmark.md")
+  writeFileSync(mdPath, generateMarkdown(benchmark))
+
+  return JSON.stringify(
+    {
+      benchmarkJsonPath: jsonPath,
+      benchmarkMdPath: mdPath,
+      summary: benchmark.run_summary,
+    },
+    null,
+    2,
+  )
+}
+
+async function runSkillGenerateReport(args: {
+  dataPath: string
+  outputPath: string
+  skillName?: string
+  autoRefresh?: boolean
+}): Promise<string> {
+  const { readFileSync, writeFileSync } = await import("fs")
+  const data = JSON.parse(readFileSync(args.dataPath, "utf-8"))
+  const html = generateReportHtml(data, {
+    autoRefresh: args.autoRefresh ?? false,
+    skillName: args.skillName ?? "",
+  })
+  writeFileSync(args.outputPath, html)
+  return JSON.stringify({ reportPath: args.outputPath })
+}
+
+async function runSkillServeReview(args: {
+  workspace: string
+  port?: number
+  skillName?: string
+  previousWorkspace?: string
+  benchmarkPath?: string
+  allowPartial?: boolean
+}): Promise<string> {
+  const prep = prepareReviewLaunch(args)
+
+  // Stop any existing server for this workspace
+  const existing = activeServers.get(args.workspace)
+  if (existing) {
+    await existing.stop()
+    activeServers.delete(args.workspace)
+  }
+
+  const templatePath = join(TEMPLATES_DIR, "viewer.html")
+
+  const { server, url, feedbackPath, stop } = await serveReview({
+    workspace: args.workspace,
+    port: args.port ?? 3117,
+    skillName: args.skillName,
+    previousWorkspace: args.previousWorkspace ?? null,
+    benchmarkPath: prep.benchmarkPath,
+    templatePath,
+    openBrowser: true,
+  })
+
+  activeServers.set(args.workspace, { stop, url })
+
+  return JSON.stringify({
+    url,
+    feedbackPath,
+    benchmarkPath: prep.benchmarkPath,
+    workflowGuard: {
+      strictMode: prep.strictMode,
+      allowPartial: prep.allowPartial,
+      evalCount: prep.validation.evalCount,
+      foundConfigs: prep.validation.foundConfigs,
+      issues: prep.validation.issues,
+    },
+    message: `Eval viewer running at ${url}. Press Ctrl+C or call skill_stop_review to stop.`,
+  })
+}
+
+async function runSkillStopReview(args: { workspace?: string }): Promise<string> {
+  if (args.workspace) {
+    const srv = activeServers.get(args.workspace)
+    if (srv) {
+      await srv.stop()
+      activeServers.delete(args.workspace)
+      return JSON.stringify({ stopped: args.workspace })
+    }
+    return JSON.stringify({ error: "No server running for this workspace" })
+  }
+
+  // Stop all
+  const stopped: string[] = []
+  for (const [ws, srv] of activeServers) {
+    await srv.stop()
+    stopped.push(ws)
+  }
+  activeServers.clear()
+  return JSON.stringify({ stopped })
+}
+
+async function runSkillExportStaticReview(args: {
+  workspace: string
+  outputPath: string
+  skillName?: string
+  previousWorkspace?: string
+  benchmarkPath?: string
+  allowPartial?: boolean
+}): Promise<string> {
+  const prep = prepareReviewLaunch(args)
+
+  const templatePath = join(TEMPLATES_DIR, "viewer.html")
+
+  const outPath = exportStaticReview({
+    workspace: args.workspace,
+    outputPath: args.outputPath,
+    skillName: args.skillName,
+    previousWorkspace: args.previousWorkspace ?? null,
+    benchmarkPath: prep.benchmarkPath,
+    templatePath,
+  })
+
+  return JSON.stringify({
+    outputPath: outPath,
+    benchmarkPath: prep.benchmarkPath,
+    workflowGuard: {
+      strictMode: prep.strictMode,
+      allowPartial: prep.allowPartial,
+      evalCount: prep.validation.evalCount,
+      foundConfigs: prep.validation.foundConfigs,
+      issues: prep.validation.issues,
+    },
+    message: `Static viewer written to ${outPath}`,
+  })
+}
+
+// ---------------------------------------------------------------------------
 // Plugin export
 // ---------------------------------------------------------------------------
 
-export const SkillCreatorPlugin: Plugin = async (ctx) => {
+// Startup side effects are shared by the V1 `server()` entrypoint and the V2
+// `setup()` entrypoint; OpenCode calls exactly one of them per process, but the
+// guard keeps accidental double initialization free.
+let initialized = false
+
+async function initialize(): Promise<void> {
+  if (initialized) return
+  initialized = true
+
   // Auto-install bundled skill files to ~/.config/opencode/skills/opencode-skill-creator/
   ensureBundledSkillInstalled({
     bundledSkillDir: BUNDLED_SKILL_DIR,
@@ -346,6 +675,10 @@ export const SkillCreatorPlugin: Plugin = async (ctx) => {
     onError: (message, error) => console.warn(message, error),
   })
   void maybeAutoRefreshPluginCache()
+}
+
+async function createV1Hooks() {
+  await initialize()
 
   return {
     tool: {
@@ -361,8 +694,7 @@ export const SkillCreatorPlugin: Plugin = async (ctx) => {
             .describe("Path to the skill directory containing SKILL.md"),
         },
         async execute(args) {
-          const result = validateSkill(args.skillPath)
-          return JSON.stringify(result, null, 2)
+          return runSkillValidate(args)
         },
       }),
 
@@ -378,17 +710,7 @@ export const SkillCreatorPlugin: Plugin = async (ctx) => {
             .describe("Path to the skill directory containing SKILL.md"),
         },
         async execute(args) {
-          const meta = parseSkillMd(args.skillPath)
-          return JSON.stringify(
-            {
-              name: meta.name,
-              description: meta.description,
-              content: meta.fullContent,
-              contentLength: meta.fullContent.length,
-            },
-            null,
-            2,
-          )
+          return runSkillParse(args)
         },
       }),
 
@@ -412,13 +734,7 @@ export const SkillCreatorPlugin: Plugin = async (ctx) => {
             .describe("Optional notes about why this example worked"),
         },
         async execute(args) {
-          const standard = addGoldStandard(GOLD_STANDARDS_PATH, {
-            skillName: args.skillName,
-            description: args.description,
-            passRate: args.passRate,
-            notes: args.notes,
-          })
-          return JSON.stringify(standard, null, 2)
+          return runSkillAddGoldStandard(args)
         },
       }),
 
@@ -429,7 +745,7 @@ export const SkillCreatorPlugin: Plugin = async (ctx) => {
         description: "List saved gold-standard skill description examples.",
         args: {},
         async execute() {
-          return JSON.stringify(listGoldStandards(GOLD_STANDARDS_PATH), null, 2)
+          return runSkillListGoldStandards()
         },
       }),
 
@@ -442,9 +758,7 @@ export const SkillCreatorPlugin: Plugin = async (ctx) => {
           id: tool.schema.string().describe("Gold-standard example id"),
         },
         async execute(args) {
-          return JSON.stringify({
-            removed: removeGoldStandard(GOLD_STANDARDS_PATH, args.id),
-          })
+          return runSkillRemoveGoldStandard(args)
         },
       }),
 
@@ -455,7 +769,7 @@ export const SkillCreatorPlugin: Plugin = async (ctx) => {
         description: "Return formatted gold-standard advice for description optimization prompts.",
         args: {},
         async execute() {
-          return JSON.stringify({ advice: getGoldAdvice(GOLD_STANDARDS_PATH) })
+          return runSkillGetGoldAdvice()
         },
       }),
 
@@ -506,35 +820,7 @@ export const SkillCreatorPlugin: Plugin = async (ctx) => {
             .describe("OpenCode agent for trigger eval runs (default: build)"),
         },
         async execute(args) {
-          const { readFileSync } = await import("fs")
-          const evalSet: EvalItem[] = JSON.parse(
-            readFileSync(args.evalSetPath, "utf-8"),
-          )
-
-          const validation = validateSkill(args.skillPath)
-          if (!validation.valid) {
-            throw new Error(`Invalid skill at ${args.skillPath}: ${validation.message}`)
-          }
-
-          const meta = parseSkillMd(args.skillPath)
-          const projectRoot = findProjectRoot()
-          await assertNoInstalledSkillConflict(meta.name, projectRoot)
-
-          const result = await runEval({
-            evalSet,
-            skillName: meta.name,
-            description: normalizeDescriptionOverride(args.descriptionOverride) ?? meta.description,
-            numWorkers: args.numWorkers ?? 10,
-            timeout: args.timeout ?? 30,
-            projectRoot,
-            runsPerQuery: args.runsPerQuery ?? 3,
-            triggerThreshold: args.triggerThreshold ?? 0.5,
-            triggerOnly: args.triggerOnly ?? true,
-            model: args.model,
-            agent: args.agent ?? "build",
-          })
-
-          return JSON.stringify(result, null, 2)
+          return runSkillEval(args)
         },
       }),
 
@@ -569,25 +855,7 @@ export const SkillCreatorPlugin: Plugin = async (ctx) => {
             .describe("Current iteration number"),
         },
         async execute(args) {
-          const { readFileSync } = await import("fs")
-          const meta = parseSkillMd(args.skillPath)
-          const evalResults = JSON.parse(readFileSync(args.evalResultsPath, "utf-8"))
-          const history = args.historyPath
-            ? JSON.parse(readFileSync(args.historyPath, "utf-8"))
-            : []
-
-          const newDescription = await improveDescription({
-            skillName: meta.name,
-            skillContent: meta.fullContent,
-            currentDescription: meta.description,
-            evalResults,
-            history,
-            model: args.model,
-            logDir: args.logDir ?? null,
-            iteration: args.iteration ?? null,
-          })
-
-          return JSON.stringify({ description: newDescription, charCount: newDescription.length })
+          return runSkillImproveDescription(args)
         },
       }),
 
@@ -654,33 +922,7 @@ export const SkillCreatorPlugin: Plugin = async (ctx) => {
             .describe("Directory for improvement transcripts"),
         },
         async execute(args) {
-          const { readFileSync } = await import("fs")
-          const evalSet: EvalItem[] = JSON.parse(
-            readFileSync(args.evalSetPath, "utf-8"),
-          )
-          const meta = parseSkillMd(args.skillPath)
-          const projectRoot = findProjectRoot()
-          await assertNoInstalledSkillConflict(meta.name, projectRoot)
-
-          const result = await runLoop({
-            evalSet,
-            skillPath: args.skillPath,
-            descriptionOverride: normalizeDescriptionOverride(args.descriptionOverride) ?? null,
-            numWorkers: args.numWorkers ?? 10,
-            timeout: args.timeout ?? 30,
-            maxIterations: args.maxIterations ?? 5,
-            runsPerQuery: args.runsPerQuery ?? 3,
-            triggerThreshold: args.triggerThreshold ?? 0.5,
-            triggerOnly: args.triggerOnly ?? true,
-            holdout: args.holdout ?? 0.4,
-            model: args.model,
-            agent: args.agent ?? "build",
-            verbose: true,
-            liveReportPath: args.liveReportPath ?? null,
-            logDir: args.logDir ?? null,
-          })
-
-          return JSON.stringify(result, null, 2)
+          return runSkillOptimizeLoop(args)
         },
       }),
 
@@ -712,28 +954,7 @@ export const SkillCreatorPlugin: Plugin = async (ctx) => {
             .describe("Path to write benchmark.md (default: <benchmarkDir>/benchmark.md)"),
         },
         async execute(args) {
-          const { writeFileSync } = await import("fs")
-          const benchmark = generateBenchmark(
-            args.benchmarkDir,
-            args.skillName ?? "",
-            args.skillPath ?? "",
-          )
-
-          const jsonPath = args.outputPath ?? join(args.benchmarkDir, "benchmark.json")
-          writeFileSync(jsonPath, JSON.stringify(benchmark, null, 2))
-
-          const mdPath = args.markdownPath ?? join(args.benchmarkDir, "benchmark.md")
-          writeFileSync(mdPath, generateMarkdown(benchmark))
-
-          return JSON.stringify(
-            {
-              benchmarkJsonPath: jsonPath,
-              benchmarkMdPath: mdPath,
-              summary: benchmark.run_summary,
-            },
-            null,
-            2,
-          )
+          return runSkillAggregateBenchmark(args)
         },
       }),
 
@@ -760,14 +981,7 @@ export const SkillCreatorPlugin: Plugin = async (ctx) => {
             .describe("Add auto-refresh meta tag (default: false)"),
         },
         async execute(args) {
-          const { readFileSync, writeFileSync } = await import("fs")
-          const data = JSON.parse(readFileSync(args.dataPath, "utf-8"))
-          const html = generateReportHtml(data, {
-            autoRefresh: args.autoRefresh ?? false,
-            skillName: args.skillName ?? "",
-          })
-          writeFileSync(args.outputPath, html)
-          return JSON.stringify({ reportPath: args.outputPath })
+          return runSkillGenerateReport(args)
         },
       }),
 
@@ -803,42 +1017,7 @@ export const SkillCreatorPlugin: Plugin = async (ctx) => {
             .describe("Allow launching review even if with_skill/baseline run pairs are incomplete (default: false)"),
         },
         async execute(args) {
-          const prep = prepareReviewLaunch(args)
-
-          // Stop any existing server for this workspace
-          const existing = activeServers.get(args.workspace)
-          if (existing) {
-            await existing.stop()
-            activeServers.delete(args.workspace)
-          }
-
-          const templatePath = join(TEMPLATES_DIR, "viewer.html")
-
-          const { server, url, feedbackPath, stop } = await serveReview({
-            workspace: args.workspace,
-            port: args.port ?? 3117,
-            skillName: args.skillName,
-            previousWorkspace: args.previousWorkspace ?? null,
-            benchmarkPath: prep.benchmarkPath,
-            templatePath,
-            openBrowser: true,
-          })
-
-          activeServers.set(args.workspace, { stop, url })
-
-          return JSON.stringify({
-            url,
-            feedbackPath,
-            benchmarkPath: prep.benchmarkPath,
-            workflowGuard: {
-              strictMode: prep.strictMode,
-              allowPartial: prep.allowPartial,
-              evalCount: prep.validation.evalCount,
-              foundConfigs: prep.validation.foundConfigs,
-              issues: prep.validation.issues,
-            },
-            message: `Eval viewer running at ${url}. Press Ctrl+C or call skill_stop_review to stop.`,
-          })
+          return runSkillServeReview(args)
         },
       }),
 
@@ -854,24 +1033,7 @@ export const SkillCreatorPlugin: Plugin = async (ctx) => {
             .describe("Workspace path of the server to stop (stops all if omitted)"),
         },
         async execute(args) {
-          if (args.workspace) {
-            const srv = activeServers.get(args.workspace)
-            if (srv) {
-              await srv.stop()
-              activeServers.delete(args.workspace)
-              return JSON.stringify({ stopped: args.workspace })
-            }
-            return JSON.stringify({ error: "No server running for this workspace" })
-          }
-
-          // Stop all
-          const stopped: string[] = []
-          for (const [ws, srv] of activeServers) {
-            await srv.stop()
-            stopped.push(ws)
-          }
-          activeServers.clear()
-          return JSON.stringify({ stopped })
+          return runSkillStopReview(args)
         },
       }),
 
@@ -906,35 +1068,636 @@ export const SkillCreatorPlugin: Plugin = async (ctx) => {
             .describe("Allow exporting review even if with_skill/baseline run pairs are incomplete (default: false)"),
         },
         async execute(args) {
-          const prep = prepareReviewLaunch(args)
-
-          const templatePath = join(TEMPLATES_DIR, "viewer.html")
-
-          const outPath = exportStaticReview({
-            workspace: args.workspace,
-            outputPath: args.outputPath,
-            skillName: args.skillName,
-            previousWorkspace: args.previousWorkspace ?? null,
-            benchmarkPath: prep.benchmarkPath,
-            templatePath,
-          })
-
-          return JSON.stringify({
-            outputPath: outPath,
-            benchmarkPath: prep.benchmarkPath,
-            workflowGuard: {
-              strictMode: prep.strictMode,
-              allowPartial: prep.allowPartial,
-              evalCount: prep.validation.evalCount,
-              foundConfigs: prep.validation.foundConfigs,
-              issues: prep.validation.issues,
-            },
-            message: `Static viewer written to ${outPath}`,
-          })
+          return runSkillExportStaticReview(args)
         },
       }),
     },
   }
 }
 
-export default SkillCreatorPlugin
+export const SkillCreatorPlugin: Plugin = async (ctx) => createV1Hooks()
+
+// V1 (>= 1.18.29) calls `server()`, V2 calls `setup()`. Both entrypoints share
+// the implementations above, so the tool logic exists exactly once.
+export default {
+  ...V2Plugin.define({
+    id: "opencode-skill-creator",
+    async setup(ctx) {
+      await initialize()
+
+      await ctx.tool.transform((editor) => {
+        // ---------------------------------------------------------------
+        // skill_validate — validate a skill's SKILL.md structure
+        // ---------------------------------------------------------------
+        editor.add({
+          name: "skill_validate",
+          description:
+            "Validate a skill directory. Checks that SKILL.md exists with well-formed YAML frontmatter, required fields, naming conventions, and description limits.",
+          input: {
+            type: "object",
+            properties: {
+              skillPath: {
+                type: "string",
+                description: "Path to the skill directory containing SKILL.md",
+              },
+            },
+            required: ["skillPath"],
+            additionalProperties: false,
+          },
+          async execute(input) {
+            return { content: await runSkillValidate(input as { skillPath: string }) }
+          },
+        })
+
+        // ---------------------------------------------------------------
+        // skill_parse — parse a skill's SKILL.md frontmatter
+        // ---------------------------------------------------------------
+        editor.add({
+          name: "skill_parse",
+          description:
+            "Parse a SKILL.md file and return its name, description, and full content.",
+          input: {
+            type: "object",
+            properties: {
+              skillPath: {
+                type: "string",
+                description: "Path to the skill directory containing SKILL.md",
+              },
+            },
+            required: ["skillPath"],
+            additionalProperties: false,
+          },
+          async execute(input) {
+            return { content: await runSkillParse(input as { skillPath: string }) }
+          },
+        })
+
+        // ---------------------------------------------------------------
+        // skill_add_gold_standard — save high-performing descriptions
+        // ---------------------------------------------------------------
+        editor.add({
+          name: "skill_add_gold_standard",
+          description:
+            "Save a durable gold-standard skill description example for future meta-learning experiments.",
+          input: {
+            type: "object",
+            properties: {
+              skillName: {
+                type: "string",
+                description: "Skill name for this example",
+              },
+              description: {
+                type: "string",
+                description: "High-performing skill description",
+              },
+              passRate: {
+                type: "number",
+                description: "Observed pass rate as a decimal from 0 to 1",
+              },
+              notes: {
+                type: "string",
+                description: "Optional notes about why this example worked",
+              },
+            },
+            required: ["skillName", "description", "passRate"],
+            additionalProperties: false,
+          },
+          async execute(input) {
+            return {
+              content: await runSkillAddGoldStandard(
+                input as {
+                  skillName: string
+                  description: string
+                  passRate: number
+                  notes?: string
+                },
+              ),
+            }
+          },
+        })
+
+        // ---------------------------------------------------------------
+        // skill_list_gold_standards — list saved examples
+        // ---------------------------------------------------------------
+        editor.add({
+          name: "skill_list_gold_standards",
+          description: "List saved gold-standard skill description examples.",
+          input: {
+            type: "object",
+            properties: {},
+            additionalProperties: false,
+          },
+          async execute() {
+            return { content: await runSkillListGoldStandards() }
+          },
+        })
+
+        // ---------------------------------------------------------------
+        // skill_remove_gold_standard — remove a saved example
+        // ---------------------------------------------------------------
+        editor.add({
+          name: "skill_remove_gold_standard",
+          description: "Remove a saved gold-standard skill description example by id.",
+          input: {
+            type: "object",
+            properties: {
+              id: {
+                type: "string",
+                description: "Gold-standard example id",
+              },
+            },
+            required: ["id"],
+            additionalProperties: false,
+          },
+          async execute(input) {
+            return { content: await runSkillRemoveGoldStandard(input as { id: string }) }
+          },
+        })
+
+        // ---------------------------------------------------------------
+        // skill_get_gold_advice — format saved examples for prompt context
+        // ---------------------------------------------------------------
+        editor.add({
+          name: "skill_get_gold_advice",
+          description: "Return formatted gold-standard advice for description optimization prompts.",
+          input: {
+            type: "object",
+            properties: {},
+            additionalProperties: false,
+          },
+          async execute() {
+            return { content: await runSkillGetGoldAdvice() }
+          },
+        })
+
+        // ---------------------------------------------------------------
+        // skill_eval — run trigger evaluation for a skill description
+        // ---------------------------------------------------------------
+        editor.add({
+          name: "skill_eval",
+          description:
+            "Test whether a skill description causes OpenCode to invoke the skill for a set of queries. Runs each query against `opencode run` and checks if the skill was triggered. Returns pass/fail results per query.",
+          input: {
+            type: "object",
+            properties: {
+              evalSetPath: {
+                type: "string",
+                description: "Path to eval_set.json (array of {query, should_trigger})",
+              },
+              skillPath: {
+                type: "string",
+                description: "Path to the skill directory containing SKILL.md",
+              },
+              descriptionOverride: {
+                type: "string",
+                description: "Override description to test (uses SKILL.md description if omitted)",
+              },
+              numWorkers: {
+                type: "number",
+                description: "Parallel workers (default: 10)",
+              },
+              timeout: {
+                type: "number",
+                description: "Timeout per query in seconds (default: 30)",
+              },
+              runsPerQuery: {
+                type: "number",
+                description: "Number of runs per query for reliability (default: 3)",
+              },
+              triggerThreshold: {
+                type: "number",
+                description: "Trigger rate threshold to count as triggered (default: 0.5)",
+              },
+              triggerOnly: {
+                type: "boolean",
+                description:
+                  "Stop each eval run as soon as the synthetic skill is triggered and ignore later workflow failures (default: true)",
+              },
+              model: {
+                type: "string",
+                description: "Model ID in provider/model format",
+              },
+              agent: {
+                type: "string",
+                description: "OpenCode agent for trigger eval runs (default: build)",
+              },
+            },
+            required: ["evalSetPath", "skillPath"],
+            additionalProperties: false,
+          },
+          async execute(input) {
+            return {
+              content: await runSkillEval(
+                input as {
+                  evalSetPath: string
+                  skillPath: string
+                  descriptionOverride?: string
+                  numWorkers?: number
+                  timeout?: number
+                  runsPerQuery?: number
+                  triggerThreshold?: number
+                  triggerOnly?: boolean
+                  model?: string
+                  agent?: string
+                },
+              ),
+            }
+          },
+        })
+
+        // ---------------------------------------------------------------
+        // skill_improve_description — LLM-powered description improvement
+        // ---------------------------------------------------------------
+        editor.add({
+          name: "skill_improve_description",
+          description:
+            "Call OpenCode to generate an improved skill description based on eval results. Uses the current description and failure patterns to propose a better one.",
+          input: {
+            type: "object",
+            properties: {
+              skillPath: {
+                type: "string",
+                description: "Path to the skill directory",
+              },
+              evalResultsPath: {
+                type: "string",
+                description: "Path to JSON file with eval results (output of skill_eval)",
+              },
+              historyPath: {
+                type: "string",
+                description: "Path to JSON file with previous improvement history",
+              },
+              model: {
+                type: "string",
+                description: "Model ID in provider/model format",
+              },
+              logDir: {
+                type: "string",
+                description: "Directory to save improvement transcripts",
+              },
+              iteration: {
+                type: "number",
+                description: "Current iteration number",
+              },
+            },
+            required: ["skillPath", "evalResultsPath"],
+            additionalProperties: false,
+          },
+          async execute(input) {
+            return {
+              content: await runSkillImproveDescription(
+                input as {
+                  skillPath: string
+                  evalResultsPath: string
+                  historyPath?: string
+                  model?: string
+                  logDir?: string
+                  iteration?: number
+                },
+              ),
+            }
+          },
+        })
+
+        // ---------------------------------------------------------------
+        // skill_optimize_loop — full eval→improve optimization loop
+        // ---------------------------------------------------------------
+        editor.add({
+          name: "skill_optimize_loop",
+          description:
+            "Run the full description optimization loop: split eval set into train/test, evaluate, improve description based on failures, repeat. Returns the best description found. This can take several minutes.",
+          input: {
+            type: "object",
+            properties: {
+              evalSetPath: {
+                type: "string",
+                description: "Path to eval_set.json",
+              },
+              skillPath: {
+                type: "string",
+                description: "Path to the skill directory",
+              },
+              descriptionOverride: {
+                type: "string",
+                description: "Starting description override",
+              },
+              maxIterations: {
+                type: "number",
+                description: "Max optimization iterations (default: 5)",
+              },
+              numWorkers: {
+                type: "number",
+                description: "Parallel workers (default: 10)",
+              },
+              timeout: {
+                type: "number",
+                description: "Timeout per query in seconds (default: 30)",
+              },
+              runsPerQuery: {
+                type: "number",
+                description: "Runs per query (default: 3)",
+              },
+              triggerThreshold: {
+                type: "number",
+                description: "Trigger rate threshold (default: 0.5)",
+              },
+              triggerOnly: {
+                type: "boolean",
+                description:
+                  "Stop each eval run as soon as the synthetic skill is triggered and ignore later workflow failures (default: true)",
+              },
+              holdout: {
+                type: "number",
+                description: "Test set holdout fraction (default: 0.4)",
+              },
+              model: {
+                type: "string",
+                description: "Model ID in provider/model format",
+              },
+              agent: {
+                type: "string",
+                description: "OpenCode agent for trigger eval runs (default: build)",
+              },
+              liveReportPath: {
+                type: "string",
+                description: "Path to write live HTML report",
+              },
+              logDir: {
+                type: "string",
+                description: "Directory for improvement transcripts",
+              },
+            },
+            required: ["evalSetPath", "skillPath"],
+            additionalProperties: false,
+          },
+          async execute(input) {
+            return {
+              content: await runSkillOptimizeLoop(
+                input as {
+                  evalSetPath: string
+                  skillPath: string
+                  descriptionOverride?: string
+                  maxIterations?: number
+                  numWorkers?: number
+                  timeout?: number
+                  runsPerQuery?: number
+                  triggerThreshold?: number
+                  triggerOnly?: boolean
+                  holdout?: number
+                  model?: string
+                  agent?: string
+                  liveReportPath?: string
+                  logDir?: string
+                },
+              ),
+            }
+          },
+        })
+
+        // ---------------------------------------------------------------
+        // skill_aggregate_benchmark — aggregate grading.json results
+        // ---------------------------------------------------------------
+        editor.add({
+          name: "skill_aggregate_benchmark",
+          description:
+            "Aggregate grading.json files from benchmark run directories into summary statistics. Produces benchmark.json with pass rates, timing, and token usage per configuration.",
+          input: {
+            type: "object",
+            properties: {
+              benchmarkDir: {
+                type: "string",
+                description: "Path to the benchmark directory (containing eval-N/ subdirectories)",
+              },
+              skillName: {
+                type: "string",
+                description: "Skill name for the report header",
+              },
+              skillPath: {
+                type: "string",
+                description: "Path to the skill directory",
+              },
+              outputPath: {
+                type: "string",
+                description: "Path to write benchmark.json (default: <benchmarkDir>/benchmark.json)",
+              },
+              markdownPath: {
+                type: "string",
+                description: "Path to write benchmark.md (default: <benchmarkDir>/benchmark.md)",
+              },
+            },
+            required: ["benchmarkDir"],
+            additionalProperties: false,
+          },
+          async execute(input) {
+            return {
+              content: await runSkillAggregateBenchmark(
+                input as {
+                  benchmarkDir: string
+                  skillName?: string
+                  skillPath?: string
+                  outputPath?: string
+                  markdownPath?: string
+                },
+              ),
+            }
+          },
+        })
+
+        // ---------------------------------------------------------------
+        // skill_generate_report — generate HTML optimization report
+        // ---------------------------------------------------------------
+        editor.add({
+          name: "skill_generate_report",
+          description:
+            "Generate a self-contained HTML report showing description optimization results per iteration with pass/fail indicators for each eval query.",
+          input: {
+            type: "object",
+            properties: {
+              dataPath: {
+                type: "string",
+                description: "Path to the optimization results JSON (output of skill_optimize_loop)",
+              },
+              outputPath: {
+                type: "string",
+                description: "Path to write the HTML report",
+              },
+              skillName: {
+                type: "string",
+                description: "Skill name for the report title",
+              },
+              autoRefresh: {
+                type: "boolean",
+                description: "Add auto-refresh meta tag (default: false)",
+              },
+            },
+            required: ["dataPath", "outputPath"],
+            additionalProperties: false,
+          },
+          async execute(input) {
+            return {
+              content: await runSkillGenerateReport(
+                input as {
+                  dataPath: string
+                  outputPath: string
+                  skillName?: string
+                  autoRefresh?: boolean
+                },
+              ),
+            }
+          },
+        })
+
+        // ---------------------------------------------------------------
+        // skill_serve_review — start the eval review viewer
+        // ---------------------------------------------------------------
+        editor.add({
+          name: "skill_serve_review",
+          description:
+            "Start an HTTP server that serves the eval review viewer. Regenerates HTML on each page load so refreshing picks up new outputs. Opens the browser automatically.",
+          input: {
+            type: "object",
+            properties: {
+              workspace: {
+                type: "string",
+                description: "Path to the workspace directory containing eval results",
+              },
+              port: {
+                type: "number",
+                description: "Server port (default: 3117)",
+              },
+              skillName: {
+                type: "string",
+                description: "Skill name for the viewer header",
+              },
+              previousWorkspace: {
+                type: "string",
+                description:
+                  "Path to previous iteration's workspace (for showing old outputs and feedback)",
+              },
+              benchmarkPath: {
+                type: "string",
+                description: "Path to benchmark.json for the Benchmark tab",
+              },
+              allowPartial: {
+                type: "boolean",
+                description:
+                  "Allow launching review even if with_skill/baseline run pairs are incomplete (default: false)",
+              },
+            },
+            required: ["workspace"],
+            additionalProperties: false,
+          },
+          async execute(input) {
+            return {
+              content: await runSkillServeReview(
+                input as {
+                  workspace: string
+                  port?: number
+                  skillName?: string
+                  previousWorkspace?: string
+                  benchmarkPath?: string
+                  allowPartial?: boolean
+                },
+              ),
+            }
+          },
+        })
+
+        // ---------------------------------------------------------------
+        // skill_stop_review — stop a running review server
+        // ---------------------------------------------------------------
+        editor.add({
+          name: "skill_stop_review",
+          description: "Stop a running eval review viewer server.",
+          input: {
+            type: "object",
+            properties: {
+              workspace: {
+                type: "string",
+                description: "Workspace path of the server to stop (stops all if omitted)",
+              },
+            },
+            additionalProperties: false,
+          },
+          async execute(input) {
+            return { content: await runSkillStopReview(input as { workspace?: string }) }
+          },
+        })
+
+        // ---------------------------------------------------------------
+        // skill_export_static_review — generate standalone HTML file
+        // ---------------------------------------------------------------
+        editor.add({
+          name: "skill_export_static_review",
+          description:
+            "Generate a standalone HTML eval review file (no server needed). Use in headless environments or for sharing.",
+          input: {
+            type: "object",
+            properties: {
+              workspace: {
+                type: "string",
+                description: "Path to the workspace directory",
+              },
+              outputPath: {
+                type: "string",
+                description: "Path to write the HTML file",
+              },
+              skillName: {
+                type: "string",
+                description: "Skill name for the viewer header",
+              },
+              previousWorkspace: {
+                type: "string",
+                description: "Path to previous iteration's workspace",
+              },
+              benchmarkPath: {
+                type: "string",
+                description: "Path to benchmark.json",
+              },
+              allowPartial: {
+                type: "boolean",
+                description:
+                  "Allow exporting review even if with_skill/baseline run pairs are incomplete (default: false)",
+              },
+            },
+            required: ["workspace", "outputPath"],
+            additionalProperties: false,
+          },
+          async execute(input) {
+            return {
+              content: await runSkillExportStaticReview(
+                input as {
+                  workspace: string
+                  outputPath: string
+                  skillName?: string
+                  previousWorkspace?: string
+                  benchmarkPath?: string
+                  allowPartial?: boolean
+                },
+              ),
+            }
+          },
+        })
+      })
+
+      // V2 cleanup: hook/transform registrations are disposed by OpenCode, but
+      // review servers are process-level resources started by the tools.
+      return async () => {
+        const servers = [...activeServers.values()]
+        activeServers.clear()
+        await Promise.all(
+          servers.map(async (server) => {
+            try {
+              await server.stop()
+            } catch {
+              // Best-effort cleanup while the plugin is shutting down.
+            }
+          }),
+        )
+      }
+    },
+  }),
+  async server() {
+    return createV1Hooks()
+  },
+}

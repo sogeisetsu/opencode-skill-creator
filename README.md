@@ -44,6 +44,19 @@ Package: https://www.npmjs.com/package/opencode-skill-creator
 | Setting up only one project | **Option D (Project config)** |
 | Cannot use npm / offline environment | **Option E (Manual install)** |
 
+### OpenCode V1 and V2 compatibility
+
+One package supports both OpenCode generations:
+
+| OpenCode | Minimum version | Config key | Plugin SDK |
+|---|---|---|---|
+| V1 | `1.18.29`+ (object entrypoints) | `plugin` | `@opencode-ai/plugin` |
+| V2 | `2.0.x` | `plugins` | `@opencode/plugin` |
+
+- The package exposes both entrypoints: V1 calls `server()`, V2 calls `setup()`.
+- The installer writes the V2 `plugins` array and never rewrites an existing V1 `plugin` entry.
+- Manual installs need both peer dependencies: `@opencode-ai/plugin` `>=1.18.29` and `@opencode/plugin` `^2.0.0`.
+
 ### Option A (Recommended): easiest setup for most users
 
 Run one command (global install, recommended):
@@ -63,7 +76,7 @@ npx opencode-skill-creator --about
 What this command does:
 
 1. Updates existing `~/.config/opencode/opencode.jsonc` when present; otherwise creates/updates `opencode.json`
-2. Adds `"opencode-skill-creator"` to the `plugin` array
+2. Adds `"opencode-skill-creator"` to the `plugins` array
 3. Leaves your existing plugins untouched
 
 Then:
@@ -80,7 +93,7 @@ Manual equivalent for the same result:
 
 ```json
 {
-  "plugin": ["opencode-skill-creator"]
+  "plugins": ["opencode-skill-creator"]
 }
 ```
 
@@ -98,7 +111,7 @@ If your file already has plugins, append this package to the list:
 
 ```json
 {
-  "plugin": [
+  "plugins": [
     "your-existing-plugin",
     "opencode-skill-creator"
   ]
@@ -122,7 +135,7 @@ npx opencode-skill-creator install --global
 
 ```json
 {
-  "plugin": ["opencode-skill-creator"]
+  "plugins": ["opencode-skill-creator"]
 }
 ```
 
@@ -143,7 +156,7 @@ npx opencode-skill-creator install --project
 
 ```json
 {
-  "plugin": ["opencode-skill-creator"]
+  "plugins": ["opencode-skill-creator"]
 }
 ```
 
@@ -167,7 +180,8 @@ Then create `~/.config/opencode/package.json` if needed:
 ```json
 {
   "dependencies": {
-    "@opencode-ai/plugin": ">=1.0.0"
+    "@opencode-ai/plugin": ">=1.18.29",
+    "@opencode/plugin": "^2.0.0"
   }
 }
 ```
@@ -221,7 +235,7 @@ The backup preserves user files and renames `SKILL.md` to `SKILL.md.backup` so O
 ### For LLMs / automation (compact)
 
 ```json
-{ "plugin": ["opencode-skill-creator"] }
+{ "plugins": ["opencode-skill-creator"] }
 ```
 
 ## What it does
@@ -363,9 +377,9 @@ opencode-skill-creator/
 | Script execution | `python -m scripts.run_loop` | `skill_optimize_loop` tool call |
 | Eval viewer | `python generate_review.py` | `skill_serve_review` tool call |
 | Benchmarking | `python aggregate_benchmark.py` | `skill_aggregate_benchmark` tool call |
-| Dependencies | Python 3.11+, pyyaml | Bun (via OpenCode), @opencode-ai/plugin |
+| Dependencies | Python 3.11+, pyyaml | Bun (via OpenCode), `@opencode-ai/plugin`, `@opencode/plugin` |
 | Packaging | `.skill` zip files | npm package + skill directory |
-| Subagents | Built-in subagent concept | Task tool with `general`/`explore` types |
+| Subagents | Built-in subagent concept | Task/subagent dispatch tool (V1: `task`, V2: `subagent`) with `general`/`explore` types |
 
 ## Contributing
 

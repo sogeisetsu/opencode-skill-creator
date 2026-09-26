@@ -130,6 +130,11 @@ export async function assertNoInstalledSkillConflict(
       timeoutMs: 10_000,
     })
   } catch {
+    // Best-effort: the conflict check only improves eval accuracy. If
+    // `opencode debug skill` is unavailable (or fails), eval still runs.
+    console.warn(
+      `opencode-skill-creator: could not run \`opencode debug skill\` to check for an installed skill named "${skillName}" in ${projectRoot}; skipping the conflict check.`,
+    )
     return
   }
 
